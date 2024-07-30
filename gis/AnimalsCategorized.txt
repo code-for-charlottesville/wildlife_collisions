@@ -1,0 +1,119 @@
+CommonSpeciesName,DVertebrate
+American Black Bear,Mammal
+American Crow,Bird
+American Goldfinch,Bird
+American Kestrel,Bird
+American Mink,Mammal
+American Robin,Bird
+American Toad,Amphibian
+Bald Eagle,Bird
+Baltimore Oriole,Bird
+Barn Owl,Bird
+Barn Swallow,Bird
+Barred Owl,Bird
+Big Brown Bat,Mammal
+Black Vulture,Bird
+Blue Jay,Bird
+Bog Turtle,Reptile
+Broad-winged Hawk,Bird
+Brown Thrasher,Bird
+Canada Goose,Bird
+Carolina Wren,Bird
+Cedar Waxwing,Bird
+Chimney Swift,Bird
+Chipping Sparrow,Bird
+Coastal Plain Cooter,Reptile
+Common Box Turtle,Reptile
+Common Garter Snake,Reptile
+Common Grackle,Bird
+Common Musk Turtle,Reptile
+Common Raven,Bird
+Common Snapping Turtle,Reptile
+Cooper's Hawk,Bird
+Dark-eyed Junco,Bird
+Dekay's Brown Snake,Reptile
+Domestic Duck,Bird
+Domestic Rabbit,Mammal
+Double-crested Cormorant,Bird
+Downy Woodpecker,Bird
+Eastern American Toad,Amphibian
+Eastern Bluebird,Bird
+Eastern Box Turtle,Reptile
+Eastern Chipmunk,Mammal
+Eastern Cottontail,Mammal
+Eastern Fox Squirrel,Mammal
+Eastern Gray Squirrel,Mammal
+Eastern Hog-nosed Snake,Reptile
+Eastern Kingbird,Bird
+Eastern Mud Turtle,Reptile
+Eastern Painted Turtle,Reptile
+Eastern Phoebe,Bird
+Eastern Ratsnake,Reptile
+Eastern Red Bat,Mammal
+Eastern River Cooter,Reptile
+Eastern Screech-Owl,Bird
+European Starling,Bird
+Fish Crow,Bird
+Fowler's Toad,Amphibian
+Fox Sparrow,Bird
+Gray Catbird,Bird
+Gray Fox,Mammal
+Gray Kingbird,Bird
+Great Blue Heron,Bird
+Great Horned Owl,Bird
+Hairy Woodpecker,Bird
+Hermit Thrush,Bird
+Hooded Merganser,Bird
+House Finch,Bird
+House Sparrow,Bird
+Indigo Bunting,Bird
+Lesser Scaup,Bird
+Mallard,Bird
+Merlin,Bird
+Mourning Dove,Bird
+Muscovy Duck,Bird
+Northern Black Racer,Reptile
+Northern Bobwhite,Bird
+Northern Cardinal,Bird
+Northern Flicker,Bird
+Northern Mockingbird,Bird
+Northern Red-bellied Cooter,Reptile
+Northern Rough-winged Swallow,Bird
+Osprey,Bird
+Painted Turtle,Reptile
+Pileated Woodpecker,Bird
+Purple Finch,Bird
+Purple Martin,Bird
+Raccoon,Mammal
+Red-bellied Woodpecker,Bird
+Red-eared Slider,Reptile
+Red-eyed Vireo,Bird
+Red-headed Woodpecker,Bird
+Red-shouldered Hawk,Bird
+Red-tailed Hawk,Bird
+Red Fox,Mammal
+Ring-billed Gull,Bird
+Ring-necked Dove,Bird
+Ring-necked Pheasant,Bird
+Rock Dove,Bird
+Rose-breasted Grosbeak,Bird
+Sharp-shinned Hawk,Bird
+Snapping Turtle,Reptile
+Sora,Bird
+Striped Skunk,Mammal
+Tree Swallow,Bird
+Tufted Titmouse,Bird
+Turkey Vulture,Bird
+Virginia Opossum,Mammal
+Virginia Rail,Bird
+Whip-poor-will,Bird
+White-footed Mouse,Mammal
+White-tailed Deer,Mammal
+White-throated Sparrow,Bird
+Wild Turkey,Bird
+Wood Duck,Bird
+Wood Thrush,Bird
+Woodchuck,Mammal
+Yellow-bellied Sapsucker,Bird
+Yellow-bellied Slider,Reptile
+Yellow-billed Cuckoo,Bird
