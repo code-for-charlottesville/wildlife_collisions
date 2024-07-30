@@ -1,0 +1,279 @@
+---
+title: "WCV Collision Data Audit"
+format: "html"
+editor: visual
+---
+
+
+```{r input_libraries}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+  
+suppressPackageStartupMessages(library(gsheet))    # read google sheet
+suppressPackageStartupMessages(library(janitor))   # clean variable names
+suppressPackageStartupMessages(library(lubridate)) # handle time
+suppressPackageStartupMessages(library(skimr))     # initial EDA
+suppressPackageStartupMessages(library(tidyverse)) # data analysis and manipulation
+suppressPackageStartupMessages(library(here))      # handling paths
+suppressPackageStartupMessages(library(sf))        # spatial data processing
+suppressPackageStartupMessages(library(scales))    # convert numbers to percentages
+suppressPackageStartupMessages(library(gt))        # create tables
+suppressPackageStartupMessages(library(readxl))    # read excel files
+```
+
+```{r user_variables}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+
+# location of old name, new name, comment spreadsheet
+in_table_fields <- here("Source", "CommentsOnTable_20240707.xlsx")
+
+# url location of google sheet
+in_google_sheet<- "https://docs.google.com/spreadsheets/d/173S06usYMhjq47IU2MjFzc2uUBhnW2XmQ9YWk8hQWe0/edit?gid=1376027168#gid=1376027168"
+
+# location of join table for animals and 5 categories of invertebrates
+in_animal_join <- here("Source", "AnimalsCategorized.txt")
+
+# set boolean to perform data quality checks
+bol_data_quality_check <- FALSE
+
+```
+
+```{r script_functions}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+
+# function to create a code table
+variable_summary_df <- function(input_df, input_variable, title_string) {
+  summary_table <- input_df %>%
+    group_by({{input_variable}}) %>%
+    summarise(Count = n()) %>%
+    ungroup() %>%
+    mutate(TotalCount = sum(Count),
+           Percent = round(Count/TotalCount*100.0, digits = 2)) |>
+    mutate(FirstField = {{input_variable}}, .before = Count) |>
+    select(FirstField, Count, Percent) |>
+    gt() |>
+    cols_label(
+    FirstField = title_string,
+    Count = "Count",
+    Percent = "Percent (%)"
+    ) |>
+    tab_style(style = cell_text(weight = "bold"), locations = cells_column_labels())
+  return(summary_table)
+}
+
+```
+
+## Field Naming with Comments on Fields
+
+The source spreadsheet field names had spaces in the names and were converted to upper camel case. Some derived variables were calculated to ease with further processing of the data. The variables begin with a D. In the table below, these names do not have Source Names.
+
+```{r read_field_overview_table}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+
+field_table <- read_excel(in_table_fields)
+
+field_table_gt <- gt(field_table) |>
+  tab_style(style = cell_text(weight = "bold"), locations = cells_column_labels()) |>
+   cols_label(
+    OriginalName = "Source Name",
+    OutputName = "Output Name",
+    Comment = "Comment"
+    ) 
+field_table_gt
+
+```
+
+
+```{r read vertebrate_join_table}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+
+# read in the invertebrate join table which contains the species and generalized invertebrate name 
+animal_df <- read_csv(in_animal_join) |>   # read csv file
+  clean_names("upper_camel") |>            # convert names to upper camel case
+  mutate(CommonSpeciesNameLower = str_to_lower(CommonSpeciesName))  # create lower common species
+                                                                    # name for editing
+
+  
+```
+
+
+```{r load_process_WCV_google_sheet}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+
+# read in google sheet with WCV data
+WCV_collision_raw <- gsheet2tbl(in_google_sheet)
+
+# edit WCV data for processing
+WCV_collision_snake <- WCV_collision_raw |>
+  clean_names("upper_camel") |>                        # convert names to upper camel case
+  rename(RescueJurisdiction = RescueJuristiction) |>   # rename misspelled field
+  mutate(CommonSpeciesName = str_to_title(CommonSpeciesName),
+         .after = PatientId) |>                       # convert species name to title case
+  mutate(CommonSpeciesName = str_replace_all(CommonSpeciesName, "-(\\w)",
+                                         function(x) tolower(x))) |> # convert character after
+                                                                  # hyphen to lower case
+  mutate(CommonSpeciesName = ifelse(CommonSpeciesName == "Eastern Screech-owl", 
+                                    "Eastern Screech-Owl", 
+                                    CommonSpeciesName)) |> # correctly capitalize Eastern Screech-Owl
+  mutate(CommonSpeciesName = ifelse(CommonSpeciesName == "Whip-poor-Will", 
+                                    "Whip-poor-will", 
+                                    CommonSpeciesName)) |> # correctly capitalize Whip-poor-will
+  mutate(CommonSpeciesNameLower = str_to_lower(CommonSpeciesName), 
+         .after=CommonSpeciesName) |>                  # convert CommonSpeciesName to lower case
+  mutate(DateAdmitted = mdy(DateAdmitted)) |>          # convert DateAdmitted to data
+  mutate(DDateAdmittedYear = year(DateAdmitted), .after=DateAdmitted) |> # extract year
+  mutate(DDateAdmittedMonth = month(DateAdmitted, label=TRUE, abbr=FALSE), 
+         .after = DDateAdmittedYear) |>                                  # extract month
+  mutate(DDateAdmittedDOM = mday(DateAdmitted),.after=DDateAdmittedMonth) |> # extract day of month
+  mutate(DDateAdmittedDOW = wday(DateAdmitted, label=TRUE, week_start=7), 
+         .after=DDateAdmittedDOM)                            # extract day of week
+  
+  
+
+# join the google sheet with the WCV data with the Species/Invertebrate join table
+WCV_collision_renamed <- WCV_collision_snake |>
+  left_join(animal_df, by = "CommonSpeciesNameLower") 
+
+# further process the file by selecting the variables in the desired order
+WCV_collision_renamed <- WCV_collision_renamed  |>
+  select(OrganizationName:PatientId,
+         CommonSpeciesName = CommonSpeciesName.x,
+         DVertebrate,
+         DateAdmitted:Disposition) 
+
+```
+
+## Table/Variable Summary
+
+```{r skim_dataframe}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+
+# skim the WCV file after it was joined
+skim(WCV_collision_renamed)
+
+```
+  
+## Code Tables
+
+```{r create_code_tables}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+
+# create the code tables (use function variable_summary_df)
+
+species_table <- variable_summary_df(WCV_collision_renamed, CommonSpeciesName, 
+                                     "Common Species Name")
+species_table
+
+vertebrate_table <- variable_summary_df(WCV_collision_renamed, DVertebrate, 
+                                     "Vertebrate")
+vertebrate_table
+
+rescue_jurisdiction_table <- variable_summary_df(WCV_collision_renamed, RescueJurisdiction, 
+                                     "Rescue Jurisdiction")
+rescue_jurisdiction_table
+
+
+```
+
+
+```{r validate_data}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+
+# these are for exploratory data analysis. they can be commented out if not needed
+# they don't affect any further processing
+
+if (bol_data_quality_check == TRUE) {
+  
+  print("Executing data quality checks")
+  
+  # find the distinct common species
+  distinct_commonspecies <- select(WCV_collision_renamed,CommonSpeciesName) |>
+    arrange(CommonSpeciesName) |>
+    distinct()
+  
+  # find if there are any duplicate records
+  duplicate_WCV_records <- WCV_collision_renamed |>
+    group_by_all() |>
+    filter(n() > 1) |>
+    ungroup()
+  # Note: No duplicate records
+  
+  # find if there are any duplicate case numbers
+  duplicate_casenumber_records <- WCV_collision_renamed |>
+    group_by(CaseNumber) |>
+    filter(n() > 1) |>
+    ungroup()
+  # Note: No duplicate case id ids
+  
+  # find if there are any duplicate patient ids
+  duplicate_patientid_records <- WCV_collision_renamed |>
+    group_by(PatientId) |>
+    filter(n() > 1) |>
+    ungroup()
+  # Note: No duplicate patient ids
+  
+  # find records with missing longitude, latitude, or elevation
+  missing_lon_lat_ele <- WCV_collision_renamed |>
+    filter(is.na(Longitude) | is.na(Latitude | is.na(Elevation))) |>
+    select(CaseNumber, Longitude, Latitude, Elevation)
+  # 5 records are missing Longitude, Latitude, and Elevation values
+  
+  min_elevation <- min(WCV_collision_renamed$Elevation, na.rm = TRUE)
+  max_elevation <- max(WCV_collision_renamed$Elevation, na.rm = TRUE)
+  # all elevations are reasonable
+}
+
+```
+
+
+```{r create_SF_data_write_output}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+#| include: TRUE
+
+# create an sf data frame from the data
+# there are records with no lon, lat, or elevation, na.fail has been set
+#    so it doesn't fail
+WCV_wildlife_sf <- st_as_sf(WCV_collision_renamed, coords = c("Longitude", "Latitude"), na.fail = FALSE, crs = 4326) 
+
+WCV_wildlife_sf <- WCV_wildlife_sf |>
+  mutate(Longitude = st_coordinates(geometry)[, "X"], .before = "Elevation")  |>
+  mutate(Latitude = st_coordinates(geometry)[, "Y"], .before = "Longitude")
+
+# write out the sf data frame to a geopackage
+
+# write data
+invisible(capture.output(st_write(WCV_wildlife_sf, "WCV_wildlife.gpkg", 
+                                  "WCF_Wildlife", delete_dsn = TRUE)))
+
+
+
+```
+
