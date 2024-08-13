@@ -61,7 +61,7 @@ def find_season(row):
     date = row['DateAdmitted'].strip().split('/')
     day = int(date[1])
     month = int(date[0])
-    print("Month: ", month)
+    # print("Month: ", month)
     if month == 1 or month == 2:
         return "Winter"
     elif month == 4 or month == 5:
@@ -99,6 +99,11 @@ def format_species_name(row):
     formatted_name = " ".join(word.capitalize() for word in row['CommonSpeciesName'].split())
     return formatted_name
 
+# def find_city(row):
+#     address = row["RescueAddress"]
+#     address_list = address.split(",")
+#     city = address_list[]
+
 def broad_category(row):
     global count
     species_name = row["CommonSpeciesName"].lower()
@@ -126,7 +131,15 @@ def broad_category(row):
             count += 1
             animal_mapping[species_name] = last_word
             return last_word
-    
+
+def update_disposition(row):
+    disposition = row["Disposition"].lower()
+    if disposition == 'euthanized':
+        return 'Died'
+    if disposition == 'self-released':
+        return 'Released'
+    return " ".join(w.capitalize() for w in disposition.split())
+
 # drop any duplicate rows
 df.drop_duplicates(inplace=True)
 
@@ -156,13 +169,13 @@ months_num_to_name = {'1':'January',
                       '11':'November', 
                       '12':'December'}
 
-
 df['DDateAdmittedYear'] = df.apply(date_admitted_year, axis=1)
 df['DDateAdmittedMonthName'] = df.apply(date_admitted_month_name, axis=1)
 df['DDateAdmittedMonthNumber'] = df.apply(date_admitted_month_number, axis=1)
 df['DDateAdmittedDay'] = df.apply(date_admitted_day, axis=1)
 df['DaysOfWeek'] = df.apply(days_of_week, axis=1)
 df['Season'] = df.apply(find_season, axis=1)
+df['UpdatedDisposition'] = df.apply(update_disposition, axis=1)
 
 # For now, dropping any rows with missing Latitude or Longitude data
 # Need to address case where there is Lat, Long data but not Elevation data for when trying to truncate
