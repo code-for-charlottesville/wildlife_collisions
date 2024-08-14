@@ -1,7 +1,6 @@
 {
   "name": "wildlife-form",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "clean": "rm dist/*",
     "build": "webpack --mode=production"
@@ -12,9 +11,13 @@
   "description": "",
   "devDependencies": {
     "@eonasdan/tempus-dominus": "^6.9.10",
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "onchange": "^7.1.0",
-    "popper.js": "^1.16.1",
+    "webpack": "^5.93.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
   }
 }
