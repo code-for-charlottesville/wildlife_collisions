@@ -20,6 +20,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "ajax": "^0.0.4",
     "jquery": "^3.7.1"
   }
 }

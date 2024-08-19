@@ -1,2 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { content } from './module';
+import { LinkedEntry } from './types';
+import { initialize } from './form';
+
+initialize();

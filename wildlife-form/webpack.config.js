@@ -7,6 +7,11 @@ module.exports = {
         publicPath: path.resolve(__dirname, 'dist', 'bundle.js'),
         filename: 'bundle.js'
     },
+    resolve: {
+        alias: {
+            jquery: "jquery/src/jquery"
+        }
+    },
     module: {
         rules: [
             // CSS rules
