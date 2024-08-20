@@ -27,6 +27,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      env:
+        ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -34,7 +36,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4.0.3
       - run: npm ci
-      - run: npm run build --if-present
+      - run: npm run build --if-present && ./zoho
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
