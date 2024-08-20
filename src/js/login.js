@@ -1,7 +1,7 @@
 import ZOHO_CLIENT_ID from '/dist/zoho.js'
-const REDIRECT_URI = "https://pharingwell.github.io/wildlife_collisions/redirect"
-const STATE = "A#73*&tA^KL4$394"
-export function initialize() {
+const REDIRECT_URI = "https://pharingwell.github.io/wildlife_collisions/form"
+const STATE = "Aw73?&tAKL4394"
+function initialize() {
     let xmlHttp = new XMLHttpRequest();
 
     function callback(responseText) {
@@ -14,6 +14,8 @@ export function initialize() {
         `&scope=ZohoSheet.dataAPI.UPDATE`+
         `&state=${STATE}`
     ;
+    let srcReplace = document.getElementsByClassName("fallback")[0];
+    srcReplace.setAttribute('href', zohoEndpoint);
     console.log(zohoEndpoint);
     xmlHttp.onreadystatechange = function() {
         if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
@@ -23,3 +25,4 @@ export function initialize() {
     xmlHttp.send(null);
 }
 
+initialize();
