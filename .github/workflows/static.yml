@@ -27,8 +27,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      env:
-        ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+    env:
+      ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
