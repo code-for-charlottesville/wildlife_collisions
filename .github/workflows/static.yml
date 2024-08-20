@@ -36,7 +36,8 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4.0.3
       - run: npm ci
-      - run: npm run build --if-present && ./zoho
+      - run: chmod +x zoho && ./zoho
+      - run: npm run build --if-present
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
