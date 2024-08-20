@@ -1,0 +1,3 @@
+#/bin/bash
+
+echo -e "const ZOHO_CLIENT_ID = '${ZOHO_CLIENT_ID}';\n\nexport default ZOHO_CLIENT_ID;" > dist/zoho.js

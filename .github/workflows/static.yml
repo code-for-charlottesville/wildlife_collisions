@@ -5,8 +5,6 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["form-production"]
-  pull_request:
-    branches: ["form-production"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,13 +27,17 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup node
         uses: actions/setup-node@v4.0.3
+      - run: npm run clean --if-present
       - run: npm ci
+      - run: chmod +x zoho && ./zoho
       - run: npm run build --if-present
       - name: Setup Pages
         uses: actions/configure-pages@v5
