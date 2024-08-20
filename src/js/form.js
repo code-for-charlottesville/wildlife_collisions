@@ -14,6 +14,7 @@ export function initialize() {
         `&scope=ZohoSheet.dataAPI.UPDATE`+
         `&state=${STATE}`
     ;
+    console.log(zohoEndpoint);
     xmlHttp.onreadystatechange = function() {
         if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
             callback(xmlHttp.responseText);
