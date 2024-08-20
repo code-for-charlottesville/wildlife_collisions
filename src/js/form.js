@@ -7,13 +7,13 @@ export function initialize() {
     function callback(responseText) {
         console.log(responseText);
     }
-    let zohoEndpoint = `https://accounts.zoho.com/oauth/v2/auth
-        ?client_id=${ZOHO_CLIENT_ID}
-        &response_type=token
-        &redirect_uri=${REDIRECT_URI}
-        &scope=ZohoSheet.dataAPI.UPDATE
-        &state=${STATE}
-    `;
+    let zohoEndpoint = `https://accounts.zoho.com/oauth/v2/auth`+
+        `?client_id=${ZOHO_CLIENT_ID}`+
+        `&response_type=token`+
+        `&redirect_uri=${REDIRECT_URI}`+
+        `&scope=ZohoSheet.dataAPI.UPDATE`+
+        `&state=${STATE}`
+    ;
     xmlHttp.onreadystatechange = function() {
         if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
             callback(xmlHttp.responseText);
