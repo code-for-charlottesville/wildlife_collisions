@@ -3,233 +3,246 @@
     <title>Form Test</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css" />
   </head>
 
   <body>
     <div class="container">
       <main>
         <div class="py-5 text-center">
-          <img class="d-block mx-auto mb-4" src="" alt="" width="72" height="57">
-          <h2>Checkout form</h2>
-          <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+          <div class="d-flex justify-content-center">
+            <img class="d-block mb-4" src="src/assets/header-wcv-badge.webp" alt="" width="79" height="76" fetchpriority="high" loading="eager" />
+            <img class="d-block mb-4" src="src/assets/header-wcv-mark.svg" alt="Wildlife Center of Virginia" width="140" height="59" />
+          </div>
+          <h2>Animal Intake Form</h2>
+          <p class="lead">Information on animals found and admitted.</p>
         </div>
 
-        <div class="row g-5">
-          <div class="col-md-5 col-lg-4 order-md-last">
-            <h4 class="d-flex justify-content-between align-items-center mb-3">
-              <span class="text-primary">Your cart</span>
-              <span class="badge bg-primary rounded-pill">3</span>
-            </h4>
-            <ul class="list-group mb-3">
-              <li class="list-group-item d-flex justify-content-between lh-sm">
-                <div>
-                  <h6 class="my-0">Product name</h6>
-                  <small class="text-muted">Brief description</small>
-                </div>
-                <span class="text-muted">$12</span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between lh-sm">
-                <div>
-                  <h6 class="my-0">Second product</h6>
-                  <small class="text-muted">Brief description</small>
-                </div>
-                <span class="text-muted">$8</span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between lh-sm">
-                <div>
-                  <h6 class="my-0">Third item</h6>
-                  <small class="text-muted">Brief description</small>
-                </div>
-                <span class="text-muted">$5</span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between bg-light">
-                <div class="text-success">
-                  <h6 class="my-0">Promo code</h6>
-                  <small>EXAMPLECODE</small>
-                </div>
-                <span class="text-success">−$5</span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between">
-                <span>Total (USD)</span>
-                <strong>$20</strong>
-              </li>
-            </ul>
+        <!-- <module href="/components/dropdown.html"></module> -->
 
-            <form class="card p-2">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Promo code">
-                <button type="submit" class="btn btn-secondary">Redeem</button>
-              </div>
-            </form>
-          </div>
-          <div class="col-md-7 col-lg-8">
-            <h4 class="mb-3">Billing address</h4>
-            <form class="needs-validation" novalidate="">
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <label for="firstName" class="form-label">First name</label>
-                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-                  <div class="invalid-feedback">
-                    Valid first name is required.
-                  </div>
-                </div>
-
-                <div class="col-sm-6">
-                  <label for="lastName" class="form-label">Last name</label>
-                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-                  <div class="invalid-feedback">
-                    Valid last name is required.
-                  </div>
-                </div>
-
-                <div class="col-12">
-                  <label for="username" class="form-label">Username</label>
-                  <div class="input-group has-validation">
-                    <span class="input-group-text">@</span>
-                    <input type="text" class="form-control" id="username" placeholder="Username" required="">
-                    <div class="invalid-feedback">
-                      Your username is required.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12">
-                  <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-                  <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                  <div class="invalid-feedback">
-                    Please enter a valid email address for shipping updates.
-                  </div>
-                </div>
-
-                <div class="col-12">
-                  <label for="address" class="form-label">Address</label>
-                  <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-                  <div class="invalid-feedback">
-                    Please enter your shipping address.
-                  </div>
-                </div>
-
-                <div class="col-12">
-                  <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
-                  <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-                </div>
-
-                <div class="col-md-5">
-                  <label for="country" class="form-label">Country</label>
-                  <select class="form-select" id="country" required="">
-                    <option value="">Choose...</option>
-                    <option>United States</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Please select a valid country.
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <label for="state" class="form-label">State</label>
-                  <select class="form-select" id="state" required="">
-                    <option value="">Choose...</option>
-                    <option>California</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Please provide a valid state.
-                  </div>
-                </div>
-
-                <div class="col-md-3">
-                  <label for="zip" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="zip" placeholder="" required="">
-                  <div class="invalid-feedback">
-                    Zip code required.
-                  </div>
-                </div>
+        <div class="container col-sm-8">
+          <h4 class="mb-3">Admission Information</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required="">
+                  <option value=""><span class="text-body-secondary">Choose...</span></option>
+                  <option>Maryland</option>
+                  <option>Virginia</option>
+                  <option>Washington D.C.</option>
+                  <option>West Virginia</option>
+                </select>
+                <div class="invalid-feedback">Please provide a valid state.</div>
               </div>
 
-              <hr class="my-4">
-
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="same-address">
-                <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+              <div class="col-sm-6">
+                <label for="jurisdiction" class="form-label">Jurisdiction</label>
+                <select class="form-select" id="jurisdiction" required="">
+                  <option value="">Choose...</option>
+                  <option>Accomack County</option>
+                  <option>Albemarle County</option>
+                  <option>Alexandria (City)</option>
+                  <option>Alleghany County</option>
+                  <option>Amelia County</option>
+                  <option>Amherst County</option>
+                  <option>Appomattox County</option>
+                  <option>Arlington County</option>
+                  <option>Augusta County</option>
+                  <option>Bath County</option>
+                  <option>Bedford (City)</option>
+                  <option>Bedford County</option>
+                  <option>Bland County</option>
+                  <option>Botetourt County</option>
+                  <option>Bristol (City)</option>
+                  <option>Brunswick County</option>
+                  <option>Buchanan County</option>
+                  <option>Buckingham County</option>
+                  <option>Buena Vista (City)</option>
+                  <option>Campbell County</option>
+                  <option>Carroll County</option>
+                  <option>Charles City County</option>
+                  <option>Charlotte County</option>
+                  <option>Charlottesville (City)</option>
+                  <option>Chesapeake (City)</option>
+                  <option>Chesterfield County</option>
+                  <option>Clarke County</option>
+                  <option>Colonial Heights (City)</option>
+                  <option>Covington (City)</option>
+                  <option>Craig County</option>
+                  <option>Culpeper County</option>
+                  <option>Cumberland County</option>
+                  <option>Danville (City)</option>
+                  <option>Dickenson County</option>
+                  <option>Dinwiddie County</option>
+                  <option>Emporia (City)</option>
+                  <option>Essex County</option>
+                  <option>Fairfax (City)</option>
+                  <option>Fairfax County</option>
+                  <option>Falls Church (City)</option>
+                  <option>Fauquier County</option>
+                  <option>Floyd County</option>
+                  <option>Fluvanna County</option>
+                  <option>Franklin (City)</option>
+                  <option>Franklin County</option>
+                  <option>Frederick County</option>
+                  <option>Fredericksburg (City)</option>
+                  <option>Galax (City)</option>
+                  <option>Giles County</option>
+                  <option>Gloucester County</option>
+                  <option>Goochland County</option>
+                  <option>Grayson County</option>
+                  <option>Greene County</option>
+                  <option>Greensville County</option>
+                  <option>Halifax County</option>
+                  <option>Hampton (City)</option>
+                  <option>Hanover County</option>
+                  <option>Harrisonburg (City)</option>
+                  <option>Henrico County</option>
+                  <option>Henry County</option>
+                  <option>Highland County</option>
+                  <option>Hopewell (City)</option>
+                  <option>Isle of Wight County</option>
+                  <option>James City County</option>
+                  <option>King and Queen County</option>
+                  <option>King George County</option>
+                  <option>King William County</option>
+                  <option>Lancaster County</option>
+                  <option>Lee County</option>
+                  <option>Lexington (City)</option>
+                  <option>Loudoun County</option>
+                  <option>Louisa County</option>
+                  <option>Lunenburg County</option>
+                  <option>Lynchburg (City)</option>
+                  <option>Madison County</option>
+                  <option>Manassas (City)</option>
+                  <option>Manassas Park (City)</option>
+                  <option>Martinsville (City)</option>
+                  <option>Mathews County</option>
+                  <option>Mecklenburg County</option>
+                  <option>Middlesex County</option>
+                  <option>Montgomery County</option>
+                  <option>Nelson County</option>
+                  <option>New Kent County</option>
+                  <option>Newport News (City)</option>
+                  <option>Norfolk (City)</option>
+                  <option>Northampton County</option>
+                  <option>Northumberland County</option>
+                  <option>Norton (City)</option>
+                  <option>Nottoway County</option>
+                  <option>Orange County</option>
+                  <option>Page County</option>
+                  <option>Patrick County</option>
+                  <option>Petersburg (City)</option>
+                  <option>Pittsylvania County</option>
+                  <option>Poquoson (City)</option>
+                  <option>Portsmouth (City)</option>
+                  <option>Powhatan County</option>
+                  <option>Prince Edward County</option>
+                  <option>Prince George County</option>
+                  <option>Prince William County</option>
+                  <option>Pulaski County</option>
+                  <option>Radford (City)</option>
+                  <option>Rappahannock County</option>
+                  <option>Richmond (City)</option>
+                  <option>Richmond County</option>
+                  <option>Roanoke (City)</option>
+                  <option>Roanoke County</option>
+                  <option>Rockbridge County</option>
+                  <option>Rockingham County</option>
+                  <option>Russell County</option>
+                  <option>Salem (City)</option>
+                  <option>Scott County</option>
+                  <option>Shenandoah County</option>
+                  <option>Smyth County</option>
+                  <option>Southampton County</option>
+                  <option>Spotsylvania County</option>
+                  <option>Stafford County</option>
+                  <option>Staunton (City)</option>
+                  <option>Suffolk (City)</option>
+                  <option>Surry County</option>
+                  <option>Sussex County</option>
+                  <option>Tazewell County</option>
+                  <option>Virginia Beach (City)</option>
+                  <option>Warren County</option>
+                  <option>Washington County</option>
+                  <option>Waynesboro (City)</option>
+                  <option>Westmoreland County</option>
+                  <option>Williamsburg (City)</option>
+                  <option>Winchester (City)</option>
+                  <option>Wise County</option>
+                  <option>Wythe County</option>
+                  <option>York County</option>
+                </select>
+                <div class="invalid-feedback">Please provide a valid jurisdition.</div>
               </div>
 
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="save-info">
-                <label class="form-check-label" for="save-info">Save this information for next time</label>
+              <div class="col-sm-6">
+                <label for="time" class="form-label">Time Found</label>
+                <input type="text" class="form-control" id="time" placeholder="1:00 pm" />
+                <div class="invalid-feedback">Please enter a valid time.</div>
               </div>
 
-              <hr class="my-4">
-
-              <h4 class="mb-3">Payment</h4>
-
-              <div class="my-3">
-                <div class="form-check">
-                  <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
-                  <label class="form-check-label" for="credit">Credit card</label>
-                </div>
-                <div class="form-check">
-                  <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
-                  <label class="form-check-label" for="debit">Debit card</label>
-                </div>
-                <div class="form-check">
-                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
-                  <label class="form-check-label" for="paypal">PayPal</label>
-                </div>
+              <div class="col-sm-6">
+                <label for="date" class="form-label">Date Found</label>
+                <input type="text" class="form-control" id="date" placeholder="07/15/2023" required="" />
+                <div class="invalid-feedback">Please enter a valid date.</div>
               </div>
 
-              <div class="row gy-3">
-                <div class="col-md-6">
-                  <label for="cc-name" class="form-label">Name on card</label>
-                  <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-                  <small class="text-muted">Full name as displayed on card</small>
-                  <div class="invalid-feedback">
-                    Name on card is required
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <label for="cc-number" class="form-label">Credit card number</label>
-                  <input type="text" class="form-control" id="cc-number" placeholder="" required="">
-                  <div class="invalid-feedback">
-                    Credit card number is required
-                  </div>
-                </div>
-
-                <div class="col-md-3">
-                  <label for="cc-expiration" class="form-label">Expiration</label>
-                  <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
-                  <div class="invalid-feedback">
-                    Expiration date required
-                  </div>
-                </div>
-
-                <div class="col-md-3">
-                  <label for="cc-cvv" class="form-label">CVV</label>
-                  <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
-                  <div class="invalid-feedback">
-                    Security code required
-                  </div>
+              <div class="col-12">
+                <label for="details" class="form-label">Details of Rescue</label>
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control" id="details" placeholder="(e.g. Westbound off I-64 near Crozet)" required="" />
+                  <div class="invalid-feedback">Details are required.</div>
                 </div>
               </div>
 
-              <hr class="my-4">
+              <div class="col-md-5">
+                <label for="circumstance" class="form-label">Circumstances of Rescue</label>
+                <select class="form-select" id="circumstance" required="">
+                  <option value="">Choose...</option>
+                  <option>Animal Interaction</option>
+                  <option>Behavioral Stranding</option>
+                  <option>Born/Hatched in Captivity</option>
+                  <option>Botanicals</option>
+                  <option>Collision</option>
+                  <option>Confiscation</option>
+                  <option>Dead on Arrival</option>
+                  <option>Electrocution/Electric Shock</option>
+                  <option>Entrapment</option>
+                  <option>Environment</option>
+                  <option>Failure to Thrive/Maladaption</option>
+                  <option>Foreign Body/Object</option>
+                  <option>Inappropriate Human Possession</option>
+                  <option>Nest/Habitat Disturbance/Destruction</option>
+                  <option>Orphan, true</option>
+                  <option>Petrochemicals</option>
+                  <option>Projectile</option>
+                  <option>Referral</option>
+                  <option>Undetermined</option>
+                  <option>None of the Above</option>
+                </select>
+                <div class="invalid-feedback">Please select a valid circumstance.</div>
+              </div>
+            </div>
 
-              <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
-            </form>
-          </div>
-        </div>
+            <hr class="my-4" />
+
+            <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+          </form>
+        </div> <!--/.container col-sm-8 --->
       </main>
+    </div> <!--/.container--->
 
-      <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">© 2017–2021 Company Name</p>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="#">Privacy</a></li>
-          <li class="list-inline-item"><a href="#">Terms</a></li>
-          <li class="list-inline-item"><a href="#">Support</a></li>
-        </ul>
-      </footer>
-    </div>
-    <script src="/dist/bundle.js" defer async></script>
-    <div id="out"></div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">© 2017–2021 Company Name</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Privacy</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Support</a></li>
+      </ul>
+    </footer>
   </body>
+  <script src="/dist/bundle.js" defer async></script>
+  <div id="out"></div>
 </html>
