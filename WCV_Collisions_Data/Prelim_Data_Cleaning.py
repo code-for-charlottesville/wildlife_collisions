@@ -6,7 +6,7 @@ import datetime
 
 # Import the wcv collision data csv file into a dataframe
 df = pd.read_csv('WCV_Collisions_Data\WCV Collision Data.csv')
-mapper_df = pd.read_csv('WCV_Collisions_Data\CollisionAnimalMapping.csv')
+mapper_df = pd.read_csv('WCV_Collisions_Data\RevisedCollisionAnimalMapping.csv')
 count = 0
 
 os.environ['ENTREZ_KEY'] = 'ba09124ac9a6c5988ee63017a02ee60dab08'
@@ -24,10 +24,16 @@ juristicions.sort()
 
 animal_mapping = dict()
 
+# for index, row in mapper_df.iterrows():
+#     common_species_name = row["Animal"].lower()
+#     general_name = row["Mapping"].lower()
+#     animal_mapping[common_species_name] = general_name
+
 for index, row in mapper_df.iterrows():
-    common_species_name = row["Animal"].lower()
-    general_name = row["Mapping"].lower()
+    common_species_name = row["CommonSpeciesName"].lower()
+    general_name = row["CommonDesc"].lower()
     animal_mapping[common_species_name] = general_name
+
 
 def date_admitted_year(row):
     date = row['DateAdmitted'].strip().split('/')
@@ -110,6 +116,7 @@ def broad_category(row):
     last_word = species_name.strip().split()[-1].lower()
     if species_name in animal_mapping:
         return animal_mapping[species_name]
+    ###### backup ######
     else:
         if count >= 3:
             time.sleep(1.5)
@@ -214,6 +221,6 @@ for mapping in animal_mapping:
     row = {'Animal':mapping, 'Mapping':animal_mapping[mapping]}
     new_animal_mapping.loc[len(new_animal_mapping)] = row
 
-new_animal_mapping.to_csv("WCV_Collisions_Data\CollisionAnimalMapping.csv", sep=',', encoding='utf-8', index=False, header=True)
+new_animal_mapping.to_csv("WCV_Collisions_Data\RevisedCollisionAnimalMapping.csv", sep=',', encoding='utf-8', index=False, header=True)
 
 df.to_csv("WCV_Collisions_Data\WCV Collision Data Mod.csv", sep=',', encoding='utf-8', index=False, header=True)
