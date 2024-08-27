@@ -17,6 +17,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
     "onchange": "^7.1.0",
     "posthtml": "^0.16.6",
     "posthtml-cli": "^0.10.0",
@@ -27,6 +28,7 @@
     "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.8",
     "ajax": "^0.0.4",
     "jquery": "^3.7.1"
   }

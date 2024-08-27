@@ -1,248 +1,164 @@
 <html lang="en">
-  <head>
-    <title>Form Test</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="/src/css/style.css" />
-  </head>
+	<head>
+		<title>Form Test</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link rel="stylesheet" href="/src/css/style.css" />
+	</head>
 
-  <body>
-    <div class="container">
-      <main>
-        <div class="py-5 text-center">
-          <div class="d-flex justify-content-center">
-            <img class="d-block mb-4" src="src/assets/header-wcv-badge.webp" alt="" width="79" height="76" fetchpriority="high" loading="eager" />
-            <img class="d-block mb-4" src="src/assets/header-wcv-mark.svg" alt="Wildlife Center of Virginia" width="140" height="59" />
-          </div>
-          <h2>Animal Intake Form</h2>
-          <p class="lead">Information on animals found and admitted.</p>
-        </div>
+	<body>
+		<div class="container">
+			<main>
+				<div class="py-5 text-center">
+					<div class="d-flex justify-content-center">
+						<img class="d-block mb-4" src="src/assets/header-wcv-badge.webp" alt="" width="79" height="76" fetchpriority="high" loading="eager" />
+						<img class="d-block mb-4" src="src/assets/header-wcv-mark.svg" alt="Wildlife Center of Virginia" width="140" height="59" />
+					</div>
+					<h2>Animal Intake Form</h2>
+					<p class="lead">Information on animals found and admitted.</p>
+				</div>
 
-        <!-- <module href="/components/dropdown.html"></module> -->
+				<!-- <module href="/components/dropdown.html"></module> -->
 
-        <div class="container col-sm-8">
-          <h4 class="mb-3">Admission Information</h4>
-          <form class="needs-validation" novalidate="">
-            <div class="row g-3">
-              <div class="col-sm-6">
-                <label for="state" class="form-label">State</label>
-                <select class="form-select" id="state" required="">
-                  <option value=""><span class="text-body-secondary">Choose...</span></option>
-                  <option>Maryland</option>
-                  <option>Virginia</option>
-                  <option>Washington D.C.</option>
-                  <option>West Virginia</option>
-                </select>
-                <div class="invalid-feedback">Please provide a valid state.</div>
-              </div>
+				<div class="container col-sm-8">
+					<h4 class="mb-3">Admission Information</h4>
+					<form class="needs-validation animal-intake">
+						<div class="row g-3">
+							<div class="col-sm-6">
+								<label for="date" class="form-label">Date Found</label>
+								<input type="text" class="form-control" id="date" name="date" placeholder="07/15/2023" required="" />
+								<div class="invalid-feedback">Please enter a valid date.</div>
+							</div>
 
-              <div class="col-sm-6">
-                <label for="jurisdiction" class="form-label">Jurisdiction</label>
-                <select class="form-select" id="jurisdiction" required="">
-                  <option value="">Choose...</option>
-                  <option>Accomack County</option>
-                  <option>Albemarle County</option>
-                  <option>Alexandria (City)</option>
-                  <option>Alleghany County</option>
-                  <option>Amelia County</option>
-                  <option>Amherst County</option>
-                  <option>Appomattox County</option>
-                  <option>Arlington County</option>
-                  <option>Augusta County</option>
-                  <option>Bath County</option>
-                  <option>Bedford (City)</option>
-                  <option>Bedford County</option>
-                  <option>Bland County</option>
-                  <option>Botetourt County</option>
-                  <option>Bristol (City)</option>
-                  <option>Brunswick County</option>
-                  <option>Buchanan County</option>
-                  <option>Buckingham County</option>
-                  <option>Buena Vista (City)</option>
-                  <option>Campbell County</option>
-                  <option>Carroll County</option>
-                  <option>Charles City County</option>
-                  <option>Charlotte County</option>
-                  <option>Charlottesville (City)</option>
-                  <option>Chesapeake (City)</option>
-                  <option>Chesterfield County</option>
-                  <option>Clarke County</option>
-                  <option>Colonial Heights (City)</option>
-                  <option>Covington (City)</option>
-                  <option>Craig County</option>
-                  <option>Culpeper County</option>
-                  <option>Cumberland County</option>
-                  <option>Danville (City)</option>
-                  <option>Dickenson County</option>
-                  <option>Dinwiddie County</option>
-                  <option>Emporia (City)</option>
-                  <option>Essex County</option>
-                  <option>Fairfax (City)</option>
-                  <option>Fairfax County</option>
-                  <option>Falls Church (City)</option>
-                  <option>Fauquier County</option>
-                  <option>Floyd County</option>
-                  <option>Fluvanna County</option>
-                  <option>Franklin (City)</option>
-                  <option>Franklin County</option>
-                  <option>Frederick County</option>
-                  <option>Fredericksburg (City)</option>
-                  <option>Galax (City)</option>
-                  <option>Giles County</option>
-                  <option>Gloucester County</option>
-                  <option>Goochland County</option>
-                  <option>Grayson County</option>
-                  <option>Greene County</option>
-                  <option>Greensville County</option>
-                  <option>Halifax County</option>
-                  <option>Hampton (City)</option>
-                  <option>Hanover County</option>
-                  <option>Harrisonburg (City)</option>
-                  <option>Henrico County</option>
-                  <option>Henry County</option>
-                  <option>Highland County</option>
-                  <option>Hopewell (City)</option>
-                  <option>Isle of Wight County</option>
-                  <option>James City County</option>
-                  <option>King and Queen County</option>
-                  <option>King George County</option>
-                  <option>King William County</option>
-                  <option>Lancaster County</option>
-                  <option>Lee County</option>
-                  <option>Lexington (City)</option>
-                  <option>Loudoun County</option>
-                  <option>Louisa County</option>
-                  <option>Lunenburg County</option>
-                  <option>Lynchburg (City)</option>
-                  <option>Madison County</option>
-                  <option>Manassas (City)</option>
-                  <option>Manassas Park (City)</option>
-                  <option>Martinsville (City)</option>
-                  <option>Mathews County</option>
-                  <option>Mecklenburg County</option>
-                  <option>Middlesex County</option>
-                  <option>Montgomery County</option>
-                  <option>Nelson County</option>
-                  <option>New Kent County</option>
-                  <option>Newport News (City)</option>
-                  <option>Norfolk (City)</option>
-                  <option>Northampton County</option>
-                  <option>Northumberland County</option>
-                  <option>Norton (City)</option>
-                  <option>Nottoway County</option>
-                  <option>Orange County</option>
-                  <option>Page County</option>
-                  <option>Patrick County</option>
-                  <option>Petersburg (City)</option>
-                  <option>Pittsylvania County</option>
-                  <option>Poquoson (City)</option>
-                  <option>Portsmouth (City)</option>
-                  <option>Powhatan County</option>
-                  <option>Prince Edward County</option>
-                  <option>Prince George County</option>
-                  <option>Prince William County</option>
-                  <option>Pulaski County</option>
-                  <option>Radford (City)</option>
-                  <option>Rappahannock County</option>
-                  <option>Richmond (City)</option>
-                  <option>Richmond County</option>
-                  <option>Roanoke (City)</option>
-                  <option>Roanoke County</option>
-                  <option>Rockbridge County</option>
-                  <option>Rockingham County</option>
-                  <option>Russell County</option>
-                  <option>Salem (City)</option>
-                  <option>Scott County</option>
-                  <option>Shenandoah County</option>
-                  <option>Smyth County</option>
-                  <option>Southampton County</option>
-                  <option>Spotsylvania County</option>
-                  <option>Stafford County</option>
-                  <option>Staunton (City)</option>
-                  <option>Suffolk (City)</option>
-                  <option>Surry County</option>
-                  <option>Sussex County</option>
-                  <option>Tazewell County</option>
-                  <option>Virginia Beach (City)</option>
-                  <option>Warren County</option>
-                  <option>Washington County</option>
-                  <option>Waynesboro (City)</option>
-                  <option>Westmoreland County</option>
-                  <option>Williamsburg (City)</option>
-                  <option>Winchester (City)</option>
-                  <option>Wise County</option>
-                  <option>Wythe County</option>
-                  <option>York County</option>
-                </select>
-                <div class="invalid-feedback">Please provide a valid jurisdition.</div>
-              </div>
+							<div class="col-sm-6">
+								<label for="time" class="form-label">Time Found</label>
+								<input type="text" class="form-control" id="time" name="time" placeholder="1:00 pm" />
+								<div class="invalid-feedback">Please enter a valid time.</div>
+							</div>
 
-              <div class="col-sm-6">
-                <label for="time" class="form-label">Time Found</label>
-                <input type="text" class="form-control" id="time" placeholder="1:00 pm" />
-                <div class="invalid-feedback">Please enter a valid time.</div>
-              </div>
+							<div class="col-sm-6">
+								<label for="date-admit" class="form-label">Date Admitted</label>
+								<input type="text" class="form-control" id="date-admit" name="date-admit" placeholder="07/23/2023" />
+								<div class="invalid-feedback">Please enter a valid date.</div>
+							</div>
 
-              <div class="col-sm-6">
-                <label for="date" class="form-label">Date Found</label>
-                <input type="text" class="form-control" id="date" placeholder="07/15/2023" required="" />
-                <div class="invalid-feedback">Please enter a valid date.</div>
-              </div>
+							<div class="col-sm-6">
+								<label for="time-admit" class="form-label">Time Admitted</label>
+								<input type="text" class="form-control" id="time-admit" name="time-admit" placeholder="2:15 pm" />
+								<div class="invalid-feedback">Please enter a valid date.</div>
+							</div>
 
-              <div class="col-12">
-                <label for="details" class="form-label">Details of Rescue</label>
-                <div class="input-group has-validation">
-                  <input type="text" class="form-control" id="details" placeholder="(e.g. Westbound off I-64 near Crozet)" required="" />
-                  <div class="invalid-feedback">Details are required.</div>
-                </div>
-              </div>
+							<div class="col-12">
+								<label for="details" class="form-label">Details of Rescue</label>
+								<div class="input-group has-validation">
+									<textarea
+										type="text"
+										class="form-control"
+										id="details"
+										name="details"
+										placeholder="(e.g. Westbound off I-64 near Crozet)"
+										required=""
+									></textarea>
+									<div class="invalid-feedback">Details are required.</div>
+								</div>
+							</div>
 
-              <div class="col-md-5">
-                <label for="circumstance" class="form-label">Circumstances of Rescue</label>
-                <select class="form-select" id="circumstance" required="">
-                  <option value="">Choose...</option>
-                  <option>Animal Interaction</option>
-                  <option>Behavioral Stranding</option>
-                  <option>Born/Hatched in Captivity</option>
-                  <option>Botanicals</option>
-                  <option>Collision</option>
-                  <option>Confiscation</option>
-                  <option>Dead on Arrival</option>
-                  <option>Electrocution/Electric Shock</option>
-                  <option>Entrapment</option>
-                  <option>Environment</option>
-                  <option>Failure to Thrive/Maladaption</option>
-                  <option>Foreign Body/Object</option>
-                  <option>Inappropriate Human Possession</option>
-                  <option>Nest/Habitat Disturbance/Destruction</option>
-                  <option>Orphan, true</option>
-                  <option>Petrochemicals</option>
-                  <option>Projectile</option>
-                  <option>Referral</option>
-                  <option>Undetermined</option>
-                  <option>None of the Above</option>
-                </select>
-                <div class="invalid-feedback">Please select a valid circumstance.</div>
-              </div>
-            </div>
+							<div class="col-12">
+								<label for="care" class="form-label">Care Given</label>
+								<div class="input-group has-validation">
+									<input type="text" class="form-control" id="care" name="care" placeholder="(e.g. None)" />
+									<div class="invalid-feedback">Details are required.</div>
+								</div>
+							</div>
 
-            <hr class="my-4" />
+							<div class="col-md-5">
+								<label for="circumstance" class="form-label">Circumstances of Rescue</label>
+								<select class="form-select" id="circumstance" name="circumstance" required="">
+									<option value="">Choose...</option>
+									<option>Animal Interaction</option>
+									<option>Behavioral Stranding</option>
+									<option>Born/Hatched in Captivity</option>
+									<option>Botanicals</option>
+									<option>Collision</option>
+									<option>Confiscation</option>
+									<option>Dead on Arrival</option>
+									<option>Electrocution/Electric Shock</option>
+									<option>Entrapment</option>
+									<option>Environment</option>
+									<option>Failure to Thrive/Maladaption</option>
+									<option>Foreign Body/Object</option>
+									<option>Inappropriate Human Possession</option>
+									<option>Nest/Habitat Disturbance/Destruction</option>
+									<option>Orphan, true</option>
+									<option>Petrochemicals</option>
+									<option>Projectile</option>
+									<option>Referral</option>
+									<option>Undetermined</option>
+									<option>None of the Above</option>
+								</select>
+								<div class="invalid-feedback">Please select a valid circumstance.</div>
+							</div>
 
-            <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
-          </form>
-        </div> <!--/.container col-sm-8 --->
-      </main>
-    </div> <!--/.container--->
+							<h4 class="mb-3">Rescue Location</h4>
 
-    <footer class="my-5 pt-5 text-muted text-center text-small">
-      <p class="mb-1">© 2017–2021 Company Name</p>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a href="#">Privacy</a></li>
-        <li class="list-inline-item"><a href="#">Terms</a></li>
-        <li class="list-inline-item"><a href="#">Support</a></li>
-      </ul>
-    </footer>
-  </body>
-  <script src="/dist/bundle.js" defer async></script>
-  <div id="out"></div>
+							<div class="col-sm-6">
+								<label for="state" class="form-label">State</label>
+								<select class="form-select" id="state" name="state" required="">
+									<option value=""><span class="text-body-secondary">Choose...</span></option>
+								</select>
+								<div class="invalid-feedback">Please provide a valid state.</div>
+							</div>
+
+							<div class="col-sm-6">
+								<label for="jurisdiction" class="form-label">Jurisdiction</label>
+								<select class="form-select" id="jurisdiction" name="jurisdiction" required="">
+									<option value="empty">Select a state first</option>
+								</select>
+								<div class="invalid-feedback">Please provide a valid jurisdition.</div>
+							</div>
+
+							<p class="mt-4 fst-italic">
+								Please provide approximate latitude and longitutde of where the animal was found or drop a pin in the map below. Right-click on the map to drop a
+								pin, and right-click again to remove it.
+							</p>
+
+							<div class="col-sm-6">
+								<label for="latitude" class="form-label">Latitude</label>
+								<input type="text" class="form-control" id="latitude" name="latitude" placeholder="(e.g. 38.033554)" />
+								<div class="invalid-feedback">Please enter a valid latitude.</div>
+							</div>
+
+							<div class="col-sm-6">
+								<label for="longitude" class="form-label">Longitude</label>
+								<input type="text" class="form-control" id="longitude" name="longitude" placeholder="(e.g. -78.507980)" />
+								<div class="invalid-feedback">Please enter a valid longitude.</div>
+							</div>
+
+							<div class="col-12">
+								<div id="map"></div>
+							</div>
+						</div>
+						<!-- row g-3 -->
+
+						<hr class="my-4" />
+
+						<button class="w-100 btn btn-primary btn-lg animal-submit" type="submit">Submit</button>
+					</form>
+				</div>
+				<!--/.container col-sm-8 --->
+			</main>
+		</div>
+		<!--/.container--->
+
+		<footer class="my-5 pt-5 text-muted text-center text-small">
+			<p class="mb-1">© 1982–2024 Wildlife Center of Virginia</p>
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="#">Privacy</a></li>
+				<li class="list-inline-item"><a href="#">Terms</a></li>
+				<li class="list-inline-item"><a href="#">Support</a></li>
+			</ul>
+		</footer>
+	</body>
+	<script src="./dist/bundle.js" defer async></script>
+	<div id="out"></div>
 </html>
