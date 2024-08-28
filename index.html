@@ -22,59 +22,52 @@
 
 				<div class="container col-sm-8">
 					<h4 class="mb-3">Admission Information</h4>
-					<form class="needs-validation animal-intake">
+					<form class="needs-validation animal-intake" novalidate>
 						<div class="row g-3">
 							<div class="col-sm-6">
 								<label for="date" class="form-label">Date Found</label>
-								<input type="text" class="form-control" id="date" name="date" placeholder="07/15/2023" required="" />
-								<div class="invalid-feedback">Please enter a valid date.</div>
+								<input type="date" class="form-control" id="date" name="date" placeholder="07/15/2023" required />
+								<div class="invalid-feedback">Please select a date.</div>
 							</div>
 
 							<div class="col-sm-6">
 								<label for="time" class="form-label">Time Found</label>
-								<input type="text" class="form-control" id="time" name="time" placeholder="1:00 pm" />
-								<div class="invalid-feedback">Please enter a valid time.</div>
+								<input type="time" class="form-control" id="time" name="time" placeholder="1:00 pm" required />
+								<div class="invalid-feedback">Please select a time.</div>
 							</div>
 
 							<div class="col-sm-6">
 								<label for="date-admit" class="form-label">Date Admitted</label>
-								<input type="text" class="form-control" id="date-admit" name="date-admit" placeholder="07/23/2023" />
-								<div class="invalid-feedback">Please enter a valid date.</div>
+								<input type="date" class="form-control" id="date-admit" name="date-admit" placeholder="07/23/2023" required />
+								<div class="invalid-feedback">Please select a date.</div>
 							</div>
 
 							<div class="col-sm-6">
 								<label for="time-admit" class="form-label">Time Admitted</label>
-								<input type="text" class="form-control" id="time-admit" name="time-admit" placeholder="2:15 pm" />
-								<div class="invalid-feedback">Please enter a valid date.</div>
+								<input type="time" class="form-control" id="time-admit" name="time-admit" placeholder="2:15 pm" required />
+								<div class="invalid-feedback">Please select a time.</div>
 							</div>
 
 							<div class="col-12">
 								<label for="details" class="form-label">Details of Rescue</label>
 								<div class="input-group has-validation">
-									<textarea
-										type="text"
-										class="form-control"
-										id="details"
-										name="details"
-										placeholder="(e.g. Westbound off I-64 near Crozet)"
-										required=""
-									></textarea>
-									<div class="invalid-feedback">Details are required.</div>
+									<textarea type="text" class="form-control" id="details" name="details" placeholder="(e.g. Westbound off I-64 near Crozet)" required></textarea>
+									<div class="invalid-feedback">Please provide any details about the rescue or enter N/A if unknown.</div>
 								</div>
 							</div>
 
 							<div class="col-12">
 								<label for="care" class="form-label">Care Given</label>
 								<div class="input-group has-validation">
-									<input type="text" class="form-control" id="care" name="care" placeholder="(e.g. None)" />
-									<div class="invalid-feedback">Details are required.</div>
+									<input type="text" class="form-control" id="care" name="care" placeholder="(e.g. None)" required />
+									<div class="invalid-feedback">Please detail any care given or enter N/A if not applicable.</div>
 								</div>
 							</div>
 
 							<div class="col-md-5">
 								<label for="circumstance" class="form-label">Circumstances of Rescue</label>
-								<select class="form-select" id="circumstance" name="circumstance" required="">
-									<option value="">Choose...</option>
+								<select class="form-select" id="circumstance" name="circumstance" required>
+									<option selected disabled value="">Choose...</option>
 									<option>Animal Interaction</option>
 									<option>Behavioral Stranding</option>
 									<option>Born/Hatched in Captivity</option>
@@ -103,16 +96,16 @@
 
 							<div class="col-sm-6">
 								<label for="state" class="form-label">State</label>
-								<select class="form-select" id="state" name="state" required="">
-									<option value=""><span class="text-body-secondary">Choose...</span></option>
+								<select class="form-select" id="state" name="state" required>
+									<option selected disabled value="">Choose...</option>
 								</select>
 								<div class="invalid-feedback">Please provide a valid state.</div>
 							</div>
 
 							<div class="col-sm-6">
 								<label for="jurisdiction" class="form-label">Jurisdiction</label>
-								<select class="form-select" id="jurisdiction" name="jurisdiction" required="">
-									<option value="empty">Select a state first</option>
+								<select class="form-select" id="jurisdiction" name="jurisdiction" required>
+									<option value="">Select a state first</option>
 								</select>
 								<div class="invalid-feedback">Please provide a valid jurisdition.</div>
 							</div>
@@ -124,14 +117,14 @@
 
 							<div class="col-sm-6">
 								<label for="latitude" class="form-label">Latitude</label>
-								<input type="text" class="form-control" id="latitude" name="latitude" placeholder="(e.g. 38.033554)" />
-								<div class="invalid-feedback">Please enter a valid latitude.</div>
+								<input type="text" class="form-control" id="latitude" name="latitude" placeholder="(e.g. 38.033554)" required />
+								<div class="invalid-feedback">Please enter a latitude value.</div>
 							</div>
 
 							<div class="col-sm-6">
 								<label for="longitude" class="form-label">Longitude</label>
-								<input type="text" class="form-control" id="longitude" name="longitude" placeholder="(e.g. -78.507980)" />
-								<div class="invalid-feedback">Please enter a valid longitude.</div>
+								<input type="text" class="form-control" id="longitude" name="longitude" placeholder="(e.g. -78.507980)" required />
+								<div class="invalid-feedback">Please enter a longitude value.</div>
 							</div>
 
 							<div class="col-12">

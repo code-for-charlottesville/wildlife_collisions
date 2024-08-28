@@ -14,16 +14,16 @@ export function initialize() {
 
 	let url = 'https://docs.google.com/forms/d/e/1FAIpQLSc1HS1p1aGzZVWm53Mp0hGclQ4hvlUu0R8WxgIRS1k9zvr1Wg/viewform';
 	let out = document.getElementById('out');
-	fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`)
-		.then((response) => {
-			if (response.ok) return response.json();
-			throw new Error('Network response was not ok.');
-		})
-		.then((data) => {
-			//   console.log(data.contents);
-			const htmlOut = $.parseHTML(data.contents.html);
-			$('out').html(htmlOut);
-		});
+	// fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`)
+	// 	.then((response) => {
+	// 		if (response.ok) return response.json();
+	// 		throw new Error('Network response was not ok.');
+	// 	})
+	// 	.then((data) => {
+	// 		//   console.log(data.contents);
+	// 		const htmlOut = $.parseHTML(data.contents.html);
+	// 		$('out').html(htmlOut);
+	// 	});
 
 	// Load states into dropdown options
 	let stateOptions = document.getElementById('state');
@@ -36,28 +36,28 @@ export function initialize() {
 }
 
 async function handleSubmitData(event) {
-	event.preventDefault();
-
 	const formData = new FormData(event.target);
-	let formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSeyfnaSeydze_BR8caGisyHKUZfgcQveuBJtiWCpK51ypDwvg/formResponse?submit=Submit?usp=pp_url';
-	let Q1 = `&entry.354181122=${formData.get('state')}`;
-	let Q2 = `&entry.1184438901=${formData.get('jurisdiction')}`;
-	let Q3 = `&entry.736217316=22:11`;
-	let Q4 = `&entry.1880641450=2024-08-21`;
-	let Q5 = `&entry.1013315720=${formData.get('details')}`;
-	let Q6 = `&entry.314191277=${formData.get('circumstance')}`;
+	animalForm.classList.add('was-validated');
 
-	//   Concatenate the google form URL with responses from the intake form and replace spaces with addition signs (+) for submission.
-	let responseURL = formURL + Q1 + Q2 + Q3 + Q4 + Q5 + Q6;
-	responseURL = responseURL.replace(/ /g, '+');
-	//   console.log(responseURL);
-	try {
-		const response = await fetch(responseURL);
-		if (!response.ok) {
-			throw new Error(`Response status: ${response.status}`);
-		}
-	} catch (error) {
-		console.error(`catch error: ${error.message}`);
+	if (!animalForm.checkValidity()) {
+		event.preventDefault();
+		event.stopPropagation();
+		animalForm.scrollIntoView({ behavior: 'smooth' });
+	} else {
+		let formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSeyfnaSeydze_BR8caGisyHKUZfgcQveuBJtiWCpK51ypDwvg/formResponse?submit=Submit?usp=pp_url';
+		let Q1 = `&entry.354181122=${formData.get('state')}`;
+		let Q2 = `&entry.1184438901=${formData.get('jurisdiction')}`;
+		let Q3 = `&entry.736217316=22:11`;
+		let Q4 = `&entry.1880641450=2024-08-21`;
+		let Q5 = `&entry.1013315720=${formData.get('details')}`;
+		let Q6 = `&entry.314191277=${formData.get('circumstance')}`;
+
+		//   Concatenate the google form URL with responses from the intake form and replace spaces with addition signs (+) for submission.
+		let responseURL = formURL + Q1 + Q2 + Q3 + Q4 + Q5 + Q6;
+		responseURL = responseURL.replace(/ /g, '+');
+		//   console.log(responseURL);
+
+		const response = await fetch(responseURL, { method: 'POST', mode: 'no-cors' });
 	}
 }
 
@@ -87,8 +87,10 @@ async function handleJurisdictionChange(event) {
 	}
 	// Add county (jurisdiction) options to the dropdown
 	let firstOpt = document.createElement('option');
-	firstOpt.value = 'empty';
+	firstOpt.value = '';
 	firstOpt.innerHTML = 'Choose...';
+	firstOpt.disabled = true;
+	firstOpt.selected = true;
 	jurisdiction.appendChild(firstOpt);
 	counties.map((x) => {
 		let opt = document.createElement('option');
