@@ -36,6 +36,7 @@ export function initialize() {
 }
 
 async function handleSubmitData(event) {
+	event.preventDefault();
 	const formData = new FormData(event.target);
 	animalForm.classList.add('was-validated');
 
@@ -45,17 +46,22 @@ async function handleSubmitData(event) {
 		animalForm.scrollIntoView({ behavior: 'smooth' });
 	} else {
 		let formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSeyfnaSeydze_BR8caGisyHKUZfgcQveuBJtiWCpK51ypDwvg/formResponse?submit=Submit?usp=pp_url';
-		let Q1 = `&entry.354181122=${formData.get('state')}`;
-		let Q2 = `&entry.1184438901=${formData.get('jurisdiction')}`;
-		let Q3 = `&entry.736217316=22:11`;
-		let Q4 = `&entry.1880641450=2024-08-21`;
+		let Q1 = `&entry.1880641450=${formData.get('date-found')}`;
+		let Q2 = `&entry.736217316=${formData.get('time-found')}`;
+		let Q3 = `&entry.1677807282=${formData.get('date-admit')}`;
+		let Q4 = `&entry.1056081713=${formData.get('time-admit')}`;
 		let Q5 = `&entry.1013315720=${formData.get('details')}`;
-		let Q6 = `&entry.314191277=${formData.get('circumstance')}`;
+		let Q6 = `&entry.1019285528=${formData.get('care')}`;
+		let Q7 = `&entry.314191277=${formData.get('circumstance')}`;
+		let Q8 = `&entry.354181122=${formData.get('state')}`;
+		let Q9 = `&entry.1184438901=${formData.get('jurisdiction')}`;
+		let Q10 = `&entry.1965312133=${formData.get('latitude')}`;
+		let Q11 = `&entry.476740891=${formData.get('longitude')}`;
 
 		//   Concatenate the google form URL with responses from the intake form and replace spaces with addition signs (+) for submission.
-		let responseURL = formURL + Q1 + Q2 + Q3 + Q4 + Q5 + Q6;
+		let responseURL = formURL + Q1 + Q2 + Q3 + Q4 + Q5 + Q6 + Q7 + Q8 + Q9 + Q10 + Q11;
 		responseURL = responseURL.replace(/ /g, '+');
-		//   console.log(responseURL);
+		// console.log(responseURL);
 
 		const response = await fetch(responseURL, { method: 'POST', mode: 'no-cors' });
 	}
