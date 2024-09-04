@@ -1,14 +1,157 @@
 <html lang="en">
-  <head>
-    <title>Form Test</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="/src/css/style.css">
-  </head>
-  <body>
-    Click <a href="#" class="fallback">here</a> to sign in.
-    <script src="dist/zoho.js" type="module"></script>
-    <script src="dist/login.js" defer async></script>
-    <div id="out"></div>
-  </body>
+	<head>
+		<title>Form Test</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link rel="stylesheet" href="/src/css/style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<main>
+				<div class="py-5 text-center">
+					<div class="d-flex justify-content-center">
+						<img class="d-block mb-4" src="src/assets/header-wcv-badge.webp" alt="" width="79" height="76" fetchpriority="high" loading="eager" />
+						<img class="d-block mb-4" src="src/assets/header-wcv-mark.svg" alt="Wildlife Center of Virginia" width="140" height="59" />
+					</div>
+					<h2>Animal Intake Form</h2>
+					<p class="lead">Information on animals found and admitted.</p>
+				</div>
+
+				<!-- <module href="/components/dropdown.html"></module> -->
+
+				<div class="container col-sm-8">
+					<h4 class="mb-3">Admission Information</h4>
+					<form class="needs-validation animal-intake" novalidate>
+						<div class="row g-3">
+							<div class="col-sm-6">
+								<label for="date-found" class="form-label">Date Found</label>
+								<input type="date" class="form-control" id="date-found" name="date-found" placeholder="07/15/2023" required />
+								<div class="invalid-feedback">Please select a date.</div>
+							</div>
+
+							<div class="col-sm-6">
+								<label for="time-found" class="form-label">Time Found</label>
+								<input type="time" class="form-control" id="time-found" name="time-found" placeholder="1:00 pm" required />
+								<div class="invalid-feedback">Please select a time.</div>
+							</div>
+
+							<div class="col-sm-6">
+								<label for="date-admit" class="form-label">Date Admitted</label>
+								<input type="date" class="form-control" id="date-admit" name="date-admit" placeholder="07/23/2023" required />
+								<div class="invalid-feedback">Please select a date.</div>
+							</div>
+
+							<div class="col-sm-6">
+								<label for="time-admit" class="form-label">Time Admitted</label>
+								<input type="time" class="form-control" id="time-admit" name="time-admit" placeholder="2:15 pm" required />
+								<div class="invalid-feedback">Please select a time.</div>
+							</div>
+
+							<div class="col-12">
+								<label for="details" class="form-label">Details of Rescue</label>
+								<div class="input-group has-validation">
+									<textarea type="text" class="form-control" id="details" name="details" placeholder="(e.g. Westbound off I-64 near Crozet)" required></textarea>
+									<div class="invalid-feedback">Please provide any details about the rescue or enter N/A if unknown.</div>
+								</div>
+							</div>
+
+							<div class="col-12">
+								<label for="care" class="form-label">Care Given</label>
+								<div class="input-group has-validation">
+									<input type="text" class="form-control" id="care" name="care" placeholder="(e.g. None)" required />
+									<div class="invalid-feedback">Please detail any care given or enter N/A if not applicable.</div>
+								</div>
+							</div>
+
+							<div class="col-md-5">
+								<label for="circumstance" class="form-label">Circumstances of Rescue</label>
+								<select class="form-select" id="circumstance" name="circumstance" required>
+									<option selected disabled value="">Choose...</option>
+									<option>Animal Interaction</option>
+									<option>Behavioral Stranding</option>
+									<option>Born/Hatched in Captivity</option>
+									<option>Botanicals</option>
+									<option>Collision</option>
+									<option>Confiscation</option>
+									<option>Dead on Arrival</option>
+									<option>Electrocution/Electric Shock</option>
+									<option>Entrapment</option>
+									<option>Environment</option>
+									<option>Failure to Thrive/Maladaption</option>
+									<option>Foreign Body/Object</option>
+									<option>Inappropriate Human Possession</option>
+									<option>Nest/Habitat Disturbance/Destruction</option>
+									<option>Orphan, true</option>
+									<option>Petrochemicals</option>
+									<option>Projectile</option>
+									<option>Referral</option>
+									<option>Undetermined</option>
+									<option>None of the Above</option>
+								</select>
+								<div class="invalid-feedback">Please select a valid circumstance.</div>
+							</div>
+
+							<h4 class="mb-3">Rescue Location</h4>
+
+							<div class="col-sm-6">
+								<label for="state" class="form-label">State</label>
+								<select class="form-select" id="state" name="state" required>
+									<option selected disabled value="">Choose...</option>
+								</select>
+								<div class="invalid-feedback">Please select a state.</div>
+							</div>
+
+							<div class="col-sm-6">
+								<label for="jurisdiction" class="form-label">Jurisdiction</label>
+								<select class="form-select" id="jurisdiction" name="jurisdiction" required>
+									<option value="">Select a state first</option>
+								</select>
+								<div class="invalid-feedback">Please select a jurisdition.</div>
+							</div>
+
+							<p class="mt-4 fst-italic">
+								Please provide approximate latitude and longitutde of where the animal was found or drop a pin in the map below. Right-click on the map to drop a
+								pin, and right-click again to remove it.
+							</p>
+
+							<div class="col-sm-6">
+								<label for="latitude" class="form-label">Latitude</label>
+								<input type="text" class="form-control" id="latitude" name="latitude" placeholder="(e.g. 38.033554)" required />
+								<div class="invalid-feedback">Please enter a latitude value.</div>
+							</div>
+
+							<div class="col-sm-6">
+								<label for="longitude" class="form-label">Longitude</label>
+								<input type="text" class="form-control" id="longitude" name="longitude" placeholder="(e.g. -78.507980)" required />
+								<div class="invalid-feedback">Please enter a longitude value.</div>
+							</div>
+
+							<div class="col-12">
+								<div id="map"></div>
+							</div>
+						</div>
+						<!-- row g-3 -->
+
+						<hr class="my-4" />
+
+						<button class="w-100 btn btn-primary btn-lg animal-submit" type="submit">Submit</button>
+					</form>
+				</div>
+				<!--/.container col-sm-8 --->
+			</main>
+		</div>
+		<!--/.container--->
+
+		<footer class="my-5 pt-5 text-muted text-center text-small">
+			<p class="mb-1">© 1982–2024 Wildlife Center of Virginia</p>
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="#">Privacy</a></li>
+				<li class="list-inline-item"><a href="#">Terms</a></li>
+				<li class="list-inline-item"><a href="#">Support</a></li>
+			</ul>
+		</footer>
+	</body>
+	<script src="./dist/bundle.js" defer async></script>
+	<div id="out"></div>
 </html>

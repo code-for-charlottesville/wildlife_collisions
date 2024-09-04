@@ -2,24 +2,34 @@
   "name": "wildlife-form",
   "version": "1.0.0",
   "scripts": {
+    "start": "webpack serve",
     "clean": "rm dist/*",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "build:html": "posthtml -c posthtml.json",
+    "watch:html": "onchange \"src\" -- npm run build:html"
   },
   "keywords": [],
   "author": "pharingWell",
   "license": "MIT",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "@eonasdan/tempus-dominus": "^6.9.10",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
     "onchange": "^7.1.0",
+    "posthtml": "^0.16.6",
+    "posthtml-cli": "^0.10.0",
+    "posthtml-modules": "^0.9.1",
     "style-loader": "^4.0.0",
     "webpack": "^5.93.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   },
-  "devDependencies": {
-    "dotenv-webpack": "^8.1.0"
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.8",
+    "ajax": "^0.0.4",
+    "jquery": "^3.7.1"
   }
 }
