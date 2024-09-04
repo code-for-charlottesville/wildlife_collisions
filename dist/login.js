@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){let t="https://accounts.zoho.com/oauth/v2/auth?client_id=&response_type=token&redirect_uri=https://pharingwell.github.io/wildlife_collisions/form&scope=ZohoSheet.dataAPI.UPDATE&state=Aw73?&tAKL4394";document.getElementsByClassName("fallback")[0].setAttribute("href",t),window.location.href=t}()})();
