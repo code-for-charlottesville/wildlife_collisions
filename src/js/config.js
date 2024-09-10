@@ -55,9 +55,8 @@ export function setupConfig(){
     }
     unexpectedEntries = unexpectedEntries.filter(e => e != null)
     if(unexpectedEntries.length > 0){
-        console.log(`Warning: The following entry names are extraneous, unexpected or may be misspelled: [${unexpectedEntries}]`)
+        console.warn(`Warning: The following entry names are extraneous, unexpected or may be misspelled: [${unexpectedEntries}]`)
     }
-    console.log(htmlFormEntries)
     config.getUrlTags = formData => {
         let returnString = ""
         //we can ignore the key because we stored both the html entry name and the entry id in a sub-object keyed to the entry name
