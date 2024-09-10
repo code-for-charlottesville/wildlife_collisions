@@ -2,16 +2,14 @@ const path = require("path");
 
 module.exports = {
     mode: "development",
-    entry: './src/js/main.js',
+    entry: {
+        app: './src/js/main.js',
+        style: './src/js/bootstrap.js'
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: path.resolve(__dirname, 'dist', 'bundle.js'),
-        filename: 'bundle.js',
-    },
-    resolve: {
-        alias: {
-            jquery: "jquery/src/jquery",
-        },
+        publicPath: path.resolve(__dirname, 'dist', '[name].js'),
+        filename: '[name].js',
     },
     module: {
         rules: [

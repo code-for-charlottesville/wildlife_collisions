@@ -9,3 +9,4 @@ Gemfile.lock
 /.vscode
 .prettierrc
 .prettierignore
+/dist/
