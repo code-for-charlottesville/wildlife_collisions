@@ -70,14 +70,18 @@ async function handleSubmitData(event) {
 		event.stopPropagation();
 		animalForm.scrollIntoView({ behavior: 'smooth' });
 	} else {
-		let formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSeyfnaSeydze_BR8caGisyHKUZfgcQveuBJtiWCpK51ypDwvg/formResponse?submit=Submit?usp=pp_url';
+		let baseUrl = 'https://docs.google.com/forms/d/e/'
+		let submitTags = '/formResponse?submit=Submit?usp=pp_url'
 		//   Concatenate the google form URL with responses from the intake form and replace spaces with addition signs (+) for submission.
-		let responseURL = formURL + config.getUrlTags(formData);
+		let responseURL = baseUrl + config.formUrl + submitTags + config.getUrlTags(formData);
 		responseURL = responseURL.replace(/ /g, '+');
 		await fetch(responseURL, { method: 'POST', mode: 'no-cors' })
 			// comment the .then out if you want to see debug from this function
 			// otherwise, it will redirect when you submit
-			.then( () => window.location.href = "submitted.html");
+			.then(
+				() => window.location.href = "submitted.html",
+				() => console.log("Failed.")
+			);
 	}
 }
 
