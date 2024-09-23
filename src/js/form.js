@@ -1,10 +1,11 @@
 import counties_list from '../assets/counties_list.json';
-import {setupConfig, config, isConfigValid} from "./config.js";
+import { setupConfig, config, isConfigValid } from './config.js';
+import './dropdowntree.js';
+import { arr } from './rescuecircumstance.js';
 
 const animalForm = document.querySelector('.animal-intake');
 const stateList = document.getElementById('state');
 const states = [...new Set(counties_list.map((x) => x.State))]; // using json for better reliability
-
 
 export function initialize() {
 	setupConfig();
@@ -19,8 +20,6 @@ export function initialize() {
 	stateList.addEventListener('change', handleJurisdictionChange);
 	animalForm.addEventListener('submit', handleSubmitData);
 }
-
-
 
 async function handleJurisdictionChange(event) {
 	const counties = counties_list.filter((x) => {
@@ -59,7 +58,6 @@ async function handleJurisdictionChange(event) {
 	});
 }
 
-
 async function handleSubmitData(event) {
 	event.preventDefault();
 	const formData = new FormData(event.target);
@@ -70,8 +68,8 @@ async function handleSubmitData(event) {
 		event.stopPropagation();
 		animalForm.scrollIntoView({ behavior: 'smooth' });
 	} else {
-		let baseUrl = 'https://docs.google.com/forms/d/e/'
-		let submitTags = '/formResponse?submit=Submit?usp=pp_url'
+		let baseUrl = 'https://docs.google.com/forms/d/e/';
+		let submitTags = '/formResponse?submit=Submit?usp=pp_url';
 		//   Concatenate the google form URL with responses from the intake form and replace spaces with addition signs (+) for submission.
 		let responseURL = baseUrl + config.formUrl + submitTags + config.getUrlTags(formData);
 		responseURL = responseURL.replace(/ /g, '+');
@@ -79,10 +77,27 @@ async function handleSubmitData(event) {
 			// comment the .then out if you want to see debug from this function
 			// otherwise, it will redirect when you submit
 			.then(
-				() => window.location.href = "submitted.html",
-				() => console.log("Failed.")
+				() => (window.location.href = 'submitted.html'),
+				() => console.log('Failed.')
 			);
 	}
 }
 
+var options = {
+	title: 'Circumstances of Rescue...',
+	data: arr,
+	maxHeight: 500,
+	clickHandler: function (element) {
+		$('#firstDropDownTree').SetTitle($(element).find('a').first().text());
+	},
+	expandHandler: function (element, expanded) {},
+	checkHandler: function (element, checked) {
+		this.expandHandler(element);
+	},
+	closedArrow: '<i class="fa fa-caret-right" aria-hidden="true"></i>',
+	openedArrow: '<i class="fa fa-caret-down" aria-hidden="true"></i>',
+	multiSelect: true,
+	selectChildren: false,
+};
 
+$('#firstDropDownTree').DropDownTree(options);

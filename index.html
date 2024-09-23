@@ -4,6 +4,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link rel="stylesheet" href="./src/css/style.css" />
+		<link
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+			rel="stylesheet"
+			integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+			crossorigin="anonymous"
+		/>
 	</head>
 
 	<body>
@@ -87,10 +93,11 @@
 									<option>Undetermined</option>
 									<option>None of the Above</option>
 								</select>
+								<div class="dropdown dropdown-tree mt-5" id="firstDropDownTree"></div>
 								<div class="invalid-feedback">Please select a valid circumstance.</div>
 							</div>
 
-							<h4 class="mb-3">Rescue Location</h4>
+							<h4 class="mt-5 mb-3">Rescue Location</h4>
 
 							<div class="col-sm-6">
 								<label for="state" class="form-label">State</label>
@@ -150,6 +157,18 @@
 			</ul>
 		</footer>
 	</body>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+		integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+		crossorigin="anonymous"
+	></script>
+
 	<script src="./dist/style.js" defer async></script>
 	<script src="./dist/app.js" defer async></script>
 	<div id="out"></div>
