@@ -11,6 +11,11 @@ module.exports = {
         publicPath: "./dist/",
         filename: '[name].js',
     },
+    resolve: {
+        alias: {
+            jquery: "jquery/src/jquery",
+        },
+    },
     module: {
         rules: [
             // CSS rules

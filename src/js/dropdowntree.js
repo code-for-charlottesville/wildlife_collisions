@@ -223,9 +223,9 @@ var globalTreeIdCounter = 0;
 		};
 
 		$(options.element).init.prototype.AddChildren = function (element, arrOfElements) {
-			if (options.addChildren && $(element).find('ul').length == 0) $(element).append('<ul></ul>');
+			if (options.addChildren && $(element).find('ul').length === 0) $(element).append('<ul></ul>');
 			element = $(element).find('ul').first();
-			if (element.find('li').length == 0) RenderData(arrOfElements, element);
+			if (element.find('li').length === 0) RenderData(arrOfElements, element);
 		};
 	};
 })(jQuery);
