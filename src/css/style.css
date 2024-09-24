@@ -1,6 +1,6 @@
 body {
-	padding: 50px;
-	font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+	padding: 5vw; /* Use viewport width for padding */
+	font: 1rem 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -8,7 +8,19 @@ a {
 }
 
 #map {
-	height: 551px;
+	height: 50vh; /* Use viewport height for dynamic map size */
+}
+
+/* Media query for tablets and small screens */
+@media (max-width: 768px) {
+	body {
+		padding: 4vw; /* Slightly reduce padding for medium screens */
+		font-size: 0.9rem; /* Slightly reduce font size */
+	}
+
+	#map {
+		height: 40vh; /* Adjust map height for tablets */
+	}
 }
 
 /* dropdowntree css */
