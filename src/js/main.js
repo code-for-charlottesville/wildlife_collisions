@@ -1,8 +1,14 @@
 import { initialize } from './form';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+import "leaflet.fullscreen";
 
-var map = L.map('map').setView([38.033554, -78.50798], 13);
+let map = L.map('map', {
+	fullscreenControl: true,
+	fullscreenControlOptions: {
+		position: 'topleft'
+	}
+}).setView([38.033554, -78.50798], 13);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',

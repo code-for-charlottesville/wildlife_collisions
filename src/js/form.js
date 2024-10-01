@@ -1,4 +1,6 @@
 import counties_list from '../assets/counties_list.json';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { setupConfig, config, isConfigValid } from './config.js';
 import './dropdowntree.js';
 import { arr } from './rescuecircumstance.js';
