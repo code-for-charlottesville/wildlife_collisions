@@ -1,4 +1,6 @@
-/*    
+import "jquery"
+
+/*
 @licstart  The following is the entire license notice for the 
 JavaScript code in this page.
 
@@ -60,7 +62,7 @@ var globalTreeIdCounter = 0;
 							'"' +
 							dataAttrs +
 							'>' +
-							(options.multiSelect ? '<i class="fa fa-square-o select-box" aria-hidden="true"></i>' : '') +
+							(options.multiSelect ? '<input class="form-check-input radio-select" type="radio" name="same2" aria-hidden="true"></input>' : '') +
 							'<a href="' +
 							(typeof data[i].href != 'undefined' && data[i].href != null ? data[i].href : '#') +
 							'">' +
@@ -85,7 +87,8 @@ var globalTreeIdCounter = 0;
 							.first()
 							.prepend('<span class="arrow">' + options.closedArrow + '</span>');
 					}
-				} else {
+				}
+				else {
 					element
 						.find('ul')
 						.append(
@@ -94,7 +97,7 @@ var globalTreeIdCounter = 0;
 								'"' +
 								dataAttrs +
 								'>' +
-								(options.multiSelect ? '<i class="fa fa-square-o select-box" aria-hidden="true"></i>' : '') +
+								(options.multiSelect ? '<input class="form-check-input" type="radio" name = "uniquetag" aria-hidden="true"></input>' : '') +
 								'<a href="' +
 								(typeof data[i].href != 'undefined' && data[i].href != null ? data[i].href : '#') +
 								'">' +
@@ -156,7 +159,7 @@ var globalTreeIdCounter = 0;
 		});
 
 		//select box click handler
-		$(options.element).on('click', '.select-box', function (e) {
+		$(options.element).on('click', '.radio-select', function (e) {
 			e.stopPropagation();
 			var checked;
 			if ($(this).hasClass('fa-square-o')) {
