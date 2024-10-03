@@ -1,4 +1,4 @@
-import "jquery"
+import 'jquery';
 
 /*
 @licstart  The following is the entire license notice for the 
@@ -57,12 +57,16 @@ var globalTreeIdCounter = 0;
 				}
 				if (!element.is('li')) {
 					element.append(
-						'<li id="TreeElement' +
+						'<li class="level' +
+							data[i]['dataAttrs'][0].level +
+							'"id="TreeElement' +
 							globalTreeIdCounter +
 							'"' +
 							dataAttrs +
 							'>' +
-							(options.multiSelect ? '<input class="form-check-input radio-select" type="radio" name="same2" aria-hidden="true"></input>' : '') +
+							(options.multiSelect
+								? '<input class="form-check-input radio-select" type="radio"' + 'name="' + data[i]['dataAttrs'][0].level + '" aria-hidden="true"></input>'
+								: '') +
 							'<a href="' +
 							(typeof data[i].href != 'undefined' && data[i].href != null ? data[i].href : '#') +
 							'">' +
@@ -70,7 +74,7 @@ var globalTreeIdCounter = 0;
 							'</a></li>'
 					);
 					if (data[i].data != null && typeof data[i].data != 'undefined') {
-						$('#TreeElement' + globalTreeIdCounter).append("<ul style='display:none'></ul>");
+						$('#TreeElement' + globalTreeIdCounter).append("<ul class='level" + (data[i]['dataAttrs'][0].level + 1) + "'style='display:none'></ul>");
 						$('#TreeElement' + globalTreeIdCounter)
 							.find('a')
 							.first()
@@ -87,8 +91,7 @@ var globalTreeIdCounter = 0;
 							.first()
 							.prepend('<span class="arrow">' + options.closedArrow + '</span>');
 					}
-				}
-				else {
+				} else {
 					element
 						.find('ul')
 						.append(
@@ -97,7 +100,9 @@ var globalTreeIdCounter = 0;
 								'"' +
 								dataAttrs +
 								'>' +
-								(options.multiSelect ? '<input class="form-check-input" type="radio" name = "uniquetag" aria-hidden="true"></input>' : '') +
+								(options.multiSelect
+									? '<input class="form-check-input" type="radio"' + 'name="' + data[i]['dataAttrs'][0].level + '" aria-hidden="true"></input>'
+									: '') +
 								'<a href="' +
 								(typeof data[i].href != 'undefined' && data[i].href != null ? data[i].href : '#') +
 								'">' +
@@ -162,28 +167,54 @@ var globalTreeIdCounter = 0;
 		$(options.element).on('click', '.radio-select', function (e) {
 			e.stopPropagation();
 			var checked;
+			if ($(this).siblings('ul')) {
+				$(this).siblings('ul').first().show();
+			}
+			// Clear all necessary radio checks
+			if ($(this).attr('name') == 1) {
+				$('input:radio[name=2]').prop('checked', false);
+				$('input:radio[name=3]').prop('checked', false);
+				$('input:radio[name=4]').prop('checked', false);
+			} else if ($(this).attr('name') == 2) {
+				$('input:radio[name=3]').prop('checked', false);
+				$('input:radio[name=4]').prop('checked', false);
+			} else if ($(this).attr('name') == 3) {
+				$('input:radio[name=4]').prop('checked', false);
+			}
+
+			// Next radio check the parents
+			if ($(this).attr('name') > 1) {
+				var index = $(this).parents('li').length - 1;
+				for (let i = 1; i <= index; i++) {
+					let parentElement = $(this).parents('li')[i];
+					parentElement.querySelector('input').checked = true;
+				}
+				// console.log($(this).parents('li'));
+				// $(this).parents('ul').first().find('input').first().siblings('a').addClass('highlight');
+			}
+
 			if ($(this).hasClass('fa-square-o')) {
 				//will select
 				checked = true;
 				$(this).removeClass('fa-square-o');
-				$(this).addClass('fa-check-square-o');
+				// $(this).addClass('fa-check-square-o');
 				if (options.selectChildren) {
 					$(this).parents('li').first().find('.select-box').removeClass('fa-square-o');
-					$(this).parents('li').first().find('.select-box').addClass('fa-check-square-o');
+					// $(this).parents('li').first().find('.select-box').addClass('fa-check-square-o');
 				}
 			} else {
 				//will unselect
 				checked = false;
-				$(this).addClass('fa-square-o');
+				// $(this).addClass('fa-square-o');
 				$(this).removeClass('fa-check-square-o');
 				if (options.selectChildren) {
-					$(this).parents('li').first().find('.select-box').addClass('fa-square-o');
+					// $(this).parents('li').first().find('.select-box').addClass('fa-square-o');
 					$(this).parents('li').first().find('.select-box').removeClass('fa-check-square-o');
 					$(this)
 						.parents('li')
 						.each(function () {
 							$(this).find('.select-box').first().removeClass('fa-check-square-o');
-							$(this).find('.select-box').first().addClass('fa-square-o');
+							// $(this).find('.select-box').first().addClass('fa-square-o');
 						});
 				}
 			}

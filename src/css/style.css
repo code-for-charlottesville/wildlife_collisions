@@ -37,7 +37,9 @@ a {
 .dropdown-tree > ul {
 	overflow-y: auto;
 	overflow-x: hidden;
+	padding: 10px;
 	white-space: nowrap;
+	z-index: 2000;
 }
 .dropdown-tree li {
 	list-style: none;
@@ -53,13 +55,13 @@ a {
 	top: 3px;
 }
 .dropdown-tree li:hover {
-	background: #eee;
+	/* background: #eee; */
 }
 .dropdown-tree li:hover ul {
-	background: white;
+	/* background: white; */
 }
 .dropdown-tree li:hover ul li:hover {
-	background: #eee;
+	/* background: #eee; */
 }
 .dropdown-tree a {
 	display: inline-block !important;
@@ -94,4 +96,8 @@ a {
 .rtl-dropdown-tree li > i {
 	margin-left: 0;
 	margin-right: 10px;
+}
+
+.highlight {
+	background-color: yellow !important;
 }
