@@ -10,20 +10,20 @@
 					{
 						"title": "Cat",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Dog",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Other",
 						"href": "#3",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Non-domestic Animal",
@@ -32,15 +32,15 @@
 					{
 						"title": "Different Species",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Same Species",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -71,50 +71,50 @@
 					{
 						"title": "Bicycle",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Car/Truck/Motorcycle",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Human Propelled Object",
 						"href": "#3",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Motorized Farm Equipment",
 						"href": "#4",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Motorized Yard Equipment",
 						"href": "#5",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Natural Features, moving",
 						"href": "#6",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Plane",
 						"href": "#7",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Train",
 						"href": "#8",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Watercraft",
 						"href": "#9",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Stationary Object",
@@ -123,25 +123,25 @@
 					{
 						"title": "Natural Features, not moving",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Powerlines/Wires",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Walls/Windows",
 						"href": "#3",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Wind Turbines",
 						"href": "#4",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -157,15 +157,15 @@
 					{
 						"title": "Abuse",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Illegal Possession",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Legal Confiscation",
@@ -174,20 +174,20 @@
 					{
 						"title": "Abuse",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Illegal Possession",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Violation of Permit Conditions",
 						"href": "#3",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -209,7 +209,7 @@
 			{
 				"title": "External Substance Contamination",
 				"href": "#1",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Non-trap",
@@ -218,20 +218,20 @@
 					{
 						"title": "Fence",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Litter/Garbage",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Sporting/Landscaping Netting",
 						"href": "#3",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Spaces",
@@ -240,40 +240,40 @@
 					{
 						"title": "Building",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Chimney",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Duct Work",
 						"href": "#3",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Pool",
 						"href": "#4",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Storm Drain/Sewer",
 						"href": "#5",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Vehicle",
 						"href": "#6",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Window Well/Outdoor Stairwell",
 						"href": "#7",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Trap",
@@ -304,25 +304,25 @@
 								"dataAttrs": [{ "level": 4 }]
 							}
 						],
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Glue Trap",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Humane/Cage Trap",
 						"href": "#3",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Leg/Body Hold Trap/Snare",
 						"href": "#4",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -334,27 +334,27 @@
 			{
 				"title": "Algal Blooms",
 				"href": "#1",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Fire",
 				"href": "#2",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Gas Flare",
 				"href": "#3",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Seismic Event",
 				"href": "#4",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Smoke",
 				"href": "#5",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Weather",
@@ -363,25 +363,25 @@
 					{
 						"title": "Lightning",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Precipitation",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Temperature",
 						"href": "#3",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Wind",
 						"href": "#4",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -398,7 +398,7 @@
 			{
 				"title": "Fishing Tackle",
 				"href": "#1",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -410,22 +410,22 @@
 			{
 				"title": "Abduction with Intent of Rescue",
 				"href": "#1",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Nuisance Animal",
 				"href": "#2",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Pet",
 				"href": "#3",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Unauthorized or Untrained Rehabilitation",
 				"href": "#4",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -442,12 +442,12 @@
 			{
 				"title": "Parents Not Available",
 				"href": "#1",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Parents Rejected",
 				"href": "#2",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -459,12 +459,12 @@
 			{
 				"title": "Glue Trap",
 				"href": "#1",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Grease",
 				"href": "#2",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Oils",
@@ -473,35 +473,35 @@
 					{
 						"title": "Cooking Oil",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Fish Oil",
 						"href": "#2",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Refined Petrochemicals",
 						"href": "#3",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Unrefined Petrochemicals",
 						"href": "#4",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Paint",
 				"href": "#4",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Tar",
 				"href": "#5",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -513,7 +513,7 @@
 			{
 				"title": "Non-Weapon",
 				"href": "#1",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Weapon",
@@ -522,7 +522,7 @@
 					{
 						"title": "Bow and Arrow",
 						"href": "#1",
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					},
 					{
 						"title": "Gunshot",
@@ -544,10 +544,10 @@
 								"dataAttrs": [{ "level": 4 }]
 							}
 						],
-						"dataAttrs": [{ "level": 3, "parent": true }]
+						"dataAttrs": [{ "level": 3 }]
 					}
 				],
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]
@@ -559,12 +559,12 @@
 			{
 				"title": "Non-Permit Holding Facility",
 				"href": "#1",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			},
 			{
 				"title": "Permit Holding Facility",
 				"href": "#2",
-				"dataAttrs": [{ "level": 2, "parent": true }]
+				"dataAttrs": [{ "level": 2 }]
 			}
 		],
 		"dataAttrs": [{ "level": 1, "parent": false }]

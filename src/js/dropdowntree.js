@@ -141,8 +141,8 @@ var globalTreeIdCounter = 0;
 		//handlers binders
 		//element click handler
 		$(options.element).on('click', 'li', function (e) {
-			tree.init.prototype.clickedElement = $(this);
-			options.clickHandler(tree.clickedElement, e);
+			// tree.init.prototype.clickedElement = $(this);
+			// options.clickHandler(tree.clickedElement, e);
 			e.stopPropagation();
 		});
 
@@ -163,7 +163,7 @@ var globalTreeIdCounter = 0;
 			options.expandHandler($(this).parents('li').first(), e, expanded);
 		});
 
-		//select box click handler
+		//select radio handler
 		$(options.element).on('click', '.radio-select', function (e) {
 			e.stopPropagation();
 			var checked;
@@ -175,6 +175,8 @@ var globalTreeIdCounter = 0;
 				$('input:radio[name=2]').prop('checked', false);
 				$('input:radio[name=3]').prop('checked', false);
 				$('input:radio[name=4]').prop('checked', false);
+				// Add circumstances text to input field
+				$('#firstDropDownTree').SetTitle($(this).siblings().first().text());
 			} else if ($(this).attr('name') == 2) {
 				$('input:radio[name=3]').prop('checked', false);
 				$('input:radio[name=4]').prop('checked', false);
@@ -185,12 +187,14 @@ var globalTreeIdCounter = 0;
 			// Next radio check the parents
 			if ($(this).attr('name') > 1) {
 				var index = $(this).parents('li').length - 1;
+				var circumstancesText = $(this).siblings().first().text();
 				for (let i = 1; i <= index; i++) {
 					let parentElement = $(this).parents('li')[i];
 					parentElement.querySelector('input').checked = true;
+					circumstancesText = parentElement.children[1].text + ' / ' + circumstancesText;
 				}
-				// console.log($(this).parents('li'));
-				// $(this).parents('ul').first().find('input').first().siblings('a').addClass('highlight');
+				// Add circumstances text to input field
+				$('#firstDropDownTree').SetTitle(circumstancesText);
 			}
 
 			if ($(this).hasClass('fa-square-o')) {
@@ -228,11 +232,11 @@ var globalTreeIdCounter = 0;
 			}
 		}
 		$(options.element).append(
-			'<button class="btn btn-default dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="dropdowntree-name">' +
+			'<button class="btn btn-default form-control" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="dropdowntree-name">' +
 				options.title +
-				'</span><span class="caret"></span></button>'
+				'</span><span class="carets"></span></button>'
 		);
-		$(options.element).append('<ul style="max-height: ' + options.maxHeight + 'px" class="dropdown-menu" aria-labelledby="dropdownMenu1"></ul>');
+		$(options.element).append('<ul style="max-height: ' + options.maxHeight + 'px; width: 100%" class="dropdown-menu" aria-labelledby="dropdownMenu1"></ul>');
 
 		RenderData(options.data, $(options.element).find('ul').first());
 
