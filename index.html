@@ -69,12 +69,11 @@
 							</div>
 
 							<div class="col-md-8">
-								<label for="firstDropDownTree" class="form-label">Circumstances of Rescue</label>
-								<!-- <select class="form-select" id="circumstance" name="circumstance" required>
-									<option selected disabled value="">Choose...</option>
-									<option>Animal Interaction</option>
-								</select> -->
-								<div class="dropdown dropdown-tree form-select" id="firstDropDownTree" name="circumstance"></div>
+								<label for="dropDownTreeInput" class="form-label">Circumstances of Rescue</label>
+								<input hidden class="form-control" id="dropDownTreeInput" required>
+								<div class="dropdown dropdown-tree form-select has-validation" id="firstDropDownTree" name="circumstance">
+								</div>
+
 								<div class="invalid-feedback">Please select a valid circumstance.</div>
 							</div>
 
