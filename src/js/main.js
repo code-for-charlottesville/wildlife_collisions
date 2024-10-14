@@ -12,7 +12,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // create a fullscreen button and add it to the map
 L.control
 	.fullscreen({
-		position: 'topleft', // change the position of the button can be topleft, topright, bottomright or bottomleft, default topleft
 		title: 'Show me the fullscreen !', // change the title of the button, default Full Screen
 		titleCancel: 'Exit fullscreen mode', // change the title of the button when fullscreen is on, default Exit Full Screen
 		content: null, // change the content of the button, can be HTML, default null
@@ -36,6 +35,11 @@ map.on('exitFullscreen', function () {
 
 var markerGroup = L.layerGroup().addTo(map);
 map.on('click', addMarker);
+
+
+function centerer(int lat, int lng){
+	map.setView(new L.LatLing(lat, lng),8);
+}
 
 function addMarker(e) {
 	markerGroup.clearLayers();
