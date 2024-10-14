@@ -1,4 +1,4 @@
-import { initialize } from './form';
+import { initialize, handleJurisdictionChange } from './form';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import leaflet.fullscreenControl
@@ -36,6 +36,8 @@ map.on('exitFullscreen', function () {
 var markerGroup = L.layerGroup().addTo(map);
 map.on('click', addMarker);
 
+var county = document.getElementById(document.getElementById('jurisdiction'));
+map.on(handleJurisdictionChange, centerer(county.lat, county.lng));
 
 function centerer(int lat, int lng){
 	map.setView(new L.LatLing(lat, lng),8);
