@@ -1,7 +1,11 @@
-import { initialize } from './form';
+import { initialize, handleJurisdictionChange } from './form';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+
+import fullscreenControl from 'leaflet';
+import fullscreenControlOptions from 'leaflet';
 import "leaflet.fullscreen";
+
 
 let map = L.map('map', {
 	fullscreenControl: true,
@@ -13,9 +17,39 @@ let map = L.map('map', {
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
+// create a fullscreen button and add it to the map
+L.control
+	.fullscreen({
+		title: 'Show me the fullscreen !', // change the title of the button, default Full Screen
+		titleCancel: 'Exit fullscreen mode', // change the title of the button when fullscreen is on, default Exit Full Screen
+		content: null, // change the content of the button, can be HTML, default null
+		forceSeparateButton: true, // force separate button to detach from zoom buttons, default false
+		forcePseudoFullscreen: true, // force use of pseudo full screen even if full screen API is available, default false
+		fullscreenElement: false // Dom element to render in full screen, false by default, fallback to map._container
+	})
+	.addTo(map);
+
+// events are fired when entering or exiting fullscreen.
+map.on('enterFullscreen', function () {
+	console.log('entered fullscreen');
+});
+
+map.on('exitFullscreen', function () {
+	console.log('exited fullscreen');
+});
+
+// you can also toggle fullscreen from map object
+//map.toggleFullscreen();
 
 var markerGroup = L.layerGroup().addTo(map);
 map.on('click', addMarker);
+
+var county = document.getElementById(document.getElementById('jurisdiction'));
+map.on(handleJurisdictionChange, centerer(county.lat, county.lng));
+
+function centerer(int lat, int lng){
+	map.setView(new L.LatLing(lat, lng),8);
+}
 
 function addMarker(e) {
 	markerGroup.clearLayers();

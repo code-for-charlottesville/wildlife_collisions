@@ -7,7 +7,7 @@ let arr = require('../assets/rescuecircumstance.json')
 
 const animalForm = document.querySelector('.animal-intake');
 const stateList = document.getElementById('state');
-const states = [...new Set(counties_list.map((x) => x.State))]; // using json for better reliability
+const states = [...new Set(counties_list.map((x) => x.state_name))]; // using json for better reliability
 
 export function initialize() {
 	setupConfig();
