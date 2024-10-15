@@ -1,0 +1,582 @@
+[
+	{
+		"title": "Animal Interaction",
+		"href": "#1",
+		"data": [
+			{
+				"title": "Domestic Animal",
+				"href": "#1",
+				"data": [
+					{
+						"title": "Cat",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Dog",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Other",
+						"href": "#3",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Non-domestic Animal",
+				"href": "#2",
+				"data": [
+					{
+						"title": "Different Species",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Same Species",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Behavioral Stranding",
+		"href": "#2",
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Born/Hatched in Captivity",
+		"href": "#3",
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Botanicals",
+		"href": "#4",
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Collision",
+		"href": "#5",
+		"data": [
+			{
+				"title": "Moving Object",
+				"href": "#1",
+				"data": [
+					{
+						"title": "Bicycle",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Car/Truck/Motorcycle",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Human Propelled Object",
+						"href": "#3",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Motorized Farm Equipment",
+						"href": "#4",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Motorized Yard Equipment",
+						"href": "#5",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Natural Features, moving",
+						"href": "#6",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Plane",
+						"href": "#7",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Train",
+						"href": "#8",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Watercraft",
+						"href": "#9",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Stationary Object",
+				"href": "#2",
+				"data": [
+					{
+						"title": "Natural Features, not moving",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Powerlines/Wires",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Walls/Windows",
+						"href": "#3",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Wind Turbines",
+						"href": "#4",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Confiscation",
+		"href": "#6",
+		"data": [
+			{
+				"title": "Good Samaritan Confiscation",
+				"href": "#1",
+				"data": [
+					{
+						"title": "Abuse",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Illegal Possession",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Legal Confiscation",
+				"href": "#2",
+				"data": [
+					{
+						"title": "Abuse",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Illegal Possession",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Violation of Permit Conditions",
+						"href": "#3",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Dead on Arrival",
+		"href": "#7",
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Electrocution/Electric Shock",
+		"href": "#8",
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Entrapment",
+		"href": "#9",
+		"data": [
+			{
+				"title": "External Substance Contamination",
+				"href": "#1",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Non-trap",
+				"href": "#2",
+				"data": [
+					{
+						"title": "Fence",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Litter/Garbage",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Sporting/Landscaping Netting",
+						"href": "#3",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Spaces",
+				"href": "#3",
+				"data": [
+					{
+						"title": "Building",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Chimney",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Duct Work",
+						"href": "#3",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Pool",
+						"href": "#4",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Storm Drain/Sewer",
+						"href": "#5",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Vehicle",
+						"href": "#6",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Window Well/Outdoor Stairwell",
+						"href": "#7",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Trap",
+				"href": "#4",
+				"data": [
+					{
+						"title": "Fishing Gear",
+						"href": "#1",
+						"data": [
+							{
+								"title": "Hook",
+								"href": "#1",
+								"dataAttrs": [{ "level": 4 }]
+							},
+							{
+								"title": "Line",
+								"href": "#2",
+								"dataAttrs": [{ "level": 4 }]
+							},
+							{
+								"title": "Net",
+								"href": "#3",
+								"dataAttrs": [{ "level": 4 }]
+							},
+							{
+								"title": "Pot",
+								"href": "#4",
+								"dataAttrs": [{ "level": 4 }]
+							}
+						],
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Glue Trap",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Humane/Cage Trap",
+						"href": "#3",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Leg/Body Hold Trap/Snare",
+						"href": "#4",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Environment",
+		"href": "#10",
+		"data": [
+			{
+				"title": "Algal Blooms",
+				"href": "#1",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Fire",
+				"href": "#2",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Gas Flare",
+				"href": "#3",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Seismic Event",
+				"href": "#4",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Smoke",
+				"href": "#5",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Weather",
+				"href": "#6",
+				"data": [
+					{
+						"title": "Lightning",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Precipitation",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Temperature",
+						"href": "#3",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Wind",
+						"href": "#4",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Failure to Thrive/Maladaption",
+		"href": "#11",
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Foreign Body/Object",
+		"href": "#12",
+		"data": [
+			{
+				"title": "Fishing Tackle",
+				"href": "#1",
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Inappropriate Human Possession",
+		"href": "#13",
+		"data": [
+			{
+				"title": "Abduction with Intent of Rescue",
+				"href": "#1",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Nuisance Animal",
+				"href": "#2",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Pet",
+				"href": "#3",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Unauthorized or Untrained Rehabilitation",
+				"href": "#4",
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Nest/Habitat Distrubance/Destruction",
+		"href": "#14",
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Orphan, true",
+		"href": "#15",
+		"data": [
+			{
+				"title": "Parents Not Available",
+				"href": "#1",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Parents Rejected",
+				"href": "#2",
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Petrochemicals",
+		"href": "#16",
+		"data": [
+			{
+				"title": "Glue Trap",
+				"href": "#1",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Grease",
+				"href": "#2",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Oils",
+				"href": "#3",
+				"data": [
+					{
+						"title": "Cooking Oil",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Fish Oil",
+						"href": "#2",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Refined Petrochemicals",
+						"href": "#3",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Unrefined Petrochemicals",
+						"href": "#4",
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Paint",
+				"href": "#4",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Tar",
+				"href": "#5",
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Projectile",
+		"href": "#17",
+		"data": [
+			{
+				"title": "Non-Weapon",
+				"href": "#1",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Weapon",
+				"href": "#2",
+				"data": [
+					{
+						"title": "Bow and Arrow",
+						"href": "#1",
+						"dataAttrs": [{ "level": 3 }]
+					},
+					{
+						"title": "Gunshot",
+						"href": "#2",
+						"data": [
+							{
+								"title": "Air Gun/BB Gun",
+								"href": "#1",
+								"dataAttrs": [{ "level": 4 }]
+							},
+							{
+								"title": "Rifle/Handgun",
+								"href": "#2",
+								"dataAttrs": [{ "level": 4 }]
+							},
+							{
+								"title": "Shotgun",
+								"href": "#3",
+								"dataAttrs": [{ "level": 4 }]
+							}
+						],
+						"dataAttrs": [{ "level": 3 }]
+					}
+				],
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Referral",
+		"href": "#18",
+		"data": [
+			{
+				"title": "Non-Permit Holding Facility",
+				"href": "#1",
+				"dataAttrs": [{ "level": 2 }]
+			},
+			{
+				"title": "Permit Holding Facility",
+				"href": "#2",
+				"dataAttrs": [{ "level": 2 }]
+			}
+		],
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "Undetermined",
+		"href": "#19",
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	},
+	{
+		"title": "None of the Above",
+		"href": "#20",
+		"dataAttrs": [{ "level": 1, "parent": false }]
+	}
+]

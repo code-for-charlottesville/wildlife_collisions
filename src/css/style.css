@@ -24,20 +24,28 @@ a {
 }
 
 /* dropdowntree css */
-.dropdown {
+.dropdown.dropdown-tree.form-select {
 	border: 1px solid;
 	border-color: rgb(222, 226, 230);
 	border-radius: 6px;
+	padding: 0;
 }
 
 .dropdown-tree .btn {
+	text-align: start;
 	width: 100%;
+}
+
+button.btn.btn-default:focus {
+	border-color: rgba(13, 110, 253, 0.05);
 }
 
 .dropdown-tree > ul {
 	overflow-y: auto;
 	overflow-x: hidden;
+	padding: 10px 10px 10px 0;
 	white-space: nowrap;
+	z-index: 2000;
 }
 .dropdown-tree li {
 	list-style: none;
@@ -53,13 +61,19 @@ a {
 	top: 3px;
 }
 .dropdown-tree li:hover {
-	background: #eee;
+	background-color: rgba(128, 179, 255, 0.1);
+	border-color: rgba(128, 179, 255, 0.1);
+	border-radius: 0 8px 8px 0;
 }
 .dropdown-tree li:hover ul {
-	background: white;
+	/* background: white; */
 }
 .dropdown-tree li:hover ul li:hover {
-	background: #eee;
+	/* background: #eee; */
+}
+
+.dropdown-tree input {
+	margin-left: 15px;
 }
 .dropdown-tree a {
 	display: inline-block !important;
