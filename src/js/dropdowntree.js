@@ -144,6 +144,12 @@ var globalTreeIdCounter = 0;
 			// tree.init.prototype.clickedElement = $(this);
 			// options.clickHandler(tree.clickedElement, e);
 			e.stopPropagation();
+			var checked;
+			if ($(this).children().siblings('ul')) {
+				$(this).children().siblings('ul').first().show();
+				$(this).children().siblings('a').find('span').empty(); // remove the closed arrow first
+				$(this).children().siblings('a').find('span').prepend(options.openedArrow); // then add the opened arrow
+			}
 		});
 
 		//arrow click handler close/open
@@ -169,14 +175,18 @@ var globalTreeIdCounter = 0;
 			var checked;
 			if ($(this).siblings('ul')) {
 				$(this).siblings('ul').first().show();
+				$(this).siblings('a').find('span').empty(); // remove the closed arrow first
+				$(this).siblings('a').find('span').prepend(options.openedArrow); // then add the opened arrow
 			}
 			// Clear all necessary radio checks
 			if ($(this).attr('name') == 1) {
 				$('input:radio[name=2]').prop('checked', false);
 				$('input:radio[name=3]').prop('checked', false);
 				$('input:radio[name=4]').prop('checked', false);
+
 				// Add circumstances text to input field
 				$('#firstDropDownTree').SetTitle($(this).siblings().first().text());
+				$('#circumstance').val($(this).siblings().first().text());
 			} else if ($(this).attr('name') == 2) {
 				$('input:radio[name=3]').prop('checked', false);
 				$('input:radio[name=4]').prop('checked', false);
@@ -193,8 +203,10 @@ var globalTreeIdCounter = 0;
 					parentElement.querySelector('input').checked = true;
 					circumstancesText = parentElement.children[1].text + ' / ' + circumstancesText;
 				}
+
 				// Add circumstances text to input field
 				$('#firstDropDownTree').SetTitle(circumstancesText);
+				$('#circumstance').val(circumstancesText);
 			}
 
 			if ($(this).hasClass('fa-square-o')) {
