@@ -1,8 +1,8 @@
 import { initialize, handleJurisdictionChange } from './form';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import leaflet.fullscreenControl
-import leaflet.fullscreenControlOptions
+import fullscreenControl from 'leaflet';
+import fullscreenControlOptions from 'leaflet';
 
 var map = L.map('map').setView([38.033554, -78.50798], 13);
 
