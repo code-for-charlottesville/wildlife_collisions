@@ -1,19 +1,18 @@
 <html lang="en">
-<head>
-	<title>Form Test</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<link rel="stylesheet" href="./src/css/style.css" />
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
-		  rel="stylesheet"
-		  integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
-		  crossorigin="anonymous" />
-	<link rel="stylesheet" href="Control.FullScreen.css" />
-	<script src="Control.FullScreen.js"></script>
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-</head>
+	<head>
+		<title>Form Test</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link rel="stylesheet" href="./src/css/style.css" />
+		<link
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+			rel="stylesheet"
+			integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	</head>
 
 	<body>
 		<div class="container">
@@ -71,11 +70,10 @@
 								</div>
 							</div>
 
-							<div class="col-md-8">
-								<label for="dropDownTreeInput" class="form-label">Circumstances of Rescue</label>
-								<input hidden class="form-control" id="dropDownTreeInput" required>
-								<div class="dropdown dropdown-tree form-select has-validation" id="firstDropDownTree" name="circumstance">
-								</div>
+							<div class="col-md-12">
+								<label for="circumstance" class="form-label">Circumstances of Rescue</label>
+								<input hidden class="form-control" id="circumstance" name="circumstance" required />
+								<div class="dropdown dropdown-tree form-select has-validation" id="firstDropDownTree"></div>
 
 								<div class="invalid-feedback">Please select a valid circumstance.</div>
 							</div>
