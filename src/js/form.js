@@ -3,11 +3,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { setupConfig, config, isConfigValid } from './config.js';
 import './dropdowntree.js';
-let arr = require('../assets/rescuecircumstance.json')
+let arr = require('../assets/rescuecircumstance.json');
 
 const animalForm = document.querySelector('.animal-intake');
 const stateList = document.getElementById('state');
 const states = [...new Set(counties_list.map((x) => x.state_name))]; // using json for better reliability
+
+states.sort((a, b) => {
+	const stateA = a.toUpperCase();
+	const stateB = b.toUpperCase();
+	if (stateA < stateB) {
+		return -1;
+	}
+	if (stateA > stateB) {
+		return 1;
+	}
+	return 0;
+});
 
 export function initialize() {
 	setupConfig();
@@ -25,11 +37,11 @@ export function initialize() {
 
 async function handleJurisdictionChange(event) {
 	const counties = counties_list.filter((x) => {
-		return x.State === event.target.value;
+		return x.state_name === event.target.value;
 	});
 	counties.sort((a, b) => {
-		const countyA = a.County.toUpperCase();
-		const countyB = b.County.toUpperCase();
+		const countyA = a.county.toUpperCase();
+		const countyB = b.county.toUpperCase();
 		if (countyA < countyB) {
 			return -1;
 		}
@@ -53,8 +65,8 @@ async function handleJurisdictionChange(event) {
 	jurisdiction.appendChild(firstOpt);
 	counties.map((x) => {
 		let opt = document.createElement('option');
-		opt.value = x.County;
-		opt.innerHTML = x.County;
+		opt.value = x.county;
+		opt.innerHTML = x.county;
 		jurisdiction.appendChild(opt);
 	});
 }
@@ -72,8 +84,9 @@ async function handleSubmitData(event) {
 		let baseUrl = 'https://docs.google.com/forms/d/e/';
 		let submitTags = '/formResponse?submit=Submit?usp=pp_url';
 		//   Concatenate the google form URL with responses from the intake form and replace spaces with addition signs (+) for submission.
-		let responseURL = baseUrl + config.formUrl + submitTags + config.getUrlTags(formData);
+		let responseURL = baseUrl + config.form_url + submitTags + config.getUrlTags(formData);
 		responseURL = responseURL.replace(/ /g, '+');
+
 		await fetch(responseURL, { method: 'POST', mode: 'no-cors' })
 			// comment the .then out if you want to see debug from this function
 			// otherwise, it will redirect when you submit
@@ -85,16 +98,9 @@ async function handleSubmitData(event) {
 }
 
 var options = {
-	title: 'Circumstances of Rescue...',
+	title: 'Choose...',
 	data: arr,
 	maxHeight: 500,
-	clickHandler: function (element) {
-		$('#firstDropDownTree').SetTitle($(element).find('a').first().text());
-	},
-	expandHandler: function (element, expanded) {},
-	checkHandler: function (element, checked) {
-		this.expandHandler(element);
-	},
 	closedArrow: '<i class="fa fa-caret-right" aria-hidden="true"></i>',
 	openedArrow: '<i class="fa fa-caret-down" aria-hidden="true"></i>',
 	multiSelect: true,
