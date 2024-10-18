@@ -1,8 +1,19 @@
 import { initialize } from './form';
+import counties_list from '../assets/counties_list.json';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
-var map = L.map('map').setView([38.033554, -78.50798], 13);
+import 'leaflet.fullscreen';
+import 'leaflet.fullscreen/Control.FullScreen.css';
+
+const jurisdictionList = document.getElementById('jurisdiction');
+
+let map = L.map('map', {
+	fullscreenControl: true,
+	fullscreenControlOptions: {
+		position: 'topleft',
+	},
+}).setView([38.033554, -78.50798], 13);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -37,5 +48,16 @@ function addMarker(e) {
 		imgElement.src = 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png';
 	}
 }
+
+async function handleJurisdictionCentering(event) {
+	const stateList = document.getElementById('state');
+	const county = counties_list.filter((x) => {
+		return (x.county === event.target.value) & (x.state_name === stateList.value);
+	});
+
+	map.setView([county[0].lat, county[0].lng], 12);
+}
+
+jurisdictionList.addEventListener('change', handleJurisdictionCentering);
 
 initialize();
