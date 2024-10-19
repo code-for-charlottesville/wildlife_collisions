@@ -1,6 +1,6 @@
 body {
-	padding: 50px;
-	font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+	padding: 5vw; /* Use viewport width for padding */
+	font: 1rem 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -8,5 +8,104 @@ a {
 }
 
 #map {
-	height: 551px;
+	height: 50vh; /* Use viewport height for dynamic map size */
+}
+
+/* Media query for tablets and small screens */
+@media (max-width: 768px) {
+	body {
+		padding: 4vw; /* Slightly reduce padding for medium screens */
+		font-size: 0.9rem; /* Slightly reduce font size */
+	}
+
+	#map {
+		height: 40vh; /* Adjust map height for tablets */
+	}
+}
+
+/* dropdowntree css */
+.dropdown.dropdown-tree.form-select {
+	border: 1px solid;
+	border-color: rgb(222, 226, 230);
+	border-radius: 6px;
+	padding: 0;
+}
+
+.dropdown-tree .btn {
+	text-align: start;
+	width: 100%;
+}
+
+button.btn.btn-default:focus {
+	border-color: rgba(13, 110, 253, 0.05);
+}
+
+.dropdown-tree > ul {
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 10px 10px 10px 0;
+	white-space: nowrap;
+	z-index: 2000;
+}
+.dropdown-tree li {
+	list-style: none;
+}
+.dropdown-tree li > i {
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	font-size: 20px;
+	top: 3px;
+}
+.dropdown-tree li:hover {
+	background-color: rgba(128, 179, 255, 0.1);
+	border-color: rgba(128, 179, 255, 0.1);
+	border-radius: 0 8px 8px 0;
+}
+.dropdown-tree li:hover ul {
+	/* background: white; */
+}
+.dropdown-tree li:hover ul li:hover {
+	/* background: #eee; */
+}
+
+.dropdown-tree input {
+	margin-left: 15px;
+}
+.dropdown-tree a {
+	display: inline-block !important;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #333;
+	white-space: nowrap;
+	text-decoration: none;
+	background: transparent !important;
+	position: relative;
+}
+.dropdown-tree .arrow {
+	position: absolute;
+	margin-left: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/*RTL CSS*/
+.rtl-dropdown-tree {
+	direction: rtl !important;
+}
+.rtl-dropdown-tree > ul {
+	right: 0;
+	left: unset;
+	text-align: right;
+}
+.rtl-dropdown-tree .arrow {
+	right: 6px;
+}
+.rtl-dropdown-tree li > i {
+	margin-left: 0;
+	margin-right: 10px;
 }
