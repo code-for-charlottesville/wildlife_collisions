@@ -39,7 +39,6 @@ async function handleJurisdictionChange(event) {
 	const counties = counties_list.filter((x) => {
 		return x.state_name === event.target.value;
 	});
-
 	counties.sort((a, b) => {
 		const countyA = a.county.toUpperCase();
 		const countyB = b.county.toUpperCase();

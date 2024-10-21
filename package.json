@@ -20,7 +20,13 @@
 		"onchange": "^7.1.0",
 		"style-loader": "^4.0.0",
 		"webpack": "^5.93.0",
-		"webpack-cli": "^5.1.4",
 		"webpack-dev-server": "^5.0.4"
+		"webpack-cli": "^5.1.4"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.25.8",
+		"@babel/preset-env": "^7.25.8",
+		"babel-loader": "^9.2.1",
+		"webpack-dev-server": "^5.1.0"
 	}
 }
