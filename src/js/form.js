@@ -91,10 +91,15 @@ async function handleSubmitData(event) {
 		await fetch(responseURL, { method: 'POST', mode: 'no-cors' })
 			// comment the .then out if you want to see debug from this function
 			// otherwise, it will redirect when you submit
-			.then(
-				() => (window.location.href = 'submitted.html'),
-				() => console.log('Failed.')
-			);
+			.then((response) => {
+				if (response.ok) {
+					window.location.href = 'submitted.html'
+				}
+				else{
+					alert("Something went wrong, try again. If the problem persists, check that the site is configured properly.")
+					throw new Error('Form failed to submit');
+				}
+			});
 	}
 }
 
