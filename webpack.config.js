@@ -4,6 +4,7 @@ module.exports = {
     mode: "development",
     entry: {
         app: './src/js/main.js',
+        wizard: "./src/js/wizard.js",
         style: './src/js/bootstrap.js'
     },
     output: {
@@ -21,18 +22,7 @@ module.exports = {
             // CSS rules
             {
                 test: /\.css$/,
-                use: ["style-loader", "css-loader"], // No need for babel-loader here
-            },
-            // JavaScript rules
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env'],
-                    },
-                },
+                use: ["style-loader", "css-loader"],
             },
         ],
     },
