@@ -19,13 +19,14 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
 
+map.setMinZoom(6)
+
 var markerGroup = L.layerGroup().addTo(map);
 map.on('click', addMarker);
 
 function addMarker(e) {
 	markerGroup.clearLayers();
-	L.marker(e.latlng).addTo(markerGroup).bindPopup('Animal found here').openPopup();
-
+	L.marker(e.latlng).addTo(markerGroup);
 	// Populate latitude and longitude data to the form
 	const LAT = document.getElementById('latitude');
 	const LNG = document.getElementById('longitude');
