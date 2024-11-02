@@ -43,22 +43,22 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Behavioral Stranding",
 		"href": "#2",
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Born/Hatched in Captivity",
 		"href": "#3",
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Botanicals",
 		"href": "#4",
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Collision",
@@ -144,7 +144,7 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Confiscation",
@@ -190,17 +190,17 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Dead on Arrival",
 		"href": "#7",
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Electrocution/Electric Shock",
 		"href": "#8",
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Entrapment",
@@ -325,7 +325,7 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Environment",
@@ -384,12 +384,12 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Failure to Thrive/Maladaption",
 		"href": "#11",
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Foreign Body/Object",
@@ -401,7 +401,7 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Inappropriate Human Possession",
@@ -428,12 +428,12 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Nest/Habitat Distrubance/Destruction",
 		"href": "#14",
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Orphan, true",
@@ -450,7 +450,7 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Petrochemicals",
@@ -504,7 +504,7 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Projectile",
@@ -550,7 +550,7 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Referral",
@@ -567,16 +567,16 @@
 				"dataAttrs": [{ "level": 2 }]
 			}
 		],
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "Undetermined",
 		"href": "#19",
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	},
 	{
 		"title": "None of the Above",
 		"href": "#20",
-		"dataAttrs": [{ "level": 1, "parent": false }]
+		"dataAttrs": [{ "level": 1 }]
 	}
 ]
