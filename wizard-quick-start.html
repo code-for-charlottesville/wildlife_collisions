@@ -21,12 +21,8 @@
 			<main>
 				<div class="container">
 					<div class="py-5 text-center">
-						<div class="d-flex justify-content-center">
-							<img class="d-block mb-4" src="src/assets/header-wcv-badge.webp" alt="" width="79px" height="79px" fetchpriority="high" loading="eager" />
-							<img class="d-block mb-4" src="src/assets/header-wcv-mark.svg" alt="Wildlife Center of Virginia" width="140" height="59" />
-						</div>
-						<h2>Setting up your digital animal intake form</h2>
-						<p class="lead">Quickstart</p>
+						<h2>Setting Up Your Digital Animal Intake Form</h2>
+						<p class="lead">Quickstart Guide</p>
 					</div>
 					<h4 class="mb-2">Step 1:</h4>
 					<div class="container mb-4">
@@ -41,18 +37,15 @@
 								window.open(url, '_blank').focus();
 							}
 						</script>
-						<button id="confirmActionButton" class="form-button" onclick="link">Copy Google Form</button>
+						<button id="confirmActionButton" class="form-button" onclick="link()" type="button">Copy Google Form</button>
 					</div>
 					<br />
 					<h4 class="mb-2">Step 3:</h4>
 					<div class="container mb-3">
 						<p>
-							Once you have copied the form, follow the instructions below to create the underlying spreadsheet. (Steps 3.1 - 3.3) <br />
-							<i style="font-size: 14px">
-								<br />
-								Optionally, if you would like to rename the form, now is a good time to do so. To do so, click into the text input field at the top left-hand corner
-								of the site.
-							</i>
+							Feel free to change the form name, but do not edit or delete any of the required questions. If you add any addtional questions, make sure they are
+							<b>not</b> required questions (adding a required question is not supported with this template). Then follow steps 3.1 - 3.3 below to create the
+							underlying spreadsheet.
 						</p>
 					</div>
 					<div class="container mb-3">
@@ -81,14 +74,14 @@
 									<img src="src/assets/wizard_steps/step2.png" class="d-block w-100" />
 									<div class="carousel-caption d-none d-md-block">
 										<h5>Step 3.2</h5>
-										<p>Select Link to Sheets.</p>
+										<p>Click "Link to Sheets".</p>
 									</div>
 								</div>
 								<div class="carousel-item">
 									<img src="src/assets/wizard_steps/step3.png" class="d-block w-100" />
 									<div class="carousel-caption d-none d-md-block">
 										<h5>Step 3.3</h5>
-										<p>Ensuring "Create a new spreadsheet" is selected, click Create. Doing so should open that spreadsheet</p>
+										<p>Make sure "Create a new spreadsheet" is selected, then click Create.</p>
 									</div>
 								</div>
 							</div>
@@ -102,15 +95,10 @@
 							</button>
 						</div>
 					</div>
-					<div class="accordion mb-3" id="step3OptionalAccordion">
-						<i
-							>Optionally, if you would like to add any addtional questions, make sure they are not Required. Adding a required question is not supported with this
-							template.</i
-						>
-					</div>
+					<hr />
 					<h4 class="mb-2">Step 4:</h4>
 					<div class="container mb-3">
-						<p class="mb-1">Return to the Google Form and proceed with steps 4.1 - 4.3 below.</p>
+						<p class="mb-1">Return to the Google Form and proceed with steps 4.1 - 4.3 below to generate the form prefill link.</p>
 						<div class="container mb-3">
 							<div id="googlePrefillCarousel" class="carousel carousel-dark slide" data-bs-wrap="false">
 								<div class="carousel-indicators">
@@ -145,10 +133,8 @@
 										<div class="carousel-caption d-none d-md-block">
 											<h5>Step 4.3</h5>
 											<p>
-												Enter data into question entries with red asterisks next to their names. <br />
-												The data only needs to be a valid entry, the content doesn't matter. <br />
-												For example, entering "a" into each short answer box is entirely acceptable,<br />
-												but entering 88:99 AM into a time field is not.
+												Enter dummy responses into each required question <b>only</b> (marked with a red asterisks). Do not provide responses for
+												non-required questions.
 											</p>
 										</div>
 									</div>
@@ -164,18 +150,17 @@
 							</div>
 						</div>
 						<p>
-							When entering data, make sure you fill in <u>every required field and <b>no other</b> fields.</u><br />
-
-							Once you have entered data into each of the form's required fields, click the button labeled "Get link".
+							Note, in step 4.3 the responses do not need be real patient data, but try to provide a realistic example. Once you have entered responses into each of
+							the form's required fields, click "Get link" at the bottom of the form. Then click "COPY LINK" to copy the link to your clipboard.
 						</p>
 					</div>
 					<hr />
 					<h4 class="mb-2">Step 5:</h4>
 					<div class="container mb-3">
 						<p class="mb-1">Paste the link from Step 4 into the input below.</p>
+						<label for="prefilled-input"></label>
 						<div class="input-group has-validation">
-							<label for="prefilled-input"></label
-							><input type="text" class="form-control" id="prefilled-input" name="prefilled-input" placeholder="Google Form prefilled link" required />
+							<input type="text" class="form-control" id="prefilled-input" name="prefilled-input" placeholder="Google Form prefilled link" required />
 							<div class="invalid-feedback" id="prefill">An error has occurred. Please check your link and try again.</div>
 						</div>
 					</div>

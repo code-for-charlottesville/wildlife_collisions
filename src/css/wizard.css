@@ -48,23 +48,27 @@
 }
 
 #googleSheetCarousel .carousel-inner,
-#googlePrefillCarousel .carousel-inner {
-	padding: 75px 50px 50px;
+#googlePrefillCarousel .carousel-inner,
+#googleFormQCarousel .carousel-inner {
+	padding: 75px 50px 0;
 }
 
 #googleSheetCarousel .carousel-indicators,
-#googlePrefillCarousel .carousel-indicators {
+#googlePrefillCarousel .carousel-indicators,
+#googleFormQCarousel .carousel-indicators {
 	bottom: auto;
 	top: 15px;
 }
 
 #googleSheetCarousel .carousel-item img,
-#googlePrefillCarousel .carousel-item img {
+#googlePrefillCarousel .carousel-item img,
+#googleFormQCarousel .carousel-item img {
 	margin-top: 5rem;
 }
 
 #googleSheetCarousel .carousel-item .carousel-caption,
-#googlePrefillCarousel .carousel-item .carousel-caption {
+#googlePrefillCarousel .carousel-item .carousel-caption,
+#googleFormQCarousel .carousel-item .carousel-caption {
 	bottom: auto;
 	left: auto;
 	margin: 0 auto;
@@ -77,7 +81,9 @@
 #googleSheetCarousel .carousel-control-prev,
 #googleSheetCarousel .carousel-control-next,
 #googlePrefillCarousel .carousel-control-prev,
-#googlePrefillCarousel .carousel-control-next {
+#googlePrefillCarousel .carousel-control-next,
+#googleFormQCarousel .carousel-control-prev,
+#googleFormQCarousel .carousel-control-next {
 	border: 1px solid black;
 	border-radius: 50%;
 	bottom: auto;
@@ -90,13 +96,16 @@
 #googleSheetCarousel .carousel-control-prev:hover,
 #googleSheetCarousel .carousel-control-next:hover,
 #googlePrefillCarousel .carousel-control-prev:hover,
-#googlePrefillCarousel .carousel-control-next:hover {
+#googlePrefillCarousel .carousel-control-next:hover,
+#googleFormQCarousel .carousel-control-prev:hover,
+#googleFormQCarousel .carousel-control-next:hover {
 	background-color: lightgray;
 }
 
 @media (min-width: 992px) {
 	#googleSheetCarousel,
-	#googlePrefillCarousel {
+	#googlePrefillCarousel,
+	#step3OptionalAccordion .accordion-item {
 		width: 80%;
 	}
 }
