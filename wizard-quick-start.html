@@ -21,30 +21,28 @@
 			<main>
 				<div class="container">
 					<div class="py-5 text-center">
-						<h2>Setting Up Your Digital Animal Intake Form</h2>
+						<h2>Setting Up Your Animal Intake Web Form</h2>
 						<p class="lead">Quickstart Guide</p>
 					</div>
 					<h4 class="mb-2">Step 1:</h4>
 					<div class="container mb-4">
-						<p>Make sure you're signed in to the primary Google account you wish to connect the form with.</p>
-					</div>
-					<br />
-					<h4 class="mb-2">Step 2:</h4>
-					<div class="container mb-4">
-						<p class="mb-1">Create a copy of the underlying Google Form by clicking "Copy Google Form" below. On the opened page click "Make a copy".</p>
+						<p>
+							Make sure you're signed in to the primary Google account you wish to connect the form with. Then create a copy of the template Google Form by clicking
+							"Copy Google Form" below. On the opened page click "Make a copy".
+						</p>
 						<script>
 							function link() {
 								window.open(url, '_blank').focus();
 							}
 						</script>
-						<button id="confirmActionButton" class="form-button" onclick="link()" type="button">Copy Google Form</button>
+						<button id="confirmActionButton" class="form-button" onclick="link" type="button">Copy Google Form</button>
 					</div>
 					<br />
-					<h4 class="mb-2">Step 3:</h4>
+					<h4 class="mb-2">Step 2:</h4>
 					<div class="container mb-3">
 						<p>
 							Feel free to change the form name, but do not edit or delete any of the required questions. If you add any addtional questions, make sure they are
-							<b>not</b> required questions (adding a required question is not supported with this template). Then follow steps 3.1 - 3.3 below to create the
+							<b>not</b> required questions (adding a required question is not supported with this template). Then follow steps 2.1 - 2.3 below to create the
 							underlying spreadsheet.
 						</p>
 					</div>
@@ -66,21 +64,21 @@
 								<div class="carousel-item active">
 									<img src="src/assets/wizard_steps/step1.png" class="d-block w-100" />
 									<div class="carousel-caption d-none d-md-block">
-										<h5>Step 3.1</h5>
+										<h5>Step 2.1</h5>
 										<p>Upon copying the form, navigate to the Responses tab at the top of the page.</p>
 									</div>
 								</div>
 								<div class="carousel-item">
 									<img src="src/assets/wizard_steps/step2.png" class="d-block w-100" />
 									<div class="carousel-caption d-none d-md-block">
-										<h5>Step 3.2</h5>
+										<h5>Step 2.2</h5>
 										<p>Click "Link to Sheets".</p>
 									</div>
 								</div>
 								<div class="carousel-item">
 									<img src="src/assets/wizard_steps/step3.png" class="d-block w-100" />
 									<div class="carousel-caption d-none d-md-block">
-										<h5>Step 3.3</h5>
+										<h5>Step 2.3</h5>
 										<p>Make sure "Create a new spreadsheet" is selected, then click Create.</p>
 									</div>
 								</div>
@@ -96,9 +94,9 @@
 						</div>
 					</div>
 					<hr />
-					<h4 class="mb-2">Step 4:</h4>
+					<h4 class="mb-2">Step 3:</h4>
 					<div class="container mb-3">
-						<p class="mb-1">Return to the Google Form and proceed with steps 4.1 - 4.3 below to generate the form prefill link.</p>
+						<p class="mb-1">Return to the Google Form and proceed with steps 3.1 - 3.3 below to generate the form prefill link.</p>
 						<div class="container mb-3">
 							<div id="googlePrefillCarousel" class="carousel carousel-dark slide" data-bs-wrap="false">
 								<div class="carousel-indicators">
@@ -117,21 +115,21 @@
 									<div class="carousel-item active">
 										<img src="src/assets/wizard_steps/step7.png" class="d-block w-100" />
 										<div class="carousel-caption d-none d-md-block">
-											<h5>Step 4.1</h5>
+											<h5>Step 3.1</h5>
 											<p>Select the three vertical dots (⋮) in the upper right corner of the site .</p>
 										</div>
 									</div>
 									<div class="carousel-item">
 										<img src="src/assets/wizard_steps/step8.png" class="d-block w-100" />
 										<div class="carousel-caption d-none d-md-block">
-											<h5>Step 4.2</h5>
+											<h5>Step 3.2</h5>
 											<p>From the dropdown, choose "Get pre-filled link".</p>
 										</div>
 									</div>
 									<div class="carousel-item">
 										<img src="src/assets/wizard_steps/step9.png" class="d-block w-100" />
 										<div class="carousel-caption d-none d-md-block">
-											<h5>Step 4.3</h5>
+											<h5>Step 3.3</h5>
 											<p>
 												Enter dummy responses into each required question <b>only</b> (marked with a red asterisks). Do not provide responses for
 												non-required questions.
@@ -150,14 +148,14 @@
 							</div>
 						</div>
 						<p>
-							Note, in step 4.3 the responses do not need be real patient data, but try to provide a realistic example. Once you have entered responses into each of
+							Note, in step 3.3 the responses do not need be real patient data, but try to provide a realistic example. Once you have entered responses into each of
 							the form's required fields, click "Get link" at the bottom of the form. Then click "COPY LINK" to copy the link to your clipboard.
 						</p>
 					</div>
 					<hr />
-					<h4 class="mb-2">Step 5:</h4>
+					<h4 class="mb-2">Step 4:</h4>
 					<div class="container mb-3">
-						<p class="mb-1">Paste the link from Step 4 into the input below.</p>
+						<p class="mb-1">Paste the link from Step 3 into the input below.</p>
 						<label for="prefilled-input"></label>
 						<div class="input-group has-validation">
 							<input type="text" class="form-control" id="prefilled-input" name="prefilled-input" placeholder="Google Form prefilled link" required />
