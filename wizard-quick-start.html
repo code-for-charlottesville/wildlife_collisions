@@ -37,120 +37,25 @@
 						</script>
 						<button id="confirmActionButton" class="form-button" onclick="link" type="button">Copy Google Form</button>
 					</div>
-					<br />
+					<hr />
 					<h4 class="mb-2">Step 2:</h4>
 					<div class="container mb-3">
 						<p>
-							Feel free to change the form name, but do not edit or delete any of the required questions. If you add any addtional questions, make sure they are
-							<b>not</b> required questions (adding a required question is not supported with this template). Then follow steps 2.1 - 2.3 below to create the
-							underlying spreadsheet.
+							Feel free to change the form name, but do not edit or delete any of the required questions. Next navigate to the Responses tab and click "Link to
+							Sheets" to create a new spreadsheet.
 						</p>
-					</div>
-					<div class="container mb-3">
-						<div id="googleSheetCarousel" class="carousel carousel-dark slide" data-bs-wrap="false">
-							<div class="carousel-indicators">
-								<button
-									type="button"
-									data-bs-target="#carouselExampleIndicators"
-									data-bs-slide-to="0"
-									class="active"
-									aria-current="true"
-									aria-label="Slide 1"
-								></button>
-								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-							</div>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="src/assets/wizard_steps/step1.png" class="d-block w-100" />
-									<div class="carousel-caption d-none d-md-block">
-										<h5>Step 2.1</h5>
-										<p>Upon copying the form, navigate to the Responses tab at the top of the page.</p>
-									</div>
-								</div>
-								<div class="carousel-item">
-									<img src="src/assets/wizard_steps/step2.png" class="d-block w-100" />
-									<div class="carousel-caption d-none d-md-block">
-										<h5>Step 2.2</h5>
-										<p>Click "Link to Sheets".</p>
-									</div>
-								</div>
-								<div class="carousel-item">
-									<img src="src/assets/wizard_steps/step3.png" class="d-block w-100" />
-									<div class="carousel-caption d-none d-md-block">
-										<h5>Step 2.3</h5>
-										<p>Make sure "Create a new spreadsheet" is selected, then click Create.</p>
-									</div>
-								</div>
-							</div>
-							<button class="carousel-control-prev" type="button" data-bs-target="#googleSheetCarousel" data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-							</button>
-							<button class="carousel-control-next" type="button" data-bs-target="#googleSheetCarousel" data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</button>
-						</div>
 					</div>
 					<hr />
 					<h4 class="mb-2">Step 3:</h4>
 					<div class="container mb-3">
-						<p class="mb-1">Return to the Google Form and proceed with steps 3.1 - 3.3 below to generate the form prefill link.</p>
-						<div class="container mb-3">
-							<div id="googlePrefillCarousel" class="carousel carousel-dark slide" data-bs-wrap="false">
-								<div class="carousel-indicators">
-									<button
-										type="button"
-										data-bs-target="#carouselExampleIndicators"
-										data-bs-slide-to="0"
-										class="active"
-										aria-current="true"
-										aria-label="Slide 1"
-									></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-								</div>
-								<div class="carousel-inner">
-									<div class="carousel-item active">
-										<img src="src/assets/wizard_steps/step7.png" class="d-block w-100" />
-										<div class="carousel-caption d-none d-md-block">
-											<h5>Step 3.1</h5>
-											<p>Select the three vertical dots (⋮) in the upper right corner of the site .</p>
-										</div>
-									</div>
-									<div class="carousel-item">
-										<img src="src/assets/wizard_steps/step8.png" class="d-block w-100" />
-										<div class="carousel-caption d-none d-md-block">
-											<h5>Step 3.2</h5>
-											<p>From the dropdown, choose "Get pre-filled link".</p>
-										</div>
-									</div>
-									<div class="carousel-item">
-										<img src="src/assets/wizard_steps/step9.png" class="d-block w-100" />
-										<div class="carousel-caption d-none d-md-block">
-											<h5>Step 3.3</h5>
-											<p>
-												Enter dummy responses into each required question <b>only</b> (marked with a red asterisks). Do not provide responses for
-												non-required questions.
-											</p>
-										</div>
-									</div>
-								</div>
-								<button class="carousel-control-prev" type="button" data-bs-target="#googlePrefillCarousel" data-bs-slide="prev">
-									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-									<span class="visually-hidden">Previous</span>
-								</button>
-								<button class="carousel-control-next" type="button" data-bs-target="#googlePrefillCarousel" data-bs-slide="next">
-									<span class="carousel-control-next-icon" aria-hidden="true"></span>
-									<span class="visually-hidden">Next</span>
-								</button>
-							</div>
-						</div>
-						<p>
-							Note, in step 3.3 the responses do not need be real patient data, but try to provide a realistic example. Once you have entered responses into each of
-							the form's required fields, click "Get link" at the bottom of the form. Then click "COPY LINK" to copy the link to your clipboard.
+						<p class="mb-1">
+							Return to the Google Form and under more options select "Get pre-filled link". Then enter dummy responses into <b>only</b> required question (marked
+							with a red asterisks). Do not provide responses for non-required questions.
 						</p>
+						<i
+							>Note the responses do not need be real patient data, but try to provide a realistic example. Once you have entered responses into each of the form's
+							required fields, click "Get link" at the bottom of the form. Then click "COPY LINK" to copy the link to your clipboard.
+						</i>
 					</div>
 					<hr />
 					<h4 class="mb-2">Step 4:</h4>
@@ -173,7 +78,7 @@
 			</ul>
 		</footer>
 	</body>
-	<!--<script src="./dist/style.js" defer async></script>-->
+	<script src="style.js" defer async></script>
 	<script src="wizard.js" defer async></script>
 	<div id="out"></div>
 </html>
