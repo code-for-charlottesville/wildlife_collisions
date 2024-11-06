@@ -91,10 +91,11 @@ async function handleSubmitData(event) {
 			// comment the .then out if you want to see debug from this function
 			// otherwise, it will redirect when you submit
 			.then((response) => {
-				if (response.ok) {
-					window.location.href = 'submitted.html'
+				if (response.status === 0) {
+					window.location.href = 'submitted.html' //opaque response
 				}
 				else{
+					console.log(response)
 					alert("Something went wrong, try again. If the problem persists, check that the site is configured properly.")
 					throw new Error('Form failed to submit');
 				}
