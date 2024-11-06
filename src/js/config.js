@@ -10,7 +10,7 @@ export let config = {
 
 const configObj = require('../../config.json');
 
-const formEntries =
+export const formEntries =
     [
         "date_found",
         "time_found",
