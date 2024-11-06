@@ -28,13 +28,13 @@ const formEntries =
 let htmlFormEntries = {}
 
 export function setupConfig(){
-    const warnings = testEntries(configObj.form_entries)
+    const warnings = validateEntries(configObj.form_entries)
     warnings.forEach(a => console.log(a));
 }
 /*
     This function takes in an array
  */
-export function testEntries(inputEntries){
+export function validateEntries(inputEntries){
     let warnings = []
     // ideally, the configObj matches the formEntriesHtml array one-for-one
     let unexpectedEntries = structuredClone(formEntries)
