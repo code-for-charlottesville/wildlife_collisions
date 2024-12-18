@@ -1,5 +1,4 @@
 import counties_list from '../assets/counties_list.json';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { setupConfig, config, isConfigValid } from './config.js';
 import './dropdowntree.js';
@@ -21,7 +20,7 @@ states.sort((a, b) => {
 	return 0;
 });
 
-export function initialize() {
+export function initialize() {``
 	setupConfig();
 	// Load states into dropdown options
 	let stateOptions = document.getElementById('state');
