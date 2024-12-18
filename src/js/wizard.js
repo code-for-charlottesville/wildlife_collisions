@@ -1,8 +1,8 @@
 import {validateEntries, formEntries} from "./config";
-import * as url from "url";
 
 const org = "code-for-charlottesville"
-const repo = "wildlife-collisions"
+const repo = "wildlife_collisions"
+const branch_name = "form"
 
 // objects
 
@@ -18,14 +18,14 @@ let github = {
 
 // helper functions
 
-function goToUrl(url){
+function openUrlNewTab(url){
     window.open(url, '_blank').focus();
 }
 
 // form prefill
 
 window.copyForm = function() {
-    goToUrl("https://docs.google.com/forms/d/1pk46eKwpl5gtdLhj9Z8N1rnbQZzuRIF8ycGPbNpbeOE/copy")
+    openUrlNewTab("https://docs.google.com/forms/d/1pk46eKwpl5gtdLhj9Z8N1rnbQZzuRIF8ycGPbNpbeOE/copy")
 }
 
 let prefilled = document.getElementById("prefilled-input")
@@ -77,7 +77,7 @@ function validatePrefilledLink() {
 // github
 
 window.githubSetup = function() {
-    goToUrl("https://github.com/setup")
+    openUrlNewTab("https://github.com/setup")
 }
 
 let github_input = document.getElementById("github-input")
@@ -93,18 +93,27 @@ function validateGithub(){
         github_warn.innerText = ""
         github.username = username
     } else {
-            github_warn.innerText = "Invalid entry. Github usernames only contain uppercase and lowercase letters, numbers, and hyphens"
+        github_warn.innerText = "Invalid entry. Github usernames only contain uppercase and lowercase letters, numbers, and hyphens"
     }
 }
 
 const GithubLocation = {
-    FORK: true,
-    JSON: false
+    INVALID: 0,
+    FORK: 1,
+    JSON: 2,
+}
+
+window.githubUserFork = function() {
+    goToGithub(GithubLocation.FORK)
+}
+
+window.githubUserJson = function() {
+    goToGithub(GithubLocation.JSON)
 }
 
 function goToGithub(location /* of type GithubLocation*/){
     if(github.username === undefined){
-        github_warn = "Please enter your github username first"
+        github_warn.innerText = "Please enter your github username first"
         github_input.scrollIntoView()
         return
     }
@@ -114,8 +123,8 @@ function goToGithub(location /* of type GithubLocation*/){
             githubUrl = org + "/" + repo + "/fork"
             break;
         case GithubLocation.JSON:
-            githubUrl = github.username + "/" + repo + "blob/main/config.json"
+            githubUrl = github.username + "/" + repo + "/edit/" + branch_name + "/config.json"
             break;
     }
-    goToUrl("https://github.com/"+githubUrl)
+    openUrlNewTab("https://github.com/"+githubUrl)
 }

@@ -117,3 +117,37 @@
 		width: 80%;
 	}
 }
+
+.github-btn:hover, .github-btn.hover{
+	border-color: #3d444d;
+	background-color: #D4DADF;
+	transition-duration: .1s;
+}
+.github-btn:hover {
+	text-decoration: none;
+}
+
+.github-btn-block {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.github-btn {
+	color: #212830;
+	background-color: #f0f6fc;
+	box-shadow: #000000;
+	transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
+	transition-property: color, background-color, box-shadow, border-color;
+	position: relative;
+	padding: 5px 1rem;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid #59606A;
+	border-radius: 6px;
+	appearance: none;
+}
