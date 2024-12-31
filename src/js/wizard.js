@@ -1,7 +1,8 @@
-import { validateEntries, formEntries } from './config';
+import {validateEntries, formEntries} from "./config";
 
-const org = 'code-for-charlottesville';
-const repo = 'wildlife-collisions';
+const org = "code-for-charlottesville"
+const repo = "wildlife_collisions"
+const branch_name = "form"
 
 // objects
 
@@ -17,15 +18,15 @@ let github = {
 
 // helper functions
 
-function goToUrl(url) {
-	window.open(url, '_blank').focus();
+function openUrlNewTab(url){
+    window.open(url, '_blank').focus();
 }
 
 // form prefill
 
-window.copyForm = function () {
-	goToUrl('https://docs.google.com/forms/d/1pk46eKwpl5gtdLhj9Z8N1rnbQZzuRIF8ycGPbNpbeOE/copy');
-};
+window.copyForm = function() {
+    openUrlNewTab("https://docs.google.com/forms/d/1pk46eKwpl5gtdLhj9Z8N1rnbQZzuRIF8ycGPbNpbeOE/copy")
+}
 
 let prefilled = document.getElementById('prefilled-input');
 prefilled.onchange = function () {
@@ -77,9 +78,9 @@ function validatePrefilledLink() {
 
 // github
 
-window.githubSetup = function () {
-	goToUrl('https://github.com/setup');
-};
+window.githubSetup = function() {
+    openUrlNewTab("https://github.com/setup")
+}
 
 let github_input = document.getElementById('github-input');
 github_input.onchange = function () {
@@ -87,38 +88,47 @@ github_input.onchange = function () {
 };
 let github_warn = document.getElementById('github-input-warn');
 
-function validateGithub() {
-	let usernameValidator = new RegExp(/^[A-Za-z0-9][A-Za-z0-9-]*$/);
-	let username = github_input.value;
-	if (!username || username === '') {
-		github_warn.innerText = '';
-	} else if (usernameValidator.test(username)) {
-		github_warn.innerText = '';
-		github.username = username;
-	} else {
-		github_warn.innerText = 'Invalid entry. Github usernames only contain uppercase and lowercase letters, numbers, and hyphens';
-	}
+function validateGithub(){
+    let usernameValidator = new RegExp(/^[A-Za-z0-9][A-Za-z0-9-]*$/);
+    let username = github_input.value
+    if(!username || username === "") {
+        github_warn.innerText = ""
+    } else if (usernameValidator.test(username)) {
+        github_warn.innerText = ""
+        github.username = username
+    } else {
+        github_warn.innerText = "Invalid entry. Github usernames only contain uppercase and lowercase letters, numbers, and hyphens"
+    }
 }
 
 const GithubLocation = {
-	FORK: true,
-	JSON: false,
-};
+    INVALID: 0,
+    FORK: 1,
+    JSON: 2,
+}
 
-function goToGithub(location /* of type GithubLocation*/) {
-	if (github.username === undefined) {
-		github_warn = 'Please enter your github username first';
-		github_input.scrollIntoView();
-		return;
-	}
-	let githubUrl = '';
-	switch (location) {
-		case GithubLocation.FORK:
-			githubUrl = org + '/' + repo + '/fork';
-			break;
-		case GithubLocation.JSON:
-			githubUrl = github.username + '/' + repo + 'blob/main/config.json';
-			break;
-	}
-	goToUrl('https://github.com/' + githubUrl);
+window.githubUserFork = function() {
+    goToGithub(GithubLocation.FORK)
+}
+
+window.githubUserJson = function() {
+    goToGithub(GithubLocation.JSON)
+}
+
+function goToGithub(location /* of type GithubLocation*/){
+    if(github.username === undefined){
+        github_warn.innerText = "Please enter your github username first"
+        github_input.scrollIntoView()
+        return
+    }
+    let githubUrl = ""
+    switch (location){
+        case GithubLocation.FORK:
+            githubUrl = org + "/" + repo + "/fork"
+            break;
+        case GithubLocation.JSON:
+            githubUrl = github.username + "/" + repo + "/edit/" + branch_name + "/config.json"
+            break;
+    }
+    openUrlNewTab("https://github.com/"+githubUrl)
 }
