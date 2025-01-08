@@ -1,56 +1,37 @@
 <html lang="en">
 	<head>
-		<title>Form Wizard</title>
+		<title>Form Wizard - Full Guide</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<link rel="stylesheet" href="./src/css/wizard.css" />
+		<link rel="stylesheet" href="../src/css/wizard.css" />
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
 			crossorigin="anonymous"
 		/>
+
     </head>
 	<body>
+	<main>
 		<div class="container">
-			<main>
-				<div class="container">
-					<div class="py-5 text-center">
-						<div class="d-flex justify-content-center">
-							<img class="d-block mb-4" src="src/assets/header-wcv-badge.webp" alt="" width="79px" height="79px" fetchpriority="high" loading="eager" />
-							<img class="d-block mb-4" src="src/assets/header-wcv-mark.svg" alt="Wildlife Center of Virginia" width="140" height="59" />
-						</div>
-						<h2>Setting up your form</h2>
-						<p class="lead">This page will walk you through how to get your version of this form up and running</p>
+			<div class="container">
+				<div class="py-5">
+					<div class="d-flex justify-content-center">
+						<img class="d-block mb-4" src="../src/assets/header-wcv-badge.webp" alt="" width="79px" height="79px" fetchpriority="high" loading="eager" />
+						<img class="d-block mb-4" src="../src/assets/header-wcv-mark.svg" alt="Wildlife Center of Virginia" width="140" height="59" />
 					</div>
 					<ul class="nav nav-tabs justify-content-center gap-3 mb-5" id="myTab" role="tablist">
 						<li class="nav-item" role="presentation">
-							<button
-								class="nav-link active"
-								id="home-tab"
-								data-bs-toggle="tab"
-								data-bs-target="#home-tab-pane"
-								type="button"
-								role="tab"
-								aria-controls="home-tab-pane"
-								aria-selected="true"
-							>
+							<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+								type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
 								Full Guide
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button
-								class="nav-link"
-								id="profile-tab"
-								data-bs-toggle="tab"
-								data-bs-target="#profile-tab-pane"
-								type="button"
-								role="tab"
-								aria-controls="profile-tab-pane"
-								aria-selected="false"
-							>
+							<a class="nav-link" href="quickstart.html">
 								Quickstart Guide
-							</button>
+							</a>
 						</li>
 					</ul>
 					<div class="tab-content" id="myTabContent">
@@ -97,21 +78,21 @@
 									</div>
 									<div class="carousel-inner">
 										<div class="carousel-item active">
-											<img src="src/assets/wizard_steps/step1.png" class="d-block w-100" />
+											<img src="../src/assets/wizard_steps/step1.png" class="d-block w-100" />
 											<div class="carousel-caption d-none d-md-block">
 												<h5>Step 3.1</h5>
 												<p>Upon copying the form, navigate to the Responses tab at the top of the page.</p>
 											</div>
 										</div>
 										<div class="carousel-item">
-											<img src="src/assets/wizard_steps/step2.png" class="d-block w-100" />
+											<img src="../src/assets/wizard_steps/step2.png" class="d-block w-100" />
 											<div class="carousel-caption d-none d-md-block">
 												<h5>Step 3.2</h5>
 												<p>Select Link to Sheets.</p>
 											</div>
 										</div>
 										<div class="carousel-item">
-											<img src="src/assets/wizard_steps/step3.png" class="d-block w-100" />
+											<img src="../src/assets/wizard_steps/step3.png" class="d-block w-100" />
 											<div class="carousel-caption d-none d-md-block">
 												<h5>Step 3.3</h5>
 												<p>Ensuring "Create a new spreadsheet" is selected, click Create. Doing so should open that spreadsheet</p>
@@ -166,26 +147,26 @@
 														</div>
 														<div class="carousel-inner">
 															<div class="carousel-item active">
-																<img src="src/assets/wizard_steps/step4.png" class="d-block w-100" />
+																<img src="../src/assets/wizard_steps/step4.png" class="d-block w-100" />
 																<div class="carousel-caption d-none d-md-block">
 																	<h5>Step 3.4</h5>
 																	<p>Return to the Google form, and select the "Add question" button in the question tab.</p>
 																</div>
 															</div>
 															<div class="carousel-item">
-																<img src="src/assets/wizard_steps/step5.png" class="d-block w-100" />
+																<img src="../src/assets/wizard_steps/step5.png" class="d-block w-100" />
 																<div class="carousel-caption d-none d-md-block">
 																	<h5>Step 3.5</h5>
 																	<p>On the newly created question, select the dropdown labeled Multiple Choice</p>
 																</div>
 															</div>
 															<div class="carousel-item">
-																<img src="src/assets/wizard_steps/step6.png" class="d-block w-100" />
+																<img src="../src/assets/wizard_steps/step6.png" class="d-block w-100" />
 																<div class="carousel-caption d-none d-md-block">
 																	<h5>Step 3.6</h5>
 																	<p>
 																		Select Short Answer from the dropdown. You're now able to select the box labeled "Question" to name the
-																		question what you want. Doing so will propagate to the Google Sheet the next time the form is submitted.
+																		question the name you want. Doing so will propagate to the Google Sheet the next time the form is submitted.
 																	</p>
 																</div>
 															</div>
@@ -201,6 +182,40 @@
 													</div>
 												</div>
 											</div>
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<img src="../src/assets/wizard_steps/step4.png" class="d-block w-100" />
+													<div class="carousel-caption d-none d-md-block">
+														<h5>Step 3.4</h5>
+														<p>Return to the Google form, and select the "Add question" button in the question tab.</p>
+													</div>
+												</div>
+												<div class="carousel-item">
+													<img src="../src/assets/wizard_steps/step5.png" class="d-block w-100" />
+													<div class="carousel-caption d-none d-md-block">
+														<h5>Step 3.5</h5>
+														<p>On the newly created question, select the dropdown labeled Multiple Choice</p>
+													</div>
+												</div>
+												<div class="carousel-item">
+													<img src="../src/assets/wizard_steps/step6.png" class="d-block w-100" />
+													<div class="carousel-caption d-none d-md-block">
+														<h5>Step 3.6</h5>
+														<p>
+															Select Short Answer from the dropdown. You're now able to select the box labeled "Question" to name the question
+															what you want. Doing so will propagate to the Google Sheet the next time the form is submitted.
+														</p>
+													</div>
+												</div>
+											</div>
+											<button class="carousel-control-prev" type="button" data-bs-target="#googleFormQCarousel" data-bs-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="visually-hidden">Previous</span>
+											</button>
+											<button class="carousel-control-next" type="button" data-bs-target="#googleFormQCarousel" data-bs-slide="next">
+												<span class="carousel-control-next-icon" aria-hidden="true"></span>
+												<span class="visually-hidden">Next</span>
+											</button>
 										</div>
 									</div>
 								</div>
@@ -225,21 +240,21 @@
 										</div>
 										<div class="carousel-inner">
 											<div class="carousel-item active">
-												<img src="src/assets/wizard_steps/step7.png" class="d-block w-100" />
+												<img src="../src/assets/wizard_steps/step7.png" class="d-block w-100" />
 												<div class="carousel-caption d-none d-md-block">
 													<h5>Step 4.1</h5>
 													<p>Select the three vertical dots (⋮) in the upper right corner of the site .</p>
 												</div>
 											</div>
 											<div class="carousel-item">
-												<img src="src/assets/wizard_steps/step8.png" class="d-block w-100" />
+												<img src="../src/assets/wizard_steps/step8.png" class="d-block w-100" />
 												<div class="carousel-caption d-none d-md-block">
 													<h5>Step 4.2</h5>
 													<p>From the dropdown, choose "Get pre-filled link".</p>
 												</div>
 											</div>
 											<div class="carousel-item">
-												<img src="src/assets/wizard_steps/step9.png" class="d-block w-100" />
+												<img src="../src/assets/wizard_steps/step9.png" class="d-block w-100" />
 												<div class="carousel-caption d-none d-md-block">
 													<h5>Step 4.3</h5>
 													<p>
@@ -267,16 +282,14 @@
 								</p>
 							</div>
 							<hr />
-							<h4 class="mb-2">Step 5:</h4>
+							<h4 class="mb-2" id="step5">Step 5:</h4>
 							<div class="container mb-3">
 								<p class="mb-1">Paste the link from Step 4 into the input below.</p>
 								<label for="prefilled-input"></label>
-								<div class="input-group has-validation">
-									<input type="text" class="form-control" id="prefilled-input" name="prefilled-input" placeholder="Google Form prefilled link" required />
-									<div class="invalid-feedback" id="prefill">An error has occurred. Please check your link and try again.</div>
-								</div>
+								<input type="text" class="form-control" id="prefilled-input" name="prefilled-input" placeholder="Google Form prefilled link" required />
+								<p id="prefilled-input-warn" style="color: red"></p>
 							</div>
-
+							<hr/>
 							<h4 class="mb-2">Step 6:</h4>
 							<div class="container mb-3">
 								<p class="mb-1">
@@ -288,94 +301,78 @@
 								<label for="github-input"></label>
 								<div class="input-group has-validation">
 									<input type="text" class="form-control" id="github-input" name="github-input" placeholder="GitHub username" required />
-									<div class="invalid-feedback" id="github">Invalid entry, .</div>
+									<p class="invalid-feedback" id="github" style="display: none"></div>
 								</div>
 								<p id="github-input-warn" style="color: red"></p>
 							</div>
+							<hr/>
 							<h4 class="mb-2">Step 7:</h4>
 							<div class="container mb-3">
-								<p>Go fork</p>
+								<p>This step serves to create a "repository", which will act as the website for the form.</p>
+								<p>"Forking" allows for your user to have its own version of the form.</p>
+								<p>Upon clicking the button below, GitHub.com will open in another tab.</p>
+								<p>When it does, simply click the green "Create fork" button and then return to this page.</p>
+								<p>Go ahead and press the button now.</p>
 								<button id="githubForkButton" class="github-btn" onclick="githubUserFork()">Fork the repository</button>
 							</div>
+							<hr/>
 							<h4 class="mb-2">Step 8:</h4>
-							<div class="container mb-3">
-								<p>Go edit</p>
-								<button id="githubJsonButton" class="github-btn" onclick="githubUserJson()">Edit the JSON</button>
-							</div>
-						</div>
-						<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-							<h4 class="mb-2">Step 1:</h4>
-							<div class="container mb-4">
-								<p>
-									Make sure you're signed in to the primary Google account you wish to connect the form with. Then create a copy of the template Google Form by
-									clicking "Copy Google Form" below.
-								</p>
-								<button id="confirmActionButton" class="form-button" onclick="copyForm()" type="button">Copy Google Form</button>
-							</div>
-							<hr />
-							<h4 class="mb-2">Step 2:</h4>
-							<div class="container mb-3">
-								<p>
-									Feel free to change the form name, but do not edit or delete any of the required questions. Next navigate to the Responses tab and click "Link
-									to Sheets" to create a new spreadsheet.
-								</p>
-							</div>
-							<hr />
-							<h4 class="mb-2">Step 3:</h4>
-							<div class="container mb-3">
-								<p class="mb-1">
-									Return to the Google Form and under more options select "Get pre-filled link". Then enter dummy responses into <b>only</b> required question
-									(marked with a red asterisks). Do not provide responses for non-required questions.
-								</p>
-								<i
-									>Note the responses do not need be real patient data, but try to provide a realistic example. Once you have entered responses into each of the
-									form's required fields, click "Get link" at the bottom of the form. Then click "COPY LINK" to copy the link to your clipboard.
-								</i>
-							</div>
-							<hr />
-							<h4 class="mb-2">Step 4:</h4>
-							<div class="container mb-3">
-								<p class="mb-1">Paste the link from Step 3 into the input below.</p>
-								<label for="prefilled-input"></label>
-								<div class="input-group has-validation">
-									<input type="text" class="form-control" id="prefilled-input" name="prefilled-input" placeholder="Google Form prefilled link" required />
-									<div class="invalid-feedback" id="prefill">An error has occurred. Please check your link and try again.</div>
-								</div>
-							</div>
-							<hr />
-							<h4 class="mb-2">Step 5:</h4>
-							<div class="container mb-3">
-								<p class="mb-1">Enter the GitHub account username you wish to use for hosting the digital form.</p>
-								<label for="github-input"></label>
-								<div class="input-group has-validation">
-									<input type="text" class="form-control" id="github-input" name="github-input" placeholder="GitHub username" required />
-									<div class="invalid-feedback" id="github">Invalid entry, .</div>
-								</div>
-								<p id="github-input-warn" style="color: red"></p>
-							</div>
-							<h4 class="mb-2">Step 6:</h4>
-							<div class="container mb-3">
-								<p>Fork a copy of the repository</p>
-								<button id="githubForkButton" class="github-btn" onclick="githubUserFork()">Fork the repository</button>
-							</div>
-							<h4 class="mb-2">Step 7:</h4>
-							<div class="container mb-3">
-								<p>Edit the config.json file</p>
-								<button id="githubJsonButton" class="github-btn" onclick="githubUserJson()">Edit the JSON</button>
-							</div>
-						</div>
-					</div>
-			</main>
-		</div>
+							<div class="container mb-2">
+								<p>This next step is important for setting up your site with your form's unique data.
+								If you are not receiving form responses in your Google Sheet, it is because either this
+									step or a previous step was done incorrectly (especially Step 4).</p>
+								<ol>
+									<li>Press the "Copy configuration" button to copy the configuration data.</li>
+								</ol>
+								<button id="githubCopyButton" class="github-btn" onclick="githubCopyConfig()">Copy configuration</button>
+								<p id="github-copy-success" style="display: none; color: gray">Success!</p>
+								<p id="github-copy-warn" style="display: none; color: red">Ensure that you have entered a pre-filled link</p>
+								<p></p>
+								<ol start="2">
+									<li>Select the "Edit configuration" button below to open your site's configuration file in a new tab.</li>
+								</ol>
+								<button id="githubJsonButton" class="github-btn" onclick="githubEditConfig()">Edit configuration</button>
+								<p></p>
+								<ol start="3">
+									<li>Delete the contents of the file and then "Paste" to apply the copied data to the file.</li>
+									<li>Click the green "Commit changes" button in the top right corner</li>
+									<li>On the opened pop-up, select the green "Commit changes" button to save the file.</li>
+									<li>Wait a couple of minutes to allow the information to update</li>
+								</ol>
 
+							</div>
+							<p class="mb-2" id="step9-error" style="display: none">
+								Unfortunately, a previous step was incorrectly completed.
+								<br>Check to make sure you don't have any errors</p>
+							<div id="step9" style="display: none">
+								<hr/>
+								<h4 class="mb-2" >Step 9:</h4>
+								<p>Once you have waited a minute or two, click the button below to navigate to your site.</p>
+								<div class="container mb-3">
+									<button id="githubPagesButton" class="github-btn" onclick="githubGotoSite()">Go to your site</button>
+								</div>
+							</div>
+							<hr/>
+						<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="1"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</main>
 		<footer class="my-5 pt-5 text-muted text-center text-small">
 			<p class="mb-1">© 1982–2024 Wildlife Center of Virginia</p>
 			<ul class="list-inline">
-				<li class="list-inline-item"><a href="index.html">Demo Form</a></li>
+				<li class="list-inline-item"><a href="../index.html">Demo Form</a></li>
 			</ul>
 		</footer>
 	</body>
-	<script src="./dist/style.js" defer async></script>
-	<script src="./dist/wizard.js" defer async></script>
+	<script>
+		let cache = new XMLHttpRequest();
+		cache.open("GET", "./quickstart.html", true);
+		cache.send();
+	</script>
+	<script src="../dist/style.js" defer async></script>
+	<script src="../dist/wizard.js" defer async></script>
 	<div id="out"></div>
 </html>
