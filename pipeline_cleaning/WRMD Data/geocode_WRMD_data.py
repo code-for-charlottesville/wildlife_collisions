@@ -1,8 +1,17 @@
 # %%
 import pandas as pd
-import geopy
-from geopy.geocoders import Nominatim
+import geopandas as gpd
+from dotenv import load_dotenv
+import os
+# import geopy as gpd
+from geopy.geocoders import Nominatim, GoogleV3
 from shapely.geometry import Point
+
+load_dotenv()
+
+GMAPS_API_KEY = os.getenv("GMAPS_API_KEY")
+GMAPS_API_KEY = "key here"
+
 # %%
 # Download Virginia state boundary
 # TIGER/Line 2023 state boundaries
@@ -37,13 +46,15 @@ test_city = df['patients.city_found'].iloc[0]
 # %%
 
 geolocator = Nominatim(user_agent="WildVirginia")
-test_location = geolocator.geocode(f'{test_address}, {test_city}')
+test_location = geolocator.geocode(f'{test_address}')
 # %%
 
+gmaps_geolocator = GoogleV3(api_key=GMAPS_API_KEY, user_agent="WildVirginia")
+test_location2 = gmaps_geolocator.geocode(f'{test_address}', components={'administrative_area': 'VA'})
 
 #latidute and longitude 
-latitude = test_location.latitude
-longitude = test_location.longitude
+latitude = test_location2.latitude
+longitude = test_location2.longitude
 
 # %%
 # Validate that the returned geocoded location is WITHIN VA
