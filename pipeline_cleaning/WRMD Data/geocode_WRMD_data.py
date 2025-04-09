@@ -56,6 +56,6 @@ test_location2 = gmaps_geolocator.geocode(f'{test_address}', components={'admini
 latitude = test_location2.latitude
 longitude = test_location2.longitude
 
-# %%
-# Validate that the returned geocoded location is WITHIN VA
-valitadion = is_in_virginia(latitude,longitude,virginia)
+# # %%
+# # Validate that the returned geocoded location is WITHIN VA
+# valitadion = is_in_virginia(latitude,longitude,virginia)
