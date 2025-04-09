@@ -12,28 +12,28 @@ load_dotenv()
 GMAPS_API_KEY = os.getenv("GMAPS_API_KEY")
 GMAPS_API_KEY = "key here"
 
-# %%
-# Download Virginia state boundary
-# TIGER/Line 2023 state boundaries
-url = "https://www2.census.gov/geo/tiger/TIGER2023/STATE/tl_2023_us_state.zip"
-# %%
+# # %%
+# # Download Virginia state boundary
+# # TIGER/Line 2023 state boundaries
+# url = "https://www2.census.gov/geo/tiger/TIGER2023/STATE/tl_2023_us_state.zip"
+# # %%
 
-# Load into GeoDataFrame
-states = gpd.read_file(url)
-# %%
+# # Load into GeoDataFrame
+# states = gpd.read_file(url)
+# # %%
 
-# Filter for Virginia
-virginia = states[states.NAME == 'Virginia']
-# %%
+# # Filter for Virginia
+# virginia = states[states.NAME == 'Virginia']
+# # %%
 
-# Save to local file if you want to reuse
-virginia.to_file("virginia_boundary.shp")  # or .geojson, .gpkg
+# # Save to local file if you want to reuse
+# virginia.to_file("virginia_boundary.shp")  # or .geojson, .gpkg
 
-# %%
-#virginia checker function 
-def is_in_virginia(lat, lon, virginia_gdf):
-    point = Point(lon, lat)
-    return virginia_gdf.geometry.contains(point).any()
+# # %%
+# #virginia checker function 
+# def is_in_virginia(lat, lon, virginia_gdf):
+#     point = Point(lon, lat)
+#     return virginia_gdf.geometry.contains(point).any()
 
 #%%
 # Load the data that needs geocoding
