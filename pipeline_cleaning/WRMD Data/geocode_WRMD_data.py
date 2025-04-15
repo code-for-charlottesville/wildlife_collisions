@@ -7,10 +7,9 @@ import os
 from geopy.geocoders import Nominatim, GoogleV3
 from shapely.geometry import Point
 
-load_dotenv()
+load_dotenv(".env",override=True)
 
 GMAPS_API_KEY = os.getenv("GMAPS_API_KEY")
-GMAPS_API_KEY = "key here"
 
 # # %%
 # # Download Virginia state boundary
