@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 import os
 # import geopy as gpd
 from geopy.geocoders import Nominatim, GoogleV3
+from geopy.extra.rate_limiter import RateLimiter, AsyncRateLimiter
+
 from shapely.geometry import Point
 
 load_dotenv(".env",override=True)
@@ -49,12 +51,72 @@ test_location = geolocator.geocode(f'{test_address}')
 # %%
 
 gmaps_geolocator = GoogleV3(api_key=GMAPS_API_KEY, user_agent="WildVirginia")
-test_location2 = gmaps_geolocator.geocode(f'{test_address}', components={'administrative_area': 'VA'})
+# test_location2 = gmaps_geolocator.geocode(f'{test_address}', components={'administrative_area': 'VA'})
 
 #latidute and longitude 
-latitude = test_location2.latitude
-longitude = test_location2.longitude
+# latitude = test_location2.latitude
+# longitude = test_location2.longitude
 
 # # %%
 # # Validate that the returned geocoded location is WITHIN VA
 # valitadion = is_in_virginia(latitude,longitude,virginia)
+
+# %%
+geocode = RateLimiter(gmaps_geolocator.geocode, min_delay_seconds=1, error_wait_seconds=5)
+# geocode = RateLimiter(gmaps_geolocator.geocode(components={'administrative_area': 'VA'}), min_delay_seconds=1)
+sliced_df = df.iloc[0:5]
+sliced_df["location"] = sliced_df['patients.address_found'].apply(geocode)
+# %%
+
+def geocode_rows(df, start_index=0, chunk_size=100, num_chunks=1):
+    """
+    Geocode rows in the DataFrame in chunks.
+    """
+    # Create a copy of the DataFrame to avoid modifying the original
+    df_copy = df.copy()
+
+    # Loop through the DataFrame in chunks
+    for start in range(start_index, len(df_copy), chunk_size):
+        for i in range(num_chunks):
+            end = min(start + chunk_size, len(df_copy))
+            chunk = df_copy.iloc[start:end]
+
+            # Geocode the addresses in the chunk
+            chunk["location"] = chunk['patients.address_found'].apply(geocode)
+            # Copy the geocoded location object back to the original DataFrame in a new column
+            df_copy.loc[start:end, 'location'] = chunk['location']
+
+    return df_copy
+
+# %%
+
+df_first_pass = geocode_rows(df, start_index=0, chunk_size=100, num_chunks=1)
+# %%
+
+#TODO: Checks if the geocoded location was successful,
+# then checnks if the location is not just a city / state
+
+def location_types(loc_obj):
+    """
+    Get location type for the geocoded location object.
+    """
+    # Check if the location object is not None and has an address
+    if loc_obj is not None:
+        return loc_obj.raw['types']
+    else:
+        return None
+
+# %%
+
+df['loc_types'] = df['location'].apply(location_types)
+
+
+
+
+
+
+def write_lat_long_to_df(lat, long, df, index):
+    # Write the latitude and longitude to the DataFrame in place
+    df.at[index, 'patients.lat_found'] = lat
+    df.at[index, 'patients.lng_found'] = long
+    return (lat, long)
