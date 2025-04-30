@@ -6,35 +6,13 @@ import os
 # import geopy as gpd
 from geopy.geocoders import Nominatim, GoogleV3
 from geopy.extra.rate_limiter import RateLimiter, AsyncRateLimiter
-
+from functools import partial
 from shapely.geometry import Point
 
 load_dotenv(".env",override=True)
 
 GMAPS_API_KEY = os.getenv("GMAPS_API_KEY")
 
-# # %%
-# # Download Virginia state boundary
-# # TIGER/Line 2023 state boundaries
-# url = "https://www2.census.gov/geo/tiger/TIGER2023/STATE/tl_2023_us_state.zip"
-# # %%
-
-# # Load into GeoDataFrame
-# states = gpd.read_file(url)
-# # %%
-
-# # Filter for Virginia
-# virginia = states[states.NAME == 'Virginia']
-# # %%
-
-# # Save to local file if you want to reuse
-# virginia.to_file("virginia_boundary.shp")  # or .geojson, .gpkg
-
-# # %%
-# #virginia checker function 
-# def is_in_virginia(lat, lon, virginia_gdf):
-#     point = Point(lon, lat)
-#     return virginia_gdf.geometry.contains(point).any()
 
 #%%
 # Load the data that needs geocoding
@@ -45,12 +23,12 @@ df = pd.read_pickle('./datasets/WRMD_2014_to_2025_geocoding_req.pkl')
 test_address = df['patients.address_found'].iloc[0]
 test_city = df['patients.city_found'].iloc[0]
 # %%
-
-geolocator = Nominatim(user_agent="WildVirginia")
-test_location = geolocator.geocode(f'{test_address}')
+# geolocator = Nominatim(user_agent="WildVirginia")
+# test_location = geolocator.geocode(f'{test_address}')
 # %%
 
 gmaps_geolocator = GoogleV3(api_key=GMAPS_API_KEY, user_agent="WildVirginia")
+
 # test_location2 = gmaps_geolocator.geocode(f'{test_address}', components={'administrative_area': 'VA'})
 
 #latidute and longitude 
@@ -62,35 +40,54 @@ gmaps_geolocator = GoogleV3(api_key=GMAPS_API_KEY, user_agent="WildVirginia")
 # valitadion = is_in_virginia(latitude,longitude,virginia)
 
 # %%
-geocode = RateLimiter(gmaps_geolocator.geocode, min_delay_seconds=1, error_wait_seconds=5)
+geocode1 = partial(gmaps_geolocator.geocode, components=[('administrative_area', 'VA'),('administrative_area', 'WV')])
+geocode = RateLimiter(geocode1, min_delay_seconds=1, error_wait_seconds=1)
+# %%
 # geocode = RateLimiter(gmaps_geolocator.geocode(components={'administrative_area': 'VA'}), min_delay_seconds=1)
 sliced_df = df.iloc[0:5]
 sliced_df["location"] = sliced_df['patients.address_found'].apply(geocode)
+
+# %%
+# Create a column in the dataframe that combines the address and city
+df['address_city'] = df['patients.address_found'] + ', ' + df['patients.city_found']
 # %%
 
-def geocode_rows(df, start_index=0, chunk_size=100, num_chunks=1):
+
+def geocode_rows(df, start_index=0, chunk_size=5, num_chunks=1):
     """
     Geocode rows in the DataFrame in chunks.
     """
     # Create a copy of the DataFrame to avoid modifying the original
-    df_copy = df.copy()
-
+    # df_copy = df.copy()
+    # Ensure that the dataframe has an empty column for the geocoded locations
+    if 'location' not in df.columns:
+        df['location'] = None
     # Loop through the DataFrame in chunks
-    for start in range(start_index, len(df_copy), chunk_size):
-        for i in range(num_chunks):
-            end = min(start + chunk_size, len(df_copy))
-            chunk = df_copy.iloc[start:end]
+    for i in range(num_chunks):
+        # Calculate the start and end indices for the current chunk
+        if start_index == 0:
+            start_i = i * chunk_size
+        else:
+            # Adjust the start index for subsequent chunks
+            start_i = start_index + (i * chunk_size)
+        # Ensure the end index does not exceed the DataFrame length
+        end_i = min(start_i + chunk_size, len(df))
+        # Check if the end index is greater than the start index
+        if end_i > start_i:
+            # Print the current chunk being processed
+            print(f"Processing chunk {i + 1} of {num_chunks}: Rows {start_i} to {end_i}")
 
-            # Geocode the addresses in the chunk
-            chunk["location"] = chunk['patients.address_found'].apply(geocode)
-            # Copy the geocoded location object back to the original DataFrame in a new column
-            df_copy.loc[start:end, 'location'] = chunk['location']
-
-    return df_copy
+        df.iloc[start_i:end_i, df.columns.get_loc('location')] = df.iloc[start_i:end_i, df.columns.get_loc('address_city')].apply(geocode)
+        # Get the chunk of the DataFrame
+        # df.loc[start_i:end_i, "location"] = df.loc[ start_i:end_i, 'patients.address_found'].apply(geocode)
+        # Geocode the addresses in the chunk
+        # chunk["location"] = chunk['patients.address_found'].apply(geocode)
+        # # Write the location column the original DataFrame
+        # df.iloc[start_i:end_i, "location"] = chunk["location"]
 
 # %%
 
-df_first_pass = geocode_rows(df, start_index=0, chunk_size=100, num_chunks=1)
+geocode_rows(df, start_index=0, chunk_size=5, num_chunks=3)
 # %%
 
 #TODO: Checks if the geocoded location was successful,
