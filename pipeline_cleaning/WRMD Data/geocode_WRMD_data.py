@@ -41,7 +41,8 @@ gmaps_geolocator = GoogleV3(api_key=GMAPS_API_KEY, user_agent="WildVirginia")
 
 # %%
 geocode1 = partial(gmaps_geolocator.geocode, components=[('administrative_area', 'VA'),('administrative_area', 'WV')])
-geocode = RateLimiter(geocode1, min_delay_seconds=1, error_wait_seconds=1)
+geocodeUS = partial(gmaps_geolocator.geocode, components={'country': 'US'})
+geocode = RateLimiter(geocodeUS, min_delay_seconds=1, error_wait_seconds=1)
 # %%
 # geocode = RateLimiter(gmaps_geolocator.geocode(components={'administrative_area': 'VA'}), min_delay_seconds=1)
 sliced_df = df.iloc[0:5]
@@ -87,11 +88,11 @@ def geocode_rows(df, start_index=0, chunk_size=5, num_chunks=1):
 
 # %%
 
-geocode_rows(df, start_index=0, chunk_size=5, num_chunks=3)
+geocode_rows(df, start_index=124, chunk_size=1900, num_chunks=1)
 # %%
 
 #TODO: Checks if the geocoded location was successful,
-# then checnks if the location is not just a city / state
+# then checks if the location is not just a city / state
 
 def location_types(loc_obj):
     """
@@ -107,13 +108,59 @@ def location_types(loc_obj):
 
 df['loc_types'] = df['location'].apply(location_types)
 
+# %%
+def location_state(loc_obj):
+    """
+    Get location state for the geocoded location object.
+    """
+    # Check if the location object is not None and has an address
+    if loc_obj is not None:
+        for x in loc_obj.raw['address_components']:
+            if 'administrative_area_level_1' in x['types']:
+                return x['short_name']
+    else:
+        return None
+    
 
+# %%
+df['loc_state'] = df['location'].apply(location_state)
+df['loc_state'].value_counts()
 
+# %%
+def write_lat_to_df(loc_obj):
+    # Check if the location object is not None and has an address
+    if loc_obj is not None and 'street_address' in loc_obj.raw['types']:
+        return loc_obj.raw['geometry']['location']['lat']
+    else:
+        return None
 
+def write_lng_to_df(loc_obj):
+    # Check if the location object is not None and has an address
+    if loc_obj is not None and 'street_address' in loc_obj.raw['types']:
+        return loc_obj.raw['geometry']['location']['lng']
+    else:
+        return None
+    
+# %%
+df['patients.lat_found'] = df['location'].apply(write_lat_to_df)
+df['patients.lng_found'] = df['location'].apply(write_lng_to_df)
 
+# %%
+# Reorder lat and lng columns to end of DF for easier viewing
+cols_to_move =['patients.lat_found', 'patients.lng_found']
+new_cols = [col for col in df.columns if col not in cols_to_move]
+df = df[new_cols + cols_to_move]
 
+# %%
 def write_lat_long_to_df(lat, long, df, index):
     # Write the latitude and longitude to the DataFrame in place
     df.at[index, 'patients.lat_found'] = lat
     df.at[index, 'patients.lng_found'] = long
     return (lat, long)
+# %%
+
+# Output Results 
+df.to_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
+
+# Load Results
+df_geodoed = pd.read_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
