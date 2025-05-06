@@ -161,6 +161,11 @@ def write_lat_long_to_df(lat, long, df, index):
 
 # Output Results 
 df.to_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
-
+# %%
 # Load Results
 df_geocoded = pd.read_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
+# %%
+
+# Inspect rows where the geocoder was not able to find a street address. We want to
+# consider dropping these.
+df_geocoded[df_geocoded['loc_types'].apply(lambda x: 'street_address' not in x)]
