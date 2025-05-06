@@ -163,4 +163,4 @@ def write_lat_long_to_df(lat, long, df, index):
 df.to_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
 
 # Load Results
-df_geodoed = pd.read_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
+df_geocoded = pd.read_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
