@@ -17,11 +17,7 @@ GMAPS_API_KEY = os.getenv("GMAPS_API_KEY")
 #%%
 # Load the data that needs geocoding
 df = pd.read_pickle('./datasets/WRMD_2014_to_2025_geocoding_req.pkl')
-# %%
 
-# Get the first rows address
-test_address = df['patients.address_found'].iloc[0]
-test_city = df['patients.city_found'].iloc[0]
 # %%
 # geolocator = Nominatim(user_agent="WildVirginia")
 # test_location = geolocator.geocode(f'{test_address}')
@@ -29,19 +25,11 @@ test_city = df['patients.city_found'].iloc[0]
 
 gmaps_geolocator = GoogleV3(api_key=GMAPS_API_KEY, user_agent="WildVirginia")
 
-# test_location2 = gmaps_geolocator.geocode(f'{test_address}', components={'administrative_area': 'VA'})
-
-#latidute and longitude 
-# latitude = test_location2.latitude
-# longitude = test_location2.longitude
-
-# # %%
-# # Validate that the returned geocoded location is WITHIN VA
-# valitadion = is_in_virginia(latitude,longitude,virginia)
 
 # %%
 geocode1 = partial(gmaps_geolocator.geocode, components=[('administrative_area', 'VA'),('administrative_area', 'WV')])
 geocodeUS = partial(gmaps_geolocator.geocode, components={'country': 'US'})
+geocode_va_wv_nc = partial(gmaps_geolocator.geocode, components=[('administrative_area', 'VA'),('administrative_area', 'WV'), ('administrative_area', 'NC')])
 geocode = RateLimiter(geocodeUS, min_delay_seconds=1, error_wait_seconds=1)
 # %%
 # geocode = RateLimiter(gmaps_geolocator.geocode(components={'administrative_area': 'VA'}), min_delay_seconds=1)
@@ -164,6 +152,13 @@ df.to_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
 # %%
 # Load Results
 df_geocoded = pd.read_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
+# %%
+
+# Inspect rows where loc_state is not VA
+df_geocoded_outside_va = df_geocoded[df_geocoded['loc_state'] != 'VA']
+# %%
+# Attpempt to re-geocode these addresses using a bounding box
+df_geocoded_outside_va['location'] = df_geocoded_outside_va['address_city'].apply(geocode_va_wv_nc)
 # %%
 
 # Inspect rows where the geocoder was not able to find a street address. We want to
