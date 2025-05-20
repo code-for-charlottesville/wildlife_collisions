@@ -8,7 +8,9 @@ from geopy.geocoders import Nominatim, GoogleV3
 from geopy.extra.rate_limiter import RateLimiter, AsyncRateLimiter
 from functools import partial
 from shapely.geometry import Point
+import googlemaps
 
+gmaps = googlemaps.Client(key= os.getenv("GMAPS_API_KEY")) 
 load_dotenv(".env",override=True)
 
 GMAPS_API_KEY = os.getenv("GMAPS_API_KEY")
@@ -146,7 +148,18 @@ def write_lat_long_to_df(lat, long, df, index):
     df.at[index, 'patients.lng_found'] = long
     return (lat, long)
 # %%
-
+def filter_precise_addresses(addresses):
+    precise = []
+    for addr in addresses:
+        geocode_result = gmaps.geocode(addr)
+        if geocode_result:
+            # Check for street address components
+            components = geocode_result[0]['address_components']
+            street_found = any('route' in comp['types'] for comp in components)
+            number_found = any('street_number' in comp['types'] for comp in components)
+            if street_found and number_found:
+                precise.append(geocode_result[0])
+    return precise
 # Output Results 
 df.to_pickle('./datasets/WRMD_2014_to_2025_geocoded_v1.pkl')
 # %%

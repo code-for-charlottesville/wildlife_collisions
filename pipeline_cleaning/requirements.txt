@@ -3,3 +3,4 @@ geopy
 shapely
 geopandas
 python-dotenv
+googlemaps
