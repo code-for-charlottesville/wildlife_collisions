@@ -30,6 +30,7 @@ Common Musk Turtle,Reptile
 Common Raven,Bird
 Common Snapping Turtle,Reptile
 Cooper's Hawk,Bird
+Coyote,Mammal
 Dark-eyed Junco,Bird
 Dekay's Brown Snake,Reptile
 Domestic Duck,Bird
@@ -69,6 +70,7 @@ House Sparrow,Bird
 Indigo Bunting,Bird
 Lesser Scaup,Bird
 Unidentified Bird,Bird
+Unidentified Mouse,Mammal
 Mallard,Bird
 Merlin,Bird
 Mourning Dove,Bird
@@ -115,6 +117,9 @@ Wild Turkey,Bird
 Wood Duck,Bird
 Wood Thrush,Bird
 Woodchuck,Mammal
+Woodturtle,Reptile
+Woodland Box Turtle,Reptile
+White-breasted Nuthatch,Bird
 Yellow-bellied Sapsucker,Bird
 Yellow-bellied Slider,Reptile
 Yellow-billed Cuckoo,Bird
