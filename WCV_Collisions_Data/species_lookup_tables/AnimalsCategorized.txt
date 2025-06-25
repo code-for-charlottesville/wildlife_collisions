@@ -68,6 +68,7 @@ House Finch,Bird
 House Sparrow,Bird
 Indigo Bunting,Bird
 Lesser Scaup,Bird
+Unidentified Bird,Bird
 Mallard,Bird
 Merlin,Bird
 Mourning Dove,Bird
