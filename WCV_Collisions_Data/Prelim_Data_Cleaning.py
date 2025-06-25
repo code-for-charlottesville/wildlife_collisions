@@ -1,12 +1,12 @@
 import pandas as pd
-from EcoNameTranslator import EcoNameTranslator
 from pytaxize import ncbi
 import os
 import time
+import datetime
 
 # Import the wcv collision data csv file into a dataframe
 df = pd.read_csv('WCV_Collisions_Data\WCV Collision Data.csv')
-mapper_df = pd.read_csv('WCV_Collisions_Data\CollisionAnimalMapping.csv')
+mapper_df = pd.read_csv('WCV_Collisions_Data\RevisedCollisionAnimalMapping.csv')
 count = 0
 
 os.environ['ENTREZ_KEY'] = 'ba09124ac9a6c5988ee63017a02ee60dab08'
@@ -24,22 +24,79 @@ juristicions.sort()
 
 animal_mapping = dict()
 
+# for index, row in mapper_df.iterrows():
+#     common_species_name = row["Animal"].lower()
+#     general_name = row["Mapping"].lower()
+#     animal_mapping[common_species_name] = general_name
+
 for index, row in mapper_df.iterrows():
-    common_species_name = row["Animal"].lower()
-    general_name = row["Mapping"].lower()
+    common_species_name = row["CommonSpeciesName"].lower()
+    general_name = row["CommonDesc"].lower()
     animal_mapping[common_species_name] = general_name
+
 
 def date_admitted_year(row):
     date = row['DateAdmitted'].strip().split('/')
     return date[2]
 
-def date_admitted_month(row):
+def date_admitted_month_name(row):
     date = row['DateAdmitted'].strip().split('/')
     return months_num_to_name[date[0]]
+
+def date_admitted_month_number(row):
+    date = row['DateAdmitted'].strip().split('/')
+    return date[0]
 
 def date_admitted_day(row):
     date = row['DateAdmitted'].strip().split('/')
     return date[1]
+
+def days_of_week(row):
+    dates_to_weekday = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    date = row['DateAdmitted'].strip().split('/')
+    day_num = datetime.date(year=int(date[2]), month=int(date[0]), day=int(date[1])).weekday()
+    return dates_to_weekday[day_num]
+
+def find_season(row):
+    '''
+    Winter: December 22 - March 20
+    Spring: March 21 - June 20
+    Summer: June 21 - September 22
+    Autumn: September 23 - December 21
+    '''
+    date = row['DateAdmitted'].strip().split('/')
+    day = int(date[1])
+    month = int(date[0])
+    # print("Month: ", month)
+    if month == 1 or month == 2:
+        return "Winter"
+    elif month == 4 or month == 5:
+        return "Spring"
+    elif month == 7 or month == 8:
+        return "Summer"
+    elif month == 10 or month == 11:
+        return "Autumn"
+    elif month == 3:
+        if day <= 20:
+            return "Winter"
+        else:
+            return "Spring"
+    elif month == 6:
+        if day <= 20:
+            return "Spring"
+        else:
+            return "Summer"
+    elif month == 9:
+        if day <= 22:
+            return "Summer"
+        else:
+            return "Autumn"
+    elif month == 12:
+        if day <= 21:
+            return "Autumn"
+        else:
+            return "Winter"
+    return "NA"
 
 def truncate_elevation(row):
     return int(row['Elevation'])
@@ -48,12 +105,18 @@ def format_species_name(row):
     formatted_name = " ".join(word.capitalize() for word in row['CommonSpeciesName'].split())
     return formatted_name
 
+# def find_city(row):
+#     address = row["RescueAddress"]
+#     address_list = address.split(",")
+#     city = address_list[]
+
 def broad_category(row):
     global count
     species_name = row["CommonSpeciesName"].lower()
     last_word = species_name.strip().split()[-1].lower()
     if species_name in animal_mapping:
         return animal_mapping[species_name]
+    ###### backup ######
     else:
         if count >= 3:
             time.sleep(1.5)
@@ -75,7 +138,15 @@ def broad_category(row):
             count += 1
             animal_mapping[species_name] = last_word
             return last_word
-    
+
+def update_disposition(row):
+    disposition = row["Disposition"].lower()
+    if disposition == 'euthanized':
+        return 'Died'
+    if disposition == 'self-released':
+        return 'Released'
+    return " ".join(w.capitalize() for w in disposition.split())
+
 # drop any duplicate rows
 df.drop_duplicates(inplace=True)
 
@@ -106,8 +177,12 @@ months_num_to_name = {'1':'January',
                       '12':'December'}
 
 df['DDateAdmittedYear'] = df.apply(date_admitted_year, axis=1)
-df['DDateAdmittedMonth'] = df.apply(date_admitted_month, axis=1)
+df['DDateAdmittedMonthName'] = df.apply(date_admitted_month_name, axis=1)
+df['DDateAdmittedMonthNumber'] = df.apply(date_admitted_month_number, axis=1)
 df['DDateAdmittedDay'] = df.apply(date_admitted_day, axis=1)
+df['DaysOfWeek'] = df.apply(days_of_week, axis=1)
+df['Season'] = df.apply(find_season, axis=1)
+df['UpdatedDisposition'] = df.apply(update_disposition, axis=1)
 
 # For now, dropping any rows with missing Latitude or Longitude data
 # Need to address case where there is Lat, Long data but not Elevation data for when trying to truncate
@@ -146,8 +221,6 @@ for mapping in animal_mapping:
     row = {'Animal':mapping, 'Mapping':animal_mapping[mapping]}
     new_animal_mapping.loc[len(new_animal_mapping)] = row
 
-new_animal_mapping.to_csv("WCV_Collisions_Data\CollisionAnimalMapping.csv", sep=',', encoding='utf-8', index=False, header=True)
+new_animal_mapping.to_csv("WCV_Collisions_Data\RevisedCollisionAnimalMapping.csv", sep=',', encoding='utf-8', index=False, header=True)
 
 df.to_csv("WCV_Collisions_Data\WCV Collision Data Mod.csv", sep=',', encoding='utf-8', index=False, header=True)
-
-# print(df['GeneralSpeciesName'].unique())
