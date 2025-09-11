@@ -1,27 +1,26 @@
 OrganizationName,Case Number,PatientID,CommonSpeciesName,GeneralSpeciesName,DVertebrate,DateAdmitted,DDateAdmittedYear,Season,DDateAdmittedMonth,DDateAdmittedDOM,DDateAdmittedDOW,Latitude,Longitude,Disposition,UpdatedDisposition,DayOfWeekNumber,MonthNumber
 WRMD,2016-1,,virginia opossum,marsupial,Mammal,01/01/2016,2016,Winter,January,1,Friday,38.960822,-77.741824,Died,died in 24hr,4,1
-WRMD,2016-3,,black vulture,bird,Bird,01/06/2016,2016,Winter,January,6,Wednesday,-77.738882,39.325379,Died,died in 24hr,2,1
+WRMD,2016-3,,black vulture,bird,Bird,01/06/2016,2016,Winter,January,6,Wednesday,39.325379,-77.738882,Died,died in 24hr,2,1
 WRMD,2016-9,,barred owl,owl,Bird,01/14/2016,2016,Winter,January,14,Thursday,39.219637,-77.523534,Died,euthanized in 24hr,3,1
 WRMD,2016-11,,barred owl,owl,Bird,01/15/2016,2016,Winter,January,15,Friday,39.400742,-78.115627,Released,released,4,1
 WRMD,2016-17,,american robin,bird,Bird,01/19/2016,2016,Winter,January,19,Tuesday,39.041987,-77.605404,Released,released,1,1
 WRMD,2016-33,,eastern bluebird,bird,Bird,02/03/2016,2016,Winter,February,3,Wednesday,39.049416,-77.519471,Released,released,2,2
-WRMD,2016-37,,bald eagle,bird,Bird,02/05/2016,2016,Winter,February,5,Friday,-73.179832,43.610622,Transferred,transferred,4,2
-WRMD,2016-38,,cooper's hawk,bird,Bird,02/06/2016,2016,Winter,February,6,Saturday,-78.1448,39.181479,Died,euthanized in 24hr,5,2
-WRMD,2016-39,,great blue heron,bird,Bird,02/06/2016,2016,Winter,February,6,Saturday,-77.577312,38.270378,Died,euthanized +24hr,5,2
+WRMD,2016-38,,cooper's hawk,bird,Bird,02/06/2016,2016,Winter,February,6,Saturday,39.181479,-78.1448,Died,euthanized in 24hr,5,2
+WRMD,2016-39,,great blue heron,bird,Bird,02/06/2016,2016,Winter,February,6,Saturday,38.270378,-77.577312,Died,euthanized +24hr,5,2
 WRMD,2016-41,,red-tailed hawk,bird,Bird,02/10/2016,2016,Winter,February,10,Wednesday,39.273452,-78.095567,Transferred,transferred,2,2
 WRMD,2016-44,,red-shouldered hawk,bird,Bird,02/13/2016,2016,Winter,February,13,Saturday,38.690077,-77.833481,Released,released,5,2
 WRMD,2016-47,,northern cardinal,bird,Bird,02/14/2016,2016,Winter,February,14,Sunday,39.206553,-77.576807,Died,died +24hr,6,2
 WRMD,2016-51,,red-shouldered hawk,bird,Bird,02/18/2016,2016,Winter,February,18,Thursday,39.169668,-78.16856,Released,released,3,2
 WRMD,2016-54,,eastern cottontail,rabbits & hares,Mammal,02/22/2016,2016,Winter,February,22,Monday,39.135711,-77.991926,Died,euthanized in 24hr,0,2
 WRMD,2016-56,,red-shouldered hawk,bird,Bird,02/24/2016,2016,Winter,February,24,Wednesday,39.111266,-77.835161,Died,died in 24hr,2,2
-WRMD,2016-67,,turkey vulture,bird,Bird,03/05/2016,2016,Winter,March,5,Saturday,-78.338584,39.204706,Released,released,5,3
-WRMD,2016-74,,eastern gray squirrel,rodent,Mammal,03/10/2016,2016,Winter,March,10,Thursday,-78.109977,39.180985,Died,died in 24hr,3,3
-WRMD,2016-77,,eastern cottontail,rabbits & hares,Mammal,03/11/2016,2016,Winter,March,11,Friday,-78.122433,39.168533,Died,dead on arrival,4,3
-WRMD,2016-107,,black vulture,bird,Bird,03/27/2016,2016,Spring,March,27,Sunday,-77.662492,39.134272,Died,euthanized +24hr,6,3
-WRMD,2016-127,,eastern gray squirrel,rodent,Mammal,04/01/2016,2016,Spring,April,1,Friday,-78.305175,38.960049,Died,died in 24hr,4,4
-WRMD,2016-150,,northern raccoon,raccoon,Mammal,04/06/2016,2016,Spring,April,6,Wednesday,-78.340405,38.847926,Died,died in 24hr,2,4
+WRMD,2016-67,,turkey vulture,bird,Bird,03/05/2016,2016,Winter,March,5,Saturday,39.204706,-78.338584,Released,released,5,3
+WRMD,2016-74,,eastern gray squirrel,rodent,Mammal,03/10/2016,2016,Winter,March,10,Thursday,39.180985,-78.109977,Died,died in 24hr,3,3
+WRMD,2016-77,,eastern cottontail,rabbits & hares,Mammal,03/11/2016,2016,Winter,March,11,Friday,39.168533,-78.122433,Died,dead on arrival,4,3
+WRMD,2016-107,,black vulture,bird,Bird,03/27/2016,2016,Spring,March,27,Sunday,39.134272,-77.662492,Died,euthanized +24hr,6,3
+WRMD,2016-127,,eastern gray squirrel,rodent,Mammal,04/01/2016,2016,Spring,April,1,Friday,38.960049,-78.305175,Died,died in 24hr,4,4
+WRMD,2016-150,,northern raccoon,raccoon,Mammal,04/06/2016,2016,Spring,April,6,Wednesday,38.847926,-78.340405,Died,died in 24hr,2,4
 WRMD,2016-159,,eastern gray squirrel,rodent,Mammal,04/08/2016,2016,Spring,April,8,Friday,38.962661,-77.884726,Died,euthanized in 24hr,4,4
-WRMD,2016-175,,groundhog,rodent,Mammal,04/12/2016,2016,Spring,April,12,Tuesday,-78.19413,38.921149,Died,euthanized +24hr,1,4
+WRMD,2016-175,,groundhog,rodent,Mammal,04/12/2016,2016,Spring,April,12,Tuesday,38.921149,-78.19413,Died,euthanized +24hr,1,4
 WRMD,2016-187,,red-headed woodpecker,bird,Bird,04/15/2016,2016,Spring,April,15,Friday,38.026758,-78.004605,Released,released,4,4
 WRMD,2016-206,,northern cardinal,bird,Bird,04/18/2016,2016,Spring,April,18,Monday,38.987906,-78.348577,Died,euthanized in 24hr,0,4
 WRMD,2016-209,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Died,euthanized in 24hr,0,4
@@ -40,98 +39,97 @@ WRMD,2016-221,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18
 WRMD,2016-222,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Died,euthanized in 24hr,0,4
 WRMD,2016-223,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Died,euthanized in 24hr,0,4
 WRMD,2016-224,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Died,euthanized in 24hr,0,4
-WRMD,2016-232,,virginia opossum,marsupial,Mammal,04/19/2016,2016,Spring,April,19,Tuesday,-77.686801,39.248489,Died,euthanized in 24hr,1,4
-WRMD,2016-233,,virginia opossum,marsupial,Mammal,04/19/2016,2016,Spring,April,19,Tuesday,-77.686801,39.248489,Died,euthanized in 24hr,1,4
-WRMD,2016-283,,house finch,bird,Bird,04/23/2016,2016,Spring,April,23,Saturday,-78.274149,39.395781,Died,euthanized in 24hr,5,4
-WRMD,2016-304,,pileated woodpecker,bird,Bird,04/26/2016,2016,Spring,April,26,Tuesday,-78.045981,39.255758,Died,died +24hr,1,4
-WRMD,2016-306,,northern cardinal,bird,Bird,04/26/2016,2016,Spring,April,26,Tuesday,-77.755664,39.005272,Died,euthanized in 24hr,1,4
-WRMD,2016-317,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,-78.194445,38.918167,Died,euthanized in 24hr,2,4
-WRMD,2016-318,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,-78.194445,38.918167,Died,euthanized in 24hr,2,4
-WRMD,2016-319,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,-78.194445,38.918167,Died,euthanized in 24hr,2,4
-WRMD,2016-320,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,-78.194445,38.918167,Died,euthanized in 24hr,2,4
-WRMD,2016-321,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,-78.194445,38.918167,Died,euthanized in 24hr,2,4
-WRMD,2016-322,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,-78.194445,38.918167,Died,euthanized in 24hr,2,4
-WRMD,2016-323,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,-78.194445,38.918167,Died,euthanized in 24hr,2,4
+WRMD,2016-232,,virginia opossum,marsupial,Mammal,04/19/2016,2016,Spring,April,19,Tuesday,39.248489,-77.686801,Died,euthanized in 24hr,1,4
+WRMD,2016-233,,virginia opossum,marsupial,Mammal,04/19/2016,2016,Spring,April,19,Tuesday,39.248489,-77.686801,Died,euthanized in 24hr,1,4
+WRMD,2016-283,,house finch,bird,Bird,04/23/2016,2016,Spring,April,23,Saturday,39.395781,-78.274149,Died,euthanized in 24hr,5,4
+WRMD,2016-304,,pileated woodpecker,bird,Bird,04/26/2016,2016,Spring,April,26,Tuesday,39.255758,-78.045981,Died,died +24hr,1,4
+WRMD,2016-306,,northern cardinal,bird,Bird,04/26/2016,2016,Spring,April,26,Tuesday,39.005272,-77.755664,Died,euthanized in 24hr,1,4
+WRMD,2016-317,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Died,euthanized in 24hr,2,4
+WRMD,2016-318,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Died,euthanized in 24hr,2,4
+WRMD,2016-319,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Died,euthanized in 24hr,2,4
+WRMD,2016-320,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Died,euthanized in 24hr,2,4
+WRMD,2016-321,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Died,euthanized in 24hr,2,4
+WRMD,2016-322,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Died,euthanized in 24hr,2,4
+WRMD,2016-323,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Died,euthanized in 24hr,2,4
 WRMD,2016-324,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.928308,-78.174537,Died,euthanized in 24hr,2,4
 WRMD,2016-325,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.928308,-78.174537,Died,euthanized in 24hr,2,4
 WRMD,2016-326,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.928308,-78.174537,Died,euthanized in 24hr,2,4
-WRMD,2016-333,,woodland box turtle,turtle,Reptile,05/02/2016,2016,Spring,May,2,Monday,-78.243252,39.229778,Released,released,0,5
-WRMD,2016-335,,eastern painted turtle,turtle,Reptile,05/02/2016,2016,Spring,May,2,Monday,-77.74095,38.96194,Died,euthanized in 24hr,0,5
-WRMD,2016-344,,snapping turtle,turtle,Reptile,05/03/2016,2016,Spring,May,3,Tuesday,-77.248924,38.931049,Released,released,1,5
-WRMD,2016-351,,northern cardinal,bird,Bird,05/04/2016,2016,Spring,May,4,Wednesday,-77.804161,39.4301,Released,released,2,5
-WRMD,2016-367,,song sparrow,bird,Bird,05/06/2016,2016,Spring,May,6,Friday,-78.348358,38.996208,Died,died in 24hr,4,5
+WRMD,2016-333,,woodland box turtle,turtle,Reptile,05/02/2016,2016,Spring,May,2,Monday,39.229778,-78.243252,Released,released,0,5
+WRMD,2016-335,,eastern painted turtle,turtle,Reptile,05/02/2016,2016,Spring,May,2,Monday,38.96194,-77.74095,Died,euthanized in 24hr,0,5
+WRMD,2016-344,,snapping turtle,turtle,Reptile,05/03/2016,2016,Spring,May,3,Tuesday,38.931049,-77.248924,Released,released,1,5
+WRMD,2016-351,,northern cardinal,bird,Bird,05/04/2016,2016,Spring,May,4,Wednesday,39.4301,-77.804161,Released,released,2,5
+WRMD,2016-367,,song sparrow,bird,Bird,05/06/2016,2016,Spring,May,6,Friday,38.996208,-78.348358,Died,died in 24hr,4,5
 WRMD,2016-371,,eastern painted turtle,turtle,Reptile,05/08/2016,2016,Spring,May,8,Sunday,39.163152,-78.091907,Died,euthanized +24hr,6,5
-WRMD,2016-394,,woodland box turtle,turtle,Reptile,05/11/2016,2016,Spring,May,11,Wednesday,-78.969472,39.06233,Died,euthanized in 24hr,2,5
-WRMD,2016-407,,groundhog,rodent,Mammal,05/12/2016,2016,Spring,May,12,Thursday,-78.211981,38.948354,Transferred,transferred,3,5
-WRMD,2016-409,,groundhog,rodent,Mammal,05/13/2016,2016,Spring,May,13,Friday,-78.211981,38.948354,Transferred,transferred,4,5
+WRMD,2016-394,,woodland box turtle,turtle,Reptile,05/11/2016,2016,Spring,May,11,Wednesday,39.06233,-78.969472,Died,euthanized in 24hr,2,5
+WRMD,2016-407,,groundhog,rodent,Mammal,05/12/2016,2016,Spring,May,12,Thursday,38.948354,-78.211981,Transferred,transferred,3,5
+WRMD,2016-409,,groundhog,rodent,Mammal,05/13/2016,2016,Spring,May,13,Friday,38.948354,-78.211981,Transferred,transferred,4,5
 WRMD,2016-414,,american crow,bird,Bird,05/14/2016,2016,Spring,May,14,Saturday,38.729563,-77.742471,Died,died in 24hr,5,5
 WRMD,2016-424,,osprey,bird,Bird,05/15/2016,2016,Spring,May,15,Sunday,39.170095,-78.302147,Died,euthanized in 24hr,6,5
 WRMD,2016-433,,american robin,bird,Bird,05/17/2016,2016,Spring,May,17,Tuesday,39.085243,-78.170322,Died,died in 24hr,1,5
-WRMD,2016-440,,pileated woodpecker,bird,Bird,05/17/2016,2016,Spring,May,17,Tuesday,-78.034358,39.016887,Died,died +24hr,1,5
-WRMD,2016-441,,common grackle,bird,Bird,05/18/2016,2016,Spring,May,18,Wednesday,-78.194445,38.918167,Died,died +24hr,2,5
-WRMD,2016-457,,eastern cottontail,rabbits & hares,Mammal,05/19/2016,2016,Spring,May,19,Thursday,-77.993923,39.159956,Died,died in 24hr,3,5
-WRMD,2016-459,,eastern screech owl,owl,Bird,05/20/2016,2016,Spring,May,20,Friday,-78.017496,39.034706,Released,released,4,5
+WRMD,2016-440,,pileated woodpecker,bird,Bird,05/17/2016,2016,Spring,May,17,Tuesday,39.016887,-78.034358,Died,died +24hr,1,5
+WRMD,2016-441,,common grackle,bird,Bird,05/18/2016,2016,Spring,May,18,Wednesday,38.918167,-78.194445,Died,died +24hr,2,5
+WRMD,2016-457,,eastern cottontail,rabbits & hares,Mammal,05/19/2016,2016,Spring,May,19,Thursday,39.159956,-77.993923,Died,died in 24hr,3,5
+WRMD,2016-459,,eastern screech owl,owl,Bird,05/20/2016,2016,Spring,May,20,Friday,39.034706,-78.017496,Released,released,4,5
 WRMD,2016-478,,woodland box turtle,turtle,Reptile,05/20/2016,2016,Spring,May,20,Friday,39.242135,-77.702545,Died,euthanized in 24hr,4,5
-WRMD,2016-483,,northern cardinal,bird,Bird,05/21/2016,2016,Spring,May,21,Saturday,-77.716416,39.095745,Died,died +24hr,5,5
+WRMD,2016-483,,northern cardinal,bird,Bird,05/21/2016,2016,Spring,May,21,Saturday,39.095745,-77.716416,Died,died +24hr,5,5
 WRMD,2016-492,,red-tailed hawk,bird,Bird,05/22/2016,2016,Spring,May,22,Sunday,39.190404,-78.399536,Died,euthanized in 24hr,6,5
-WRMD,2016-493,,groundhog,rodent,Mammal,05/22/2016,2016,Spring,May,22,Sunday,-78.474722,38.918494,Died,died in 24hr,6,5
-WRMD,2016-498,,eastern gray squirrel,rodent,Mammal,05/23/2016,2016,Spring,May,23,Monday,-78.106763,39.164808,Died,dead on arrival,0,5
+WRMD,2016-493,,groundhog,rodent,Mammal,05/22/2016,2016,Spring,May,22,Sunday,38.918494,-78.474722,Died,died in 24hr,6,5
+WRMD,2016-498,,eastern gray squirrel,rodent,Mammal,05/23/2016,2016,Spring,May,23,Monday,39.164808,-78.106763,Died,dead on arrival,0,5
 WRMD,2016-501,,woodland box turtle,turtle,Reptile,05/23/2016,2016,Spring,May,23,Monday,39.048614,-78.060132,Died,euthanized in 24hr,0,5
-WRMD,2016-506,,common grackle,bird,Bird,05/24/2016,2016,Spring,May,24,Tuesday,-78.218057,39.08344,Died,died in 24hr,1,5
-WRMD,2016-508,,eastern gray squirrel,rodent,Mammal,05/24/2016,2016,Spring,May,24,Tuesday,-77.17326,38.942062,Died,died in 24hr,1,5
-WRMD,2016-513,,woodland box turtle,turtle,Reptile,05/24/2016,2016,Spring,May,24,Tuesday,-78.14713,38.993891,Died,euthanized in 24hr,1,5
+WRMD,2016-506,,common grackle,bird,Bird,05/24/2016,2016,Spring,May,24,Tuesday,39.08344,-78.218057,Died,died in 24hr,1,5
+WRMD,2016-508,,eastern gray squirrel,rodent,Mammal,05/24/2016,2016,Spring,May,24,Tuesday,38.942062,-77.17326,Died,died in 24hr,1,5
+WRMD,2016-513,,woodland box turtle,turtle,Reptile,05/24/2016,2016,Spring,May,24,Tuesday,38.993891,-78.14713,Died,euthanized in 24hr,1,5
 WRMD,2016-515,,eastern painted turtle,turtle,Reptile,05/24/2016,2016,Spring,May,24,Tuesday,38.381789,-78.971848,Released,released,1,5
-WRMD,2016-524,,black rat snake,snake,Reptile,05/26/2016,2016,Spring,May,26,Thursday,-78.014214,39.082627,Released,released,3,5
-WRMD,2016-526,,red-bellied woodpecker,bird,Bird,05/26/2016,2016,Spring,May,26,Thursday,-78.166064,39.291316,Died,euthanized in 24hr,3,5
-WRMD,2016-531,,mallard,bird,Bird,05/26/2016,2016,Spring,May,26,Thursday,-77.609583,39.069853,Died,died in 24hr,3,5
-WRMD,2016-550,,eastern painted turtle,turtle,Reptile,05/27/2016,2016,Spring,May,27,Friday,-77.915398,38.937857,Died,euthanized in 24hr,4,5
+WRMD,2016-524,,black rat snake,snake,Reptile,05/26/2016,2016,Spring,May,26,Thursday,39.082627,-78.014214,Released,released,3,5
+WRMD,2016-526,,red-bellied woodpecker,bird,Bird,05/26/2016,2016,Spring,May,26,Thursday,39.291316,-78.166064,Died,euthanized in 24hr,3,5
+WRMD,2016-531,,mallard,bird,Bird,05/26/2016,2016,Spring,May,26,Thursday,39.069853,-77.609583,Died,died in 24hr,3,5
+WRMD,2016-550,,eastern painted turtle,turtle,Reptile,05/27/2016,2016,Spring,May,27,Friday,38.937857,-77.915398,Died,euthanized in 24hr,4,5
 WRMD,2016-567,,woodland box turtle,turtle,Reptile,05/28/2016,2016,Spring,May,28,Saturday,38.990339,-78.367751,Died,died in 24hr,5,5
 WRMD,2016-570,,woodland box turtle,turtle,Reptile,05/29/2016,2016,Spring,May,29,Sunday,39.162182,-78.101271,Died,died in 24hr,6,5
-WRMD,2016-578,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,-77.956999,39.346222,Died,euthanized in 24hr,6,5
-WRMD,2016-579,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,-77.956999,39.346222,Died,euthanized in 24hr,6,5
-WRMD,2016-580,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,-77.956999,39.346222,Died,euthanized in 24hr,6,5
-WRMD,2016-581,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,-77.956999,39.346222,Died,euthanized in 24hr,6,5
-WRMD,2016-582,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,-77.956999,39.346222,Died,euthanized in 24hr,6,5
-WRMD,2016-583,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,-77.956999,39.346222,Died,euthanized in 24hr,6,5
-WRMD,2016-584,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,-77.956999,39.346222,Died,euthanized in 24hr,6,5
+WRMD,2016-578,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Died,euthanized in 24hr,6,5
+WRMD,2016-579,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Died,euthanized in 24hr,6,5
+WRMD,2016-580,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Died,euthanized in 24hr,6,5
+WRMD,2016-581,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Died,euthanized in 24hr,6,5
+WRMD,2016-582,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Died,euthanized in 24hr,6,5
+WRMD,2016-583,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Died,euthanized in 24hr,6,5
+WRMD,2016-584,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Died,euthanized in 24hr,6,5
 WRMD,2016-585,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346239,-77.956999,Died,euthanized in 24hr,6,5
-WRMD,2016-608,,common grackle,bird,Bird,06/02/2016,2016,Spring,June,2,Thursday,-78.180766,39.200381,Died,euthanized in 24hr,3,6
-WRMD,2016-616,,woodland box turtle,turtle,Reptile,05/31/2016,2016,Spring,May,31,Tuesday,-77.717059,39.102801,Died,euthanized +24hr,1,5
+WRMD,2016-608,,common grackle,bird,Bird,06/02/2016,2016,Spring,June,2,Thursday,39.200381,-78.180766,Died,euthanized in 24hr,3,6
+WRMD,2016-616,,woodland box turtle,turtle,Reptile,05/31/2016,2016,Spring,May,31,Tuesday,39.102801,-77.717059,Died,euthanized +24hr,1,5
 WRMD,2016-617,,chimney swift,bird,Bird,05/31/2016,2016,Spring,May,31,Tuesday,39.19128,-78.167212,Died,euthanized in 24hr,1,5
 WRMD,2016-642,,canada goose,bird,Bird,06/02/2016,2016,Spring,June,2,Thursday,39.190404,-78.399536,Died,died +24hr,3,6
 WRMD,2016-654,,snapping turtle,turtle,Reptile,06/02/2016,2016,Spring,June,2,Thursday,39.242135,-77.702545,Released,released,3,6
-WRMD,2016-658,,woodland box turtle,turtle,Reptile,06/03/2016,2016,Spring,June,3,Friday,-77.73555,38.968721,Died,died in 24hr,4,6
-WRMD,2016-667,,woodland box turtle,turtle,Reptile,06/03/2016,2016,Spring,June,3,Friday,-83.887408,32.553759,Released,released,4,6
+WRMD,2016-658,,woodland box turtle,turtle,Reptile,06/03/2016,2016,Spring,June,3,Friday,38.968721,-77.73555,Died,died in 24hr,4,6
 WRMD,2016-668,,virginia opossum,marsupial,Mammal,06/03/2016,2016,Spring,June,3,Friday,38.961977,-78.292106,Died,euthanized in 24hr,4,6
 WRMD,2016-670,,woodland box turtle,turtle,Reptile,06/03/2016,2016,Spring,June,3,Friday,38.927957,-77.643237,Released,released,4,6
-WRMD,2016-677,,eastern gray squirrel,rodent,Mammal,06/04/2016,2016,Spring,June,4,Saturday,-78.218057,39.08344,Died,euthanized in 24hr,5,6
+WRMD,2016-677,,eastern gray squirrel,rodent,Mammal,06/04/2016,2016,Spring,June,4,Saturday,39.08344,-78.218057,Died,euthanized in 24hr,5,6
 WRMD,2016-679,,eastern bluebird,bird,Bird,06/04/2016,2016,Spring,June,4,Saturday,39.122537,-78.035213,Died,euthanized +24hr,5,6
-WRMD,2016-683,,wood turtle,turtle,Reptile,06/04/2016,2016,Spring,June,4,Saturday,-78.656894,37.431573,Released,released,5,6
-WRMD,2016-692,,red-tailed hawk,bird,Bird,06/05/2016,2016,Spring,June,5,Sunday,-78.642238,38.745948,Died,died +24hr,6,6
+WRMD,2016-683,,wood turtle,turtle,Reptile,06/04/2016,2016,Spring,June,4,Saturday,37.431573,-78.656894,Released,released,5,6
+WRMD,2016-692,,red-tailed hawk,bird,Bird,06/05/2016,2016,Spring,June,5,Sunday,38.745948,-78.642238,Died,died +24hr,6,6
 WRMD,2016-694,,groundhog,rodent,Mammal,07/27/2016,2016,Summer,July,27,Wednesday,37.522251,-78.668194,Died,euthanized +24hr,2,7
-WRMD,2016-706,,canada goose,bird,Bird,06/07/2016,2016,Spring,June,7,Tuesday,-78.258085,38.956998,Died,euthanized in 24hr,1,6
-WRMD,2016-707,,canada goose,bird,Bird,06/07/2016,2016,Spring,June,7,Tuesday,-78.258085,38.956998,Released,released,1,6
-WRMD,2016-747,,woodland box turtle,turtle,Reptile,06/09/2016,2016,Spring,June,9,Thursday,-78.142121,39.335376,Died,euthanized in 24hr,3,6
+WRMD,2016-706,,canada goose,bird,Bird,06/07/2016,2016,Spring,June,7,Tuesday,38.956998,-78.258085,Died,euthanized in 24hr,1,6
+WRMD,2016-707,,canada goose,bird,Bird,06/07/2016,2016,Spring,June,7,Tuesday,38.956998,-78.258085,Released,released,1,6
+WRMD,2016-747,,woodland box turtle,turtle,Reptile,06/09/2016,2016,Spring,June,9,Thursday,39.335376,-78.142121,Died,euthanized in 24hr,3,6
 WRMD,2016-749,,eastern painted turtle,turtle,Reptile,06/09/2016,2016,Spring,June,9,Thursday,39.129272,-78.083695,Died,died +24hr,3,6
-WRMD,2016-768,,northern cardinal,bird,Bird,06/11/2016,2016,Spring,June,11,Saturday,-78.084539,39.209338,Released,released,5,6
-WRMD,2016-793,,american robin,bird,Bird,06/13/2016,2016,Spring,June,13,Monday,-78.150668,39.161925,Released,released,0,6
+WRMD,2016-768,,northern cardinal,bird,Bird,06/11/2016,2016,Spring,June,11,Saturday,39.209338,-78.084539,Released,released,5,6
+WRMD,2016-793,,american robin,bird,Bird,06/13/2016,2016,Spring,June,13,Monday,39.161925,-78.150668,Released,released,0,6
 WRMD,2016-811,,northern raccoon,raccoon,Mammal,06/15/2016,2016,Spring,June,15,Wednesday,39.271865,-78.099763,Released,released,2,6
 WRMD,2016-878,,wood turtle,turtle,Reptile,06/21/2016,2016,Summer,June,21,Tuesday,37.522251,-78.668194,Died,euthanized in 24hr,1,6
 WRMD,2016-879,,striped skunk,skunk,Mammal,06/21/2016,2016,Summer,June,21,Tuesday,37.522251,-78.668194,Released,released,1,6
 WRMD,2016-880,,striped skunk,skunk,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Released,released,2,8
-WRMD,2016-915,,woodland box turtle,turtle,Reptile,06/24/2016,2016,Summer,June,24,Friday,-77.524044,39.004459,Released,released,4,6
-WRMD,2016-918,,barn swallow,bird,Bird,06/25/2016,2016,Summer,June,25,Saturday,-78.25521,39.357872,Died,died in 24hr,5,6
-WRMD,2016-919,,eastern cottontail,rabbits & hares,Mammal,06/25/2016,2016,Summer,June,25,Saturday,-78.178863,39.09624,Died,died in 24hr,5,6
-WRMD,2016-932,,woodland box turtle,turtle,Reptile,06/26/2016,2016,Summer,June,26,Sunday,-78.194445,38.918167,Died,died in 24hr,6,6
+WRMD,2016-915,,woodland box turtle,turtle,Reptile,06/24/2016,2016,Summer,June,24,Friday,39.004459,-77.524044,Released,released,4,6
+WRMD,2016-918,,barn swallow,bird,Bird,06/25/2016,2016,Summer,June,25,Saturday,39.357872,-78.25521,Died,died in 24hr,5,6
+WRMD,2016-919,,eastern cottontail,rabbits & hares,Mammal,06/25/2016,2016,Summer,June,25,Saturday,39.09624,-78.178863,Died,died in 24hr,5,6
+WRMD,2016-932,,woodland box turtle,turtle,Reptile,06/26/2016,2016,Summer,June,26,Sunday,38.918167,-78.194445,Died,died in 24hr,6,6
 WRMD,2016-953,,eastern painted turtle,turtle,Reptile,06/28/2016,2016,Summer,June,28,Tuesday,39.190404,-78.399536,Died,died +24hr,1,6
-WRMD,2016-955,,grey fox,fox,Mammal,06/28/2016,2016,Summer,June,28,Tuesday,-78.459452,38.665397,Died,dead on arrival,1,6
+WRMD,2016-955,,grey fox,fox,Mammal,06/28/2016,2016,Summer,June,28,Tuesday,38.665397,-78.459452,Died,dead on arrival,1,6
 WRMD,2016-958,,northern raccoon,raccoon,Mammal,06/28/2016,2016,Summer,June,28,Tuesday,37.522251,-78.668194,Released,released,1,6
 WRMD,2016-959,,northern raccoon,raccoon,Mammal,06/28/2016,2016,Summer,June,28,Tuesday,37.522251,-78.668194,Released,released,1,6
 WRMD,2016-987,,eastern screech owl,owl,Bird,06/30/2016,2016,Summer,June,30,Thursday,37.522251,-78.668194,Died,euthanized +24hr,3,6
 WRMD,2016-995,,gray catbird,bird,Bird,07/01/2016,2016,Summer,July,1,Friday,37.522251,-78.668194,Died,died +24hr,4,7
-WRMD,2016-1006,,mallard,bird,Bird,07/03/2016,2016,Summer,July,3,Sunday,-78.172269,39.186609,Released,released,6,7
+WRMD,2016-1006,,mallard,bird,Bird,07/03/2016,2016,Summer,July,3,Sunday,39.186609,-78.172269,Released,released,6,7
 WRMD,2016-1009,,brown-headed cowbird,bird,Bird,07/03/2016,2016,Summer,July,3,Sunday,39.169668,-78.16856,Died,died in 24hr,6,7
-WRMD,2016-1015,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,-78.196413,38.919947,Died,dead on arrival,0,7
+WRMD,2016-1015,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.919947,-78.196413,Died,dead on arrival,0,7
 WRMD,2016-1016,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Died,euthanized in 24hr,0,7
 WRMD,2016-1017,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Died,euthanized in 24hr,0,7
 WRMD,2016-1018,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Died,euthanized in 24hr,0,7
@@ -139,25 +137,25 @@ WRMD,2016-1019,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,
 WRMD,2016-1020,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Died,euthanized in 24hr,0,7
 WRMD,2016-1021,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Died,euthanized in 24hr,0,7
 WRMD,2016-1022,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Died,euthanized in 24hr,0,7
-WRMD,2016-1023,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,-78.196413,38.919947,Died,euthanized in 24hr,0,7
-WRMD,2016-1024,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,-78.196413,38.919947,Died,euthanized in 24hr,0,7
+WRMD,2016-1023,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.919947,-78.196413,Died,euthanized in 24hr,0,7
+WRMD,2016-1024,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.919947,-78.196413,Died,euthanized in 24hr,0,7
 WRMD,2016-1029,,woodland box turtle,turtle,Reptile,07/05/2016,2016,Summer,July,5,Tuesday,39.169668,-78.16856,Died,died in 24hr,1,7
-WRMD,2016-1031,,eastern painted turtle,turtle,Reptile,07/05/2016,2016,Summer,July,5,Tuesday,-78.178597,39.105584,Died,euthanized in 24hr,1,7
+WRMD,2016-1031,,eastern painted turtle,turtle,Reptile,07/05/2016,2016,Summer,July,5,Tuesday,39.105584,-78.178597,Died,euthanized in 24hr,1,7
 WRMD,2016-1042,,carolina wren,bird,Bird,07/06/2016,2016,Summer,July,6,Wednesday,39.218464,-78.1951,Died,died in 24hr,2,7
 WRMD,2016-1043,,carolina wren,bird,Bird,07/06/2016,2016,Summer,July,6,Wednesday,39.218464,-78.1951,Died,died in 24hr,2,7
 WRMD,2016-1044,,carolina wren,bird,Bird,07/06/2016,2016,Summer,July,6,Wednesday,39.218464,-78.1951,Died,died in 24hr,2,7
 WRMD,2016-1045,,carolina wren,bird,Bird,07/06/2016,2016,Summer,July,6,Wednesday,39.218464,-78.1951,Died,died in 24hr,2,7
 WRMD,2016-1046,,carolina wren,bird,Bird,07/06/2016,2016,Summer,July,6,Wednesday,39.218464,-78.1951,Died,died in 24hr,2,7
-WRMD,2016-1074,,red-headed woodpecker,bird,Bird,07/09/2016,2016,Summer,July,9,Saturday,-78.207789,38.962032,Died,euthanized in 24hr,5,7
-WRMD,2016-1076,,northern raccoon,raccoon,Mammal,07/10/2016,2016,Summer,July,10,Sunday,-78.187977,39.078417,Died,euthanized in 24hr,6,7
+WRMD,2016-1074,,red-headed woodpecker,bird,Bird,07/09/2016,2016,Summer,July,9,Saturday,38.962032,-78.207789,Died,euthanized in 24hr,5,7
+WRMD,2016-1076,,northern raccoon,raccoon,Mammal,07/10/2016,2016,Summer,July,10,Sunday,39.078417,-78.187977,Died,euthanized in 24hr,6,7
 WRMD,2016-1113,,mourning dove,bird,Bird,07/14/2016,2016,Summer,July,14,Thursday,37.522251,-78.668194,Died,euthanized +24hr,3,7
-WRMD,2016-1119,,indigo bunting,bird,Bird,07/15/2016,2016,Summer,July,15,Friday,-78.183097,39.173249,Died,dead on arrival,4,7
+WRMD,2016-1119,,indigo bunting,bird,Bird,07/15/2016,2016,Summer,July,15,Friday,39.173249,-78.183097,Died,dead on arrival,4,7
 WRMD,2016-1138,,woodland box turtle,turtle,Reptile,07/17/2016,2016,Summer,July,17,Sunday,37.522251,-78.668194,Released,released,6,7
-WRMD,2016-1141,,woodland box turtle,turtle,Reptile,07/17/2016,2016,Summer,July,17,Sunday,-78.113299,39.183686,Died,euthanized in 24hr,6,7
+WRMD,2016-1141,,woodland box turtle,turtle,Reptile,07/17/2016,2016,Summer,July,17,Sunday,39.183686,-78.113299,Died,euthanized in 24hr,6,7
 WRMD,2016-1144,,great blue heron,bird,Bird,07/17/2016,2016,Summer,July,17,Sunday,38.857585,-77.637628,Died,euthanized in 24hr,6,7
-WRMD,2016-1145,,fish crow,bird,Bird,07/17/2016,2016,Summer,July,17,Sunday,-77.982219,39.151771,Died,died in 24hr,6,7
+WRMD,2016-1145,,fish crow,bird,Bird,07/17/2016,2016,Summer,July,17,Sunday,39.151771,-77.982219,Died,died in 24hr,6,7
 WRMD,2016-1158,,house sparrow,bird,Bird,07/20/2016,2016,Summer,July,20,Wednesday,39.55343,-77.995,Died,euthanized in 24hr,2,7
-WRMD,2016-1160,,northern cardinal,bird,Bird,07/20/2016,2016,Summer,July,20,Wednesday,-78.278815,38.893735,Died,died +24hr,2,7
+WRMD,2016-1160,,northern cardinal,bird,Bird,07/20/2016,2016,Summer,July,20,Wednesday,38.893735,-78.278815,Died,died +24hr,2,7
 WRMD,2016-1161,,woodland box turtle,turtle,Reptile,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Released,released,2,8
 WRMD,2016-1169,,red-tailed hawk,bird,Bird,07/21/2016,2016,Summer,July,21,Thursday,37.522251,-78.668194,Died,euthanized in 24hr,3,7
 WRMD,2016-1170,,eastern cottontail,rabbits & hares,Mammal,07/22/2016,2016,Summer,July,22,Friday,39.180484,-78.162551,Released,released,4,7
@@ -172,36 +170,28 @@ WRMD,2016-1265,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,
 WRMD,2016-1266,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,transferred,2,8
 WRMD,2016-1267,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,transferred,2,8
 WRMD,2016-1268,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,transferred,2,8
-WRMD,2016-1277,,virginia opossum,marsupial,Mammal,08/04/2016,2016,Summer,August,4,Thursday,-89.202284,13.68909,Died,euthanized in 24hr,3,8
-WRMD,2016-1278,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,-89.202284,13.68909,Died,euthanized in 24hr,1,8
-WRMD,2016-1279,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,-89.202284,13.68909,Died,euthanized in 24hr,1,8
-WRMD,2016-1280,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,-89.202284,13.68909,Died,euthanized in 24hr,1,8
-WRMD,2016-1281,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,-89.202284,13.68909,Died,euthanized in 24hr,1,8
-WRMD,2016-1300,,virginia opossum,marsupial,Mammal,08/06/2016,2016,Summer,August,6,Saturday,-78.011718,38.882918,Transferred,transferred,5,8
-WRMD,2016-1301,,virginia opossum,marsupial,Mammal,08/06/2016,2016,Summer,August,6,Saturday,-78.011718,38.882918,Transferred,transferred,5,8
-WRMD,2016-1302,,virginia opossum,marsupial,Mammal,08/06/2016,2016,Summer,August,6,Saturday,-78.011718,38.882918,Transferred,transferred,5,8
+WRMD,2016-1300,,virginia opossum,marsupial,Mammal,08/06/2016,2016,Summer,August,6,Saturday,38.882918,-78.011718,Transferred,transferred,5,8
+WRMD,2016-1301,,virginia opossum,marsupial,Mammal,08/06/2016,2016,Summer,August,6,Saturday,38.882918,-78.011718,Transferred,transferred,5,8
+WRMD,2016-1302,,virginia opossum,marsupial,Mammal,08/06/2016,2016,Summer,August,6,Saturday,38.882918,-78.011718,Transferred,transferred,5,8
 WRMD,2016-1321,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,37.522251,-78.668194,Died,euthanized +24hr,1,8
 WRMD,2016-1322,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,37.522251,-78.668194,Died,euthanized in 24hr,1,8
 WRMD,2016-1323,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,37.522251,-78.668194,Died,euthanized in 24hr,1,8
-WRMD,2016-1353,,virginia opossum,marsupial,Mammal,08/12/2016,2016,Summer,August,12,Friday,-78.427092,38.948189,Died,died +24hr,4,8
-WRMD,2016-1354,,virginia opossum,marsupial,Mammal,08/12/2016,2016,Summer,August,12,Friday,-78.427092,38.948189,Died,died +24hr,4,8
-WRMD,2016-1355,,virginia opossum,marsupial,Mammal,08/12/2016,2016,Summer,August,12,Friday,-78.427092,38.948189,Died,euthanized +24hr,4,8
-WRMD,2016-1362,,eastern painted turtle,turtle,Reptile,08/14/2016,2016,Summer,August,14,Sunday,-89.202284,13.68909,Released,released,6,8
-WRMD,2016-1372,,red-tailed hawk,bird,Bird,08/17/2016,2016,Summer,August,17,Wednesday,-89.202284,13.68909,Died,euthanized +24hr,2,8
+WRMD,2016-1353,,virginia opossum,marsupial,Mammal,08/12/2016,2016,Summer,August,12,Friday,38.948189,-78.427092,Died,died +24hr,4,8
+WRMD,2016-1354,,virginia opossum,marsupial,Mammal,08/12/2016,2016,Summer,August,12,Friday,38.948189,-78.427092,Died,died +24hr,4,8
+WRMD,2016-1355,,virginia opossum,marsupial,Mammal,08/12/2016,2016,Summer,August,12,Friday,38.948189,-78.427092,Died,euthanized +24hr,4,8
 WRMD,2016-1385,,cedar waxwing,bird,Bird,08/21/2016,2016,Summer,August,21,Sunday,37.522251,-78.668194,Released,released,6,8
-WRMD,2016-1398,,barred owl,owl,Bird,08/26/2016,2016,Summer,August,26,Friday,-77.555365,38.732605,Died,euthanized in 24hr,4,8
-WRMD,2016-1406,,carolina wren,bird,Bird,08/30/2016,2016,Summer,August,30,Tuesday,-78.635176,38.841594,Died,died in 24hr,1,8
-WRMD,2016-1407,,hoary bat,bat,Mammal,08/30/2016,2016,Summer,August,30,Tuesday,-78.257494,39.282134,Died,died +24hr,1,8
+WRMD,2016-1398,,barred owl,owl,Bird,08/26/2016,2016,Summer,August,26,Friday,38.732605,-77.555365,Died,euthanized in 24hr,4,8
+WRMD,2016-1406,,carolina wren,bird,Bird,08/30/2016,2016,Summer,August,30,Tuesday,38.841594,-78.635176,Died,died in 24hr,1,8
+WRMD,2016-1407,,hoary bat,bat,Mammal,08/30/2016,2016,Summer,August,30,Tuesday,39.282134,-78.257494,Died,died +24hr,1,8
 WRMD,2016-1411,,red fox,fox,Mammal,08/31/2016,2016,Summer,August,31,Wednesday,39.013835,-77.39289,Died,euthanized in 24hr,2,8
-WRMD,2016-1428,,eastern cottontail,rabbits & hares,Mammal,09/04/2016,2016,Summer,September,4,Sunday,-78.183642,39.097289,Died,euthanized in 24hr,6,9
-WRMD,2016-1447,,woodland box turtle,turtle,Reptile,09/07/2016,2016,Summer,September,7,Wednesday,-77.738882,39.325379,Died,euthanized in 24hr,2,9
-WRMD,2016-1448,,woodland box turtle,turtle,Reptile,09/07/2016,2016,Summer,September,7,Wednesday,-78.099992,39.161606,Died,died in 24hr,2,9
-WRMD,2016-1460,,woodland box turtle,turtle,Reptile,10/01/2016,2016,Autumn,October,1,Saturday,-89.202284,13.68909,Released,released,5,10
-WRMD,2016-1476,,eastern gray squirrel,rodent,Mammal,09/16/2016,2016,Summer,September,16,Friday,-77.647055,39.230347,Died,euthanized in 24hr,4,9
+WRMD,2016-1428,,eastern cottontail,rabbits & hares,Mammal,09/04/2016,2016,Summer,September,4,Sunday,39.097289,-78.183642,Died,euthanized in 24hr,6,9
+WRMD,2016-1447,,woodland box turtle,turtle,Reptile,09/07/2016,2016,Summer,September,7,Wednesday,39.325379,-77.738882,Died,euthanized in 24hr,2,9
+WRMD,2016-1448,,woodland box turtle,turtle,Reptile,09/07/2016,2016,Summer,September,7,Wednesday,39.161606,-78.099992,Died,died in 24hr,2,9
+WRMD,2016-1476,,eastern gray squirrel,rodent,Mammal,09/16/2016,2016,Summer,September,16,Friday,39.230347,-77.647055,Died,euthanized in 24hr,4,9
 WRMD,2016-1478,,virginia opossum,marsupial,Mammal,09/17/2016,2016,Summer,September,17,Saturday,38.854378,-78.142275,Died,dead on arrival,5,9
 WRMD,2016-1479,,snapping turtle,turtle,Reptile,09/18/2016,2016,Summer,September,18,Sunday,37.522251,-78.668194,Released,released,6,9
 WRMD,2016-1483,,red-tailed hawk,bird,Bird,09/20/2016,2016,Summer,September,20,Tuesday,39.329457,-78.307169,Died,euthanized in 24hr,1,9
-WRMD,2016-1488,,unidentified mouse,rodent,Mammal,09/20/2016,2016,Summer,September,20,Tuesday,-77.64119,38.979836,Released,released,1,9
+WRMD,2016-1488,,unidentified mouse,rodent,Mammal,09/20/2016,2016,Summer,September,20,Tuesday,38.979836,-77.64119,Released,released,1,9
 WRMD,2016-1501,,great horned owl,bird,Bird,09/28/2016,2016,Autumn,September,28,Wednesday,39.273087,-77.595746,Released,released,2,9
 WRMD,2016-1509,,woodland box turtle,turtle,Reptile,12/23/2016,2016,Winter,December,23,Friday,37.522251,-78.668194,Released,released,4,12
 WRMD,2016-1514,,woodland box turtle,turtle,Reptile,10/02/2016,2016,Autumn,October,2,Sunday,37.522251,-78.668194,Released,released,6,10
@@ -225,7 +215,7 @@ WRMD,2016-1582,,woodland box turtle,turtle,Reptile,11/09/2016,2016,Autumn,Novemb
 WRMD,2016-1584,,eastern screech owl,owl,Bird,11/12/2016,2016,Autumn,November,12,Saturday,37.522251,-78.668194,Released,released,5,11
 WRMD,2016-1586,,northern cardinal,bird,Bird,11/12/2016,2016,Autumn,November,12,Saturday,37.522251,-78.668194,Died,died in 24hr,5,11
 WRMD,2016-1590,,red-tailed hawk,bird,Bird,11/17/2016,2016,Autumn,November,17,Thursday,37.522251,-78.668194,Released,released,3,11
-WRMD,2016-1592,,northern saw-whet owl,owl,Bird,11/18/2016,2016,Autumn,November,18,Friday,-76.842174,37.124558,Died,euthanized +24hr,4,11
+WRMD,2016-1592,,northern saw-whet owl,owl,Bird,11/18/2016,2016,Autumn,November,18,Friday,37.124558,-76.842174,Died,euthanized +24hr,4,11
 WRMD,2016-1594,,eastern screech owl,owl,Bird,11/19/2016,2016,Autumn,November,19,Saturday,37.522251,-78.668194,Released,released,5,11
 WRMD,2016-1598,,american crow,bird,Bird,11/21/2016,2016,Autumn,November,21,Monday,37.522251,-78.668194,Died,euthanized +24hr,0,11
 WRMD,2016-1603,,eastern screech owl,owl,Bird,11/26/2016,2016,Autumn,November,26,Saturday,39.153459,-78.121475,Released,released,5,11
@@ -234,21 +224,20 @@ WRMD,2016-1610,,eastern cottontail,rabbits & hares,Mammal,12/01/2016,2016,Autumn
 WRMD,2016-1612,,red-shouldered hawk,bird,Bird,12/02/2016,2016,Autumn,December,2,Friday,39.270945,-77.548155,Died,euthanized +24hr,4,12
 WRMD,2016-1630,,eastern screech owl,owl,Bird,12/19/2016,2016,Autumn,December,19,Monday,39.109717,-77.954009,Released,released,0,12
 WRMD,2016-1632,,red-tailed hawk,bird,Bird,12/22/2016,2016,Winter,December,22,Thursday,38.705126,-77.223521,Released,released,3,12
-WRMD,2016-1634,,eastern cottontail,rabbits & hares,Mammal,12/27/2016,2016,Winter,December,27,Tuesday,12.453389,41.902916,Died,euthanized +24hr,1,12
-WRMD,2017-6,,eastern screech owl,owl,Bird,01/07/2017,2017,Winter,January,7,Saturday,-78.215722,38.87264,Released,released,5,1
-WRMD,2017-10,,red-shouldered hawk,bird,Bird,01/14/2017,2017,Winter,January,14,Saturday,-78.069305,39.087557,Died,euthanized in 24hr,5,1
-WRMD,2017-12,,virginia opossum,marsupial,Mammal,01/16/2017,2017,Winter,January,16,Monday,-77.666215,38.87362,Died,euthanized in 24hr,0,1
-WRMD,2017-15,,eastern screech owl,owl,Bird,01/20/2017,2017,Winter,January,20,Friday,-78.176016,39.188253,Died,euthanized in 24hr,4,1
-WRMD,2017-18,,eastern fox squirrel,rodent,Mammal,01/26/2017,2017,Winter,January,26,Thursday,-77.854087,38.97127,Died,died in 24hr,3,1
+WRMD,2017-6,,eastern screech owl,owl,Bird,01/07/2017,2017,Winter,January,7,Saturday,38.87264,-78.215722,Released,released,5,1
+WRMD,2017-10,,red-shouldered hawk,bird,Bird,01/14/2017,2017,Winter,January,14,Saturday,39.087557,-78.069305,Died,euthanized in 24hr,5,1
+WRMD,2017-12,,virginia opossum,marsupial,Mammal,01/16/2017,2017,Winter,January,16,Monday,38.87362,-77.666215,Died,euthanized in 24hr,0,1
+WRMD,2017-15,,eastern screech owl,owl,Bird,01/20/2017,2017,Winter,January,20,Friday,39.188253,-78.176016,Died,euthanized in 24hr,4,1
+WRMD,2017-18,,eastern fox squirrel,rodent,Mammal,01/26/2017,2017,Winter,January,26,Thursday,38.97127,-77.854087,Died,died in 24hr,3,1
 WRMD,2017-21,,coyote,coyote,Mammal,01/28/2017,2017,Winter,January,28,Saturday,38.911315,-77.967401,Died,euthanized in 24hr,5,1
-WRMD,2017-25,,eastern screech owl,owl,Bird,01/29/2017,2017,Winter,January,29,Sunday,-78.565473,38.894373,Died,died +24hr,6,1
+WRMD,2017-25,,eastern screech owl,owl,Bird,01/29/2017,2017,Winter,January,29,Sunday,38.894373,-78.565473,Died,died +24hr,6,1
 WRMD,2017-33,,red-shouldered hawk,bird,Bird,02/04/2017,2017,Winter,February,4,Saturday,39.135711,-77.991926,Died,euthanized in 24hr,5,2
-WRMD,2017-37,,eastern screech owl,owl,Bird,02/12/2017,2017,Winter,February,12,Sunday,-77.433306,39.411935,Released,released,6,2
-WRMD,2017-43,,turkey vulture,bird,Bird,02/17/2017,2017,Winter,February,17,Friday,-77.649667,39.038907,Died,euthanized in 24hr,4,2
+WRMD,2017-37,,eastern screech owl,owl,Bird,02/12/2017,2017,Winter,February,12,Sunday,39.411935,-77.433306,Released,released,6,2
+WRMD,2017-43,,turkey vulture,bird,Bird,02/17/2017,2017,Winter,February,17,Friday,39.038907,-77.649667,Died,euthanized in 24hr,4,2
 WRMD,2017-46,,virginia opossum,marsupial,Mammal,02/18/2017,2017,Winter,February,18,Saturday,39.150651,-78.14923,Died,euthanized in 24hr,5,2
 WRMD,2017-47,,red-tailed hawk,bird,Bird,02/18/2017,2017,Winter,February,18,Saturday,38.928308,-78.174537,Released,released,5,2
 WRMD,2017-48,,great horned owl,bird,Bird,02/19/2017,2017,Winter,February,19,Sunday,39.271138,-78.384028,Died,euthanized +24hr,6,2
-WRMD,2017-49,,american crow,bird,Bird,02/19/2017,2017,Winter,February,19,Sunday,-77.829228,39.080302,Released,released,6,2
+WRMD,2017-49,,american crow,bird,Bird,02/19/2017,2017,Winter,February,19,Sunday,39.080302,-77.829228,Released,released,6,2
 WRMD,2017-51,,barred owl,owl,Bird,02/20/2017,2017,Winter,February,20,Monday,39.202439,-77.994184,Released,released,0,2
 WRMD,2017-54,,red-tailed hawk,bird,Bird,02/22/2017,2017,Winter,February,22,Wednesday,38.818191,-78.637768,Died,euthanized +24hr,2,2
 WRMD,2017-55,,red-tailed hawk,bird,Bird,02/22/2017,2017,Winter,February,22,Wednesday,39.244689,-77.54937,Died,died +24hr,2,2
@@ -260,33 +249,29 @@ WRMD,2017-63,,eastern gray squirrel,rodent,Mammal,03/01/2017,2017,Winter,March,1
 WRMD,2017-77,,eastern gray squirrel,rodent,Mammal,03/15/2017,2017,Winter,March,15,Wednesday,38.96146,-77.3418,Released,released,2,3
 WRMD,2017-78,,eastern gray squirrel,rodent,Mammal,03/15/2017,2017,Winter,March,15,Wednesday,38.96146,-77.3418,Released,released,2,3
 WRMD,2017-79,,hermit thrush,bird,Bird,03/15/2017,2017,Winter,March,15,Wednesday,39.094344,-78.02015,Released,released,2,3
-WRMD,2017-80,,northern cardinal,bird,Bird,03/15/2017,2017,Winter,March,15,Wednesday,-78.578853,38.830951,Released,released,2,3
+WRMD,2017-80,,northern cardinal,bird,Bird,03/15/2017,2017,Winter,March,15,Wednesday,38.830951,-78.578853,Released,released,2,3
 WRMD,2017-84,,northern flicker,bird,Bird,03/17/2017,2017,Winter,March,17,Friday,39.475315,-78.116739,Died,dead on arrival,4,3
 WRMD,2017-92,,mallard,bird,Bird,03/19/2017,2017,Winter,March,19,Sunday,38.645981,-78.481288,Died,dead on arrival,6,3
-WRMD,2017-101,,eastern screech owl,owl,Bird,03/25/2017,2017,Spring,March,25,Saturday,-77.978325,39.149431,Transferred,transferred,5,3
-WRMD,2017-102,,red-tailed hawk,bird,Bird,03/25/2017,2017,Spring,March,25,Saturday,-77.411084,38.731465,Died,euthanized in 24hr,5,3
+WRMD,2017-101,,eastern screech owl,owl,Bird,03/25/2017,2017,Spring,March,25,Saturday,39.149431,-77.978325,Transferred,transferred,5,3
+WRMD,2017-102,,red-tailed hawk,bird,Bird,03/25/2017,2017,Spring,March,25,Saturday,38.731465,-77.411084,Died,euthanized in 24hr,5,3
 WRMD,2017-122,,mourning dove,bird,Bird,03/27/2017,2017,Spring,March,27,Monday,39.143645,-78.227648,Died,euthanized in 24hr,0,3
-WRMD,2017-133,,eastern fox squirrel,rodent,Mammal,03/28/2017,2017,Spring,March,28,Tuesday,-78.001641,39.060562,Released,released,1,3
+WRMD,2017-133,,eastern fox squirrel,rodent,Mammal,03/28/2017,2017,Spring,March,28,Tuesday,39.060562,-78.001641,Released,released,1,3
 WRMD,2017-135,,eastern painted turtle,turtle,Reptile,03/29/2017,2017,Spring,March,29,Wednesday,39.047452,-78.097227,Died,euthanized in 24hr,2,3
-WRMD,2017-143,,barred owl,owl,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-71.191832,42.418584,Released,released,2,3
 WRMD,2017-147,,peregrine falcon,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,38.977566,-77.425737,Active,pending,2,3
-WRMD,2017-150,,barred owl,owl,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-77.795146,38.713643,Released,released,2,3
-WRMD,2017-153,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-78.217006,39.082383,Died,euthanized +24hr,2,3
-WRMD,2017-155,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-78.217006,39.082383,Released,released,2,3
-WRMD,2017-160,,red-tailed hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-74.143638,40.844314,Released,released,2,3
-WRMD,2017-161,,red-tailed hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-71.191832,42.418584,Released,released,2,3
-WRMD,2017-162,,red-tailed hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-77.476863,38.350632,Released,released,2,3
-WRMD,2017-163,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-78.217006,39.082383,Released,released,2,3
-WRMD,2017-164,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-77.476863,38.350632,Released,released,2,3
-WRMD,2017-165,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-78.217006,39.082383,Released,released,2,3
-WRMD,2017-166,,sharp-shinned hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,-89.605982,39.717663,Released,released,2,3
+WRMD,2017-150,,barred owl,owl,Bird,03/29/2017,2017,Spring,March,29,Wednesday,38.713643,-77.795146,Released,released,2,3
+WRMD,2017-153,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,39.082383,-78.217006,Died,euthanized +24hr,2,3
+WRMD,2017-155,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,39.082383,-78.217006,Released,released,2,3
+WRMD,2017-162,,red-tailed hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,38.350632,-77.476863,Released,released,2,3
+WRMD,2017-163,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,39.082383,-78.217006,Released,released,2,3
+WRMD,2017-164,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,38.350632,-77.476863,Released,released,2,3
+WRMD,2017-165,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,39.082383,-78.217006,Released,released,2,3
 WRMD,2017-171,,eastern gray squirrel,rodent,Mammal,03/30/2017,2017,Spring,March,30,Thursday,38.984361,-78.145221,Released,released,3,3
-WRMD,2017-173,,barred owl,owl,Bird,03/31/2017,2017,Spring,March,31,Friday,-77.364639,38.829296,Died,euthanized in 24hr,4,3
+WRMD,2017-173,,barred owl,owl,Bird,03/31/2017,2017,Spring,March,31,Friday,38.829296,-77.364639,Died,euthanized in 24hr,4,3
 WRMD,2017-174,,northern raccoon,raccoon,Mammal,03/31/2017,2017,Spring,March,31,Friday,39.085146,-78.374963,Released,released,4,3
-WRMD,2017-190,,eastern gray squirrel,rodent,Mammal,04/06/2017,2017,Spring,April,6,Thursday,-77.570877,39.110709,Released,released,3,4
+WRMD,2017-190,,eastern gray squirrel,rodent,Mammal,04/06/2017,2017,Spring,April,6,Thursday,39.110709,-77.570877,Released,released,3,4
 WRMD,2017-195,,snapping turtle,turtle,Reptile,04/08/2017,2017,Spring,April,8,Saturday,38.952081,-77.366561,Released,released,5,4
-WRMD,2017-197,,eastern gray squirrel,rodent,Mammal,04/10/2017,2017,Spring,April,10,Monday,-77.49166,38.899458,Released,released,0,4
-WRMD,2017-203,,barred owl,owl,Bird,04/11/2017,2017,Spring,April,11,Tuesday,-77.850308,38.900043,Died,dead on arrival,1,4
+WRMD,2017-197,,eastern gray squirrel,rodent,Mammal,04/10/2017,2017,Spring,April,10,Monday,38.899458,-77.49166,Released,released,0,4
+WRMD,2017-203,,barred owl,owl,Bird,04/11/2017,2017,Spring,April,11,Tuesday,38.900043,-77.850308,Died,dead on arrival,1,4
 WRMD,2017-228,,eastern cottontail,rabbits & hares,Mammal,04/13/2017,2017,Spring,April,13,Thursday,38.984361,-78.145221,Died,euthanized in 24hr,3,4
 WRMD,2017-238,,virginia opossum,marsupial,Mammal,04/16/2017,2017,Spring,April,16,Sunday,39.135711,-77.991926,Released,released,6,4
 WRMD,2017-250,,woodland box turtle,turtle,Reptile,04/19/2017,2017,Spring,April,19,Wednesday,39.209135,-77.644986,Died,euthanized in 24hr,2,4
@@ -453,7 +438,7 @@ WRMD,2017-1294,,northern flicker,bird,Bird,07/28/2017,2017,Summer,July,28,Friday
 WRMD,2017-1324,,groundhog,rodent,Mammal,08/02/2017,2017,Summer,August,2,Wednesday,39.214972,-78.200323,Died,euthanized in 24hr,2,8
 WRMD,2017-1327,,gray fox,fox,Mammal,08/03/2017,2017,Summer,August,3,Thursday,38.74153,-78.09249,Died,euthanized in 24hr,3,8
 WRMD,2017-1350,,eastern cottontail,rabbits & hares,Mammal,08/06/2017,2017,Summer,August,6,Sunday,38.976359,-77.850145,Released,released,6,8
-WRMD,2017-1369,,red-shouldered hawk,bird,Bird,08/08/2017,2017,Summer,August,8,Tuesday,-78.060433,39.116184,Died,euthanized in 24hr,1,8
+WRMD,2017-1369,,red-shouldered hawk,bird,Bird,08/08/2017,2017,Summer,August,8,Tuesday,39.116184,-78.060433,Died,euthanized in 24hr,1,8
 WRMD,2017-1372,,red-tailed hawk,bird,Bird,08/09/2017,2017,Summer,August,9,Wednesday,38.526618,-77.821905,Released,released,2,8
 WRMD,2017-1379,,woodland box turtle,turtle,Reptile,08/11/2017,2017,Summer,August,11,Friday,38.751816,-77.471854,Released,released,4,8
 WRMD,2017-1382,,eastern cottontail,rabbits & hares,Mammal,08/11/2017,2017,Summer,August,11,Friday,39.256871,-78.334469,Released,released,4,8
@@ -533,300 +518,296 @@ WRMD,2017-1815,,eastern cottontail,rabbits & hares,Mammal,12/25/2017,2017,Winter
 WRMD,2017-1822,,eastern gray squirrel,rodent,Mammal,12/26/2017,2017,Winter,December,26,Tuesday,38.860599,-77.847124,Died,euthanized in 24hr,1,12
 WRMD,2017-1825,,eastern screech owl,owl,Bird,12/29/2017,2017,Winter,December,29,Friday,38.69317,-78.67891,Released,released,4,12
 WRMD,2018-6,,eastern screech owl,owl,Bird,01/05/2018,2018,Winter,January,5,Friday,38.308398,-77.796156,Released,released,4,1
-WRMD,2018-13,,merlin,bird,Bird,01/07/2018,2018,Winter,January,7,Sunday,-78.221027,38.9956,Died,died +24hr,6,1
-WRMD,2018-15,,red-shouldered hawk,bird,Bird,01/08/2018,2018,Winter,January,8,Monday,-77.76781,38.572378,Died,euthanized in 24hr,0,1
-WRMD,2018-16,,eastern screech owl,owl,Bird,01/08/2018,2018,Winter,January,8,Monday,-78.365848,38.972487,Released,released,0,1
-WRMD,2018-18,,hermit thrush,bird,Bird,01/10/2018,2018,Winter,January,10,Wednesday,-77.581821,39.034974,Died,euthanized in 24hr,2,1
+WRMD,2018-13,,merlin,bird,Bird,01/07/2018,2018,Winter,January,7,Sunday,38.9956,-78.221027,Died,died +24hr,6,1
+WRMD,2018-15,,red-shouldered hawk,bird,Bird,01/08/2018,2018,Winter,January,8,Monday,38.572378,-77.76781,Died,euthanized in 24hr,0,1
+WRMD,2018-16,,eastern screech owl,owl,Bird,01/08/2018,2018,Winter,January,8,Monday,38.972487,-78.365848,Released,released,0,1
+WRMD,2018-18,,hermit thrush,bird,Bird,01/10/2018,2018,Winter,January,10,Wednesday,39.034974,-77.581821,Died,euthanized in 24hr,2,1
 WRMD,2018-20,,eastern cottontail,rabbits & hares,Mammal,01/11/2018,2018,Winter,January,11,Thursday,39.085146,-78.374963,Died,euthanized in 24hr,3,1
 WRMD,2018-23,,barred owl,owl,Bird,01/13/2018,2018,Winter,January,13,Saturday,38.918722,-77.231093,Died,died in 24hr,5,1
-WRMD,2018-24,,barred owl,owl,Bird,01/13/2018,2018,Winter,January,13,Saturday,-77.523494,38.416827,Released,released,5,1
+WRMD,2018-24,,barred owl,owl,Bird,01/13/2018,2018,Winter,January,13,Saturday,38.416827,-77.523494,Released,released,5,1
 WRMD,2018-27,,canada goose,bird,Bird,01/13/2018,2018,Winter,January,13,Saturday,38.931678,-77.54172,Died,euthanized +24hr,5,1
 WRMD,2018-33,,eastern screech owl,owl,Bird,01/16/2018,2018,Winter,January,16,Tuesday,38.645981,-78.481288,Released,released,1,1
-WRMD,2018-42,,virginia opossum,marsupial,Mammal,01/26/2018,2018,Winter,January,26,Friday,-78.134203,39.221805,Died,euthanized in 24hr,4,1
-WRMD,2018-44,,barred owl,owl,Bird,01/27/2018,2018,Winter,January,27,Saturday,-78.511049,38.740118,Released,released,5,1
-WRMD,2018-50,,red-shouldered hawk,bird,Bird,02/03/2018,2018,Winter,February,3,Saturday,-77.275135,38.820858,Released,released,5,2
-WRMD,2018-51,,striped skunk,skunk,Mammal,02/04/2018,2018,Winter,February,4,Sunday,-77.387936,39.025597,Died,euthanized in 24hr,6,2
-WRMD,2018-53,,barred owl,owl,Bird,02/05/2018,2018,Winter,February,5,Monday,-77.181045,38.760711,Released,released,0,2
-WRMD,2018-54,,striped skunk,skunk,Mammal,02/05/2018,2018,Winter,February,5,Monday,-77.906872,38.779575,Died,euthanized in 24hr,0,2
-WRMD,2018-59,,red-tailed hawk,bird,Bird,02/08/2018,2018,Winter,February,8,Thursday,-77.341887,38.876886,Released,released,3,2
+WRMD,2018-42,,virginia opossum,marsupial,Mammal,01/26/2018,2018,Winter,January,26,Friday,39.221805,-78.134203,Died,euthanized in 24hr,4,1
+WRMD,2018-44,,barred owl,owl,Bird,01/27/2018,2018,Winter,January,27,Saturday,38.740118,-78.511049,Released,released,5,1
+WRMD,2018-50,,red-shouldered hawk,bird,Bird,02/03/2018,2018,Winter,February,3,Saturday,38.820858,-77.275135,Released,released,5,2
+WRMD,2018-51,,striped skunk,skunk,Mammal,02/04/2018,2018,Winter,February,4,Sunday,39.025597,-77.387936,Died,euthanized in 24hr,6,2
+WRMD,2018-53,,barred owl,owl,Bird,02/05/2018,2018,Winter,February,5,Monday,38.760711,-77.181045,Released,released,0,2
+WRMD,2018-54,,striped skunk,skunk,Mammal,02/05/2018,2018,Winter,February,5,Monday,38.779575,-77.906872,Died,euthanized in 24hr,0,2
+WRMD,2018-59,,red-tailed hawk,bird,Bird,02/08/2018,2018,Winter,February,8,Thursday,38.876886,-77.341887,Released,released,3,2
 WRMD,2018-60,,red-tailed hawk,bird,Bird,02/09/2018,2018,Winter,February,9,Friday,39.168998,-78.008826,Died,died +24hr,4,2
-WRMD,2018-62,,eastern screech owl,owl,Bird,02/10/2018,2018,Winter,February,10,Saturday,-77.786947,39.041524,Released,released,5,2
-WRMD,2018-64,,red-shouldered hawk,bird,Bird,02/11/2018,2018,Winter,February,11,Sunday,-77.271922,38.863982,Released,released,6,2
-WRMD,2018-65,,red-shouldered hawk,bird,Bird,02/12/2018,2018,Winter,February,12,Monday,-77.319891,38.818978,Released,released,0,2
-WRMD,2018-69,,eastern gray squirrel,rodent,Mammal,02/14/2018,2018,Winter,February,14,Wednesday,-78.213133,39.140162,Died,euthanized in 24hr,2,2
-WRMD,2018-71,,cooper's hawk,bird,Bird,02/16/2018,2018,Winter,February,16,Friday,-77.136805,38.689298,Released,released,4,2
-WRMD,2018-76,,american robin,bird,Bird,02/19/2018,2018,Winter,February,19,Monday,-78.142079,39.196743,Died,dead on arrival,0,2
+WRMD,2018-62,,eastern screech owl,owl,Bird,02/10/2018,2018,Winter,February,10,Saturday,39.041524,-77.786947,Released,released,5,2
+WRMD,2018-64,,red-shouldered hawk,bird,Bird,02/11/2018,2018,Winter,February,11,Sunday,38.863982,-77.271922,Released,released,6,2
+WRMD,2018-65,,red-shouldered hawk,bird,Bird,02/12/2018,2018,Winter,February,12,Monday,38.818978,-77.319891,Released,released,0,2
+WRMD,2018-69,,eastern gray squirrel,rodent,Mammal,02/14/2018,2018,Winter,February,14,Wednesday,39.140162,-78.213133,Died,euthanized in 24hr,2,2
+WRMD,2018-71,,cooper's hawk,bird,Bird,02/16/2018,2018,Winter,February,16,Friday,38.689298,-77.136805,Released,released,4,2
+WRMD,2018-76,,american robin,bird,Bird,02/19/2018,2018,Winter,February,19,Monday,39.196743,-78.142079,Died,dead on arrival,0,2
 WRMD,2018-84,,northern raccoon,raccoon,Mammal,02/22/2018,2018,Winter,February,22,Thursday,39.048614,-78.060132,Released,released,3,2
-WRMD,2018-88,,eastern screech owl,owl,Bird,02/24/2018,2018,Winter,February,24,Saturday,-78.107411,38.933587,Released,released,5,2
-WRMD,2018-89,,american goldfinch,bird,Bird,02/24/2018,2018,Winter,February,24,Saturday,-78.126266,38.897954,Died,died in 24hr,5,2
+WRMD,2018-88,,eastern screech owl,owl,Bird,02/24/2018,2018,Winter,February,24,Saturday,38.933587,-78.107411,Released,released,5,2
+WRMD,2018-89,,american goldfinch,bird,Bird,02/24/2018,2018,Winter,February,24,Saturday,38.897954,-78.126266,Died,died in 24hr,5,2
 WRMD,2018-90,,belted kingfisher,bird,Bird,02/24/2018,2018,Winter,February,24,Saturday,39.121007,-77.874089,Died,euthanized +24hr,5,2
-WRMD,2018-93,,turkey vulture,bird,Bird,02/26/2018,2018,Winter,February,26,Monday,-77.720904,38.777815,Died,euthanized in 24hr,0,2
-WRMD,2018-100,,house finch,bird,Bird,03/03/2018,2018,Winter,March,3,Saturday,-77.522029,39.023522,Died,died +24hr,5,3
-WRMD,2018-124,,red-shouldered hawk,bird,Bird,03/07/2018,2018,Winter,March,7,Wednesday,-77.232447,38.926879,Released,released,2,3
-WRMD,2018-127,,eastern cottontail,rabbits & hares,Mammal,03/08/2018,2018,Winter,March,8,Thursday,-78.217414,39.082871,Died,euthanized in 24hr,3,3
-WRMD,2018-130,,eastern gray squirrel,rodent,Mammal,03/10/2018,2018,Winter,March,10,Saturday,-78.151893,39.044629,Died,died +24hr,5,3
-WRMD,2018-131,,eastern cottontail,rabbits & hares,Mammal,03/10/2018,2018,Winter,March,10,Saturday,-78.060433,39.116184,Died,euthanized in 24hr,5,3
-WRMD,2018-132,,red-shouldered hawk,bird,Bird,03/10/2018,2018,Winter,March,10,Saturday,-77.392618,38.45608,Released,released,5,3
-WRMD,2018-141,,american robin,bird,Bird,03/14/2018,2018,Winter,March,14,Wednesday,-78.397405,39.145372,Died,dead on arrival,2,3
+WRMD,2018-93,,turkey vulture,bird,Bird,02/26/2018,2018,Winter,February,26,Monday,38.777815,-77.720904,Died,euthanized in 24hr,0,2
+WRMD,2018-100,,house finch,bird,Bird,03/03/2018,2018,Winter,March,3,Saturday,39.023522,-77.522029,Died,died +24hr,5,3
+WRMD,2018-124,,red-shouldered hawk,bird,Bird,03/07/2018,2018,Winter,March,7,Wednesday,38.926879,-77.232447,Released,released,2,3
+WRMD,2018-127,,eastern cottontail,rabbits & hares,Mammal,03/08/2018,2018,Winter,March,8,Thursday,39.082871,-78.217414,Died,euthanized in 24hr,3,3
+WRMD,2018-130,,eastern gray squirrel,rodent,Mammal,03/10/2018,2018,Winter,March,10,Saturday,39.044629,-78.151893,Died,died +24hr,5,3
+WRMD,2018-131,,eastern cottontail,rabbits & hares,Mammal,03/10/2018,2018,Winter,March,10,Saturday,39.116184,-78.060433,Died,euthanized in 24hr,5,3
+WRMD,2018-132,,red-shouldered hawk,bird,Bird,03/10/2018,2018,Winter,March,10,Saturday,38.45608,-77.392618,Released,released,5,3
+WRMD,2018-141,,american robin,bird,Bird,03/14/2018,2018,Winter,March,14,Wednesday,39.145372,-78.397405,Died,dead on arrival,2,3
 WRMD,2018-146,,red-shouldered hawk,bird,Bird,03/17/2018,2018,Winter,March,17,Saturday,39.169668,-78.16856,Died,euthanized +24hr,5,3
-WRMD,2018-169,,canada goose,bird,Bird,03/26/2018,2018,Spring,March,26,Monday,-77.473202,38.999143,Died,died in 24hr,0,3
-WRMD,2018-170,,eastern cottontail,rabbits & hares,Mammal,03/27/2018,2018,Spring,March,27,Tuesday,-78.118209,38.936403,Released,released,1,3
-WRMD,2018-180,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,-78.17793,39.132772,Released,released,4,3
-WRMD,2018-181,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,-78.17793,39.132772,Released,released,4,3
-WRMD,2018-182,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,-78.17793,39.132772,Released,released,4,3
-WRMD,2018-183,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,-78.17793,39.132772,Released,released,4,3
-WRMD,2018-184,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,-78.17793,39.132772,Released,released,4,3
-WRMD,2018-187,,cooper's hawk,bird,Bird,03/30/2018,2018,Spring,March,30,Friday,-78.325548,39.203228,Died,euthanized in 24hr,4,3
+WRMD,2018-169,,canada goose,bird,Bird,03/26/2018,2018,Spring,March,26,Monday,38.999143,-77.473202,Died,died in 24hr,0,3
+WRMD,2018-170,,eastern cottontail,rabbits & hares,Mammal,03/27/2018,2018,Spring,March,27,Tuesday,38.936403,-78.118209,Released,released,1,3
+WRMD,2018-180,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,39.132772,-78.17793,Released,released,4,3
+WRMD,2018-181,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,39.132772,-78.17793,Released,released,4,3
+WRMD,2018-182,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,39.132772,-78.17793,Released,released,4,3
+WRMD,2018-183,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,39.132772,-78.17793,Released,released,4,3
+WRMD,2018-184,,red fox,fox,Mammal,03/30/2018,2018,Spring,March,30,Friday,39.132772,-78.17793,Released,released,4,3
+WRMD,2018-187,,cooper's hawk,bird,Bird,03/30/2018,2018,Spring,March,30,Friday,39.203228,-78.325548,Died,euthanized in 24hr,4,3
 WRMD,2018-195,,eastern cottontail,rabbits & hares,Mammal,03/31/2018,2018,Spring,March,31,Saturday,39.135711,-77.991926,Died,euthanized in 24hr,5,3
-WRMD,2018-246,,wild turkey,bird,Bird,04/09/2018,2018,Spring,April,9,Monday,-77.926696,38.915404,Died,dead on arrival,0,4
-WRMD,2018-259,,eastern gray squirrel,rodent,Mammal,04/12/2018,2018,Spring,April,12,Thursday,-78.338224,39.198245,Released,released,3,4
-WRMD,2018-261,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,-78.153155,39.186132,Released,released,4,4
-WRMD,2018-262,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,-78.153155,39.186132,Released,released,4,4
-WRMD,2018-263,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,-78.153155,39.186132,Released,released,4,4
-WRMD,2018-267,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,-78.152239,39.186254,Released,released,4,4
-WRMD,2018-268,,eastern gray squirrel,rodent,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-78.192258,39.137068,Died,died +24hr,5,4
-WRMD,2018-269,,eastern gray squirrel,rodent,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-78.192258,39.137068,Transferred,transferred,5,4
-WRMD,2018-270,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-77.702324,39.134166,Transferred,transferred,5,4
-WRMD,2018-271,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-77.702324,39.134166,Transferred,transferred,5,4
-WRMD,2018-272,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-77.702324,39.134166,Transferred,transferred,5,4
-WRMD,2018-273,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-77.702324,39.134166,Transferred,transferred,5,4
-WRMD,2018-274,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-77.702324,39.134166,Transferred,transferred,5,4
-WRMD,2018-275,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-77.702324,39.134166,Transferred,transferred,5,4
-WRMD,2018-276,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-77.702324,39.134166,Transferred,transferred,5,4
-WRMD,2018-277,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,-77.702324,39.134166,Transferred,transferred,5,4
-WRMD,2018-284,,eastern gray squirrel,rodent,Mammal,04/15/2018,2018,Spring,April,15,Sunday,-78.072324,39.086707,Died,euthanized in 24hr,6,4
+WRMD,2018-246,,wild turkey,bird,Bird,04/09/2018,2018,Spring,April,9,Monday,38.915404,-77.926696,Died,dead on arrival,0,4
+WRMD,2018-259,,eastern gray squirrel,rodent,Mammal,04/12/2018,2018,Spring,April,12,Thursday,39.198245,-78.338224,Released,released,3,4
+WRMD,2018-261,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186132,-78.153155,Released,released,4,4
+WRMD,2018-262,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186132,-78.153155,Released,released,4,4
+WRMD,2018-263,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186132,-78.153155,Released,released,4,4
+WRMD,2018-267,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186254,-78.152239,Released,released,4,4
+WRMD,2018-268,,eastern gray squirrel,rodent,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.137068,-78.192258,Died,died +24hr,5,4
+WRMD,2018-269,,eastern gray squirrel,rodent,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.137068,-78.192258,Transferred,transferred,5,4
+WRMD,2018-270,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,transferred,5,4
+WRMD,2018-271,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,transferred,5,4
+WRMD,2018-272,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,transferred,5,4
+WRMD,2018-273,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,transferred,5,4
+WRMD,2018-274,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,transferred,5,4
+WRMD,2018-275,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,transferred,5,4
+WRMD,2018-276,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,transferred,5,4
+WRMD,2018-277,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,transferred,5,4
+WRMD,2018-284,,eastern gray squirrel,rodent,Mammal,04/15/2018,2018,Spring,April,15,Sunday,39.086707,-78.072324,Died,euthanized in 24hr,6,4
 WRMD,2018-287,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,euthanized in 24hr,0,4
 WRMD,2018-288,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,euthanized in 24hr,0,4
 WRMD,2018-289,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,euthanized in 24hr,0,4
 WRMD,2018-290,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,euthanized in 24hr,0,4
 WRMD,2018-291,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,dead on arrival,0,4
 WRMD,2018-292,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,dead on arrival,0,4
-WRMD,2018-296,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,-77.945889,38.778594,Died,died +24hr,6,4
-WRMD,2018-297,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,-77.945889,38.778594,Released,released,6,4
-WRMD,2018-298,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,-77.945889,38.778594,Released,released,6,4
-WRMD,2018-299,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,-77.945889,38.778594,Died,euthanized +24hr,6,4
-WRMD,2018-300,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,-77.945889,38.778594,Died,euthanized +24hr,6,4
-WRMD,2018-301,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,-77.945889,38.778594,Released,released,6,4
-WRMD,2018-302,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,-77.945889,38.778594,Died,died +24hr,6,4
-WRMD,2018-303,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,-77.945889,38.778594,Died,died +24hr,6,4
-WRMD,2018-304,,eastern gray squirrel,rodent,Mammal,04/16/2018,2018,Spring,April,16,Monday,-77.641936,39.135105,Released,released,0,4
-WRMD,2018-305,,american robin,bird,Bird,04/15/2018,2018,Spring,April,15,Sunday,-77.057224,38.753246,Died,died in 24hr,6,4
-WRMD,2018-306,,american robin,bird,Bird,04/16/2018,2018,Spring,April,16,Monday,-77.518701,39.017288,Released,released,0,4
+WRMD,2018-296,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,died +24hr,6,4
+WRMD,2018-297,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Released,released,6,4
+WRMD,2018-298,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Released,released,6,4
+WRMD,2018-299,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,euthanized +24hr,6,4
+WRMD,2018-300,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,euthanized +24hr,6,4
+WRMD,2018-301,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Released,released,6,4
+WRMD,2018-302,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,died +24hr,6,4
+WRMD,2018-303,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,died +24hr,6,4
+WRMD,2018-304,,eastern gray squirrel,rodent,Mammal,04/16/2018,2018,Spring,April,16,Monday,39.135105,-77.641936,Released,released,0,4
+WRMD,2018-305,,american robin,bird,Bird,04/15/2018,2018,Spring,April,15,Sunday,38.753246,-77.057224,Died,died in 24hr,6,4
+WRMD,2018-306,,american robin,bird,Bird,04/16/2018,2018,Spring,April,16,Monday,39.017288,-77.518701,Released,released,0,4
 WRMD,2018-326,,barred owl,owl,Bird,04/20/2018,2018,Spring,April,20,Friday,39.084829,-77.786939,Died,euthanized +24hr,4,4
-WRMD,2018-331,,canada goose,bird,Bird,04/21/2018,2018,Spring,April,21,Saturday,-77.982092,38.411216,Died,euthanized in 24hr,5,4
-WRMD,2018-341,,groundhog,rodent,Mammal,04/22/2018,2018,Spring,April,22,Sunday,-78.164445,39.269528,Died,died in 24hr,6,4
-WRMD,2018-354,,eastern gray squirrel,rodent,Mammal,04/23/2018,2018,Spring,April,23,Monday,-77.436663,38.898376,Transferred,transferred,0,4
-WRMD,2018-360,,eastern gray squirrel,rodent,Mammal,04/23/2018,2018,Spring,April,23,Monday,-78.151479,38.966951,Died,died in 24hr,0,4
-WRMD,2018-362,,northern cardinal,bird,Bird,04/24/2018,2018,Spring,April,24,Tuesday,-77.783045,39.010154,Died,dead on arrival,1,4
-WRMD,2018-378,,sharp-shinned hawk,bird,Bird,04/27/2018,2018,Spring,April,27,Friday,-77.542474,39.147291,Died,euthanized in 24hr,4,4
-WRMD,2018-380,,eastern gray squirrel,rodent,Mammal,04/27/2018,2018,Spring,April,27,Friday,-77.306266,38.938612,Died,euthanized in 24hr,4,4
+WRMD,2018-331,,canada goose,bird,Bird,04/21/2018,2018,Spring,April,21,Saturday,38.411216,-77.982092,Died,euthanized in 24hr,5,4
+WRMD,2018-341,,groundhog,rodent,Mammal,04/22/2018,2018,Spring,April,22,Sunday,39.269528,-78.164445,Died,died in 24hr,6,4
+WRMD,2018-354,,eastern gray squirrel,rodent,Mammal,04/23/2018,2018,Spring,April,23,Monday,38.898376,-77.436663,Transferred,transferred,0,4
+WRMD,2018-360,,eastern gray squirrel,rodent,Mammal,04/23/2018,2018,Spring,April,23,Monday,38.966951,-78.151479,Died,died in 24hr,0,4
+WRMD,2018-362,,northern cardinal,bird,Bird,04/24/2018,2018,Spring,April,24,Tuesday,39.010154,-77.783045,Died,dead on arrival,1,4
+WRMD,2018-378,,sharp-shinned hawk,bird,Bird,04/27/2018,2018,Spring,April,27,Friday,39.147291,-77.542474,Died,euthanized in 24hr,4,4
+WRMD,2018-380,,eastern gray squirrel,rodent,Mammal,04/27/2018,2018,Spring,April,27,Friday,38.938612,-77.306266,Died,euthanized in 24hr,4,4
 WRMD,2018-387,,red-shouldered hawk,bird,Bird,04/27/2018,2018,Spring,April,27,Friday,39.084414,-78.017231,Died,died in 24hr,4,4
-WRMD,2018-390,,virginia opossum,marsupial,Mammal,04/28/2018,2018,Spring,April,28,Saturday,-78.139188,38.991055,Died,euthanized +24hr,5,4
-WRMD,2018-431,,groundhog,rodent,Mammal,04/30/2018,2018,Spring,April,30,Monday,-77.980363,39.189019,Died,died +24hr,0,4
-WRMD,2018-481,,red-shouldered hawk,bird,Bird,05/05/2018,2018,Spring,May,5,Saturday,-77.366822,39.023263,Died,euthanized +24hr,5,5
-WRMD,2018-496,,virginia opossum,marsupial,Mammal,05/07/2018,2018,Spring,May,7,Monday,-78.329881,38.846521,Released,released,0,5
+WRMD,2018-390,,virginia opossum,marsupial,Mammal,04/28/2018,2018,Spring,April,28,Saturday,38.991055,-78.139188,Died,euthanized +24hr,5,4
+WRMD,2018-431,,groundhog,rodent,Mammal,04/30/2018,2018,Spring,April,30,Monday,39.189019,-77.980363,Died,died +24hr,0,4
+WRMD,2018-481,,red-shouldered hawk,bird,Bird,05/05/2018,2018,Spring,May,5,Saturday,39.023263,-77.366822,Died,euthanized +24hr,5,5
+WRMD,2018-496,,virginia opossum,marsupial,Mammal,05/07/2018,2018,Spring,May,7,Monday,38.846521,-78.329881,Released,released,0,5
 WRMD,2018-530,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,38.918791,-78.512429,Died,euthanized +24hr,3,5
-WRMD,2018-536,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,-78.177176,39.346943,Released,released,3,5
-WRMD,2018-537,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,-78.177176,39.346943,Released,released,3,5
-WRMD,2018-538,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,-78.177176,39.346943,Died,euthanized +24hr,3,5
-WRMD,2018-539,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,-78.177176,39.346943,Released,released,3,5
-WRMD,2018-540,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,-78.177176,39.346943,Released,released,3,5
-WRMD,2018-543,,woodland box turtle,turtle,Reptile,05/11/2018,2018,Spring,May,11,Friday,-78.172955,39.102226,Died,dead on arrival,4,5
-WRMD,2018-551,,woodland box turtle,turtle,Reptile,05/12/2018,2018,Spring,May,12,Saturday,-77.639269,39.096835,Released,released,5,5
-WRMD,2018-560,,snapping turtle,turtle,Reptile,05/13/2018,2018,Spring,May,13,Sunday,-77.971359,38.991299,Released,released,6,5
-WRMD,2018-562,,red fox,fox,Mammal,05/13/2018,2018,Spring,May,13,Sunday,-77.773883,38.862058,Died,euthanized +24hr,6,5
-WRMD,2018-564,,groundhog,rodent,Mammal,05/13/2018,2018,Spring,May,13,Sunday,-77.231001,38.699736,Died,euthanized +24hr,6,5
-WRMD,2018-571,,woodland box turtle,turtle,Reptile,05/14/2018,2018,Spring,May,14,Monday,-78.436829,39.089737,Released,released,0,5
+WRMD,2018-536,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,released,3,5
+WRMD,2018-537,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,released,3,5
+WRMD,2018-538,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Died,euthanized +24hr,3,5
+WRMD,2018-539,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,released,3,5
+WRMD,2018-540,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,released,3,5
+WRMD,2018-543,,woodland box turtle,turtle,Reptile,05/11/2018,2018,Spring,May,11,Friday,39.102226,-78.172955,Died,dead on arrival,4,5
+WRMD,2018-551,,woodland box turtle,turtle,Reptile,05/12/2018,2018,Spring,May,12,Saturday,39.096835,-77.639269,Released,released,5,5
+WRMD,2018-560,,snapping turtle,turtle,Reptile,05/13/2018,2018,Spring,May,13,Sunday,38.991299,-77.971359,Released,released,6,5
+WRMD,2018-562,,red fox,fox,Mammal,05/13/2018,2018,Spring,May,13,Sunday,38.862058,-77.773883,Died,euthanized +24hr,6,5
+WRMD,2018-564,,groundhog,rodent,Mammal,05/13/2018,2018,Spring,May,13,Sunday,38.699736,-77.231001,Died,euthanized +24hr,6,5
+WRMD,2018-571,,woodland box turtle,turtle,Reptile,05/14/2018,2018,Spring,May,14,Monday,39.089737,-78.436829,Released,released,0,5
 WRMD,2018-575,,woodland box turtle,turtle,Reptile,05/15/2018,2018,Spring,May,15,Tuesday,39.132284,-78.115336,Died,euthanized in 24hr,1,5
-WRMD,2018-577,,woodland box turtle,turtle,Reptile,05/15/2018,2018,Spring,May,15,Tuesday,-77.317792,38.396893,Released,released,1,5
-WRMD,2018-578,,woodland box turtle,turtle,Reptile,05/16/2018,2018,Spring,May,16,Wednesday,-78.261742,38.915518,Released,released,2,5
-WRMD,2018-581,,groundhog,rodent,Mammal,05/15/2018,2018,Spring,May,15,Tuesday,-77.607177,39.126377,Died,euthanized in 24hr,1,5
-WRMD,2018-582,,eastern painted turtle,turtle,Reptile,05/15/2018,2018,Spring,May,15,Tuesday,-77.517932,39.2232,Released,released,1,5
-WRMD,2018-584,,woodland box turtle,turtle,Reptile,05/16/2018,2018,Spring,May,16,Wednesday,-78.028842,39.026841,Died,died in 24hr,2,5
-WRMD,2018-592,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-78.075513,38.736438,Died,died +24hr,2,5
-WRMD,2018-593,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-78.075513,38.736438,Released,released,2,5
-WRMD,2018-594,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-78.075513,38.736438,Released,released,2,5
-WRMD,2018-595,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-78.075513,38.736438,Released,released,2,5
-WRMD,2018-596,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-78.075513,38.736438,Released,released,2,5
-WRMD,2018-597,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-78.075513,38.736438,Released,released,2,5
-WRMD,2018-598,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-78.075513,38.736438,Released,released,2,5
-WRMD,2018-599,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-78.075513,38.736438,Released,released,2,5
-WRMD,2018-600,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-78.075513,38.736438,Released,released,2,5
-WRMD,2018-604,,eastern cottontail,rabbits & hares,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,-77.86724,39.05244,Released,released,2,5
-WRMD,2018-666,,eastern painted turtle,turtle,Reptile,05/20/2018,2018,Spring,May,20,Sunday,-78.14054,39.163068,Released,released,6,5
-WRMD,2018-691,,red fox,fox,Mammal,05/22/2018,2018,Spring,May,22,Tuesday,-78.146035,39.197909,Died,died in 24hr,1,5
-WRMD,2018-700,,eastern painted turtle,turtle,Reptile,05/22/2018,2018,Spring,May,22,Tuesday,-78.584938,38.859341,Released,released,1,5
-WRMD,2018-709,,eastern painted turtle,turtle,Reptile,05/22/2018,2018,Spring,May,22,Tuesday,-77.640008,39.274979,Died,died +24hr,1,5
-WRMD,2018-715,,eastern painted turtle,turtle,Reptile,05/23/2018,2018,Spring,May,23,Wednesday,-77.6364,39.159341,Released,released,2,5
-WRMD,2018-721,,woodland box turtle,turtle,Reptile,05/23/2018,2018,Spring,May,23,Wednesday,-78.159721,38.929003,Released,released,2,5
+WRMD,2018-577,,woodland box turtle,turtle,Reptile,05/15/2018,2018,Spring,May,15,Tuesday,38.396893,-77.317792,Released,released,1,5
+WRMD,2018-578,,woodland box turtle,turtle,Reptile,05/16/2018,2018,Spring,May,16,Wednesday,38.915518,-78.261742,Released,released,2,5
+WRMD,2018-581,,groundhog,rodent,Mammal,05/15/2018,2018,Spring,May,15,Tuesday,39.126377,-77.607177,Died,euthanized in 24hr,1,5
+WRMD,2018-582,,eastern painted turtle,turtle,Reptile,05/15/2018,2018,Spring,May,15,Tuesday,39.2232,-77.517932,Released,released,1,5
+WRMD,2018-584,,woodland box turtle,turtle,Reptile,05/16/2018,2018,Spring,May,16,Wednesday,39.026841,-78.028842,Died,died in 24hr,2,5
+WRMD,2018-592,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Died,died +24hr,2,5
+WRMD,2018-593,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,released,2,5
+WRMD,2018-594,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,released,2,5
+WRMD,2018-595,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,released,2,5
+WRMD,2018-596,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,released,2,5
+WRMD,2018-597,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,released,2,5
+WRMD,2018-598,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,released,2,5
+WRMD,2018-599,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,released,2,5
+WRMD,2018-600,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,released,2,5
+WRMD,2018-604,,eastern cottontail,rabbits & hares,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,39.05244,-77.86724,Released,released,2,5
+WRMD,2018-666,,eastern painted turtle,turtle,Reptile,05/20/2018,2018,Spring,May,20,Sunday,39.163068,-78.14054,Released,released,6,5
+WRMD,2018-691,,red fox,fox,Mammal,05/22/2018,2018,Spring,May,22,Tuesday,39.197909,-78.146035,Died,died in 24hr,1,5
+WRMD,2018-700,,eastern painted turtle,turtle,Reptile,05/22/2018,2018,Spring,May,22,Tuesday,38.859341,-78.584938,Released,released,1,5
+WRMD,2018-709,,eastern painted turtle,turtle,Reptile,05/22/2018,2018,Spring,May,22,Tuesday,39.274979,-77.640008,Died,died +24hr,1,5
+WRMD,2018-715,,eastern painted turtle,turtle,Reptile,05/23/2018,2018,Spring,May,23,Wednesday,39.159341,-77.6364,Released,released,2,5
+WRMD,2018-721,,woodland box turtle,turtle,Reptile,05/23/2018,2018,Spring,May,23,Wednesday,38.929003,-78.159721,Released,released,2,5
 WRMD,2018-722,,red-eared slider,turtle,Reptile,05/23/2018,2018,Spring,May,23,Wednesday,38.488403,-78.09157,Died,euthanized in 24hr,2,5
-WRMD,2018-725,,eastern painted turtle,turtle,Reptile,05/24/2018,2018,Spring,May,24,Thursday,-78.358616,38.98872,Released,released,3,5
-WRMD,2018-727,,woodland box turtle,turtle,Reptile,05/24/2018,2018,Spring,May,24,Thursday,-78.053141,39.078908,Died,died in 24hr,3,5
-WRMD,2018-728,,eastern painted turtle,turtle,Reptile,05/24/2018,2018,Spring,May,24,Thursday,-78.083673,39.081462,Died,euthanized +24hr,3,5
-WRMD,2018-736,,hermit thrush,bird,Bird,05/24/2018,2018,Spring,May,24,Thursday,-78.627628,38.874995,Released,released,3,5
+WRMD,2018-725,,eastern painted turtle,turtle,Reptile,05/24/2018,2018,Spring,May,24,Thursday,38.98872,-78.358616,Released,released,3,5
+WRMD,2018-727,,woodland box turtle,turtle,Reptile,05/24/2018,2018,Spring,May,24,Thursday,39.078908,-78.053141,Died,died in 24hr,3,5
+WRMD,2018-728,,eastern painted turtle,turtle,Reptile,05/24/2018,2018,Spring,May,24,Thursday,39.081462,-78.083673,Died,euthanized +24hr,3,5
+WRMD,2018-736,,hermit thrush,bird,Bird,05/24/2018,2018,Spring,May,24,Thursday,38.874995,-78.627628,Released,released,3,5
 WRMD,2018-744,,eastern phoebe,bird,Bird,05/25/2018,2018,Spring,May,25,Friday,39.007436,-78.041722,Died,died in 24hr,4,5
 WRMD,2018-754,,eastern painted turtle,turtle,Reptile,05/27/2018,2018,Spring,May,27,Sunday,38.312061,-77.950477,Released,released,6,5
-WRMD,2018-758,,eastern painted turtle,turtle,Reptile,05/27/2018,2018,Spring,May,27,Sunday,-78.121122,39.134854,Died,died in 24hr,6,5
-WRMD,2018-759,,woodland box turtle,turtle,Reptile,05/26/2018,2018,Spring,May,26,Saturday,-77.382176,38.641911,Released,released,5,5
-WRMD,2018-760,,snapping turtle,turtle,Reptile,05/26/2018,2018,Spring,May,26,Saturday,-77.547219,38.723691,Released,released,5,5
-WRMD,2018-767,,eastern painted turtle,turtle,Reptile,05/26/2018,2018,Spring,May,26,Saturday,-77.739717,38.741508,Died,died in 24hr,5,5
-WRMD,2018-770,,woodland box turtle,turtle,Reptile,05/26/2018,2018,Spring,May,26,Saturday,-77.747349,39.098498,Released,released,5,5
-WRMD,2018-772,,eastern painted turtle,turtle,Reptile,05/27/2018,2018,Spring,May,27,Sunday,-77.971359,38.991299,Died,died in 24hr,6,5
-WRMD,2018-781,,eastern cottontail,rabbits & hares,Mammal,05/27/2018,2018,Spring,May,27,Sunday,-78.453459,38.700643,Died,euthanized in 24hr,6,5
-WRMD,2018-795,,snapping turtle,turtle,Reptile,05/28/2018,2018,Spring,May,28,Monday,-77.782902,38.586816,Released,released,0,5
-WRMD,2018-799,,eastern cottontail,rabbits & hares,Mammal,05/29/2018,2018,Spring,May,29,Tuesday,-78.163334,39.18566,Died,euthanized in 24hr,1,5
-WRMD,2018-800,,woodland box turtle,turtle,Reptile,05/29/2018,2018,Spring,May,29,Tuesday,-78.220451,38.977996,Released,released,1,5
-WRMD,2018-806,,eastern painted turtle,turtle,Reptile,05/30/2018,2018,Spring,May,30,Wednesday,-77.94816,39.160021,Released,released,2,5
-WRMD,2018-807,,snapping turtle,turtle,Reptile,05/30/2018,2018,Spring,May,30,Wednesday,-78.157679,39.121221,Released,released,2,5
-WRMD,2018-817,,eastern cottontail,rabbits & hares,Mammal,05/31/2018,2018,Spring,May,31,Thursday,-77.551834,39.090963,Died,euthanized in 24hr,3,5
-WRMD,2018-818,,woodland box turtle,turtle,Reptile,05/31/2018,2018,Spring,May,31,Thursday,-77.853353,38.294244,Released,released,3,5
-WRMD,2018-820,,eastern painted turtle,turtle,Reptile,06/01/2018,2018,Spring,June,1,Friday,-77.722766,39.258748,Released,released,4,6
-WRMD,2018-821,,snapping turtle,turtle,Reptile,06/01/2018,2018,Spring,June,1,Friday,-78.372713,38.989068,Released,released,4,6
-WRMD,2018-824,,osprey,bird,Bird,06/01/2018,2018,Spring,June,1,Friday,-77.367773,38.520438,Died,euthanized +24hr,4,6
-WRMD,2018-825,,woodland box turtle,turtle,Reptile,06/01/2018,2018,Spring,June,1,Friday,-77.563336,39.106082,Died,died in 24hr,4,6
-WRMD,2018-826,,virginia opossum,marsupial,Mammal,06/01/2018,2018,Spring,June,1,Friday,-78.505843,38.881778,Died,euthanized in 24hr,4,6
+WRMD,2018-758,,eastern painted turtle,turtle,Reptile,05/27/2018,2018,Spring,May,27,Sunday,39.134854,-78.121122,Died,died in 24hr,6,5
+WRMD,2018-759,,woodland box turtle,turtle,Reptile,05/26/2018,2018,Spring,May,26,Saturday,38.641911,-77.382176,Released,released,5,5
+WRMD,2018-760,,snapping turtle,turtle,Reptile,05/26/2018,2018,Spring,May,26,Saturday,38.723691,-77.547219,Released,released,5,5
+WRMD,2018-767,,eastern painted turtle,turtle,Reptile,05/26/2018,2018,Spring,May,26,Saturday,38.741508,-77.739717,Died,died in 24hr,5,5
+WRMD,2018-770,,woodland box turtle,turtle,Reptile,05/26/2018,2018,Spring,May,26,Saturday,39.098498,-77.747349,Released,released,5,5
+WRMD,2018-772,,eastern painted turtle,turtle,Reptile,05/27/2018,2018,Spring,May,27,Sunday,38.991299,-77.971359,Died,died in 24hr,6,5
+WRMD,2018-781,,eastern cottontail,rabbits & hares,Mammal,05/27/2018,2018,Spring,May,27,Sunday,38.700643,-78.453459,Died,euthanized in 24hr,6,5
+WRMD,2018-795,,snapping turtle,turtle,Reptile,05/28/2018,2018,Spring,May,28,Monday,38.586816,-77.782902,Released,released,0,5
+WRMD,2018-799,,eastern cottontail,rabbits & hares,Mammal,05/29/2018,2018,Spring,May,29,Tuesday,39.18566,-78.163334,Died,euthanized in 24hr,1,5
+WRMD,2018-800,,woodland box turtle,turtle,Reptile,05/29/2018,2018,Spring,May,29,Tuesday,38.977996,-78.220451,Released,released,1,5
+WRMD,2018-806,,eastern painted turtle,turtle,Reptile,05/30/2018,2018,Spring,May,30,Wednesday,39.160021,-77.94816,Released,released,2,5
+WRMD,2018-807,,snapping turtle,turtle,Reptile,05/30/2018,2018,Spring,May,30,Wednesday,39.121221,-78.157679,Released,released,2,5
+WRMD,2018-817,,eastern cottontail,rabbits & hares,Mammal,05/31/2018,2018,Spring,May,31,Thursday,39.090963,-77.551834,Died,euthanized in 24hr,3,5
+WRMD,2018-818,,woodland box turtle,turtle,Reptile,05/31/2018,2018,Spring,May,31,Thursday,38.294244,-77.853353,Released,released,3,5
+WRMD,2018-820,,eastern painted turtle,turtle,Reptile,06/01/2018,2018,Spring,June,1,Friday,39.258748,-77.722766,Released,released,4,6
+WRMD,2018-821,,snapping turtle,turtle,Reptile,06/01/2018,2018,Spring,June,1,Friday,38.989068,-78.372713,Released,released,4,6
+WRMD,2018-824,,osprey,bird,Bird,06/01/2018,2018,Spring,June,1,Friday,38.520438,-77.367773,Died,euthanized +24hr,4,6
+WRMD,2018-825,,woodland box turtle,turtle,Reptile,06/01/2018,2018,Spring,June,1,Friday,39.106082,-77.563336,Died,died in 24hr,4,6
+WRMD,2018-826,,virginia opossum,marsupial,Mammal,06/01/2018,2018,Spring,June,1,Friday,38.881778,-78.505843,Died,euthanized in 24hr,4,6
 WRMD,2018-837,,groundhog,rodent,Mammal,06/02/2018,2018,Spring,June,2,Saturday,38.907194,-77.753128,Died,died in 24hr,5,6
 WRMD,2018-838,,eastern cottontail,rabbits & hares,Mammal,06/02/2018,2018,Spring,June,2,Saturday,39.141059,-77.730095,Died,died in 24hr,5,6
 WRMD,2018-842,,virginia opossum,marsupial,Mammal,06/02/2018,2018,Spring,June,2,Saturday,39.201886,-78.213147,Died,euthanized in 24hr,5,6
-WRMD,2018-843,,snapping turtle,turtle,Reptile,06/03/2018,2018,Spring,June,3,Sunday,-78.031893,39.064515,Died,dead on arrival,6,6
-WRMD,2018-847,,snapping turtle,turtle,Reptile,06/04/2018,2018,Spring,June,4,Monday,-77.512864,39.010739,Released,released,0,6
-WRMD,2018-860,,eastern painted turtle,turtle,Reptile,06/04/2018,2018,Spring,June,4,Monday,-77.714716,39.136725,Died,died in 24hr,0,6
-WRMD,2018-862,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,-77.970237,39.184518,Released,released,0,6
-WRMD,2018-863,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,-77.970237,39.184518,Released,released,0,6
-WRMD,2018-864,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,-77.970237,39.184518,Released,released,0,6
-WRMD,2018-865,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,-77.970237,39.184518,Released,released,0,6
-WRMD,2018-866,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,-77.970237,39.184518,Released,released,0,6
-WRMD,2018-868,,woodland box turtle,turtle,Reptile,06/05/2018,2018,Spring,June,5,Tuesday,-77.819658,39.003845,Died,died in 24hr,1,6
-WRMD,2018-882,,snapping turtle,turtle,Reptile,06/05/2018,2018,Spring,June,5,Tuesday,-78.577734,38.829249,Released,released,1,6
-WRMD,2018-887,,woodland box turtle,turtle,Reptile,06/05/2018,2018,Spring,June,5,Tuesday,-71.383217,42.296964,Released,released,1,6
-WRMD,2018-892,,eastern painted turtle,turtle,Reptile,06/06/2018,2018,Spring,June,6,Wednesday,-77.970017,38.797327,Released,released,2,6
-WRMD,2018-893,,northern cardinal,bird,Bird,06/06/2018,2018,Spring,June,6,Wednesday,-78.342663,38.972846,Died,euthanized in 24hr,2,6
-WRMD,2018-900,,virginia opossum,marsupial,Mammal,06/07/2018,2018,Spring,June,7,Thursday,-76.862033,38.968511,Died,euthanized in 24hr,3,6
-WRMD,2018-906,,woodland box turtle,turtle,Reptile,06/07/2018,2018,Spring,June,7,Thursday,-77.982219,39.151771,Released,released,3,6
-WRMD,2018-920,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,-78.155637,39.183188,Died,dead on arrival,5,6
-WRMD,2018-921,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,-78.155637,39.183188,Died,dead on arrival,5,6
-WRMD,2018-922,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,-78.155637,39.183188,Died,euthanized in 24hr,5,6
-WRMD,2018-923,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,-78.155637,39.183188,Died,euthanized in 24hr,5,6
-WRMD,2018-924,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,-78.155637,39.183188,Died,euthanized in 24hr,5,6
-WRMD,2018-925,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,-78.155637,39.183188,Died,euthanized in 24hr,5,6
-WRMD,2018-926,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,-78.155637,39.183188,Died,euthanized in 24hr,5,6
-WRMD,2018-927,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,-78.155637,39.183188,Died,euthanized in 24hr,5,6
-WRMD,2018-928,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,-78.155637,39.183188,Died,euthanized in 24hr,5,6
-WRMD,2018-939,,woodland box turtle,turtle,Reptile,06/09/2018,2018,Spring,June,9,Saturday,-78.656894,37.431573,Died,euthanized in 24hr,5,6
-WRMD,2018-956,,red fox,fox,Mammal,06/11/2018,2018,Spring,June,11,Monday,-77.714715,39.136772,Died,dead on arrival,0,6
-WRMD,2018-966,,virginia opossum,marsupial,Mammal,06/11/2018,2018,Spring,June,11,Monday,-78.305115,39.32445,Died,euthanized +24hr,0,6
-WRMD,2018-968,,turkey vulture,bird,Bird,06/11/2018,2018,Spring,June,11,Monday,-78.289099,38.906482,Died,euthanized in 24hr,0,6
-WRMD,2018-969,,northern cardinal,bird,Bird,06/12/2018,2018,Spring,June,12,Tuesday,-77.980858,39.159096,Released,released,1,6
-WRMD,2018-971,,eastern gray squirrel,rodent,Mammal,06/12/2018,2018,Spring,June,12,Tuesday,-78.18701,38.967473,Died,euthanized in 24hr,1,6
-WRMD,2018-973,,woodland box turtle,turtle,Reptile,06/12/2018,2018,Spring,June,12,Tuesday,-78.257609,39.194598,Released,released,1,6
-WRMD,2018-983,,virginia opossum,marsupial,Mammal,06/13/2018,2018,Spring,June,13,Wednesday,-77.48279,38.793844,Died,euthanized in 24hr,2,6
-WRMD,2018-986,,eastern musk turtle,turtle,Reptile,06/13/2018,2018,Spring,June,13,Wednesday,-77.523557,37.987105,Released,released,2,6
-WRMD,2018-992,,eastern cottontail,rabbits & hares,Mammal,06/13/2018,2018,Spring,June,13,Wednesday,-78.093452,39.262496,Died,died +24hr,2,6
-WRMD,2018-993,,black rat snake,snake,Reptile,06/13/2018,2018,Spring,June,13,Wednesday,-78.003083,39.062526,Died,died in 24hr,2,6
-WRMD,2018-994,,corn snake,snake,Reptile,06/13/2018,2018,Spring,June,13,Wednesday,-78.003926,39.018265,Died,died in 24hr,2,6
-WRMD,2018-996,,snapping turtle,turtle,Reptile,06/14/2018,2018,Spring,June,14,Thursday,-78.075666,38.909439,Died,died in 24hr,3,6
+WRMD,2018-843,,snapping turtle,turtle,Reptile,06/03/2018,2018,Spring,June,3,Sunday,39.064515,-78.031893,Died,dead on arrival,6,6
+WRMD,2018-847,,snapping turtle,turtle,Reptile,06/04/2018,2018,Spring,June,4,Monday,39.010739,-77.512864,Released,released,0,6
+WRMD,2018-860,,eastern painted turtle,turtle,Reptile,06/04/2018,2018,Spring,June,4,Monday,39.136725,-77.714716,Died,died in 24hr,0,6
+WRMD,2018-862,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,released,0,6
+WRMD,2018-863,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,released,0,6
+WRMD,2018-864,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,released,0,6
+WRMD,2018-865,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,released,0,6
+WRMD,2018-866,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,released,0,6
+WRMD,2018-868,,woodland box turtle,turtle,Reptile,06/05/2018,2018,Spring,June,5,Tuesday,39.003845,-77.819658,Died,died in 24hr,1,6
+WRMD,2018-882,,snapping turtle,turtle,Reptile,06/05/2018,2018,Spring,June,5,Tuesday,38.829249,-78.577734,Released,released,1,6
+WRMD,2018-892,,eastern painted turtle,turtle,Reptile,06/06/2018,2018,Spring,June,6,Wednesday,38.797327,-77.970017,Released,released,2,6
+WRMD,2018-893,,northern cardinal,bird,Bird,06/06/2018,2018,Spring,June,6,Wednesday,38.972846,-78.342663,Died,euthanized in 24hr,2,6
+WRMD,2018-900,,virginia opossum,marsupial,Mammal,06/07/2018,2018,Spring,June,7,Thursday,38.968511,-76.862033,Died,euthanized in 24hr,3,6
+WRMD,2018-906,,woodland box turtle,turtle,Reptile,06/07/2018,2018,Spring,June,7,Thursday,39.151771,-77.982219,Released,released,3,6
+WRMD,2018-920,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,dead on arrival,5,6
+WRMD,2018-921,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,dead on arrival,5,6
+WRMD,2018-922,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,euthanized in 24hr,5,6
+WRMD,2018-923,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,euthanized in 24hr,5,6
+WRMD,2018-924,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,euthanized in 24hr,5,6
+WRMD,2018-925,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,euthanized in 24hr,5,6
+WRMD,2018-926,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,euthanized in 24hr,5,6
+WRMD,2018-927,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,euthanized in 24hr,5,6
+WRMD,2018-928,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,euthanized in 24hr,5,6
+WRMD,2018-939,,woodland box turtle,turtle,Reptile,06/09/2018,2018,Spring,June,9,Saturday,37.431573,-78.656894,Died,euthanized in 24hr,5,6
+WRMD,2018-956,,red fox,fox,Mammal,06/11/2018,2018,Spring,June,11,Monday,39.136772,-77.714715,Died,dead on arrival,0,6
+WRMD,2018-966,,virginia opossum,marsupial,Mammal,06/11/2018,2018,Spring,June,11,Monday,39.32445,-78.305115,Died,euthanized +24hr,0,6
+WRMD,2018-968,,turkey vulture,bird,Bird,06/11/2018,2018,Spring,June,11,Monday,38.906482,-78.289099,Died,euthanized in 24hr,0,6
+WRMD,2018-969,,northern cardinal,bird,Bird,06/12/2018,2018,Spring,June,12,Tuesday,39.159096,-77.980858,Released,released,1,6
+WRMD,2018-971,,eastern gray squirrel,rodent,Mammal,06/12/2018,2018,Spring,June,12,Tuesday,38.967473,-78.18701,Died,euthanized in 24hr,1,6
+WRMD,2018-973,,woodland box turtle,turtle,Reptile,06/12/2018,2018,Spring,June,12,Tuesday,39.194598,-78.257609,Released,released,1,6
+WRMD,2018-983,,virginia opossum,marsupial,Mammal,06/13/2018,2018,Spring,June,13,Wednesday,38.793844,-77.48279,Died,euthanized in 24hr,2,6
+WRMD,2018-986,,eastern musk turtle,turtle,Reptile,06/13/2018,2018,Spring,June,13,Wednesday,37.987105,-77.523557,Released,released,2,6
+WRMD,2018-992,,eastern cottontail,rabbits & hares,Mammal,06/13/2018,2018,Spring,June,13,Wednesday,39.262496,-78.093452,Died,died +24hr,2,6
+WRMD,2018-993,,black rat snake,snake,Reptile,06/13/2018,2018,Spring,June,13,Wednesday,39.062526,-78.003083,Died,died in 24hr,2,6
+WRMD,2018-994,,corn snake,snake,Reptile,06/13/2018,2018,Spring,June,13,Wednesday,39.018265,-78.003926,Died,died in 24hr,2,6
+WRMD,2018-996,,snapping turtle,turtle,Reptile,06/14/2018,2018,Spring,June,14,Thursday,38.909439,-78.075666,Died,died in 24hr,3,6
 WRMD,2018-1026,,eastern chipmunk,rodent,Mammal,06/16/2018,2018,Spring,June,16,Saturday,39.133505,-77.827996,Died,died in 24hr,5,6
-WRMD,2018-1027,,white-tailed deer,deer,Mammal,06/17/2018,2018,Spring,June,17,Sunday,-78.165029,39.18315,Died,euthanized in 24hr,6,6
-WRMD,2018-1032,,snapping turtle,turtle,Reptile,06/18/2018,2018,Spring,June,18,Monday,-77.712883,38.933066,Released,released,0,6
-WRMD,2018-1033,,american crow,bird,Bird,06/19/2018,2018,Spring,June,19,Tuesday,-77.558565,39.238014,Died,died in 24hr,1,6
+WRMD,2018-1027,,white-tailed deer,deer,Mammal,06/17/2018,2018,Spring,June,17,Sunday,39.18315,-78.165029,Died,euthanized in 24hr,6,6
+WRMD,2018-1032,,snapping turtle,turtle,Reptile,06/18/2018,2018,Spring,June,18,Monday,38.933066,-77.712883,Released,released,0,6
+WRMD,2018-1033,,american crow,bird,Bird,06/19/2018,2018,Spring,June,19,Tuesday,39.238014,-77.558565,Died,died in 24hr,1,6
 WRMD,2018-1044,,woodland box turtle,turtle,Reptile,06/19/2018,2018,Spring,June,19,Tuesday,36.806773,-79.619231,Died,died +24hr,1,6
-WRMD,2018-1050,,snapping turtle,turtle,Reptile,06/20/2018,2018,Spring,June,20,Wednesday,-77.493182,38.891438,Released,released,2,6
-WRMD,2018-1051,,red-shouldered hawk,bird,Bird,06/20/2018,2018,Spring,June,20,Wednesday,-77.418881,38.344236,Died,euthanized in 24hr,2,6
-WRMD,2018-1053,,eastern gray squirrel,rodent,Mammal,06/21/2018,2018,Summer,June,21,Thursday,-78.168744,39.183366,Released,released,3,6
+WRMD,2018-1050,,snapping turtle,turtle,Reptile,06/20/2018,2018,Spring,June,20,Wednesday,38.891438,-77.493182,Released,released,2,6
+WRMD,2018-1051,,red-shouldered hawk,bird,Bird,06/20/2018,2018,Spring,June,20,Wednesday,38.344236,-77.418881,Died,euthanized in 24hr,2,6
+WRMD,2018-1053,,eastern gray squirrel,rodent,Mammal,06/21/2018,2018,Summer,June,21,Thursday,39.183366,-78.168744,Released,released,3,6
 WRMD,2018-1060,,pileated woodpecker,bird,Bird,06/21/2018,2018,Summer,June,21,Thursday,39.135711,-77.991926,Died,died in 24hr,3,6
-WRMD,2018-1066,,snapping turtle,turtle,Reptile,06/22/2018,2018,Summer,June,22,Friday,-78.722764,38.766413,Released,released,4,6
-WRMD,2018-1067,,woodland box turtle,turtle,Reptile,06/22/2018,2018,Summer,June,22,Friday,-78.194824,38.97072,Died,dead on arrival,4,6
-WRMD,2018-1083,,cooper's hawk,bird,Bird,06/24/2018,2018,Summer,June,24,Sunday,-77.854087,38.97127,Died,euthanized in 24hr,6,6
-WRMD,2018-1087,,canada goose,bird,Bird,06/24/2018,2018,Summer,June,24,Sunday,-77.842472,38.867189,Died,euthanized +24hr,6,6
+WRMD,2018-1066,,snapping turtle,turtle,Reptile,06/22/2018,2018,Summer,June,22,Friday,38.766413,-78.722764,Released,released,4,6
+WRMD,2018-1067,,woodland box turtle,turtle,Reptile,06/22/2018,2018,Summer,June,22,Friday,38.97072,-78.194824,Died,dead on arrival,4,6
+WRMD,2018-1083,,cooper's hawk,bird,Bird,06/24/2018,2018,Summer,June,24,Sunday,38.97127,-77.854087,Died,euthanized in 24hr,6,6
+WRMD,2018-1087,,canada goose,bird,Bird,06/24/2018,2018,Summer,June,24,Sunday,38.867189,-77.842472,Died,euthanized +24hr,6,6
 WRMD,2018-1089,,woodland box turtle,turtle,Reptile,06/25/2018,2018,Summer,June,25,Monday,38.687219,-77.833836,Died,died in 24hr,0,6
 WRMD,2018-1090,,woodland box turtle,turtle,Reptile,06/25/2018,2018,Summer,June,25,Monday,38.692843,-77.325194,Died,died in 24hr,0,6
-WRMD,2018-1099,,woodland box turtle,turtle,Reptile,06/26/2018,2018,Summer,June,26,Tuesday,-77.924881,38.298712,Died,dead on arrival,1,6
-WRMD,2018-1102,,woodland box turtle,turtle,Reptile,06/26/2018,2018,Summer,June,26,Tuesday,-77.348135,38.258279,Released,released,1,6
-WRMD,2018-1103,,snapping turtle,turtle,Reptile,06/26/2018,2018,Summer,June,26,Tuesday,-78.151893,39.044629,Died,died +24hr,1,6
-WRMD,2018-1108,,eastern painted turtle,turtle,Reptile,06/26/2018,2018,Summer,June,26,Tuesday,-77.739,38.965155,Released,released,1,6
-WRMD,2018-1136,,yellow-billed cuckoo,bird,Bird,06/28/2018,2018,Summer,June,28,Thursday,-78.176893,39.092991,Released,released,3,6
-WRMD,2018-1140,,eastern cottontail,rabbits & hares,Mammal,06/28/2018,2018,Summer,June,28,Thursday,-78.078304,38.911643,Died,died +24hr,3,6
-WRMD,2018-1143,,red-winged blackbird,bird,Bird,06/28/2018,2018,Summer,June,28,Thursday,-77.607177,39.126377,Died,died +24hr,3,6
-WRMD,2018-1146,,woodland box turtle,turtle,Reptile,06/29/2018,2018,Summer,June,29,Friday,-74.090133,40.744195,Died,died in 24hr,4,6
-WRMD,2018-1147,,woodland box turtle,turtle,Reptile,06/29/2018,2018,Summer,June,29,Friday,-78.18276,39.274092,Died,euthanized in 24hr,4,6
+WRMD,2018-1099,,woodland box turtle,turtle,Reptile,06/26/2018,2018,Summer,June,26,Tuesday,38.298712,-77.924881,Died,dead on arrival,1,6
+WRMD,2018-1102,,woodland box turtle,turtle,Reptile,06/26/2018,2018,Summer,June,26,Tuesday,38.258279,-77.348135,Released,released,1,6
+WRMD,2018-1103,,snapping turtle,turtle,Reptile,06/26/2018,2018,Summer,June,26,Tuesday,39.044629,-78.151893,Died,died +24hr,1,6
+WRMD,2018-1108,,eastern painted turtle,turtle,Reptile,06/26/2018,2018,Summer,June,26,Tuesday,38.965155,-77.739,Released,released,1,6
+WRMD,2018-1136,,yellow-billed cuckoo,bird,Bird,06/28/2018,2018,Summer,June,28,Thursday,39.092991,-78.176893,Released,released,3,6
+WRMD,2018-1140,,eastern cottontail,rabbits & hares,Mammal,06/28/2018,2018,Summer,June,28,Thursday,38.911643,-78.078304,Died,died +24hr,3,6
+WRMD,2018-1143,,red-winged blackbird,bird,Bird,06/28/2018,2018,Summer,June,28,Thursday,39.126377,-77.607177,Died,died +24hr,3,6
+WRMD,2018-1147,,woodland box turtle,turtle,Reptile,06/29/2018,2018,Summer,June,29,Friday,39.274092,-78.18276,Died,euthanized in 24hr,4,6
 WRMD,2018-1160,,red-shouldered hawk,bird,Bird,06/30/2018,2018,Summer,June,30,Saturday,39.096809,-77.531591,Released,released,5,6
 WRMD,2018-1162,,white-tailed deer,deer,Mammal,06/30/2018,2018,Summer,June,30,Saturday,39.135711,-77.991926,Died,euthanized in 24hr,5,6
-WRMD,2018-1177,,eastern gray squirrel,rodent,Mammal,07/01/2018,2018,Summer,July,1,Sunday,-78.059443,39.093162,Died,dead on arrival,6,7
-WRMD,2018-1183,,groundhog,rodent,Mammal,07/02/2018,2018,Summer,July,2,Monday,-78.005164,39.076923,Died,euthanized in 24hr,0,7
-WRMD,2018-1185,,house sparrow,bird,Bird,07/02/2018,2018,Summer,July,2,Monday,-78.172457,39.155775,Died,euthanized in 24hr,0,7
-WRMD,2018-1189,,woodland box turtle,turtle,Reptile,07/03/2018,2018,Summer,July,3,Tuesday,-78.260102,39.209644,Died,euthanized in 24hr,1,7
-WRMD,2018-1194,,woodland box turtle,turtle,Reptile,07/03/2018,2018,Summer,July,3,Tuesday,-78.17314,38.910012,Released,released,1,7
-WRMD,2018-1200,,black rat snake,snake,Reptile,07/04/2018,2018,Summer,July,4,Wednesday,-78.030319,39.08473,Released,released,2,7
-WRMD,2018-1225,,american robin,bird,Bird,07/05/2018,2018,Summer,July,5,Thursday,-78.202417,39.086137,Died,euthanized in 24hr,3,7
-WRMD,2018-1242,,mallard,bird,Bird,07/06/2018,2018,Summer,July,6,Friday,-78.573948,38.829519,Released,released,4,7
-WRMD,2018-1243,,american robin,bird,Bird,07/06/2018,2018,Summer,July,6,Friday,-78.335892,39.314859,Died,euthanized in 24hr,4,7
-WRMD,2018-1254,,barn swallow,bird,Bird,07/07/2018,2018,Summer,July,7,Saturday,-78.173673,39.052992,Died,died +24hr,5,7
-WRMD,2018-1265,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,-78.656894,37.431573,Died,dead on arrival,6,7
-WRMD,2018-1266,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,-78.656894,37.431573,Died,dead on arrival,6,7
-WRMD,2018-1267,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,-78.656894,37.431573,Died,dead on arrival,6,7
-WRMD,2018-1268,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,-78.656894,37.431573,Died,dead on arrival,6,7
-WRMD,2018-1269,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,-78.656894,37.431573,Died,dead on arrival,6,7
-WRMD,2018-1270,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,-78.656894,37.431573,Died,dead on arrival,6,7
-WRMD,2018-1271,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,-78.656894,37.431573,Died,euthanized in 24hr,6,7
-WRMD,2018-1272,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,-78.656894,37.431573,Died,euthanized in 24hr,6,7
-WRMD,2018-1273,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,-78.656894,37.431573,Died,euthanized in 24hr,6,7
-WRMD,2018-1279,,eastern cottontail,rabbits & hares,Mammal,07/09/2018,2018,Summer,July,9,Monday,-85.236624,35.173681,Died,euthanized in 24hr,0,7
-WRMD,2018-1289,,cooper's hawk,bird,Bird,07/10/2018,2018,Summer,July,10,Tuesday,-77.784398,38.746182,Died,euthanized +24hr,1,7
-WRMD,2018-1342,,red-bellied woodpecker,bird,Bird,07/14/2018,2018,Summer,July,14,Saturday,-77.627501,39.250454,Died,died +24hr,5,7
-WRMD,2018-1352,,broad-winged hawk,bird,Bird,07/15/2018,2018,Summer,July,15,Sunday,-78.163424,39.18568,Released,released,6,7
-WRMD,2018-1353,,virginia opossum,marsupial,Mammal,07/15/2018,2018,Summer,July,15,Sunday,-78.02469,39.247075,Died,euthanized in 24hr,6,7
-WRMD,2018-1361,,northern cardinal,bird,Bird,07/16/2018,2018,Summer,July,16,Monday,-77.641871,38.975678,Died,died +24hr,0,7
-WRMD,2018-1365,,woodland box turtle,turtle,Reptile,07/16/2018,2018,Summer,July,16,Monday,-78.510509,39.085391,Released,released,0,7
-WRMD,2018-1372,,northern cardinal,bird,Bird,07/17/2018,2018,Summer,July,17,Tuesday,-77.981716,39.152526,Died,died in 24hr,1,7
-WRMD,2018-1375,,woodland box turtle,turtle,Reptile,07/17/2018,2018,Summer,July,17,Tuesday,-78.091723,39.22571,Released,released,1,7
-WRMD,2018-1385,,eastern cottontail,rabbits & hares,Mammal,07/18/2018,2018,Summer,July,18,Wednesday,-78.273944,39.39602,Died,euthanized in 24hr,2,7
-WRMD,2018-1388,,eastern fox squirrel,rodent,Mammal,07/18/2018,2018,Summer,July,18,Wednesday,-77.99649,38.952274,Died,dead on arrival,2,7
-WRMD,2018-1394,,wood turtle,turtle,Reptile,07/19/2018,2018,Summer,July,19,Thursday,-75.99667,41.33583,Died,died in 24hr,3,7
-WRMD,2018-1408,,eastern gray squirrel,rodent,Mammal,07/20/2018,2018,Summer,July,20,Friday,-77.770827,38.865669,Released,released,4,7
-WRMD,2018-1410,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,-78.224615,39.039132,Released,released,4,7
-WRMD,2018-1411,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,-78.224615,39.039132,Transferred,transferred,4,7
-WRMD,2018-1412,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,-78.224615,39.039132,Transferred,transferred,4,7
-WRMD,2018-1413,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,-78.224615,39.039132,Transferred,transferred,4,7
-WRMD,2018-1414,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,-78.224615,39.039132,Died,died +24hr,4,7
-WRMD,2018-1418,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Transferred,transferred,5,7
-WRMD,2018-1419,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Died,died +24hr,5,7
-WRMD,2018-1420,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Released,released,5,7
-WRMD,2018-1421,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Released,released,5,7
-WRMD,2018-1422,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Transferred,transferred,5,7
-WRMD,2018-1423,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Transferred,transferred,5,7
-WRMD,2018-1424,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Transferred,transferred,5,7
-WRMD,2018-1425,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Died,died +24hr,5,7
-WRMD,2018-1426,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Transferred,transferred,5,7
-WRMD,2018-1427,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Transferred,transferred,5,7
-WRMD,2018-1428,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,-77.699046,38.584558,Released,released,5,7
-WRMD,2018-1431,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,-78.188772,39.143165,Died,died in 24hr,5,7
-WRMD,2018-1432,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,-78.188772,39.143165,Died,died in 24hr,5,7
-WRMD,2018-1433,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,-78.188772,39.143165,Died,died in 24hr,5,7
-WRMD,2018-1434,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,-78.188772,39.143165,Died,died in 24hr,5,7
-WRMD,2018-1435,,canada goose,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,-77.869517,39.117665,Died,euthanized +24hr,5,7
-WRMD,2018-1445,,groundhog,rodent,Mammal,07/22/2018,2018,Summer,July,22,Sunday,-78.749129,38.817903,Died,euthanized in 24hr,6,7
-WRMD,2018-1446,,red-headed woodpecker,bird,Bird,07/22/2018,2018,Summer,July,22,Sunday,-78.097015,39.161417,Released,released,6,7
-WRMD,2018-1448,,northern raccoon,raccoon,Mammal,07/22/2018,2018,Summer,July,22,Sunday,-77.789164,38.581612,Released,released,6,7
-WRMD,2018-1450,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,-78.163334,39.18566,Died,died +24hr,6,7
-WRMD,2018-1451,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,-78.163334,39.18566,Transferred,transferred,6,7
-WRMD,2018-1452,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,-78.163334,39.18566,Died,died +24hr,6,7
-WRMD,2018-1453,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,-78.163334,39.18566,Transferred,transferred,6,7
-WRMD,2018-1454,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,-78.163334,39.18566,Transferred,transferred,6,7
-WRMD,2018-1455,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,-78.163334,39.18566,Transferred,transferred,6,7
-WRMD,2018-1456,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,-78.163334,39.18566,Died,euthanized in 24hr,6,7
+WRMD,2018-1177,,eastern gray squirrel,rodent,Mammal,07/01/2018,2018,Summer,July,1,Sunday,39.093162,-78.059443,Died,dead on arrival,6,7
+WRMD,2018-1183,,groundhog,rodent,Mammal,07/02/2018,2018,Summer,July,2,Monday,39.076923,-78.005164,Died,euthanized in 24hr,0,7
+WRMD,2018-1185,,house sparrow,bird,Bird,07/02/2018,2018,Summer,July,2,Monday,39.155775,-78.172457,Died,euthanized in 24hr,0,7
+WRMD,2018-1189,,woodland box turtle,turtle,Reptile,07/03/2018,2018,Summer,July,3,Tuesday,39.209644,-78.260102,Died,euthanized in 24hr,1,7
+WRMD,2018-1194,,woodland box turtle,turtle,Reptile,07/03/2018,2018,Summer,July,3,Tuesday,38.910012,-78.17314,Released,released,1,7
+WRMD,2018-1200,,black rat snake,snake,Reptile,07/04/2018,2018,Summer,July,4,Wednesday,39.08473,-78.030319,Released,released,2,7
+WRMD,2018-1225,,american robin,bird,Bird,07/05/2018,2018,Summer,July,5,Thursday,39.086137,-78.202417,Died,euthanized in 24hr,3,7
+WRMD,2018-1242,,mallard,bird,Bird,07/06/2018,2018,Summer,July,6,Friday,38.829519,-78.573948,Released,released,4,7
+WRMD,2018-1243,,american robin,bird,Bird,07/06/2018,2018,Summer,July,6,Friday,39.314859,-78.335892,Died,euthanized in 24hr,4,7
+WRMD,2018-1254,,barn swallow,bird,Bird,07/07/2018,2018,Summer,July,7,Saturday,39.052992,-78.173673,Died,died +24hr,5,7
+WRMD,2018-1265,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,dead on arrival,6,7
+WRMD,2018-1266,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,dead on arrival,6,7
+WRMD,2018-1267,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,dead on arrival,6,7
+WRMD,2018-1268,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,dead on arrival,6,7
+WRMD,2018-1269,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,dead on arrival,6,7
+WRMD,2018-1270,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,dead on arrival,6,7
+WRMD,2018-1271,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,euthanized in 24hr,6,7
+WRMD,2018-1272,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,euthanized in 24hr,6,7
+WRMD,2018-1273,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,euthanized in 24hr,6,7
+WRMD,2018-1289,,cooper's hawk,bird,Bird,07/10/2018,2018,Summer,July,10,Tuesday,38.746182,-77.784398,Died,euthanized +24hr,1,7
+WRMD,2018-1342,,red-bellied woodpecker,bird,Bird,07/14/2018,2018,Summer,July,14,Saturday,39.250454,-77.627501,Died,died +24hr,5,7
+WRMD,2018-1352,,broad-winged hawk,bird,Bird,07/15/2018,2018,Summer,July,15,Sunday,39.18568,-78.163424,Released,released,6,7
+WRMD,2018-1353,,virginia opossum,marsupial,Mammal,07/15/2018,2018,Summer,July,15,Sunday,39.247075,-78.02469,Died,euthanized in 24hr,6,7
+WRMD,2018-1361,,northern cardinal,bird,Bird,07/16/2018,2018,Summer,July,16,Monday,38.975678,-77.641871,Died,died +24hr,0,7
+WRMD,2018-1365,,woodland box turtle,turtle,Reptile,07/16/2018,2018,Summer,July,16,Monday,39.085391,-78.510509,Released,released,0,7
+WRMD,2018-1372,,northern cardinal,bird,Bird,07/17/2018,2018,Summer,July,17,Tuesday,39.152526,-77.981716,Died,died in 24hr,1,7
+WRMD,2018-1375,,woodland box turtle,turtle,Reptile,07/17/2018,2018,Summer,July,17,Tuesday,39.22571,-78.091723,Released,released,1,7
+WRMD,2018-1385,,eastern cottontail,rabbits & hares,Mammal,07/18/2018,2018,Summer,July,18,Wednesday,39.39602,-78.273944,Died,euthanized in 24hr,2,7
+WRMD,2018-1388,,eastern fox squirrel,rodent,Mammal,07/18/2018,2018,Summer,July,18,Wednesday,38.952274,-77.99649,Died,dead on arrival,2,7
+WRMD,2018-1408,,eastern gray squirrel,rodent,Mammal,07/20/2018,2018,Summer,July,20,Friday,38.865669,-77.770827,Released,released,4,7
+WRMD,2018-1410,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Released,released,4,7
+WRMD,2018-1411,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Transferred,transferred,4,7
+WRMD,2018-1412,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Transferred,transferred,4,7
+WRMD,2018-1413,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Transferred,transferred,4,7
+WRMD,2018-1414,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Died,died +24hr,4,7
+WRMD,2018-1418,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,transferred,5,7
+WRMD,2018-1419,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Died,died +24hr,5,7
+WRMD,2018-1420,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Released,released,5,7
+WRMD,2018-1421,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Released,released,5,7
+WRMD,2018-1422,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,transferred,5,7
+WRMD,2018-1423,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,transferred,5,7
+WRMD,2018-1424,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,transferred,5,7
+WRMD,2018-1425,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Died,died +24hr,5,7
+WRMD,2018-1426,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,transferred,5,7
+WRMD,2018-1427,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,transferred,5,7
+WRMD,2018-1428,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Released,released,5,7
+WRMD,2018-1431,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,39.143165,-78.188772,Died,died in 24hr,5,7
+WRMD,2018-1432,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,39.143165,-78.188772,Died,died in 24hr,5,7
+WRMD,2018-1433,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,39.143165,-78.188772,Died,died in 24hr,5,7
+WRMD,2018-1434,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,39.143165,-78.188772,Died,died in 24hr,5,7
+WRMD,2018-1435,,canada goose,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,39.117665,-77.869517,Died,euthanized +24hr,5,7
+WRMD,2018-1445,,groundhog,rodent,Mammal,07/22/2018,2018,Summer,July,22,Sunday,38.817903,-78.749129,Died,euthanized in 24hr,6,7
+WRMD,2018-1446,,red-headed woodpecker,bird,Bird,07/22/2018,2018,Summer,July,22,Sunday,39.161417,-78.097015,Released,released,6,7
+WRMD,2018-1448,,northern raccoon,raccoon,Mammal,07/22/2018,2018,Summer,July,22,Sunday,38.581612,-77.789164,Released,released,6,7
+WRMD,2018-1450,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Died,died +24hr,6,7
+WRMD,2018-1451,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,transferred,6,7
+WRMD,2018-1452,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Died,died +24hr,6,7
+WRMD,2018-1453,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,transferred,6,7
+WRMD,2018-1454,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,transferred,6,7
+WRMD,2018-1455,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,transferred,6,7
+WRMD,2018-1456,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Died,euthanized in 24hr,6,7
 WRMD,2018-1477,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.007786,-78.398568,Died,dead on arrival,6,7
-WRMD,2018-1499,,white-tailed deer,deer,Mammal,07/25/2018,2018,Summer,July,25,Wednesday,-77.921372,39.001521,Died,euthanized in 24hr,2,7
-WRMD,2018-1500,,virginia opossum,marsupial,Mammal,07/25/2018,2018,Summer,July,25,Wednesday,-78.161376,39.168681,Died,died +24hr,2,7
-WRMD,2018-1501,,northern cardinal,bird,Bird,07/25/2018,2018,Summer,July,25,Wednesday,-78.185526,38.914999,Died,died +24hr,2,7
-WRMD,2018-1509,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,-78.367501,38.978595,Released,released,3,7
-WRMD,2018-1510,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,-78.367501,38.978595,Released,released,3,7
-WRMD,2018-1511,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,-78.367501,38.978595,Released,released,3,7
-WRMD,2018-1512,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,-78.367501,38.978595,Released,released,3,7
-WRMD,2018-1520,,woodland box turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,-78.092777,39.119129,Died,died +24hr,3,7
-WRMD,2018-1521,,eastern painted turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,-77.466481,39.008977,Released,released,3,7
-WRMD,2018-1522,,eastern painted turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,-77.540322,39.116214,Released,released,3,7
-WRMD,2018-1525,,woodland box turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,-77.832863,38.638918,Released,released,3,7
-WRMD,2018-1526,,red-eared slider,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,-77.751722,38.955485,Died,euthanized in 24hr,3,7
+WRMD,2018-1499,,white-tailed deer,deer,Mammal,07/25/2018,2018,Summer,July,25,Wednesday,39.001521,-77.921372,Died,euthanized in 24hr,2,7
+WRMD,2018-1500,,virginia opossum,marsupial,Mammal,07/25/2018,2018,Summer,July,25,Wednesday,39.168681,-78.161376,Died,died +24hr,2,7
+WRMD,2018-1501,,northern cardinal,bird,Bird,07/25/2018,2018,Summer,July,25,Wednesday,38.914999,-78.185526,Died,died +24hr,2,7
+WRMD,2018-1509,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,released,3,7
+WRMD,2018-1510,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,released,3,7
+WRMD,2018-1511,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,released,3,7
+WRMD,2018-1512,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,released,3,7
+WRMD,2018-1520,,woodland box turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,39.119129,-78.092777,Died,died +24hr,3,7
+WRMD,2018-1521,,eastern painted turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,39.008977,-77.466481,Released,released,3,7
+WRMD,2018-1522,,eastern painted turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,39.116214,-77.540322,Released,released,3,7
+WRMD,2018-1525,,woodland box turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,38.638918,-77.832863,Released,released,3,7
+WRMD,2018-1526,,red-eared slider,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,38.955485,-77.751722,Died,euthanized in 24hr,3,7
 WRMD,2018-1564,,belted kingfisher,bird,Bird,07/31/2018,2018,Summer,July,31,Tuesday,39.513179,-78.091893,Died,euthanized in 24hr,1,7
 WRMD,2018-1570,,woodland box turtle,turtle,Reptile,08/01/2018,2018,Summer,August,1,Wednesday,38.957718,-77.60375,Died,died in 24hr,2,8
 WRMD,2018-1584,,northern red-bellied cooter,turtle,Reptile,08/02/2018,2018,Summer,August,2,Thursday,39.100085,-77.657066,Released,released,3,8
@@ -959,23 +940,23 @@ WRMD,2020-2059,,woodland box turtle,turtle,Reptile,08/06/2020,2020,Summer,August
 WRMD,2020-2273,,woodland box turtle,turtle,Reptile,08/28/2020,2020,Summer,August,28,Friday,39.436553,-78.303592,Died,died in 24hr,4,8
 WRMD,2020-2611,,eastern screech owl,owl,Bird,10/11/2020,2020,Autumn,October,11,Sunday,38.90948,-78.54744,Released,released,6,10
 WRMD,2020-2678,,eastern painted turtle,turtle,Reptile,10/28/2020,2020,Autumn,October,28,Wednesday,38.497078,-77.982413,Died,euthanized in 24hr,2,10
-WRMD,2020-2759,,eastern screech owl,owl,Bird,11/28/2020,2020,Autumn,November,28,Saturday,38.918184,78.343025,Released,released,5,11
+WRMD,2020-2759,,eastern screech owl,owl,Bird,11/28/2020,2020,Autumn,November,28,Saturday,38.918184,-78.343025,Released,released,5,11
 WRMD,2020-2776,,eastern screech owl,owl,Bird,12/04/2020,2020,Autumn,December,4,Friday,38.970392,-78.050432,Released,released,4,12
 WRMD,2021-254,,european starling,bird,Bird,03/11/2021,2021,Winter,March,11,Thursday,39.276551,-77.842394,Died,euthanized in 24hr,3,3
 WRMD,2021-255,,bald eagle,bird,Bird,03/12/2021,2021,Winter,March,12,Friday,39.0934,-78.0207,Died,died +24hr,4,3
 WRMD,2021-492,,eastern mud turtle,turtle,Reptile,04/12/2021,2021,Spring,April,12,Monday,38.420993,-77.327651,Released,released,0,4
 WRMD,2021-508,,canada goose,bird,Bird,04/14/2021,2021,Spring,April,14,Wednesday,38.989712,-77.431224,Died,euthanized in 24hr,2,4
-WRMD,2021-1379,,woodland box turtle,turtle,Reptile,06/02/2021,2021,Spring,June,2,Wednesday,38.3955,77.4958,Released,released,2,6
+WRMD,2021-1379,,woodland box turtle,turtle,Reptile,06/02/2021,2021,Spring,June,2,Wednesday,38.3955,-77.4958,Released,released,2,6
 WRMD,2021-1989,,eastern kingbird,bird,Bird,07/05/2021,2021,Summer,July,5,Monday,39.120864,-77.533104,Died,died +24hr,0,7
 WRMD,2021-2436,,virginia opossum,marsupial,Mammal,08/07/2021,2021,Summer,August,7,Saturday,39.041987,-77.605404,Released,released,5,8
 WRMD,2021-2437,,virginia opossum,marsupial,Mammal,08/07/2021,2021,Summer,August,7,Saturday,39.041987,-77.605404,Released,released,5,8
 WRMD,2021-2438,,virginia opossum,marsupial,Mammal,08/07/2021,2021,Summer,August,7,Saturday,39.041987,-77.605404,Released,released,5,8
-WRMD,2021-2682,,woodland box turtle,turtle,Reptile,08/27/2021,2021,Summer,August,27,Friday,38.5688,-78033331.0,Died,euthanized in 24hr,4,8
+WRMD,2021-2682,,woodland box turtle,turtle,Reptile,08/27/2021,2021,Summer,August,27,Friday,38.5688,-78.033331,Died,euthanized in 24hr,4,8
 WRMD,2021-2859,,woodland box turtle,turtle,Reptile,09/17/2021,2021,Summer,September,17,Friday,38.758002,-78.674091,Died,euthanized in 24hr,4,9
-WRMD,2021-3004,,snapping turtle,turtle,Reptile,10/07/2021,2021,Autumn,October,7,Thursday,38.28544,77.56357,Died,euthanized +24hr,3,10
+WRMD,2021-3004,,snapping turtle,turtle,Reptile,10/07/2021,2021,Autumn,October,7,Thursday,38.28544,-77.56357,Died,euthanized +24hr,3,10
 WRMD,2021-3305,,eastern gray squirrel,rodent,Mammal,12/18/2021,2021,Autumn,December,18,Saturday,39.320053,-77.712725,Died,euthanized in 24hr,5,12
 WRMD,2022-520,,snapping turtle,turtle,Reptile,04/14/2022,2022,Spring,April,14,Thursday,38.67239,-77.352702,Released,released,3,4
-WRMD,2022-958,,red-eared slider,turtle,Reptile,05/12/2022,2022,Spring,May,12,Thursday,39.27032,77.78872,Died,euthanized in 24hr,3,5
+WRMD,2022-958,,red-eared slider,turtle,Reptile,05/12/2022,2022,Spring,May,12,Thursday,39.27032,-77.78872,Died,euthanized in 24hr,3,5
 WRMD,2022-966,,woodland box turtle,turtle,Reptile,05/12/2022,2022,Spring,May,12,Thursday,38.81714,-77.531368,Released,released,3,5
 WRMD,2022-1167,,brown thrasher,bird,Bird,05/20/2022,2022,Spring,May,20,Friday,38.364736,-77.498183,Died,euthanized +24hr,4,5
 WRMD,2022-1186,,snapping turtle,turtle,Reptile,05/22/2022,2022,Spring,May,22,Sunday,39.212837,-77.53515,Died,euthanized +24hr,6,5
@@ -997,51 +978,50 @@ WRMD,2022-2507,,downy woodpecker,bird,Bird,08/12/2022,2022,Summer,August,12,Frid
 WRMD,2022-2837,,woodland box turtle,turtle,Reptile,09/08/2022,2022,Summer,September,8,Thursday,39.00227,-78.34339,Died,died +24hr,3,9
 WRMD,2022-2862,,red-tailed hawk,bird,Bird,09/09/2022,2022,Summer,September,9,Friday,38.8978266,-78.2105672,Died,euthanized in 24hr,4,9
 WRMD,2022-3076,,snapping turtle,turtle,Reptile,10/07/2022,2022,Autumn,October,7,Friday,39.007017,-77.485246,Died,euthanized in 24hr,4,10
-WRMD,2022-3137,,barred owl,owl,Bird,10/23/2022,2022,Autumn,October,23,Sunday,38.924758,-77865673.0,Died,euthanized in 24hr,6,10
-WRMD,2022-3272,,central ratsnake,snake,Reptile,11/26/2022,2022,Autumn,November,26,Saturday,38.69463,-77531010.0,Died,euthanized in 24hr,5,11
+WRMD,2022-3137,,barred owl,owl,Bird,10/23/2022,2022,Autumn,October,23,Sunday,38.924758,-77.865673,Died,euthanized in 24hr,6,10
+WRMD,2022-3272,,central ratsnake,snake,Reptile,11/26/2022,2022,Autumn,November,26,Saturday,38.69463,-77.53101,Died,euthanized in 24hr,5,11
 WRMD,2022-3332,,red-tailed hawk,bird,Bird,12/12/2022,2022,Autumn,December,12,Monday,38.80725,-78.52612,Died,died +24hr,0,12
 WRMD,2022-3343,,barn owl,owl,Bird,12/16/2022,2022,Autumn,December,16,Friday,38.9404332,-77.8735439,Died,died +24hr,4,12
-WRMD,2022-3379,,great horned owl,bird,Bird,12/25/2022,2022,Winter,December,25,Sunday,39.189661,-78150519.0,Died,euthanized in 24hr,6,12
+WRMD,2022-3379,,great horned owl,bird,Bird,12/25/2022,2022,Winter,December,25,Sunday,39.189661,-78.150519,Died,euthanized in 24hr,6,12
 WRMD,2023-139,,bald eagle,bird,Bird,02/17/2023,2023,Winter,February,17,Friday,38.0798087,-77.3091401,Died,died +24hr,4,2
 WRMD,2023-183,,red-tailed hawk,bird,Bird,03/05/2023,2023,Winter,March,5,Sunday,39.102105,-78.035531,Died,euthanized in 24hr,6,3
-WRMD,2023-188,,barred owl,owl,Bird,03/06/2023,2023,Winter,March,6,Monday,38.957299,-78096620.0,Died,euthanized in 24hr,0,3
-WRMD,2023-214,,black vulture,bird,Bird,03/15/2023,2023,Winter,March,15,Wednesday,39.20009,77.5378,Died,died in 24hr,2,3
+WRMD,2023-188,,barred owl,owl,Bird,03/06/2023,2023,Winter,March,6,Monday,38.957299,-78.09662,Died,euthanized in 24hr,0,3
+WRMD,2023-214,,black vulture,bird,Bird,03/15/2023,2023,Winter,March,15,Wednesday,39.20009,-77.5378,Died,died in 24hr,2,3
 WRMD,2023-583,,snapping turtle,turtle,Reptile,04/23/2023,2023,Spring,April,23,Sunday,38.865153,-77.881854,Died,euthanized in 24hr,6,4
-WRMD,2023-721,,turkey vulture,bird,Bird,05/01/2023,2023,Spring,May,1,Monday,38.147664,-77703743.0,Died,euthanized in 24hr,0,5
-WRMD,2023-880,,eastern painted turtle,turtle,Reptile,05/09/2023,2023,Spring,May,9,Tuesday,38.37534,-78150996.0,Died,died in 24hr,1,5
+WRMD,2023-721,,turkey vulture,bird,Bird,05/01/2023,2023,Spring,May,1,Monday,38.147664,-77.703743,Died,euthanized in 24hr,0,5
+WRMD,2023-880,,eastern painted turtle,turtle,Reptile,05/09/2023,2023,Spring,May,9,Tuesday,38.37534,-78.150996,Died,died in 24hr,1,5
 WRMD,2023-957,,snapping turtle,turtle,Reptile,05/12/2023,2023,Spring,May,12,Friday,38.29988,-77.47951,Died,euthanized +24hr,4,5
 WRMD,2023-1595,,eastern painted turtle,turtle,Reptile,06/13/2023,2023,Spring,June,13,Tuesday,38.71033,-78.15452,Died,euthanized in 24hr,1,6
-WRMD,2023-1653,,eastern painted turtle,turtle,Reptile,06/17/2023,2023,Spring,June,17,Saturday,38.854925,-78276342.0,Died,euthanized in 24hr,5,6
+WRMD,2023-1653,,eastern painted turtle,turtle,Reptile,06/17/2023,2023,Spring,June,17,Saturday,38.854925,-78.276342,Died,euthanized in 24hr,5,6
 WRMD,2023-1728,,eastern painted turtle,turtle,Reptile,06/20/2023,2023,Spring,June,20,Tuesday,39.080263,-78.085696,Released,released,1,6
-WRMD,2023-1864,,woodland box turtle,turtle,Reptile,06/26/2023,2023,Summer,June,26,Monday,38.768971,-77820310.0,Released,released,0,6
+WRMD,2023-1864,,woodland box turtle,turtle,Reptile,06/26/2023,2023,Summer,June,26,Monday,38.768971,-77.82031,Released,released,0,6
 WRMD,2023-2021,,woodland box turtle,turtle,Reptile,07/04/2023,2023,Summer,July,4,Tuesday,38.951002,-77.939597,Released,released,1,7
 WRMD,2023-2219,,woodland box turtle,turtle,Reptile,07/16/2023,2023,Summer,July,16,Sunday,38.1944793,-77.520229,Released,released,6,7
 WRMD,2023-2243,,woodland box turtle,turtle,Reptile,07/18/2023,2023,Summer,July,18,Tuesday,38.86967,-77.43022,Died,euthanized in 24hr,1,7
 WRMD,2023-2337,,eastern painted turtle,turtle,Reptile,07/23/2023,2023,Summer,July,23,Sunday,39.084892,-78.186125,Died,euthanized in 24hr,6,7
 WRMD,2023-2755,,turkey vulture,bird,Bird,08/21/2023,2023,Summer,August,21,Monday,36.60524,-78.30096,Died,euthanized +24hr,0,8
-WRMD,2023-2759,,virginia opossum,marsupial,Mammal,08/21/2023,2023,Summer,August,21,Monday,38.96842,-78375713.0,Died,euthanized in 24hr,0,8
+WRMD,2023-2759,,virginia opossum,marsupial,Mammal,08/21/2023,2023,Summer,August,21,Monday,38.96842,-78.375713,Died,euthanized in 24hr,0,8
 WRMD,2023-2795,,woodland box turtle,turtle,Reptile,08/25/2023,2023,Summer,August,25,Friday,38.182221,-78.292469,Released,released,4,8
-WRMD,2023-3000,,eastern cottontail,rabbits & hares,Mammal,09/10/2023,2023,Summer,September,10,Sunday,38.975538,-78393205.0,Died,euthanized in 24hr,6,9
-WRMD,2023-3301,,eastern painted turtle,turtle,Reptile,10/07/2023,2023,Autumn,October,7,Saturday,39.219639,-78214702.0,Released,released,5,10
+WRMD,2023-3000,,eastern cottontail,rabbits & hares,Mammal,09/10/2023,2023,Summer,September,10,Sunday,38.975538,-78.393205,Died,euthanized in 24hr,6,9
+WRMD,2023-3301,,eastern painted turtle,turtle,Reptile,10/07/2023,2023,Autumn,October,7,Saturday,39.219639,-78.214702,Released,released,5,10
 WRMD,2023-3341,,woodland box turtle,turtle,Reptile,10/14/2023,2023,Autumn,October,14,Saturday,38.429413,-77.432289,Died,euthanized in 24hr,5,10
 WRMD,2023-3375,,eastern gray squirrel,rodent,Mammal,10/18/2023,2023,Autumn,October,18,Wednesday,39.134558,-78.226391,Died,euthanized in 24hr,2,10
 WRMD,2023-3402,,woodland box turtle,turtle,Reptile,10/21/2023,2023,Autumn,October,21,Saturday,39.1380611,-78.3892623,Died,euthanized in 24hr,5,10
-WRMD,2023-3600,,northern raccoon,raccoon,Mammal,12/13/2023,2023,Autumn,December,13,Wednesday,390541.1,781944.3,Died,euthanized in 24hr,2,12
+WRMD,2023-3600,,northern raccoon,raccoon,Mammal,12/13/2023,2023,Autumn,December,13,Wednesday,39.054109999999994,-78.19443000000001,Died,euthanized in 24hr,2,12
 WRMD,2023-3627,,barred owl,owl,Bird,12/22/2023,2023,Winter,December,22,Friday,38.741275,-77.809199,Died,euthanized in 24hr,4,12
-WRMD,2024-327,,northern raccoon,raccoon,Mammal,03/26/2024,2024,Spring,March,26,Tuesday,38.956804,-77990078.0,Died,euthanized in 24hr,1,3
-WRMD,2024-396,,eastern painted turtle,turtle,Reptile,04/02/2024,2024,Spring,April,2,Tuesday,39.007382,78.147486,Died,euthanized in 24hr,1,4
+WRMD,2024-327,,northern raccoon,raccoon,Mammal,03/26/2024,2024,Spring,March,26,Tuesday,38.956804,-77.990078,Died,euthanized in 24hr,1,3
+WRMD,2024-396,,eastern painted turtle,turtle,Reptile,04/02/2024,2024,Spring,April,2,Tuesday,39.007382,-78.147486,Died,euthanized in 24hr,1,4
 WRMD,2024-554,,eastern gray squirrel,rodent,Mammal,04/13/2024,2024,Spring,April,13,Saturday,39.168045,-77.596754,Released,released,5,4
 WRMD,2024-555,,eastern gray squirrel,rodent,Mammal,04/13/2024,2024,Spring,April,13,Saturday,39.168045,-77.596754,Released,released,5,4
 WRMD,2024-556,,eastern gray squirrel,rodent,Mammal,04/13/2024,2024,Spring,April,13,Saturday,39.168045,-77.596754,Released,released,5,4
 WRMD,2024-557,,eastern gray squirrel,rodent,Mammal,04/13/2024,2024,Spring,April,13,Saturday,39.168045,-77.596754,Released,released,5,4
 WRMD,2024-708,,northern cardinal,bird,Bird,04/21/2024,2024,Spring,April,21,Sunday,39.120799,-77.604915,Released,released,6,4
-WRMD,2024-714,,northern raccoon,raccoon,Mammal,04/22/2024,2024,Spring,April,22,Monday,38.97392,78.217193,Died,euthanized in 24hr,0,4
-WRMD,2024-762,,central ratsnake,snake,Reptile,04/24/2024,2024,Spring,April,24,Wednesday,39.066271,78.0033,Died,dead on arrival,2,4
+WRMD,2024-714,,northern raccoon,raccoon,Mammal,04/22/2024,2024,Spring,April,22,Monday,38.97392,-78.217193,Died,euthanized in 24hr,0,4
+WRMD,2024-762,,central ratsnake,snake,Reptile,04/24/2024,2024,Spring,April,24,Wednesday,39.066271,-78.0033,Died,dead on arrival,2,4
 WRMD,2024-801,,snapping turtle,turtle,Reptile,04/26/2024,2024,Spring,April,26,Friday,39.26891,-77.62003,Released,released,4,4
 WRMD,2024-866,,woodland box turtle,turtle,Reptile,04/29/2024,2024,Spring,April,29,Monday,38.673457,-77.952168,Released,released,0,4
 WRMD,2024-1034,,eastern painted turtle,turtle,Reptile,05/06/2024,2024,Spring,May,6,Monday,38.70978,-77.44707,Died,euthanized in 24hr,0,5
 WRMD,2024-1036,,snapping turtle,turtle,Reptile,05/06/2024,2024,Spring,May,6,Monday,38.745542,-77.200878,Released,released,0,5
-WRMD,2024-1066,,woodland box turtle,turtle,Reptile,05/07/2024,2024,Spring,May,7,Tuesday,39.911883,-78.133676,Died,euthanized in 24hr,1,5
 WRMD,2024-1078,,woodland box turtle,turtle,Reptile,05/08/2024,2024,Spring,May,8,Wednesday,38.697535,-77.442945,Released,released,2,5
 WRMD,2024-1079,,snapping turtle,turtle,Reptile,05/08/2024,2024,Spring,May,8,Wednesday,39.065613,-77.472258,Died,euthanized in 24hr,2,5
 WRMD,2024-1109,,woodland box turtle,turtle,Reptile,05/09/2024,2024,Spring,May,9,Thursday,38.933646,-77.646704,Died,euthanized in 24hr,3,5
@@ -1064,7 +1044,7 @@ WRMD,2024-1457,,woodland box turtle,turtle,Reptile,05/26/2024,2024,Spring,May,26
 WRMD,2024-1478,,woodland box turtle,turtle,Reptile,05/27/2024,2024,Spring,May,27,Monday,38.945878,-77.421847,Released,released,0,5
 WRMD,2024-1492,,snapping turtle,turtle,Reptile,05/28/2024,2024,Spring,May,28,Tuesday,38.966513,-77.431421,Released,released,1,5
 WRMD,2024-1511,,central ratsnake,snake,Reptile,05/28/2024,2024,Spring,May,28,Tuesday,39.069173,-78.00384,Released,released,1,5
-WRMD,2024-1542,,northern cardinal,bird,Bird,05/29/2024,2024,Spring,May,29,Wednesday,39.0857,78.1046,Died,died +24hr,2,5
+WRMD,2024-1542,,northern cardinal,bird,Bird,05/29/2024,2024,Spring,May,29,Wednesday,39.0857,-78.1046,Died,died +24hr,2,5
 WRMD,2024-1642,,eastern painted turtle,turtle,Reptile,06/03/2024,2024,Spring,June,3,Monday,38.84765,-77.637,Died,euthanized in 24hr,0,6
 WRMD,2024-1699,,barred owl,owl,Bird,06/05/2024,2024,Spring,June,5,Wednesday,38.224175,-77.477843,Died,euthanized in 24hr,2,6
 WRMD,2024-1703,,eastern gray squirrel,rodent,Mammal,06/05/2024,2024,Spring,June,5,Wednesday,38.909389,-78.177486,Died,euthanized in 24hr,2,6
@@ -1083,7 +1063,7 @@ WRMD,2024-2939,,groundhog,rodent,Mammal,08/20/2024,2024,Summer,August,20,Tuesday
 WRMD,2024-2944,,eastern painted turtle,turtle,Reptile,08/20/2024,2024,Summer,August,20,Tuesday,39.22803,-78.052592,Released,released,1,8
 WRMD,2024-3010,,eastern painted turtle,turtle,Reptile,08/25/2024,2024,Summer,August,25,Sunday,38.769767,-78.386229,Released,released,6,8
 WRMD,2024-3023,,woodland box turtle,turtle,Reptile,08/26/2024,2024,Summer,August,26,Monday,39.093646,-77.938948,Released,released,0,8
-WRMD,2024-3181,,woodland box turtle,turtle,Reptile,09/06/2024,2024,Summer,September,6,Friday,39.13114,78.13208,Died,euthanized in 24hr,4,9
+WRMD,2024-3181,,woodland box turtle,turtle,Reptile,09/06/2024,2024,Summer,September,6,Friday,39.13114,-78.13208,Died,euthanized in 24hr,4,9
 WRMD,2024-3264,,barred owl,owl,Bird,09/13/2024,2024,Summer,September,13,Friday,39.030428,-77.508158,Died,died in 24hr,4,9
 WRMD,2024-3271,,barred owl,owl,Bird,09/13/2024,2024,Summer,September,13,Friday,39.040514,-77.422774,Died,euthanized +24hr,4,9
 WRMD,2024-3337,,woodland box turtle,turtle,Reptile,09/19/2024,2024,Summer,September,19,Thursday,39.10444,-77.507471,Died,euthanized in 24hr,3,9
@@ -1098,7 +1078,7 @@ WRMD,2024-3528,,common grackle,bird,Bird,10/07/2024,2024,Autumn,October,7,Monday
 WRMD,2024-3560,,northern raccoon,raccoon,Mammal,10/13/2024,2024,Autumn,October,13,Sunday,38.962989,-78.019894,Died,euthanized in 24hr,6,10
 WRMD,2024-3598,,turkey vulture,bird,Bird,10/20/2024,2024,Autumn,October,20,Sunday,39.16152,-77.69092,Died,euthanized in 24hr,6,10
 WRMD,2024-3638,,barred owl,owl,Bird,10/29/2024,2024,Autumn,October,29,Tuesday,39.123286,-77.806495,Died,euthanized in 24hr,1,10
-WRMD,2024-3648,,barred owl,owl,Bird,10/31/2024,2024,Autumn,October,31,Thursday,38.259683,-77157082.0,Released,released,3,10
+WRMD,2024-3648,,barred owl,owl,Bird,10/31/2024,2024,Autumn,October,31,Thursday,38.259683,-77.157082,Released,released,3,10
 WRMD,2024-3657,,red-shouldered hawk,bird,Bird,11/01/2024,2024,Autumn,November,1,Friday,38.976529,-77.662072,Died,euthanized in 24hr,4,11
 WRMD,2024-3674,,barred owl,owl,Bird,11/05/2024,2024,Autumn,November,5,Tuesday,38.899115,-77.440879,Died,euthanized in 24hr,1,11
 WRMD,2024-3707,,virginia opossum,marsupial,Mammal,11/12/2024,2024,Autumn,November,12,Tuesday,38.920802,-78.339442,Died,euthanized in 24hr,1,11
