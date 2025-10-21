@@ -1,4 +1,4 @@
-
+#Initla file. Fixing juristictions. not in main pipeline.
 
 import pandas as pd
 
