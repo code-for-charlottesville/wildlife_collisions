@@ -1,3 +1,30 @@
+"""
+Geocoding WRMD Data - Exploration and Processing Script
+
+PURPOSE:
+This script explores and implements geocoding for WRMD (Wildlife Rehabilitation MD)
+records that contain address information but are missing latitude/longitude coordinates.
+
+STATUS: UNFINISHED
+- Initial geocoding implementation is functional
+- Quality checks and validation are partially implemented
+- Further refinement needed for handling edge cases and non-Virginia locations
+
+WORKFLOW:
+1. Load WRMD data requiring geocoding (records with addresses but no lat/lng)
+2. Use Google Maps Geocoding API to convert addresses to coordinates
+3. Process data in chunks to manage API rate limits
+4. Validate geocoding results (check for street-level accuracy, verify state)
+5. Handle special cases (out-of-state results, low-precision geocodes)
+6. Export geocoded results for further pipeline processing
+
+NOTES:
+- Uses Google Maps API with US/VA/WV/NC geographic restrictions
+- Rate limiting implemented to avoid API quota issues
+- Filters for 'street_address' type results to ensure location precision
+- Some addresses may geocode outside Virginia and require special handling
+"""
+
 # %%
 import pandas as pd
 import geopandas as gpd
