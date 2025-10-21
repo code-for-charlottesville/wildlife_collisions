@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('WCV_Collisions_Data\WCV Collision Data Mod.csv')
 
 # Seasonal Trends
+#Not in main pipeline 
 
 animal_counts = dict()
 monthly_time_series = dict()

@@ -4,3 +4,6 @@ shapely
 geopandas
 python-dotenv
 googlemaps
+matplotlib
+seaborn
+folium
