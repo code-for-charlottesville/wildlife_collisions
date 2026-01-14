@@ -138,13 +138,13 @@ Transforms WRMD data to match WCV (Wildlife Center of Virginia) schema for data 
 | `PatientID` | NULL | Placeholder for internal IDs |
 | `CommonSpeciesName` | `patients.common_name` (lowercase) | Species common name |
 | `GeneralSpeciesName` | Lookup from `CollisionAnimalMapping.csv` | Grouped category (e.g., "turtle", "bird") |
-| `DVertebrate` | Lookup from `AnimalsCategorized.csv` | Vertebrate class (Bird/Mammal/Reptile/Amphibian) |
+| `Vertebrate` | Lookup from `AnimalsCategorized.csv` | Vertebrate class (Bird/Mammal/Reptile/Amphibian) |
 | `DateAdmitted` | `patients.admitted_at` (MM/DD/YYYY) | Admission date |
-| `DDateAdmittedYear` | Extracted from `patients.admitted_at` | Admission year |
+| `DateAdmittedYear` | Extracted from `patients.admitted_at` | Admission year |
 | `Season` | Calculated from admission date | Winter/Spring/Summer/Autumn |
-| `DDateAdmittedMonth` | Month name from admission date | Full month name |
-| `DDateAdmittedDOM` | Day number from admission date | Day of month (1-31) |
-| `DDateAdmittedDOW` | Day name from admission date | Full day name |
+| `DateAdmittedMonth` | Month name from admission date | Full month name |
+| `DateAdmittedDOM` | Day number from admission date | Day of month (1-31) |
+| `DateAdmittedDOW` | Day name from admission date | Full day name |
 | `Latitude` | `patients.lat_found` | Geographic coordinate |
 | `Longitude` | `patients.lng_found` | Geographic coordinate |
 | `Disposition` | Normalized `patients.disposition` | Unified: Active/Died/Released/Transferred |
