@@ -3,7 +3,7 @@ yellow-bellied slider,turtle
 eastern box turtle,turtle
 eastern screech-owl,bird
 red-shouldered hawk,bird
-virginia opossum,marsupial
+virginia opossum,opossum
 european starling,bird
 eastern gray squirrel,rodent
 american robin,bird
@@ -11,7 +11,7 @@ barn swallow,bird
 mallard,bird
 yellow-bellied sapsucker,bird
 eastern fox squirrel,rodent
-barred owl,owl
+barred owl,bird
 eastern bluebird,bird
 pileated woodpecker,bird
 bald eagle,bird
@@ -52,7 +52,7 @@ common musk turtle,turtle
 northern mockingbird,bird
 cedar waxwing,bird
 gray fox,fox
-eastern american toad,toad
+eastern american toad,frogs & toads
 lesser scaup,bird
 eastern chipmunk,rodent
 american goldfinch,bird
@@ -96,12 +96,12 @@ coastal plain cooter,turtle
 hooded merganser,bird
 dekay's brown snake,snake
 whip-poor-will,bird
-barn owl,owl
+barn owl,bird
 bog turtle,turtle
 common raven,bird
 baltimore oriole,bird
 dark-eyed junco,bird
-big brown bat,bats
+big brown bat,bat
 eastern phoebe,bird
 northern black racer,snake
 tree swallow,bird
@@ -115,7 +115,7 @@ sora,bird
 common box turtle,turtle
 white-footed mouse,rodent
 ring-necked pheasant,bird
-wood thrush,thrush
+wood thrush,bird
 domestic duck,bird
 american black vulture,bird
 belted kingfisher,bird
@@ -128,19 +128,23 @@ common nighthawk,bird
 corn snake,snake
 coyote,coyote
 eastern musk turtle,turtle
-eastern screech owl,owl
+eastern screech owl,bird
 grey fox,fox
 groundhog,rodent
 hoary bat,bat
 northern raccoon,raccoon
-northern saw-whet owl,owl
+northern saw-whet owl,bird
 peregrine falcon,bird
 red bat,bat
 red-winged blackbird,bird
 ruddy duck,bird
-short-eared owl,owl
+short-eared owl,bird
 song sparrow,bird
 timber rattlesnake,snake
 unidentified mouse,rodent
 wood turtle,turtle
 woodland box turtle,turtle
+bobcat,bobcat
+elk,elk
+beaver,beaver
+otters,otters
