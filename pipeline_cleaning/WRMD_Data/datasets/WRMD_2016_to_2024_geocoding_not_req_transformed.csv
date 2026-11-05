@@ -1,8 +1,8 @@
 OrganizationName,CaseNumber,PatientID,CommonSpeciesName,GeneralSpeciesName,Vertebrate,DateAdmitted,DateAdmittedYear,Season,DateAdmittedMonth,DateAdmittedDOM,DateAdmittedDOW,Latitude,Longitude,Disposition,DayOfWeekNumber,MonthNumber,RescueJurisdiction
-WRMD,WRMD2016-1,,virginia opossum,marsupial,Mammal,01/01/2016,2016,Winter,January,1,Friday,38.960822,-77.741824,Died,4,1,Fauquier County
+WRMD,WRMD2016-1,,virginia opossum,opossum,Mammal,01/01/2016,2016,Winter,January,1,Friday,38.960822,-77.741824,Died,4,1,Fauquier County
 WRMD,WRMD2016-3,,black vulture,bird,Bird,01/06/2016,2016,Winter,January,6,Wednesday,39.325379,-77.738882,Died,2,1,Jefferson County
-WRMD,WRMD2016-9,,barred owl,owl,Bird,01/14/2016,2016,Winter,January,14,Thursday,39.219637,-77.523534,Euthanized,3,1,Loudoun County
-WRMD,WRMD2016-11,,barred owl,owl,Bird,01/15/2016,2016,Winter,January,15,Friday,39.400742,-78.115627,Released,4,1,Berkeley County
+WRMD,WRMD2016-9,,barred owl,bird,Bird,01/14/2016,2016,Winter,January,14,Thursday,39.219637,-77.523534,Euthanized,3,1,Loudoun County
+WRMD,WRMD2016-11,,barred owl,bird,Bird,01/15/2016,2016,Winter,January,15,Friday,39.400742,-78.115627,Released,4,1,Berkeley County
 WRMD,WRMD2016-17,,american robin,bird,Bird,01/19/2016,2016,Winter,January,19,Tuesday,39.041987,-77.605404,Released,1,1,Loudoun County
 WRMD,WRMD2016-33,,eastern bluebird,bird,Bird,02/03/2016,2016,Winter,February,3,Wednesday,39.049416,-77.519471,Released,2,2,Loudoun County
 WRMD,WRMD2016-38,,cooper's hawk,bird,Bird,02/06/2016,2016,Winter,February,6,Saturday,39.181479,-78.1448,Euthanized,5,2,Winchester city
@@ -23,37 +23,37 @@ WRMD,WRMD2016-159,,eastern gray squirrel,rodent,Mammal,04/08/2016,2016,Spring,Ap
 WRMD,WRMD2016-175,,groundhog,rodent,Mammal,04/12/2016,2016,Spring,April,12,Tuesday,38.921149,-78.19413,Euthanized,1,4,Warren County
 WRMD,WRMD2016-187,,red-headed woodpecker,bird,Bird,04/15/2016,2016,Spring,April,15,Friday,38.026758,-78.004605,Released,4,4,Louisa County
 WRMD,WRMD2016-206,,northern cardinal,bird,Bird,04/18/2016,2016,Spring,April,18,Monday,38.987906,-78.348577,Euthanized,0,4,Shenandoah County
-WRMD,WRMD2016-209,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-210,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-211,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-212,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-213,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-214,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-215,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-216,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-217,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-218,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-219,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-220,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-221,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-222,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-223,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-224,,virginia opossum,marsupial,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
-WRMD,WRMD2016-232,,virginia opossum,marsupial,Mammal,04/19/2016,2016,Spring,April,19,Tuesday,39.248489,-77.686801,Euthanized,1,4,Loudoun County
-WRMD,WRMD2016-233,,virginia opossum,marsupial,Mammal,04/19/2016,2016,Spring,April,19,Tuesday,39.248489,-77.686801,Euthanized,1,4,Loudoun County
+WRMD,WRMD2016-209,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-210,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-211,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-212,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-213,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.28749,-77.621209,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-214,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-215,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-216,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-217,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-218,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-219,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-220,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-221,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-222,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-223,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-224,,virginia opossum,opossum,Mammal,04/18/2016,2016,Spring,April,18,Monday,39.085309,-77.645224,Euthanized,0,4,Loudoun County
+WRMD,WRMD2016-232,,virginia opossum,opossum,Mammal,04/19/2016,2016,Spring,April,19,Tuesday,39.248489,-77.686801,Euthanized,1,4,Loudoun County
+WRMD,WRMD2016-233,,virginia opossum,opossum,Mammal,04/19/2016,2016,Spring,April,19,Tuesday,39.248489,-77.686801,Euthanized,1,4,Loudoun County
 WRMD,WRMD2016-283,,house finch,bird,Bird,04/23/2016,2016,Spring,April,23,Saturday,39.395781,-78.274149,Euthanized,5,4,Frederick County
 WRMD,WRMD2016-304,,pileated woodpecker,bird,Bird,04/26/2016,2016,Spring,April,26,Tuesday,39.255758,-78.045981,Died,1,4,Frederick County
 WRMD,WRMD2016-306,,northern cardinal,bird,Bird,04/26/2016,2016,Spring,April,26,Tuesday,39.005272,-77.755664,Euthanized,1,4,Loudoun County
-WRMD,WRMD2016-317,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
-WRMD,WRMD2016-318,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
-WRMD,WRMD2016-319,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
-WRMD,WRMD2016-320,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
-WRMD,WRMD2016-321,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
-WRMD,WRMD2016-322,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
-WRMD,WRMD2016-323,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
-WRMD,WRMD2016-324,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.928308,-78.174537,Euthanized,2,4,Warren County
-WRMD,WRMD2016-325,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.928308,-78.174537,Euthanized,2,4,Warren County
-WRMD,WRMD2016-326,,virginia opossum,marsupial,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.928308,-78.174537,Euthanized,2,4,Warren County
+WRMD,WRMD2016-317,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
+WRMD,WRMD2016-318,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
+WRMD,WRMD2016-319,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
+WRMD,WRMD2016-320,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
+WRMD,WRMD2016-321,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
+WRMD,WRMD2016-322,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
+WRMD,WRMD2016-323,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.918167,-78.194445,Euthanized,2,4,Warren County
+WRMD,WRMD2016-324,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.928308,-78.174537,Euthanized,2,4,Warren County
+WRMD,WRMD2016-325,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.928308,-78.174537,Euthanized,2,4,Warren County
+WRMD,WRMD2016-326,,virginia opossum,opossum,Mammal,04/27/2016,2016,Spring,April,27,Wednesday,38.928308,-78.174537,Euthanized,2,4,Warren County
 WRMD,WRMD2016-333,,woodland box turtle,turtle,Reptile,05/02/2016,2016,Spring,May,2,Monday,39.229778,-78.243252,Released,0,5,Frederick County
 WRMD,WRMD2016-335,,eastern painted turtle,turtle,Reptile,05/02/2016,2016,Spring,May,2,Monday,38.96194,-77.74095,Euthanized,0,5,Fauquier County
 WRMD,WRMD2016-344,,snapping turtle,turtle,Reptile,05/03/2016,2016,Spring,May,3,Tuesday,38.931049,-77.248924,Released,1,5,Fairfax County
@@ -69,7 +69,7 @@ WRMD,WRMD2016-433,,american robin,bird,Bird,05/17/2016,2016,Spring,May,17,Tuesda
 WRMD,WRMD2016-440,,pileated woodpecker,bird,Bird,05/17/2016,2016,Spring,May,17,Tuesday,39.016887,-78.034358,Died,1,5,Clarke County
 WRMD,WRMD2016-441,,common grackle,bird,Bird,05/18/2016,2016,Spring,May,18,Wednesday,38.918167,-78.194445,Died,2,5,Warren County
 WRMD,WRMD2016-457,,eastern cottontail,rabbits & hares,Mammal,05/19/2016,2016,Spring,May,19,Thursday,39.159956,-77.993923,Died,3,5,Clarke County
-WRMD,WRMD2016-459,,eastern screech owl,owl,Bird,05/20/2016,2016,Spring,May,20,Friday,39.034706,-78.017496,Released,4,5,Clarke County
+WRMD,WRMD2016-459,,eastern screech owl,bird,Bird,05/20/2016,2016,Spring,May,20,Friday,39.034706,-78.017496,Released,4,5,Clarke County
 WRMD,WRMD2016-478,,woodland box turtle,turtle,Reptile,05/20/2016,2016,Spring,May,20,Friday,39.242135,-77.702545,Euthanized,4,5,Loudoun County
 WRMD,WRMD2016-483,,northern cardinal,bird,Bird,05/21/2016,2016,Spring,May,21,Saturday,39.095745,-77.716416,Died,5,5,Loudoun County
 WRMD,WRMD2016-492,,red-tailed hawk,bird,Bird,05/22/2016,2016,Spring,May,22,Sunday,39.190404,-78.399536,Euthanized,6,5,Frederick County
@@ -86,21 +86,21 @@ WRMD,WRMD2016-531,,mallard,bird,Bird,05/26/2016,2016,Spring,May,26,Thursday,39.0
 WRMD,WRMD2016-550,,eastern painted turtle,turtle,Reptile,05/27/2016,2016,Spring,May,27,Friday,38.937857,-77.915398,Euthanized,4,5,Fauquier County
 WRMD,WRMD2016-567,,woodland box turtle,turtle,Reptile,05/28/2016,2016,Spring,May,28,Saturday,38.990339,-78.367751,Died,5,5,Shenandoah County
 WRMD,WRMD2016-570,,woodland box turtle,turtle,Reptile,05/29/2016,2016,Spring,May,29,Sunday,39.162182,-78.101271,Died,6,5,Frederick County
-WRMD,WRMD2016-578,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
-WRMD,WRMD2016-579,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
-WRMD,WRMD2016-580,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
-WRMD,WRMD2016-581,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
-WRMD,WRMD2016-582,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
-WRMD,WRMD2016-583,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
-WRMD,WRMD2016-584,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
-WRMD,WRMD2016-585,,virginia opossum,marsupial,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346239,-77.956999,Euthanized,6,5,Jefferson County
+WRMD,WRMD2016-578,,virginia opossum,opossum,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
+WRMD,WRMD2016-579,,virginia opossum,opossum,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
+WRMD,WRMD2016-580,,virginia opossum,opossum,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
+WRMD,WRMD2016-581,,virginia opossum,opossum,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
+WRMD,WRMD2016-582,,virginia opossum,opossum,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
+WRMD,WRMD2016-583,,virginia opossum,opossum,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
+WRMD,WRMD2016-584,,virginia opossum,opossum,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346222,-77.956999,Euthanized,6,5,Jefferson County
+WRMD,WRMD2016-585,,virginia opossum,opossum,Mammal,05/29/2016,2016,Spring,May,29,Sunday,39.346239,-77.956999,Euthanized,6,5,Jefferson County
 WRMD,WRMD2016-608,,common grackle,bird,Bird,06/02/2016,2016,Spring,June,2,Thursday,39.200381,-78.180766,Euthanized,3,6,Winchester city
 WRMD,WRMD2016-616,,woodland box turtle,turtle,Reptile,05/31/2016,2016,Spring,May,31,Tuesday,39.102801,-77.717059,Euthanized,1,5,Loudoun County
 WRMD,WRMD2016-617,,chimney swift,bird,Bird,05/31/2016,2016,Spring,May,31,Tuesday,39.19128,-78.167212,Euthanized,1,5,Winchester city
 WRMD,WRMD2016-642,,canada goose,bird,Bird,06/02/2016,2016,Spring,June,2,Thursday,39.190404,-78.399536,Died,3,6,Frederick County
 WRMD,WRMD2016-654,,snapping turtle,turtle,Reptile,06/02/2016,2016,Spring,June,2,Thursday,39.242135,-77.702545,Released,3,6,Loudoun County
 WRMD,WRMD2016-658,,woodland box turtle,turtle,Reptile,06/03/2016,2016,Spring,June,3,Friday,38.968721,-77.73555,Died,4,6,Loudoun County
-WRMD,WRMD2016-668,,virginia opossum,marsupial,Mammal,06/03/2016,2016,Spring,June,3,Friday,38.961977,-78.292106,Euthanized,4,6,Warren County
+WRMD,WRMD2016-668,,virginia opossum,opossum,Mammal,06/03/2016,2016,Spring,June,3,Friday,38.961977,-78.292106,Euthanized,4,6,Warren County
 WRMD,WRMD2016-670,,woodland box turtle,turtle,Reptile,06/03/2016,2016,Spring,June,3,Friday,38.927957,-77.643237,Released,4,6,Prince William County
 WRMD,WRMD2016-677,,eastern gray squirrel,rodent,Mammal,06/04/2016,2016,Spring,June,4,Saturday,39.08344,-78.218057,Euthanized,5,6,Frederick County
 WRMD,WRMD2016-679,,eastern bluebird,bird,Bird,06/04/2016,2016,Spring,June,4,Saturday,39.122537,-78.035213,Euthanized,5,6,Clarke County
@@ -125,20 +125,20 @@ WRMD,WRMD2016-953,,eastern painted turtle,turtle,Reptile,06/28/2016,2016,Summer,
 WRMD,WRMD2016-955,,grey fox,fox,Mammal,06/28/2016,2016,Summer,June,28,Tuesday,38.665397,-78.459452,Died,1,6,Page County
 WRMD,WRMD2016-958,,northern raccoon,raccoon,Mammal,06/28/2016,2016,Summer,June,28,Tuesday,37.522251,-78.668194,Released,1,6,Buckingham County
 WRMD,WRMD2016-959,,northern raccoon,raccoon,Mammal,06/28/2016,2016,Summer,June,28,Tuesday,37.522251,-78.668194,Released,1,6,Buckingham County
-WRMD,WRMD2016-987,,eastern screech owl,owl,Bird,06/30/2016,2016,Summer,June,30,Thursday,37.522251,-78.668194,Euthanized,3,6,Buckingham County
+WRMD,WRMD2016-987,,eastern screech owl,bird,Bird,06/30/2016,2016,Summer,June,30,Thursday,37.522251,-78.668194,Euthanized,3,6,Buckingham County
 WRMD,WRMD2016-995,,gray catbird,bird,Bird,07/01/2016,2016,Summer,July,1,Friday,37.522251,-78.668194,Died,4,7,Buckingham County
 WRMD,WRMD2016-1006,,mallard,bird,Bird,07/03/2016,2016,Summer,July,3,Sunday,39.186609,-78.172269,Released,6,7,Winchester city
 WRMD,WRMD2016-1009,,brown-headed cowbird,bird,Bird,07/03/2016,2016,Summer,July,3,Sunday,39.169668,-78.16856,Died,6,7,Winchester city
-WRMD,WRMD2016-1015,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.919947,-78.196413,Died,0,7,Warren County
-WRMD,WRMD2016-1016,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
-WRMD,WRMD2016-1017,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
-WRMD,WRMD2016-1018,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
-WRMD,WRMD2016-1019,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
-WRMD,WRMD2016-1020,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
-WRMD,WRMD2016-1021,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
-WRMD,WRMD2016-1022,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
-WRMD,WRMD2016-1023,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.919947,-78.196413,Euthanized,0,7,Warren County
-WRMD,WRMD2016-1024,,virginia opossum,marsupial,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.919947,-78.196413,Euthanized,0,7,Warren County
+WRMD,WRMD2016-1015,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.919947,-78.196413,Died,0,7,Warren County
+WRMD,WRMD2016-1016,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
+WRMD,WRMD2016-1017,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
+WRMD,WRMD2016-1018,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
+WRMD,WRMD2016-1019,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
+WRMD,WRMD2016-1020,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
+WRMD,WRMD2016-1021,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
+WRMD,WRMD2016-1022,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.920241,-78.196152,Euthanized,0,7,Warren County
+WRMD,WRMD2016-1023,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.919947,-78.196413,Euthanized,0,7,Warren County
+WRMD,WRMD2016-1024,,virginia opossum,opossum,Mammal,07/04/2016,2016,Summer,July,4,Monday,38.919947,-78.196413,Euthanized,0,7,Warren County
 WRMD,WRMD2016-1029,,woodland box turtle,turtle,Reptile,07/05/2016,2016,Summer,July,5,Tuesday,39.169668,-78.16856,Died,1,7,Winchester city
 WRMD,WRMD2016-1031,,eastern painted turtle,turtle,Reptile,07/05/2016,2016,Summer,July,5,Tuesday,39.105584,-78.178597,Euthanized,1,7,Frederick County
 WRMD,WRMD2016-1042,,carolina wren,bird,Bird,07/06/2016,2016,Summer,July,6,Wednesday,39.218464,-78.1951,Died,2,7,Frederick County
@@ -164,23 +164,23 @@ WRMD,WRMD2016-1205,,woodland box turtle,turtle,Reptile,07/28/2016,2016,Summer,Ju
 WRMD,WRMD2016-1214,,woodland box turtle,turtle,Reptile,07/28/2016,2016,Summer,July,28,Thursday,37.522251,-78.668194,Released,3,7,Buckingham County
 WRMD,WRMD2016-1230,,snapping turtle,turtle,Reptile,07/29/2016,2016,Summer,July,29,Friday,37.522251,-78.668194,Released,4,7,Buckingham County
 WRMD,WRMD2016-1256,,downy woodpecker,bird,Bird,08/02/2016,2016,Summer,August,2,Tuesday,37.522251,-78.668194,Euthanized,1,8,Buckingham County
-WRMD,WRMD2016-1263,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
-WRMD,WRMD2016-1264,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
-WRMD,WRMD2016-1265,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
-WRMD,WRMD2016-1266,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
-WRMD,WRMD2016-1267,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
-WRMD,WRMD2016-1268,,virginia opossum,marsupial,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
-WRMD,WRMD2016-1300,,virginia opossum,marsupial,Mammal,08/06/2016,2016,Summer,August,6,Saturday,38.882918,-78.011718,Transferred,5,8,Fauquier County
-WRMD,WRMD2016-1301,,virginia opossum,marsupial,Mammal,08/06/2016,2016,Summer,August,6,Saturday,38.882918,-78.011718,Transferred,5,8,Fauquier County
-WRMD,WRMD2016-1302,,virginia opossum,marsupial,Mammal,08/06/2016,2016,Summer,August,6,Saturday,38.882918,-78.011718,Transferred,5,8,Fauquier County
-WRMD,WRMD2016-1321,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,37.522251,-78.668194,Euthanized,1,8,Buckingham County
-WRMD,WRMD2016-1322,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,37.522251,-78.668194,Euthanized,1,8,Buckingham County
-WRMD,WRMD2016-1323,,virginia opossum,marsupial,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,37.522251,-78.668194,Euthanized,1,8,Buckingham County
-WRMD,WRMD2016-1353,,virginia opossum,marsupial,Mammal,08/12/2016,2016,Summer,August,12,Friday,38.948189,-78.427092,Died,4,8,Shenandoah County
-WRMD,WRMD2016-1354,,virginia opossum,marsupial,Mammal,08/12/2016,2016,Summer,August,12,Friday,38.948189,-78.427092,Died,4,8,Shenandoah County
-WRMD,WRMD2016-1355,,virginia opossum,marsupial,Mammal,08/12/2016,2016,Summer,August,12,Friday,38.948189,-78.427092,Euthanized,4,8,Shenandoah County
+WRMD,WRMD2016-1263,,virginia opossum,opossum,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
+WRMD,WRMD2016-1264,,virginia opossum,opossum,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
+WRMD,WRMD2016-1265,,virginia opossum,opossum,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
+WRMD,WRMD2016-1266,,virginia opossum,opossum,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
+WRMD,WRMD2016-1267,,virginia opossum,opossum,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
+WRMD,WRMD2016-1268,,virginia opossum,opossum,Mammal,08/03/2016,2016,Summer,August,3,Wednesday,37.522251,-78.668194,Transferred,2,8,Buckingham County
+WRMD,WRMD2016-1300,,virginia opossum,opossum,Mammal,08/06/2016,2016,Summer,August,6,Saturday,38.882918,-78.011718,Transferred,5,8,Fauquier County
+WRMD,WRMD2016-1301,,virginia opossum,opossum,Mammal,08/06/2016,2016,Summer,August,6,Saturday,38.882918,-78.011718,Transferred,5,8,Fauquier County
+WRMD,WRMD2016-1302,,virginia opossum,opossum,Mammal,08/06/2016,2016,Summer,August,6,Saturday,38.882918,-78.011718,Transferred,5,8,Fauquier County
+WRMD,WRMD2016-1321,,virginia opossum,opossum,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,37.522251,-78.668194,Euthanized,1,8,Buckingham County
+WRMD,WRMD2016-1322,,virginia opossum,opossum,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,37.522251,-78.668194,Euthanized,1,8,Buckingham County
+WRMD,WRMD2016-1323,,virginia opossum,opossum,Mammal,08/09/2016,2016,Summer,August,9,Tuesday,37.522251,-78.668194,Euthanized,1,8,Buckingham County
+WRMD,WRMD2016-1353,,virginia opossum,opossum,Mammal,08/12/2016,2016,Summer,August,12,Friday,38.948189,-78.427092,Died,4,8,Shenandoah County
+WRMD,WRMD2016-1354,,virginia opossum,opossum,Mammal,08/12/2016,2016,Summer,August,12,Friday,38.948189,-78.427092,Died,4,8,Shenandoah County
+WRMD,WRMD2016-1355,,virginia opossum,opossum,Mammal,08/12/2016,2016,Summer,August,12,Friday,38.948189,-78.427092,Euthanized,4,8,Shenandoah County
 WRMD,WRMD2016-1385,,cedar waxwing,bird,Bird,08/21/2016,2016,Summer,August,21,Sunday,37.522251,-78.668194,Released,6,8,Buckingham County
-WRMD,WRMD2016-1398,,barred owl,owl,Bird,08/26/2016,2016,Summer,August,26,Friday,38.732605,-77.555365,Euthanized,4,8,Prince William County
+WRMD,WRMD2016-1398,,barred owl,bird,Bird,08/26/2016,2016,Summer,August,26,Friday,38.732605,-77.555365,Euthanized,4,8,Prince William County
 WRMD,WRMD2016-1406,,carolina wren,bird,Bird,08/30/2016,2016,Summer,August,30,Tuesday,38.841594,-78.635176,Died,1,8,Shenandoah County
 WRMD,WRMD2016-1407,,hoary bat,bat,Mammal,08/30/2016,2016,Summer,August,30,Tuesday,39.282134,-78.257494,Died,1,8,Frederick County
 WRMD,WRMD2016-1411,,red fox,fox,Mammal,08/31/2016,2016,Summer,August,31,Wednesday,39.013835,-77.39289,Euthanized,2,8,Loudoun County
@@ -188,7 +188,7 @@ WRMD,WRMD2016-1428,,eastern cottontail,rabbits & hares,Mammal,09/04/2016,2016,Su
 WRMD,WRMD2016-1447,,woodland box turtle,turtle,Reptile,09/07/2016,2016,Summer,September,7,Wednesday,39.325379,-77.738882,Euthanized,2,9,Jefferson County
 WRMD,WRMD2016-1448,,woodland box turtle,turtle,Reptile,09/07/2016,2016,Summer,September,7,Wednesday,39.161606,-78.099992,Died,2,9,Frederick County
 WRMD,WRMD2016-1476,,eastern gray squirrel,rodent,Mammal,09/16/2016,2016,Summer,September,16,Friday,39.230347,-77.647055,Euthanized,4,9,Loudoun County
-WRMD,WRMD2016-1478,,virginia opossum,marsupial,Mammal,09/17/2016,2016,Summer,September,17,Saturday,38.854378,-78.142275,Died,5,9,Rappahannock County
+WRMD,WRMD2016-1478,,virginia opossum,opossum,Mammal,09/17/2016,2016,Summer,September,17,Saturday,38.854378,-78.142275,Died,5,9,Rappahannock County
 WRMD,WRMD2016-1479,,snapping turtle,turtle,Reptile,09/18/2016,2016,Summer,September,18,Sunday,37.522251,-78.668194,Released,6,9,Buckingham County
 WRMD,WRMD2016-1483,,red-tailed hawk,bird,Bird,09/20/2016,2016,Summer,September,20,Tuesday,39.329457,-78.307169,Euthanized,1,9,Frederick County
 WRMD,WRMD2016-1488,,unidentified mouse,rodent,Mammal,09/20/2016,2016,Summer,September,20,Tuesday,38.979836,-77.64119,Released,1,9,Loudoun County
@@ -196,51 +196,51 @@ WRMD,WRMD2016-1501,,great horned owl,bird,Bird,09/28/2016,2016,Autumn,September,
 WRMD,WRMD2016-1509,,woodland box turtle,turtle,Reptile,12/23/2016,2016,Winter,December,23,Friday,37.522251,-78.668194,Released,4,12,Buckingham County
 WRMD,WRMD2016-1514,,woodland box turtle,turtle,Reptile,10/02/2016,2016,Autumn,October,2,Sunday,37.522251,-78.668194,Released,6,10,Buckingham County
 WRMD,WRMD2016-1519,,woodland box turtle,turtle,Reptile,10/07/2016,2016,Autumn,October,7,Friday,37.522251,-78.668194,Euthanized,4,10,Buckingham County
-WRMD,WRMD2016-1521,,virginia opossum,marsupial,Mammal,10/07/2016,2016,Autumn,October,7,Friday,37.522251,-78.668194,Died,4,10,Buckingham County
+WRMD,WRMD2016-1521,,virginia opossum,opossum,Mammal,10/07/2016,2016,Autumn,October,7,Friday,37.522251,-78.668194,Died,4,10,Buckingham County
 WRMD,WRMD2016-1528,,woodland box turtle,turtle,Reptile,10/10/2016,2016,Autumn,October,10,Monday,37.522251,-78.668194,Euthanized,0,10,Buckingham County
-WRMD,WRMD2016-1529,,barred owl,owl,Bird,10/12/2016,2016,Autumn,October,12,Wednesday,37.522251,-78.668194,Released,2,10,Buckingham County
+WRMD,WRMD2016-1529,,barred owl,bird,Bird,10/12/2016,2016,Autumn,October,12,Wednesday,37.522251,-78.668194,Released,2,10,Buckingham County
 WRMD,WRMD2016-1531,,red-tailed hawk,bird,Bird,10/12/2016,2016,Autumn,October,12,Wednesday,37.522251,-78.668194,Euthanized,2,10,Buckingham County
 WRMD,WRMD2016-1532,,yellow-billed cuckoo,bird,Bird,10/13/2016,2016,Autumn,October,13,Thursday,37.522251,-78.668194,Euthanized,3,10,Buckingham County
 WRMD,WRMD2016-1538,,woodland box turtle,turtle,Reptile,10/15/2016,2016,Autumn,October,15,Saturday,37.522251,-78.668194,Died,5,10,Buckingham County
 WRMD,WRMD2016-1547,,timber rattlesnake,snake,Reptile,10/19/2016,2016,Autumn,October,19,Wednesday,37.522251,-78.668194,Died,2,10,Buckingham County
-WRMD,WRMD2016-1548,,eastern screech owl,owl,Bird,10/20/2016,2016,Autumn,October,20,Thursday,37.522251,-78.668194,Released,3,10,Buckingham County
+WRMD,WRMD2016-1548,,eastern screech owl,bird,Bird,10/20/2016,2016,Autumn,October,20,Thursday,37.522251,-78.668194,Released,3,10,Buckingham County
 WRMD,WRMD2016-1553,,gray fox,fox,Mammal,10/23/2016,2016,Autumn,October,23,Sunday,37.522251,-78.668194,Released,6,10,Buckingham County
-WRMD,WRMD2016-1554,,barred owl,owl,Bird,10/23/2016,2016,Autumn,October,23,Sunday,37.522251,-78.668194,Euthanized,6,10,Buckingham County
+WRMD,WRMD2016-1554,,barred owl,bird,Bird,10/23/2016,2016,Autumn,October,23,Sunday,37.522251,-78.668194,Euthanized,6,10,Buckingham County
 WRMD,WRMD2016-1558,,woodland box turtle,turtle,Reptile,10/24/2016,2016,Autumn,October,24,Monday,37.522251,-78.668194,Died,0,10,Buckingham County
 WRMD,WRMD2016-1562,,woodland box turtle,turtle,Reptile,10/27/2016,2016,Autumn,October,27,Thursday,37.522251,-78.668194,Died,3,10,Buckingham County
-WRMD,WRMD2016-1573,,eastern screech owl,owl,Bird,11/04/2016,2016,Autumn,November,4,Friday,37.522251,-78.668194,Released,4,11,Buckingham County
+WRMD,WRMD2016-1573,,eastern screech owl,bird,Bird,11/04/2016,2016,Autumn,November,4,Friday,37.522251,-78.668194,Released,4,11,Buckingham County
 WRMD,WRMD2016-1574,,red bat,bat,Mammal,11/05/2016,2016,Autumn,November,5,Saturday,37.522251,-78.668194,Died,5,11,Buckingham County
-WRMD,WRMD2016-1575,,eastern screech owl,owl,Bird,11/06/2016,2016,Autumn,November,6,Sunday,37.522251,-78.668194,Euthanized,6,11,Buckingham County
+WRMD,WRMD2016-1575,,eastern screech owl,bird,Bird,11/06/2016,2016,Autumn,November,6,Sunday,37.522251,-78.668194,Euthanized,6,11,Buckingham County
 WRMD,WRMD2016-1582,,woodland box turtle,turtle,Reptile,11/09/2016,2016,Autumn,November,9,Wednesday,37.522251,-78.668194,Euthanized,2,11,Buckingham County
-WRMD,WRMD2016-1584,,eastern screech owl,owl,Bird,11/12/2016,2016,Autumn,November,12,Saturday,37.522251,-78.668194,Released,5,11,Buckingham County
+WRMD,WRMD2016-1584,,eastern screech owl,bird,Bird,11/12/2016,2016,Autumn,November,12,Saturday,37.522251,-78.668194,Released,5,11,Buckingham County
 WRMD,WRMD2016-1586,,northern cardinal,bird,Bird,11/12/2016,2016,Autumn,November,12,Saturday,37.522251,-78.668194,Died,5,11,Buckingham County
 WRMD,WRMD2016-1590,,red-tailed hawk,bird,Bird,11/17/2016,2016,Autumn,November,17,Thursday,37.522251,-78.668194,Released,3,11,Buckingham County
-WRMD,WRMD2016-1592,,northern saw-whet owl,owl,Bird,11/18/2016,2016,Autumn,November,18,Friday,37.124558,-76.842174,Euthanized,4,11,Surry County
-WRMD,WRMD2016-1594,,eastern screech owl,owl,Bird,11/19/2016,2016,Autumn,November,19,Saturday,37.522251,-78.668194,Released,5,11,Buckingham County
+WRMD,WRMD2016-1592,,northern saw-whet owl,bird,Bird,11/18/2016,2016,Autumn,November,18,Friday,37.124558,-76.842174,Euthanized,4,11,Surry County
+WRMD,WRMD2016-1594,,eastern screech owl,bird,Bird,11/19/2016,2016,Autumn,November,19,Saturday,37.522251,-78.668194,Released,5,11,Buckingham County
 WRMD,WRMD2016-1598,,american crow,bird,Bird,11/21/2016,2016,Autumn,November,21,Monday,37.522251,-78.668194,Euthanized,0,11,Buckingham County
-WRMD,WRMD2016-1603,,eastern screech owl,owl,Bird,11/26/2016,2016,Autumn,November,26,Saturday,39.153459,-78.121475,Released,5,11,Frederick County
+WRMD,WRMD2016-1603,,eastern screech owl,bird,Bird,11/26/2016,2016,Autumn,November,26,Saturday,39.153459,-78.121475,Released,5,11,Frederick County
 WRMD,WRMD2016-1610,,eastern cottontail,rabbits & hares,Mammal,12/01/2016,2016,Autumn,December,1,Thursday,39.14671,-77.9723,Released,3,12,Clarke County
 WRMD,WRMD2016-1612,,red-shouldered hawk,bird,Bird,12/02/2016,2016,Autumn,December,2,Friday,39.270945,-77.548155,Euthanized,4,12,Loudoun County
-WRMD,WRMD2016-1630,,eastern screech owl,owl,Bird,12/19/2016,2016,Autumn,December,19,Monday,39.109717,-77.954009,Released,0,12,Clarke County
+WRMD,WRMD2016-1630,,eastern screech owl,bird,Bird,12/19/2016,2016,Autumn,December,19,Monday,39.109717,-77.954009,Released,0,12,Clarke County
 WRMD,WRMD2016-1632,,red-tailed hawk,bird,Bird,12/22/2016,2016,Winter,December,22,Thursday,38.705126,-77.223521,Released,3,12,Fairfax County
-WRMD,WRMD2017-6,,eastern screech owl,owl,Bird,01/07/2017,2017,Winter,January,7,Saturday,38.87264,-78.215722,Released,5,1,Warren County
+WRMD,WRMD2017-6,,eastern screech owl,bird,Bird,01/07/2017,2017,Winter,January,7,Saturday,38.87264,-78.215722,Released,5,1,Warren County
 WRMD,WRMD2017-10,,red-shouldered hawk,bird,Bird,01/14/2017,2017,Winter,January,14,Saturday,39.087557,-78.069305,Euthanized,5,1,Clarke County
-WRMD,WRMD2017-12,,virginia opossum,marsupial,Mammal,01/16/2017,2017,Winter,January,16,Monday,38.87362,-77.666215,Euthanized,0,1,Prince William County
-WRMD,WRMD2017-15,,eastern screech owl,owl,Bird,01/20/2017,2017,Winter,January,20,Friday,39.188253,-78.176016,Euthanized,4,1,Winchester city
+WRMD,WRMD2017-12,,virginia opossum,opossum,Mammal,01/16/2017,2017,Winter,January,16,Monday,38.87362,-77.666215,Euthanized,0,1,Prince William County
+WRMD,WRMD2017-15,,eastern screech owl,bird,Bird,01/20/2017,2017,Winter,January,20,Friday,39.188253,-78.176016,Euthanized,4,1,Winchester city
 WRMD,WRMD2017-18,,eastern fox squirrel,rodent,Mammal,01/26/2017,2017,Winter,January,26,Thursday,38.97127,-77.854087,Died,3,1,Fauquier County
 WRMD,WRMD2017-21,,coyote,coyote,Mammal,01/28/2017,2017,Winter,January,28,Saturday,38.911315,-77.967401,Euthanized,5,1,Fauquier County
-WRMD,WRMD2017-25,,eastern screech owl,owl,Bird,01/29/2017,2017,Winter,January,29,Sunday,38.894373,-78.565473,Died,6,1,Shenandoah County
+WRMD,WRMD2017-25,,eastern screech owl,bird,Bird,01/29/2017,2017,Winter,January,29,Sunday,38.894373,-78.565473,Died,6,1,Shenandoah County
 WRMD,WRMD2017-33,,red-shouldered hawk,bird,Bird,02/04/2017,2017,Winter,February,4,Saturday,39.135711,-77.991926,Euthanized,5,2,Clarke County
-WRMD,WRMD2017-37,,eastern screech owl,owl,Bird,02/12/2017,2017,Winter,February,12,Sunday,39.411935,-77.433306,Released,6,2,Frederick County
+WRMD,WRMD2017-37,,eastern screech owl,bird,Bird,02/12/2017,2017,Winter,February,12,Sunday,39.411935,-77.433306,Released,6,2,Frederick County
 WRMD,WRMD2017-43,,turkey vulture,bird,Bird,02/17/2017,2017,Winter,February,17,Friday,39.038907,-77.649667,Euthanized,4,2,Loudoun County
-WRMD,WRMD2017-46,,virginia opossum,marsupial,Mammal,02/18/2017,2017,Winter,February,18,Saturday,39.150651,-78.14923,Euthanized,5,2,Frederick County
+WRMD,WRMD2017-46,,virginia opossum,opossum,Mammal,02/18/2017,2017,Winter,February,18,Saturday,39.150651,-78.14923,Euthanized,5,2,Frederick County
 WRMD,WRMD2017-47,,red-tailed hawk,bird,Bird,02/18/2017,2017,Winter,February,18,Saturday,38.928308,-78.174537,Released,5,2,Warren County
 WRMD,WRMD2017-48,,great horned owl,bird,Bird,02/19/2017,2017,Winter,February,19,Sunday,39.271138,-78.384028,Euthanized,6,2,Frederick County
 WRMD,WRMD2017-49,,american crow,bird,Bird,02/19/2017,2017,Winter,February,19,Sunday,39.080302,-77.829228,Released,6,2,Loudoun County
-WRMD,WRMD2017-51,,barred owl,owl,Bird,02/20/2017,2017,Winter,February,20,Monday,39.202439,-77.994184,Released,0,2,Clarke County
+WRMD,WRMD2017-51,,barred owl,bird,Bird,02/20/2017,2017,Winter,February,20,Monday,39.202439,-77.994184,Released,0,2,Clarke County
 WRMD,WRMD2017-54,,red-tailed hawk,bird,Bird,02/22/2017,2017,Winter,February,22,Wednesday,38.818191,-78.637768,Euthanized,2,2,Shenandoah County
 WRMD,WRMD2017-55,,red-tailed hawk,bird,Bird,02/22/2017,2017,Winter,February,22,Wednesday,39.244689,-77.54937,Died,2,2,Loudoun County
-WRMD,WRMD2017-57,,eastern screech owl,owl,Bird,02/24/2017,2017,Winter,February,24,Friday,38.948366,-78.047142,Released,4,2,Warren County
+WRMD,WRMD2017-57,,eastern screech owl,bird,Bird,02/24/2017,2017,Winter,February,24,Friday,38.948366,-78.047142,Released,4,2,Warren County
 WRMD,WRMD2017-60,,eastern gray squirrel,rodent,Mammal,03/01/2017,2017,Winter,March,1,Wednesday,38.895685,-77.480382,Released,2,3,Fairfax County
 WRMD,WRMD2017-61,,eastern gray squirrel,rodent,Mammal,03/01/2017,2017,Winter,March,1,Wednesday,38.895685,-77.480382,Released,2,3,Fairfax County
 WRMD,WRMD2017-62,,eastern gray squirrel,rodent,Mammal,03/01/2017,2017,Winter,March,1,Wednesday,38.895685,-77.480382,Released,2,3,Fairfax County
@@ -251,12 +251,12 @@ WRMD,WRMD2017-79,,hermit thrush,bird,Bird,03/15/2017,2017,Winter,March,15,Wednes
 WRMD,WRMD2017-80,,northern cardinal,bird,Bird,03/15/2017,2017,Winter,March,15,Wednesday,38.830951,-78.578853,Released,2,3,Shenandoah County
 WRMD,WRMD2017-84,,northern flicker,bird,Bird,03/17/2017,2017,Winter,March,17,Friday,39.475315,-78.116739,Died,4,3,Berkeley County
 WRMD,WRMD2017-92,,mallard,bird,Bird,03/19/2017,2017,Winter,March,19,Sunday,38.645981,-78.481288,Died,6,3,Page County
-WRMD,WRMD2017-101,,eastern screech owl,owl,Bird,03/25/2017,2017,Spring,March,25,Saturday,39.149431,-77.978325,Transferred,5,3,Clarke County
+WRMD,WRMD2017-101,,eastern screech owl,bird,Bird,03/25/2017,2017,Spring,March,25,Saturday,39.149431,-77.978325,Transferred,5,3,Clarke County
 WRMD,WRMD2017-102,,red-tailed hawk,bird,Bird,03/25/2017,2017,Spring,March,25,Saturday,38.731465,-77.411084,Euthanized,5,3,Prince William County
 WRMD,WRMD2017-122,,mourning dove,bird,Bird,03/27/2017,2017,Spring,March,27,Monday,39.143645,-78.227648,Euthanized,0,3,Frederick County
 WRMD,WRMD2017-133,,eastern fox squirrel,rodent,Mammal,03/28/2017,2017,Spring,March,28,Tuesday,39.060562,-78.001641,Released,1,3,Clarke County
 WRMD,WRMD2017-135,,eastern painted turtle,turtle,Reptile,03/29/2017,2017,Spring,March,29,Wednesday,39.047452,-78.097227,Euthanized,2,3,Clarke County
-WRMD,WRMD2017-150,,barred owl,owl,Bird,03/29/2017,2017,Spring,March,29,Wednesday,38.713643,-77.795146,Released,2,3,Fauquier County
+WRMD,WRMD2017-150,,barred owl,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,38.713643,-77.795146,Released,2,3,Fauquier County
 WRMD,WRMD2017-153,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,39.082383,-78.217006,Euthanized,2,3,Frederick County
 WRMD,WRMD2017-155,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,39.082383,-78.217006,Released,2,3,Frederick County
 WRMD,WRMD2017-162,,red-tailed hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,38.350632,-77.476863,Released,2,3,Stafford County
@@ -264,33 +264,33 @@ WRMD,WRMD2017-163,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29
 WRMD,WRMD2017-164,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,38.350632,-77.476863,Released,2,3,Stafford County
 WRMD,WRMD2017-165,,red-shouldered hawk,bird,Bird,03/29/2017,2017,Spring,March,29,Wednesday,39.082383,-78.217006,Released,2,3,Frederick County
 WRMD,WRMD2017-171,,eastern gray squirrel,rodent,Mammal,03/30/2017,2017,Spring,March,30,Thursday,38.984361,-78.145221,Released,3,3,Warren County
-WRMD,WRMD2017-173,,barred owl,owl,Bird,03/31/2017,2017,Spring,March,31,Friday,38.829296,-77.364639,Euthanized,4,3,Fairfax County
+WRMD,WRMD2017-173,,barred owl,bird,Bird,03/31/2017,2017,Spring,March,31,Friday,38.829296,-77.364639,Euthanized,4,3,Fairfax County
 WRMD,WRMD2017-174,,northern raccoon,raccoon,Mammal,03/31/2017,2017,Spring,March,31,Friday,39.085146,-78.374963,Released,4,3,Shenandoah County
 WRMD,WRMD2017-190,,eastern gray squirrel,rodent,Mammal,04/06/2017,2017,Spring,April,6,Thursday,39.110709,-77.570877,Released,3,4,Loudoun County
 WRMD,WRMD2017-195,,snapping turtle,turtle,Reptile,04/08/2017,2017,Spring,April,8,Saturday,38.952081,-77.366561,Released,5,4,Fairfax County
 WRMD,WRMD2017-197,,eastern gray squirrel,rodent,Mammal,04/10/2017,2017,Spring,April,10,Monday,38.899458,-77.49166,Released,0,4,Loudoun County
-WRMD,WRMD2017-203,,barred owl,owl,Bird,04/11/2017,2017,Spring,April,11,Tuesday,38.900043,-77.850308,Died,1,4,Fauquier County
+WRMD,WRMD2017-203,,barred owl,bird,Bird,04/11/2017,2017,Spring,April,11,Tuesday,38.900043,-77.850308,Died,1,4,Fauquier County
 WRMD,WRMD2017-228,,eastern cottontail,rabbits & hares,Mammal,04/13/2017,2017,Spring,April,13,Thursday,38.984361,-78.145221,Euthanized,3,4,Warren County
-WRMD,WRMD2017-238,,virginia opossum,marsupial,Mammal,04/16/2017,2017,Spring,April,16,Sunday,39.135711,-77.991926,Released,6,4,Clarke County
+WRMD,WRMD2017-238,,virginia opossum,opossum,Mammal,04/16/2017,2017,Spring,April,16,Sunday,39.135711,-77.991926,Released,6,4,Clarke County
 WRMD,WRMD2017-250,,woodland box turtle,turtle,Reptile,04/19/2017,2017,Spring,April,19,Wednesday,39.209135,-77.644986,Euthanized,2,4,Loudoun County
-WRMD,WRMD2017-251,,virginia opossum,marsupial,Mammal,04/19/2017,2017,Spring,April,19,Wednesday,38.639804,-78.679053,Euthanized,2,4,Shenandoah County
-WRMD,WRMD2017-252,,virginia opossum,marsupial,Mammal,04/19/2017,2017,Spring,April,19,Wednesday,38.639804,-78.679053,Released,2,4,Shenandoah County
+WRMD,WRMD2017-251,,virginia opossum,opossum,Mammal,04/19/2017,2017,Spring,April,19,Wednesday,38.639804,-78.679053,Euthanized,2,4,Shenandoah County
+WRMD,WRMD2017-252,,virginia opossum,opossum,Mammal,04/19/2017,2017,Spring,April,19,Wednesday,38.639804,-78.679053,Released,2,4,Shenandoah County
 WRMD,WRMD2017-271,,white-throated sparrow,bird,Bird,04/22/2017,2017,Spring,April,22,Saturday,39.08768,-78.170646,Euthanized,5,4,Frederick County
 WRMD,WRMD2017-276,,red-tailed hawk,bird,Bird,04/23/2017,2017,Spring,April,23,Sunday,39.28343,-77.58107,Euthanized,6,4,Loudoun County
 WRMD,WRMD2017-277,,red fox,fox,Mammal,04/23/2017,2017,Spring,April,23,Sunday,39.132641,-77.611682,Released,6,4,Loudoun County
-WRMD,WRMD2017-284,,virginia opossum,marsupial,Mammal,04/24/2017,2017,Spring,April,24,Monday,39.099415,-78.246168,Released,0,4,Frederick County
-WRMD,WRMD2017-285,,virginia opossum,marsupial,Mammal,04/24/2017,2017,Spring,April,24,Monday,39.099415,-78.246168,Died,0,4,Frederick County
+WRMD,WRMD2017-284,,virginia opossum,opossum,Mammal,04/24/2017,2017,Spring,April,24,Monday,39.099415,-78.246168,Released,0,4,Frederick County
+WRMD,WRMD2017-285,,virginia opossum,opossum,Mammal,04/24/2017,2017,Spring,April,24,Monday,39.099415,-78.246168,Died,0,4,Frederick County
 WRMD,WRMD2017-290,,red-tailed hawk,bird,Bird,04/25/2017,2017,Spring,April,25,Tuesday,39.148657,-78.112574,Euthanized,1,4,Frederick County
 WRMD,WRMD2017-298,,american robin,bird,Bird,04/27/2017,2017,Spring,April,27,Thursday,38.915247,-78.204141,Died,3,4,Warren County
 WRMD,WRMD2017-310,,red-tailed hawk,bird,Bird,04/28/2017,2017,Spring,April,28,Friday,38.581369,-77.367205,Euthanized,4,4,Prince William County
 WRMD,WRMD2017-311,,woodland box turtle,turtle,Reptile,04/28/2017,2017,Spring,April,28,Friday,38.773296,-78.004012,Died,4,4,Fauquier County
-WRMD,WRMD2017-312,,virginia opossum,marsupial,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
-WRMD,WRMD2017-313,,virginia opossum,marsupial,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
-WRMD,WRMD2017-314,,virginia opossum,marsupial,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
-WRMD,WRMD2017-315,,virginia opossum,marsupial,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Died,4,4,Loudoun County
-WRMD,WRMD2017-316,,virginia opossum,marsupial,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
-WRMD,WRMD2017-317,,virginia opossum,marsupial,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
-WRMD,WRMD2017-318,,virginia opossum,marsupial,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
+WRMD,WRMD2017-312,,virginia opossum,opossum,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
+WRMD,WRMD2017-313,,virginia opossum,opossum,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
+WRMD,WRMD2017-314,,virginia opossum,opossum,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
+WRMD,WRMD2017-315,,virginia opossum,opossum,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Died,4,4,Loudoun County
+WRMD,WRMD2017-316,,virginia opossum,opossum,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
+WRMD,WRMD2017-317,,virginia opossum,opossum,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
+WRMD,WRMD2017-318,,virginia opossum,opossum,Mammal,04/28/2017,2017,Spring,April,28,Friday,39.146001,-77.650424,Released,4,4,Loudoun County
 WRMD,WRMD2017-320,,woodland box turtle,turtle,Reptile,04/28/2017,2017,Spring,April,28,Friday,39.068729,-77.934819,Died,4,4,Clarke County
 WRMD,WRMD2017-337,,black-capped chickadee,bird,Bird,04/30/2017,2017,Spring,April,30,Sunday,39.315267,-77.823717,Died,6,4,Jefferson County
 WRMD,WRMD2017-347,,common grackle,bird,Bird,04/30/2017,2017,Spring,April,30,Sunday,39.095912,-78.161648,Died,6,4,Frederick County
@@ -298,7 +298,7 @@ WRMD,WRMD2017-349,,woodland box turtle,turtle,Reptile,05/01/2017,2017,Spring,May
 WRMD,WRMD2017-351,,eastern painted turtle,turtle,Reptile,05/01/2017,2017,Spring,May,1,Monday,39.057146,-78.106717,Released,0,5,Clarke County
 WRMD,WRMD2017-366,,snapping turtle,turtle,Reptile,05/02/2017,2017,Spring,May,2,Tuesday,39.010071,-77.782963,Released,1,5,Loudoun County
 WRMD,WRMD2017-389,,woodland box turtle,turtle,Reptile,05/03/2017,2017,Spring,May,3,Wednesday,39.012447,-77.69876,Died,2,5,Loudoun County
-WRMD,WRMD2017-399,,virginia opossum,marsupial,Mammal,05/03/2017,2017,Spring,May,3,Wednesday,39.004752,-78.043342,Released,2,5,Warren County
+WRMD,WRMD2017-399,,virginia opossum,opossum,Mammal,05/03/2017,2017,Spring,May,3,Wednesday,39.004752,-78.043342,Released,2,5,Warren County
 WRMD,WRMD2017-435,,woodland box turtle,turtle,Reptile,05/05/2017,2017,Spring,May,5,Friday,39.225735,-77.81226,Euthanized,4,5,Jefferson County
 WRMD,WRMD2017-459,,tree swallow,bird,Bird,05/08/2017,2017,Spring,May,8,Monday,39.10022,-78.169847,Died,0,5,Frederick County
 WRMD,WRMD2017-479,,red fox,fox,Mammal,05/09/2017,2017,Spring,May,9,Tuesday,38.980449,-77.63705,Euthanized,1,5,Loudoun County
@@ -314,8 +314,8 @@ WRMD,WRMD2017-579,,eastern gray squirrel,rodent,Mammal,05/19/2017,2017,Spring,Ma
 WRMD,WRMD2017-580,,woodland box turtle,turtle,Reptile,05/19/2017,2017,Spring,May,19,Friday,39.100336,-77.749287,Euthanized,4,5,Loudoun County
 WRMD,WRMD2017-588,,woodland box turtle,turtle,Reptile,05/21/2017,2017,Spring,May,21,Sunday,38.614781,-77.653739,Euthanized,6,5,Fauquier County
 WRMD,WRMD2017-589,,eastern painted turtle,turtle,Reptile,05/21/2017,2017,Spring,May,21,Sunday,38.986444,-77.597946,Released,6,5,Loudoun County
-WRMD,WRMD2017-599,,barred owl,owl,Bird,05/21/2017,2017,Spring,May,21,Sunday,38.721912,-77.466897,Released,6,5,Prince William County
-WRMD,WRMD2017-606,,virginia opossum,marsupial,Mammal,05/20/2017,2017,Spring,May,20,Saturday,38.965938,-77.734167,Euthanized,5,5,Loudoun County
+WRMD,WRMD2017-599,,barred owl,bird,Bird,05/21/2017,2017,Spring,May,21,Sunday,38.721912,-77.466897,Released,6,5,Prince William County
+WRMD,WRMD2017-606,,virginia opossum,opossum,Mammal,05/20/2017,2017,Spring,May,20,Saturday,38.965938,-77.734167,Euthanized,5,5,Loudoun County
 WRMD,WRMD2017-608,,woodland box turtle,turtle,Reptile,05/22/2017,2017,Spring,May,22,Monday,37.522251,-78.668194,Euthanized,0,5,Buckingham County
 WRMD,WRMD2017-614,,brown thrasher,bird,Bird,05/22/2017,2017,Spring,May,22,Monday,38.990978,-78.066329,Died,0,5,Warren County
 WRMD,WRMD2017-630,,eastern painted turtle,turtle,Reptile,05/22/2017,2017,Spring,May,22,Monday,39.165139,-78.264442,Euthanized,0,5,Frederick County
@@ -349,8 +349,8 @@ WRMD,WRMD2017-841,,striped skunk,skunk,Mammal,06/14/2017,2017,Spring,June,14,Wed
 WRMD,WRMD2017-843,,northern cardinal,bird,Bird,06/14/2017,2017,Spring,June,14,Wednesday,39.060079,-77.689951,Euthanized,2,6,Loudoun County
 WRMD,WRMD2017-844,,snapping turtle,turtle,Reptile,06/14/2017,2017,Spring,June,14,Wednesday,39.379428,-78.337846,Euthanized,2,6,Frederick County
 WRMD,WRMD2017-858,,striped skunk,skunk,Mammal,06/15/2017,2017,Spring,June,15,Thursday,39.138314,-77.657328,Released,3,6,Loudoun County
-WRMD,WRMD2017-859,,barred owl,owl,Bird,06/15/2017,2017,Spring,June,15,Thursday,39.093093,-77.749444,Euthanized,3,6,Loudoun County
-WRMD,WRMD2017-861,,virginia opossum,marsupial,Mammal,06/15/2017,2017,Spring,June,15,Thursday,38.941986,-78.149438,Euthanized,3,6,Warren County
+WRMD,WRMD2017-859,,barred owl,bird,Bird,06/15/2017,2017,Spring,June,15,Thursday,39.093093,-77.749444,Euthanized,3,6,Loudoun County
+WRMD,WRMD2017-861,,virginia opossum,opossum,Mammal,06/15/2017,2017,Spring,June,15,Thursday,38.941986,-78.149438,Euthanized,3,6,Warren County
 WRMD,WRMD2017-871,,woodland box turtle,turtle,Reptile,06/16/2017,2017,Spring,June,16,Friday,38.832016,-78.567136,Euthanized,4,6,Shenandoah County
 WRMD,WRMD2017-885,,woodland box turtle,turtle,Reptile,06/17/2017,2017,Spring,June,17,Saturday,39.012543,-78.012805,Euthanized,5,6,Clarke County
 WRMD,WRMD2017-887,,woodland box turtle,turtle,Reptile,06/17/2017,2017,Spring,June,17,Saturday,38.928308,-78.174537,Released,5,6,Warren County
@@ -376,23 +376,23 @@ WRMD,WRMD2017-970,,brown thrasher,bird,Bird,06/27/2017,2017,Summer,June,27,Tuesd
 WRMD,WRMD2017-1010,,eastern kingbird,bird,Bird,06/30/2017,2017,Summer,June,30,Friday,39.167471,-78.124856,Died,4,6,Frederick County
 WRMD,WRMD2017-1015,,groundhog,rodent,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.142935,-77.971966,Released,5,7,Clarke County
 WRMD,WRMD2017-1016,,american robin,bird,Bird,07/01/2017,2017,Summer,July,1,Saturday,39.163211,-78.096269,Euthanized,5,7,Frederick County
-WRMD,WRMD2017-1022,,virginia opossum,marsupial,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
-WRMD,WRMD2017-1023,,virginia opossum,marsupial,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
-WRMD,WRMD2017-1024,,virginia opossum,marsupial,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
-WRMD,WRMD2017-1025,,virginia opossum,marsupial,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
-WRMD,WRMD2017-1026,,virginia opossum,marsupial,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
-WRMD,WRMD2017-1027,,virginia opossum,marsupial,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
-WRMD,WRMD2017-1028,,virginia opossum,marsupial,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
-WRMD,WRMD2017-1029,,virginia opossum,marsupial,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
+WRMD,WRMD2017-1022,,virginia opossum,opossum,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
+WRMD,WRMD2017-1023,,virginia opossum,opossum,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
+WRMD,WRMD2017-1024,,virginia opossum,opossum,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
+WRMD,WRMD2017-1025,,virginia opossum,opossum,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
+WRMD,WRMD2017-1026,,virginia opossum,opossum,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
+WRMD,WRMD2017-1027,,virginia opossum,opossum,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
+WRMD,WRMD2017-1028,,virginia opossum,opossum,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
+WRMD,WRMD2017-1029,,virginia opossum,opossum,Mammal,07/01/2017,2017,Summer,July,1,Saturday,39.175118,-78.344769,Died,5,7,Frederick County
 WRMD,WRMD2017-1051,,northern raccoon,raccoon,Mammal,07/04/2017,2017,Summer,July,4,Tuesday,38.784292,-77.687398,Euthanized,1,7,Fauquier County
 WRMD,WRMD2017-1052,,northern raccoon,raccoon,Mammal,07/04/2017,2017,Summer,July,4,Tuesday,38.784292,-77.687398,Euthanized,1,7,Fauquier County
 WRMD,WRMD2017-1067,,white-tailed deer,deer,Mammal,07/06/2017,2017,Summer,July,6,Thursday,37.522251,-78.668194,Euthanized,3,7,Buckingham County
 WRMD,WRMD2017-1068,,woodland box turtle,turtle,Reptile,07/06/2017,2017,Summer,July,6,Thursday,39.037281,-77.87086,Died,3,7,Loudoun County
-WRMD,WRMD2017-1078,,virginia opossum,marsupial,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Euthanized,4,7,Clarke County
-WRMD,WRMD2017-1079,,virginia opossum,marsupial,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Released,4,7,Clarke County
-WRMD,WRMD2017-1080,,virginia opossum,marsupial,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Died,4,7,Clarke County
-WRMD,WRMD2017-1081,,virginia opossum,marsupial,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Released,4,7,Clarke County
-WRMD,WRMD2017-1082,,virginia opossum,marsupial,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Released,4,7,Clarke County
+WRMD,WRMD2017-1078,,virginia opossum,opossum,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Euthanized,4,7,Clarke County
+WRMD,WRMD2017-1079,,virginia opossum,opossum,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Released,4,7,Clarke County
+WRMD,WRMD2017-1080,,virginia opossum,opossum,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Died,4,7,Clarke County
+WRMD,WRMD2017-1081,,virginia opossum,opossum,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Released,4,7,Clarke County
+WRMD,WRMD2017-1082,,virginia opossum,opossum,Mammal,07/07/2017,2017,Summer,July,7,Friday,39.171281,-78.01574,Released,4,7,Clarke County
 WRMD,WRMD2017-1087,,woodland box turtle,turtle,Reptile,07/07/2017,2017,Summer,July,7,Friday,39.213701,-78.090144,Euthanized,4,7,Frederick County
 WRMD,WRMD2017-1095,,wood turtle,turtle,Reptile,07/08/2017,2017,Summer,July,8,Saturday,38.818191,-78.637768,Died,5,7,Shenandoah County
 WRMD,WRMD2017-1096,,woodland box turtle,turtle,Reptile,07/08/2017,2017,Summer,July,8,Saturday,38.992316,-77.528152,Released,5,7,Loudoun County
@@ -401,37 +401,37 @@ WRMD,WRMD2017-1125,,yellow-billed cuckoo,bird,Bird,07/10/2017,2017,Summer,July,1
 WRMD,WRMD2017-1128,,striped skunk,skunk,Mammal,07/11/2017,2017,Summer,July,11,Tuesday,39.036049,-77.464398,Released,1,7,Loudoun County
 WRMD,WRMD2017-1164,,northern raccoon,raccoon,Mammal,07/14/2017,2017,Summer,July,14,Friday,39.202086,-78.181345,Euthanized,4,7,Winchester city
 WRMD,WRMD2017-1180,,eastern cottontail,rabbits & hares,Mammal,07/16/2017,2017,Summer,July,16,Sunday,38.93859,-78.052424,Euthanized,6,7,Warren County
-WRMD,WRMD2017-1191,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.08075,-78.19893,Euthanized,1,7,Frederick County
-WRMD,WRMD2017-1192,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.08075,-78.19893,Released,1,7,Frederick County
-WRMD,WRMD2017-1193,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.08075,-78.19893,Released,1,7,Frederick County
-WRMD,WRMD2017-1194,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.08075,-78.19893,Released,1,7,Frederick County
+WRMD,WRMD2017-1191,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.08075,-78.19893,Euthanized,1,7,Frederick County
+WRMD,WRMD2017-1192,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.08075,-78.19893,Released,1,7,Frederick County
+WRMD,WRMD2017-1193,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.08075,-78.19893,Released,1,7,Frederick County
+WRMD,WRMD2017-1194,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.08075,-78.19893,Released,1,7,Frederick County
 WRMD,WRMD2017-1195,,woodland box turtle,turtle,Reptile,07/18/2017,2017,Summer,July,18,Tuesday,38.962777,-78.20944,Released,1,7,Warren County
-WRMD,WRMD2017-1196,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.204853,-77.654743,Euthanized,1,7,Loudoun County
-WRMD,WRMD2017-1199,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
-WRMD,WRMD2017-1200,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
-WRMD,WRMD2017-1201,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
-WRMD,WRMD2017-1202,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
-WRMD,WRMD2017-1203,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
-WRMD,WRMD2017-1204,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
-WRMD,WRMD2017-1205,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
-WRMD,WRMD2017-1206,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
-WRMD,WRMD2017-1207,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Released,1,7,Warren County
-WRMD,WRMD2017-1208,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Died,1,7,Warren County
-WRMD,WRMD2017-1209,,virginia opossum,marsupial,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
-WRMD,WRMD2017-1226,,virginia opossum,marsupial,Mammal,07/20/2017,2017,Summer,July,20,Thursday,39.190404,-78.399536,Released,3,7,Frederick County
+WRMD,WRMD2017-1196,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,39.204853,-77.654743,Euthanized,1,7,Loudoun County
+WRMD,WRMD2017-1199,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
+WRMD,WRMD2017-1200,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
+WRMD,WRMD2017-1201,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
+WRMD,WRMD2017-1202,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
+WRMD,WRMD2017-1203,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
+WRMD,WRMD2017-1204,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
+WRMD,WRMD2017-1205,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
+WRMD,WRMD2017-1206,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
+WRMD,WRMD2017-1207,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Released,1,7,Warren County
+WRMD,WRMD2017-1208,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Died,1,7,Warren County
+WRMD,WRMD2017-1209,,virginia opossum,opossum,Mammal,07/18/2017,2017,Summer,July,18,Tuesday,38.888029,-78.169187,Transferred,1,7,Warren County
+WRMD,WRMD2017-1226,,virginia opossum,opossum,Mammal,07/20/2017,2017,Summer,July,20,Thursday,39.190404,-78.399536,Released,3,7,Frederick County
 WRMD,WRMD2017-1246,,red fox,fox,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.670219,-77.792693,Euthanized,6,7,Fauquier County
-WRMD,WRMD2017-1249,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
-WRMD,WRMD2017-1250,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Died,6,7,Shenandoah County
-WRMD,WRMD2017-1251,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
-WRMD,WRMD2017-1252,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
-WRMD,WRMD2017-1253,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
-WRMD,WRMD2017-1254,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
-WRMD,WRMD2017-1255,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
-WRMD,WRMD2017-1257,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.90961,-78.527804,Released,6,7,Shenandoah County
-WRMD,WRMD2017-1258,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.90961,-78.527804,Released,6,7,Shenandoah County
-WRMD,WRMD2017-1259,,virginia opossum,marsupial,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.90961,-78.527804,Died,6,7,Shenandoah County
+WRMD,WRMD2017-1249,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
+WRMD,WRMD2017-1250,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Died,6,7,Shenandoah County
+WRMD,WRMD2017-1251,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
+WRMD,WRMD2017-1252,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
+WRMD,WRMD2017-1253,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
+WRMD,WRMD2017-1254,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
+WRMD,WRMD2017-1255,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.772337,-78.581645,Released,6,7,Shenandoah County
+WRMD,WRMD2017-1257,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.90961,-78.527804,Released,6,7,Shenandoah County
+WRMD,WRMD2017-1258,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.90961,-78.527804,Released,6,7,Shenandoah County
+WRMD,WRMD2017-1259,,virginia opossum,opossum,Mammal,07/23/2017,2017,Summer,July,23,Sunday,38.90961,-78.527804,Died,6,7,Shenandoah County
 WRMD,WRMD2017-1264,,woodland box turtle,turtle,Reptile,07/24/2017,2017,Summer,July,24,Monday,38.913646,-77.66164,Euthanized,0,7,Prince William County
-WRMD,WRMD2017-1266,,eastern screech owl,owl,Bird,07/25/2017,2017,Summer,July,25,Tuesday,39.274292,-78.255097,Released,1,7,Frederick County
+WRMD,WRMD2017-1266,,eastern screech owl,bird,Bird,07/25/2017,2017,Summer,July,25,Tuesday,39.274292,-78.255097,Released,1,7,Frederick County
 WRMD,WRMD2017-1294,,northern flicker,bird,Bird,07/28/2017,2017,Summer,July,28,Friday,39.171437,-77.971298,Died,4,7,Clarke County
 WRMD,WRMD2017-1324,,groundhog,rodent,Mammal,08/02/2017,2017,Summer,August,2,Wednesday,39.214972,-78.200323,Euthanized,2,8,Frederick County
 WRMD,WRMD2017-1327,,gray fox,fox,Mammal,08/03/2017,2017,Summer,August,3,Thursday,38.74153,-78.09249,Euthanized,3,8,Rappahannock County
@@ -452,17 +452,17 @@ WRMD,WRMD2017-1439,,woodland box turtle,turtle,Reptile,08/22/2017,2017,Summer,Au
 WRMD,WRMD2017-1456,,red-tailed hawk,bird,Bird,08/26/2017,2017,Summer,August,26,Saturday,38.535707,-77.93937,Euthanized,5,8,Culpeper County
 WRMD,WRMD2017-1468,,red-shouldered hawk,bird,Bird,08/29/2017,2017,Summer,August,29,Tuesday,38.98585,-77.534946,Euthanized,1,8,Loudoun County
 WRMD,WRMD2017-1475,,woodland box turtle,turtle,Reptile,08/29/2017,2017,Summer,August,29,Tuesday,39.135711,-77.991926,Euthanized,1,8,Clarke County
-WRMD,WRMD2017-1481,,barred owl,owl,Bird,08/31/2017,2017,Summer,August,31,Thursday,39.111031,-77.692095,Euthanized,3,8,Loudoun County
+WRMD,WRMD2017-1481,,barred owl,bird,Bird,08/31/2017,2017,Summer,August,31,Thursday,39.111031,-77.692095,Euthanized,3,8,Loudoun County
 WRMD,WRMD2017-1484,,woodland box turtle,turtle,Reptile,08/31/2017,2017,Summer,August,31,Thursday,38.941986,-78.149438,Released,3,8,Warren County
 WRMD,WRMD2017-1488,,northern raccoon,raccoon,Mammal,08/31/2017,2017,Summer,August,31,Thursday,38.940443,-78.194194,Euthanized,3,8,Warren County
 WRMD,WRMD2017-1493,,woodland box turtle,turtle,Reptile,08/31/2017,2017,Summer,August,31,Thursday,38.885484,-77.099113,Released,3,8,Arlington County
 WRMD,WRMD2017-1508,,eastern musk turtle,turtle,Reptile,09/03/2017,2017,Summer,September,3,Sunday,39.020749,-77.95637,Euthanized,6,9,Loudoun County
-WRMD,WRMD2017-1511,,virginia opossum,marsupial,Mammal,09/04/2017,2017,Summer,September,4,Monday,38.928308,-78.174537,Euthanized,0,9,Warren County
+WRMD,WRMD2017-1511,,virginia opossum,opossum,Mammal,09/04/2017,2017,Summer,September,4,Monday,38.928308,-78.174537,Euthanized,0,9,Warren County
 WRMD,WRMD2017-1512,,woodland box turtle,turtle,Reptile,09/04/2017,2017,Summer,September,4,Monday,38.660062,-77.366982,Released,0,9,Prince William County
 WRMD,WRMD2017-1587,,woodland box turtle,turtle,Reptile,09/13/2017,2017,Summer,September,13,Wednesday,39.14754,-78.085462,Died,2,9,Clarke County
 WRMD,WRMD2017-1588,,american black vulture,bird,Bird,09/13/2017,2017,Summer,September,13,Wednesday,38.834721,-77.23385,Released,2,9,Fairfax County
 WRMD,WRMD2017-1589,,red-tailed hawk,bird,Bird,09/13/2017,2017,Summer,September,13,Wednesday,38.855278,-77.143203,Died,2,9,Fairfax County
-WRMD,WRMD2017-1590,,barred owl,owl,Bird,09/13/2017,2017,Summer,September,13,Wednesday,38.862814,-77.664056,Euthanized,2,9,Prince William County
+WRMD,WRMD2017-1590,,barred owl,bird,Bird,09/13/2017,2017,Summer,September,13,Wednesday,38.862814,-77.664056,Euthanized,2,9,Prince William County
 WRMD,WRMD2017-1591,,broad-winged hawk,bird,Bird,09/13/2017,2017,Summer,September,13,Wednesday,38.868449,-77.627258,Euthanized,2,9,Prince William County
 WRMD,WRMD2017-1593,,woodland box turtle,turtle,Reptile,09/14/2017,2017,Summer,September,14,Thursday,38.818692,-78.275719,Released,3,9,Warren County
 WRMD,WRMD2017-1594,,broad-winged hawk,bird,Bird,09/14/2017,2017,Summer,September,14,Thursday,39.082266,-77.846661,Released,3,9,Loudoun County
@@ -477,12 +477,12 @@ WRMD,WRMD2017-1641,,northern raccoon,raccoon,Mammal,09/28/2017,2017,Autumn,Septe
 WRMD,WRMD2017-1661,,eastern bluebird,bird,Bird,10/04/2017,2017,Autumn,October,4,Wednesday,38.962661,-77.884726,Died,2,10,Fauquier County
 WRMD,WRMD2017-1665,,mourning dove,bird,Bird,10/04/2017,2017,Autumn,October,4,Wednesday,38.84601,-78.797932,Died,2,10,Shenandoah County
 WRMD,WRMD2017-1666,,eastern cottontail,rabbits & hares,Mammal,10/04/2017,2017,Autumn,October,4,Wednesday,39.193135,-78.128371,Euthanized,2,10,Frederick County
-WRMD,WRMD2017-1673,,barred owl,owl,Bird,10/08/2017,2017,Autumn,October,8,Sunday,37.348559,-76.740033,Euthanized,6,10,York County
-WRMD,WRMD2017-1675,,virginia opossum,marsupial,Mammal,10/10/2017,2017,Autumn,October,10,Tuesday,39.191475,-78.160037,Transferred,1,10,Winchester city
+WRMD,WRMD2017-1673,,barred owl,bird,Bird,10/08/2017,2017,Autumn,October,8,Sunday,37.348559,-76.740033,Euthanized,6,10,York County
+WRMD,WRMD2017-1675,,virginia opossum,opossum,Mammal,10/10/2017,2017,Autumn,October,10,Tuesday,39.191475,-78.160037,Transferred,1,10,Winchester city
 WRMD,WRMD2017-1680,,woodland box turtle,turtle,Reptile,10/11/2017,2017,Autumn,October,11,Wednesday,39.4301,-77.80416,Euthanized,2,10,Jefferson County
 WRMD,WRMD2017-1684,,woodland box turtle,turtle,Reptile,10/15/2017,2017,Autumn,October,15,Sunday,38.990787,-77.582828,Euthanized,6,10,Loudoun County
-WRMD,WRMD2017-1689,,short-eared owl,owl,Bird,10/18/2017,2017,Autumn,October,18,Wednesday,39.055076,-78.204754,Released,2,10,Frederick County
-WRMD,WRMD2017-1693,,eastern screech owl,owl,Bird,10/19/2017,2017,Autumn,October,19,Thursday,38.609804,-77.832865,Released,3,10,Fauquier County
+WRMD,WRMD2017-1689,,short-eared owl,bird,Bird,10/18/2017,2017,Autumn,October,18,Wednesday,39.055076,-78.204754,Released,2,10,Frederick County
+WRMD,WRMD2017-1693,,eastern screech owl,bird,Bird,10/19/2017,2017,Autumn,October,19,Thursday,38.609804,-77.832865,Released,3,10,Fauquier County
 WRMD,WRMD2017-1694,,red-shouldered hawk,bird,Bird,10/22/2017,2017,Autumn,October,22,Sunday,38.853231,-77.305097,Died,6,10,Fairfax city
 WRMD,WRMD2017-1705,,woodland box turtle,turtle,Reptile,10/25/2017,2017,Autumn,October,25,Wednesday,38.848591,-77.873058,Euthanized,2,10,Fauquier County
 WRMD,WRMD2017-1710,,eastern gray squirrel,rodent,Mammal,10/29/2017,2017,Autumn,October,29,Sunday,39.127018,-78.236975,Euthanized,6,10,Frederick County
@@ -490,57 +490,57 @@ WRMD,WRMD2017-1724,,eastern painted turtle,turtle,Reptile,11/07/2017,2017,Autumn
 WRMD,WRMD2017-1726,,red-shouldered hawk,bird,Bird,11/08/2017,2017,Autumn,November,8,Wednesday,38.581369,-77.367205,Released,2,11,Prince William County
 WRMD,WRMD2017-1739,,red-shouldered hawk,bird,Bird,11/17/2017,2017,Autumn,November,17,Friday,39.143055,-77.694954,Released,4,11,Loudoun County
 WRMD,WRMD2017-1742,,eastern gray squirrel,rodent,Mammal,11/19/2017,2017,Autumn,November,19,Sunday,39.32001,-78.230651,Euthanized,6,11,Frederick County
-WRMD,WRMD2017-1744,,barred owl,owl,Bird,11/19/2017,2017,Autumn,November,19,Sunday,38.928308,-78.174537,Released,6,11,Warren County
+WRMD,WRMD2017-1744,,barred owl,bird,Bird,11/19/2017,2017,Autumn,November,19,Sunday,38.928308,-78.174537,Released,6,11,Warren County
 WRMD,WRMD2017-1751,,red-tailed hawk,bird,Bird,11/25/2017,2017,Autumn,November,25,Saturday,38.998822,-77.733937,Euthanized,5,11,Loudoun County
-WRMD,WRMD2017-1754,,barred owl,owl,Bird,11/26/2017,2017,Autumn,November,26,Sunday,38.700017,-77.548271,Euthanized,6,11,Prince William County
+WRMD,WRMD2017-1754,,barred owl,bird,Bird,11/26/2017,2017,Autumn,November,26,Sunday,38.700017,-77.548271,Euthanized,6,11,Prince William County
 WRMD,WRMD2017-1763,,red-winged blackbird,bird,Bird,11/30/2017,2017,Autumn,November,30,Thursday,39.080641,-78.199963,Released,3,11,Frederick County
 WRMD,WRMD2017-1764,,cooper's hawk,bird,Bird,11/29/2017,2017,Autumn,November,29,Wednesday,39.230053,-78.21926,Euthanized,2,11,Frederick County
 WRMD,WRMD2017-1765,,eastern cottontail,rabbits & hares,Mammal,11/30/2017,2017,Autumn,November,30,Thursday,39.06013,-77.563653,Euthanized,3,11,Loudoun County
-WRMD,WRMD2017-1769,,eastern screech owl,owl,Bird,12/04/2017,2017,Autumn,December,4,Monday,38.648214,-78.088743,Released,0,12,Rappahannock County
-WRMD,WRMD2017-1770,,eastern screech owl,owl,Bird,12/07/2017,2017,Autumn,December,7,Thursday,38.507304,-77.308007,Released,3,12,Prince William County
-WRMD,WRMD2017-1773,,virginia opossum,marsupial,Mammal,12/08/2017,2017,Autumn,December,8,Friday,39.111266,-77.835161,Euthanized,4,12,Loudoun County
+WRMD,WRMD2017-1769,,eastern screech owl,bird,Bird,12/04/2017,2017,Autumn,December,4,Monday,38.648214,-78.088743,Released,0,12,Rappahannock County
+WRMD,WRMD2017-1770,,eastern screech owl,bird,Bird,12/07/2017,2017,Autumn,December,7,Thursday,38.507304,-77.308007,Released,3,12,Prince William County
+WRMD,WRMD2017-1773,,virginia opossum,opossum,Mammal,12/08/2017,2017,Autumn,December,8,Friday,39.111266,-77.835161,Euthanized,4,12,Loudoun County
 WRMD,WRMD2017-1774,,red-shouldered hawk,bird,Bird,12/08/2017,2017,Autumn,December,8,Friday,37.544326,-79.244826,Euthanized,4,12,Amherst County
 WRMD,WRMD2017-1776,,eastern screech-owl,bird,Bird,12/08/2017,2017,Autumn,December,8,Friday,38.850326,-78.593306,Released,4,12,Shenandoah County
-WRMD,WRMD2017-1782,,eastern screech owl,owl,Bird,12/11/2017,2017,Autumn,December,11,Monday,39.293969,-78.080017,Released,0,12,Frederick County
+WRMD,WRMD2017-1782,,eastern screech owl,bird,Bird,12/11/2017,2017,Autumn,December,11,Monday,39.293969,-78.080017,Released,0,12,Frederick County
 WRMD,WRMD2017-1787,,sharp-shinned hawk,bird,Bird,12/15/2017,2017,Autumn,December,15,Friday,38.625541,-77.271644,Released,4,12,Prince William County
 WRMD,WRMD2017-1789,,american robin,bird,Bird,12/15/2017,2017,Autumn,December,15,Friday,39.122258,-77.606882,Released,4,12,Loudoun County
-WRMD,WRMD2017-1792,,eastern screech owl,owl,Bird,12/17/2017,2017,Autumn,December,17,Sunday,39.143614,-77.734232,Euthanized,6,12,Loudoun County
+WRMD,WRMD2017-1792,,eastern screech owl,bird,Bird,12/17/2017,2017,Autumn,December,17,Sunday,39.143614,-77.734232,Euthanized,6,12,Loudoun County
 WRMD,WRMD2017-1793,,red-shouldered hawk,bird,Bird,12/17/2017,2017,Autumn,December,17,Sunday,38.511694,-77.9928,Euthanized,6,12,Culpeper County
 WRMD,WRMD2017-1798,,red-shouldered hawk,bird,Bird,12/17/2017,2017,Autumn,December,17,Sunday,38.962661,-77.884726,Euthanized,6,12,Fauquier County
-WRMD,WRMD2017-1800,,barred owl,owl,Bird,12/17/2017,2017,Autumn,December,17,Sunday,38.911315,-77.967401,Released,6,12,Fauquier County
+WRMD,WRMD2017-1800,,barred owl,bird,Bird,12/17/2017,2017,Autumn,December,17,Sunday,38.911315,-77.967401,Released,6,12,Fauquier County
 WRMD,WRMD2017-1801,,eastern gray squirrel,rodent,Mammal,12/17/2017,2017,Autumn,December,17,Sunday,38.821081,-78.745448,Euthanized,6,12,Shenandoah County
-WRMD,WRMD2017-1806,,virginia opossum,marsupial,Mammal,12/18/2017,2017,Autumn,December,18,Monday,38.995339,-78.513189,Died,0,12,Shenandoah County
-WRMD,WRMD2017-1807,,eastern screech owl,owl,Bird,12/18/2017,2017,Autumn,December,18,Monday,39.048614,-78.060132,Released,0,12,Clarke County
+WRMD,WRMD2017-1806,,virginia opossum,opossum,Mammal,12/18/2017,2017,Autumn,December,18,Monday,38.995339,-78.513189,Died,0,12,Shenandoah County
+WRMD,WRMD2017-1807,,eastern screech owl,bird,Bird,12/18/2017,2017,Autumn,December,18,Monday,39.048614,-78.060132,Released,0,12,Clarke County
 WRMD,WRMD2017-1814,,great blue heron,bird,Bird,12/22/2017,2017,Winter,December,22,Friday,39.108472,-77.741105,Euthanized,4,12,Loudoun County
 WRMD,WRMD2017-1815,,eastern cottontail,rabbits & hares,Mammal,12/25/2017,2017,Winter,December,25,Monday,38.90462,-78.269763,Euthanized,0,12,Warren County
 WRMD,WRMD2017-1822,,eastern gray squirrel,rodent,Mammal,12/26/2017,2017,Winter,December,26,Tuesday,38.860599,-77.847124,Euthanized,1,12,Fauquier County
-WRMD,WRMD2017-1825,,eastern screech owl,owl,Bird,12/29/2017,2017,Winter,December,29,Friday,38.69317,-78.67891,Released,4,12,Shenandoah County
-WRMD,WRMD2018-6,,eastern screech owl,owl,Bird,01/05/2018,2018,Winter,January,5,Friday,38.308398,-77.796156,Released,4,1,Orange County
+WRMD,WRMD2017-1825,,eastern screech owl,bird,Bird,12/29/2017,2017,Winter,December,29,Friday,38.69317,-78.67891,Released,4,12,Shenandoah County
+WRMD,WRMD2018-6,,eastern screech owl,bird,Bird,01/05/2018,2018,Winter,January,5,Friday,38.308398,-77.796156,Released,4,1,Orange County
 WRMD,WRMD2018-13,,merlin,bird,Bird,01/07/2018,2018,Winter,January,7,Sunday,38.9956,-78.221027,Died,6,1,Warren County
 WRMD,WRMD2018-15,,red-shouldered hawk,bird,Bird,01/08/2018,2018,Winter,January,8,Monday,38.572378,-77.76781,Euthanized,0,1,Fauquier County
-WRMD,WRMD2018-16,,eastern screech owl,owl,Bird,01/08/2018,2018,Winter,January,8,Monday,38.972487,-78.365848,Released,0,1,Shenandoah County
+WRMD,WRMD2018-16,,eastern screech owl,bird,Bird,01/08/2018,2018,Winter,January,8,Monday,38.972487,-78.365848,Released,0,1,Shenandoah County
 WRMD,WRMD2018-18,,hermit thrush,bird,Bird,01/10/2018,2018,Winter,January,10,Wednesday,39.034974,-77.581821,Euthanized,2,1,Loudoun County
 WRMD,WRMD2018-20,,eastern cottontail,rabbits & hares,Mammal,01/11/2018,2018,Winter,January,11,Thursday,39.085146,-78.374963,Euthanized,3,1,Shenandoah County
-WRMD,WRMD2018-23,,barred owl,owl,Bird,01/13/2018,2018,Winter,January,13,Saturday,38.918722,-77.231093,Died,5,1,Fairfax County
-WRMD,WRMD2018-24,,barred owl,owl,Bird,01/13/2018,2018,Winter,January,13,Saturday,38.416827,-77.523494,Released,5,1,Stafford County
+WRMD,WRMD2018-23,,barred owl,bird,Bird,01/13/2018,2018,Winter,January,13,Saturday,38.918722,-77.231093,Died,5,1,Fairfax County
+WRMD,WRMD2018-24,,barred owl,bird,Bird,01/13/2018,2018,Winter,January,13,Saturday,38.416827,-77.523494,Released,5,1,Stafford County
 WRMD,WRMD2018-27,,canada goose,bird,Bird,01/13/2018,2018,Winter,January,13,Saturday,38.931678,-77.54172,Euthanized,5,1,Loudoun County
-WRMD,WRMD2018-33,,eastern screech owl,owl,Bird,01/16/2018,2018,Winter,January,16,Tuesday,38.645981,-78.481288,Released,1,1,Page County
-WRMD,WRMD2018-42,,virginia opossum,marsupial,Mammal,01/26/2018,2018,Winter,January,26,Friday,39.221805,-78.134203,Euthanized,4,1,Frederick County
-WRMD,WRMD2018-44,,barred owl,owl,Bird,01/27/2018,2018,Winter,January,27,Saturday,38.740118,-78.511049,Released,5,1,Shenandoah County
+WRMD,WRMD2018-33,,eastern screech owl,bird,Bird,01/16/2018,2018,Winter,January,16,Tuesday,38.645981,-78.481288,Released,1,1,Page County
+WRMD,WRMD2018-42,,virginia opossum,opossum,Mammal,01/26/2018,2018,Winter,January,26,Friday,39.221805,-78.134203,Euthanized,4,1,Frederick County
+WRMD,WRMD2018-44,,barred owl,bird,Bird,01/27/2018,2018,Winter,January,27,Saturday,38.740118,-78.511049,Released,5,1,Shenandoah County
 WRMD,WRMD2018-50,,red-shouldered hawk,bird,Bird,02/03/2018,2018,Winter,February,3,Saturday,38.820858,-77.275135,Released,5,2,Fairfax County
 WRMD,WRMD2018-51,,striped skunk,skunk,Mammal,02/04/2018,2018,Winter,February,4,Sunday,39.025597,-77.387936,Euthanized,6,2,Loudoun County
-WRMD,WRMD2018-53,,barred owl,owl,Bird,02/05/2018,2018,Winter,February,5,Monday,38.760711,-77.181045,Released,0,2,Fairfax County
+WRMD,WRMD2018-53,,barred owl,bird,Bird,02/05/2018,2018,Winter,February,5,Monday,38.760711,-77.181045,Released,0,2,Fairfax County
 WRMD,WRMD2018-54,,striped skunk,skunk,Mammal,02/05/2018,2018,Winter,February,5,Monday,38.779575,-77.906872,Euthanized,0,2,Fauquier County
 WRMD,WRMD2018-59,,red-tailed hawk,bird,Bird,02/08/2018,2018,Winter,February,8,Thursday,38.876886,-77.341887,Released,3,2,Fairfax County
 WRMD,WRMD2018-60,,red-tailed hawk,bird,Bird,02/09/2018,2018,Winter,February,9,Friday,39.168998,-78.008826,Died,4,2,Clarke County
-WRMD,WRMD2018-62,,eastern screech owl,owl,Bird,02/10/2018,2018,Winter,February,10,Saturday,39.041524,-77.786947,Released,5,2,Loudoun County
+WRMD,WRMD2018-62,,eastern screech owl,bird,Bird,02/10/2018,2018,Winter,February,10,Saturday,39.041524,-77.786947,Released,5,2,Loudoun County
 WRMD,WRMD2018-64,,red-shouldered hawk,bird,Bird,02/11/2018,2018,Winter,February,11,Sunday,38.863982,-77.271922,Released,6,2,Fairfax city
 WRMD,WRMD2018-65,,red-shouldered hawk,bird,Bird,02/12/2018,2018,Winter,February,12,Monday,38.818978,-77.319891,Released,0,2,Fairfax County
 WRMD,WRMD2018-69,,eastern gray squirrel,rodent,Mammal,02/14/2018,2018,Winter,February,14,Wednesday,39.140162,-78.213133,Euthanized,2,2,Frederick County
 WRMD,WRMD2018-71,,cooper's hawk,bird,Bird,02/16/2018,2018,Winter,February,16,Friday,38.689298,-77.136805,Released,4,2,Fairfax County
 WRMD,WRMD2018-76,,american robin,bird,Bird,02/19/2018,2018,Winter,February,19,Monday,39.196743,-78.142079,Died,0,2,Frederick County
 WRMD,WRMD2018-84,,northern raccoon,raccoon,Mammal,02/22/2018,2018,Winter,February,22,Thursday,39.048614,-78.060132,Released,3,2,Clarke County
-WRMD,WRMD2018-88,,eastern screech owl,owl,Bird,02/24/2018,2018,Winter,February,24,Saturday,38.933587,-78.107411,Released,5,2,Warren County
+WRMD,WRMD2018-88,,eastern screech owl,bird,Bird,02/24/2018,2018,Winter,February,24,Saturday,38.933587,-78.107411,Released,5,2,Warren County
 WRMD,WRMD2018-89,,american goldfinch,bird,Bird,02/24/2018,2018,Winter,February,24,Saturday,38.897954,-78.126266,Died,5,2,Warren County
 WRMD,WRMD2018-90,,belted kingfisher,bird,Bird,02/24/2018,2018,Winter,February,24,Saturday,39.121007,-77.874089,Euthanized,5,2,Clarke County
 WRMD,WRMD2018-93,,turkey vulture,bird,Bird,02/26/2018,2018,Winter,February,26,Monday,38.777815,-77.720904,Euthanized,0,2,Fauquier County
@@ -563,39 +563,39 @@ WRMD,WRMD2018-187,,cooper's hawk,bird,Bird,03/30/2018,2018,Spring,March,30,Frida
 WRMD,WRMD2018-195,,eastern cottontail,rabbits & hares,Mammal,03/31/2018,2018,Spring,March,31,Saturday,39.135711,-77.991926,Euthanized,5,3,Clarke County
 WRMD,WRMD2018-246,,wild turkey,bird,Bird,04/09/2018,2018,Spring,April,9,Monday,38.915404,-77.926696,Died,0,4,Fauquier County
 WRMD,WRMD2018-259,,eastern gray squirrel,rodent,Mammal,04/12/2018,2018,Spring,April,12,Thursday,39.198245,-78.338224,Released,3,4,Frederick County
-WRMD,WRMD2018-261,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186132,-78.153155,Released,4,4,Winchester city
-WRMD,WRMD2018-262,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186132,-78.153155,Released,4,4,Winchester city
-WRMD,WRMD2018-263,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186132,-78.153155,Released,4,4,Winchester city
-WRMD,WRMD2018-267,,virginia opossum,marsupial,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186254,-78.152239,Released,4,4,Winchester city
+WRMD,WRMD2018-261,,virginia opossum,opossum,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186132,-78.153155,Released,4,4,Winchester city
+WRMD,WRMD2018-262,,virginia opossum,opossum,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186132,-78.153155,Released,4,4,Winchester city
+WRMD,WRMD2018-263,,virginia opossum,opossum,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186132,-78.153155,Released,4,4,Winchester city
+WRMD,WRMD2018-267,,virginia opossum,opossum,Mammal,04/13/2018,2018,Spring,April,13,Friday,39.186254,-78.152239,Released,4,4,Winchester city
 WRMD,WRMD2018-268,,eastern gray squirrel,rodent,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.137068,-78.192258,Died,5,4,Frederick County
 WRMD,WRMD2018-269,,eastern gray squirrel,rodent,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.137068,-78.192258,Transferred,5,4,Frederick County
-WRMD,WRMD2018-270,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
-WRMD,WRMD2018-271,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
-WRMD,WRMD2018-272,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
-WRMD,WRMD2018-273,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
-WRMD,WRMD2018-274,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
-WRMD,WRMD2018-275,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
-WRMD,WRMD2018-276,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
-WRMD,WRMD2018-277,,virginia opossum,marsupial,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
+WRMD,WRMD2018-270,,virginia opossum,opossum,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
+WRMD,WRMD2018-271,,virginia opossum,opossum,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
+WRMD,WRMD2018-272,,virginia opossum,opossum,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
+WRMD,WRMD2018-273,,virginia opossum,opossum,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
+WRMD,WRMD2018-274,,virginia opossum,opossum,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
+WRMD,WRMD2018-275,,virginia opossum,opossum,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
+WRMD,WRMD2018-276,,virginia opossum,opossum,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
+WRMD,WRMD2018-277,,virginia opossum,opossum,Mammal,04/14/2018,2018,Spring,April,14,Saturday,39.134166,-77.702324,Transferred,5,4,Loudoun County
 WRMD,WRMD2018-284,,eastern gray squirrel,rodent,Mammal,04/15/2018,2018,Spring,April,15,Sunday,39.086707,-78.072324,Euthanized,6,4,Clarke County
-WRMD,WRMD2018-287,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Euthanized,0,4,Culpeper County
-WRMD,WRMD2018-288,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Euthanized,0,4,Culpeper County
-WRMD,WRMD2018-289,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Euthanized,0,4,Culpeper County
-WRMD,WRMD2018-290,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Euthanized,0,4,Culpeper County
-WRMD,WRMD2018-291,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,0,4,Culpeper County
-WRMD,WRMD2018-292,,virginia opossum,marsupial,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,0,4,Culpeper County
-WRMD,WRMD2018-296,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,6,4,Fauquier County
-WRMD,WRMD2018-297,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Released,6,4,Fauquier County
-WRMD,WRMD2018-298,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Released,6,4,Fauquier County
-WRMD,WRMD2018-299,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Euthanized,6,4,Fauquier County
-WRMD,WRMD2018-300,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Euthanized,6,4,Fauquier County
-WRMD,WRMD2018-301,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Released,6,4,Fauquier County
-WRMD,WRMD2018-302,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,6,4,Fauquier County
-WRMD,WRMD2018-303,,virginia opossum,marsupial,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,6,4,Fauquier County
+WRMD,WRMD2018-287,,virginia opossum,opossum,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Euthanized,0,4,Culpeper County
+WRMD,WRMD2018-288,,virginia opossum,opossum,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Euthanized,0,4,Culpeper County
+WRMD,WRMD2018-289,,virginia opossum,opossum,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Euthanized,0,4,Culpeper County
+WRMD,WRMD2018-290,,virginia opossum,opossum,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Euthanized,0,4,Culpeper County
+WRMD,WRMD2018-291,,virginia opossum,opossum,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,0,4,Culpeper County
+WRMD,WRMD2018-292,,virginia opossum,opossum,Mammal,04/16/2018,2018,Spring,April,16,Monday,38.608987,-78.012566,Died,0,4,Culpeper County
+WRMD,WRMD2018-296,,virginia opossum,opossum,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,6,4,Fauquier County
+WRMD,WRMD2018-297,,virginia opossum,opossum,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Released,6,4,Fauquier County
+WRMD,WRMD2018-298,,virginia opossum,opossum,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Released,6,4,Fauquier County
+WRMD,WRMD2018-299,,virginia opossum,opossum,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Euthanized,6,4,Fauquier County
+WRMD,WRMD2018-300,,virginia opossum,opossum,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Euthanized,6,4,Fauquier County
+WRMD,WRMD2018-301,,virginia opossum,opossum,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Released,6,4,Fauquier County
+WRMD,WRMD2018-302,,virginia opossum,opossum,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,6,4,Fauquier County
+WRMD,WRMD2018-303,,virginia opossum,opossum,Mammal,04/15/2018,2018,Spring,April,15,Sunday,38.778594,-77.945889,Died,6,4,Fauquier County
 WRMD,WRMD2018-304,,eastern gray squirrel,rodent,Mammal,04/16/2018,2018,Spring,April,16,Monday,39.135105,-77.641936,Released,0,4,Loudoun County
 WRMD,WRMD2018-305,,american robin,bird,Bird,04/15/2018,2018,Spring,April,15,Sunday,38.753246,-77.057224,Died,6,4,Fairfax County
 WRMD,WRMD2018-306,,american robin,bird,Bird,04/16/2018,2018,Spring,April,16,Monday,39.017288,-77.518701,Released,0,4,Loudoun County
-WRMD,WRMD2018-326,,barred owl,owl,Bird,04/20/2018,2018,Spring,April,20,Friday,39.084829,-77.786939,Euthanized,4,4,Loudoun County
+WRMD,WRMD2018-326,,barred owl,bird,Bird,04/20/2018,2018,Spring,April,20,Friday,39.084829,-77.786939,Euthanized,4,4,Loudoun County
 WRMD,WRMD2018-331,,canada goose,bird,Bird,04/21/2018,2018,Spring,April,21,Saturday,38.411216,-77.982092,Euthanized,5,4,Culpeper County
 WRMD,WRMD2018-341,,groundhog,rodent,Mammal,04/22/2018,2018,Spring,April,22,Sunday,39.269528,-78.164445,Died,6,4,Frederick County
 WRMD,WRMD2018-354,,eastern gray squirrel,rodent,Mammal,04/23/2018,2018,Spring,April,23,Monday,38.898376,-77.436663,Transferred,0,4,Fairfax County
@@ -604,16 +604,16 @@ WRMD,WRMD2018-362,,northern cardinal,bird,Bird,04/24/2018,2018,Spring,April,24,T
 WRMD,WRMD2018-378,,sharp-shinned hawk,bird,Bird,04/27/2018,2018,Spring,April,27,Friday,39.147291,-77.542474,Euthanized,4,4,Loudoun County
 WRMD,WRMD2018-380,,eastern gray squirrel,rodent,Mammal,04/27/2018,2018,Spring,April,27,Friday,38.938612,-77.306266,Euthanized,4,4,Fairfax County
 WRMD,WRMD2018-387,,red-shouldered hawk,bird,Bird,04/27/2018,2018,Spring,April,27,Friday,39.084414,-78.017231,Died,4,4,Clarke County
-WRMD,WRMD2018-390,,virginia opossum,marsupial,Mammal,04/28/2018,2018,Spring,April,28,Saturday,38.991055,-78.139188,Euthanized,5,4,Warren County
+WRMD,WRMD2018-390,,virginia opossum,opossum,Mammal,04/28/2018,2018,Spring,April,28,Saturday,38.991055,-78.139188,Euthanized,5,4,Warren County
 WRMD,WRMD2018-431,,groundhog,rodent,Mammal,04/30/2018,2018,Spring,April,30,Monday,39.189019,-77.980363,Died,0,4,Clarke County
 WRMD,WRMD2018-481,,red-shouldered hawk,bird,Bird,05/05/2018,2018,Spring,May,5,Saturday,39.023263,-77.366822,Euthanized,5,5,Loudoun County
-WRMD,WRMD2018-496,,virginia opossum,marsupial,Mammal,05/07/2018,2018,Spring,May,7,Monday,38.846521,-78.329881,Released,0,5,Warren County
-WRMD,WRMD2018-530,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,38.918791,-78.512429,Euthanized,3,5,Shenandoah County
-WRMD,WRMD2018-536,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,3,5,Frederick County
-WRMD,WRMD2018-537,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,3,5,Frederick County
-WRMD,WRMD2018-538,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Euthanized,3,5,Frederick County
-WRMD,WRMD2018-539,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,3,5,Frederick County
-WRMD,WRMD2018-540,,virginia opossum,marsupial,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,3,5,Frederick County
+WRMD,WRMD2018-496,,virginia opossum,opossum,Mammal,05/07/2018,2018,Spring,May,7,Monday,38.846521,-78.329881,Released,0,5,Warren County
+WRMD,WRMD2018-530,,virginia opossum,opossum,Mammal,05/10/2018,2018,Spring,May,10,Thursday,38.918791,-78.512429,Euthanized,3,5,Shenandoah County
+WRMD,WRMD2018-536,,virginia opossum,opossum,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,3,5,Frederick County
+WRMD,WRMD2018-537,,virginia opossum,opossum,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,3,5,Frederick County
+WRMD,WRMD2018-538,,virginia opossum,opossum,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Euthanized,3,5,Frederick County
+WRMD,WRMD2018-539,,virginia opossum,opossum,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,3,5,Frederick County
+WRMD,WRMD2018-540,,virginia opossum,opossum,Mammal,05/10/2018,2018,Spring,May,10,Thursday,39.346943,-78.177176,Released,3,5,Frederick County
 WRMD,WRMD2018-543,,woodland box turtle,turtle,Reptile,05/11/2018,2018,Spring,May,11,Friday,39.102226,-78.172955,Died,4,5,Frederick County
 WRMD,WRMD2018-551,,woodland box turtle,turtle,Reptile,05/12/2018,2018,Spring,May,12,Saturday,39.096835,-77.639269,Released,5,5,Loudoun County
 WRMD,WRMD2018-560,,snapping turtle,turtle,Reptile,05/13/2018,2018,Spring,May,13,Sunday,38.991299,-77.971359,Released,6,5,Fauquier County
@@ -626,15 +626,15 @@ WRMD,WRMD2018-578,,woodland box turtle,turtle,Reptile,05/16/2018,2018,Spring,May
 WRMD,WRMD2018-581,,groundhog,rodent,Mammal,05/15/2018,2018,Spring,May,15,Tuesday,39.126377,-77.607177,Euthanized,1,5,Loudoun County
 WRMD,WRMD2018-582,,eastern painted turtle,turtle,Reptile,05/15/2018,2018,Spring,May,15,Tuesday,39.2232,-77.517932,Released,1,5,Loudoun County
 WRMD,WRMD2018-584,,woodland box turtle,turtle,Reptile,05/16/2018,2018,Spring,May,16,Wednesday,39.026841,-78.028842,Died,2,5,Clarke County
-WRMD,WRMD2018-592,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Died,2,5,Rappahannock County
-WRMD,WRMD2018-593,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
-WRMD,WRMD2018-594,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
-WRMD,WRMD2018-595,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
-WRMD,WRMD2018-596,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
-WRMD,WRMD2018-597,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
-WRMD,WRMD2018-598,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
-WRMD,WRMD2018-599,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
-WRMD,WRMD2018-600,,virginia opossum,marsupial,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
+WRMD,WRMD2018-592,,virginia opossum,opossum,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Died,2,5,Rappahannock County
+WRMD,WRMD2018-593,,virginia opossum,opossum,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
+WRMD,WRMD2018-594,,virginia opossum,opossum,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
+WRMD,WRMD2018-595,,virginia opossum,opossum,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
+WRMD,WRMD2018-596,,virginia opossum,opossum,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
+WRMD,WRMD2018-597,,virginia opossum,opossum,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
+WRMD,WRMD2018-598,,virginia opossum,opossum,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
+WRMD,WRMD2018-599,,virginia opossum,opossum,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
+WRMD,WRMD2018-600,,virginia opossum,opossum,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,38.736438,-78.075513,Released,2,5,Rappahannock County
 WRMD,WRMD2018-604,,eastern cottontail,rabbits & hares,Mammal,05/16/2018,2018,Spring,May,16,Wednesday,39.05244,-77.86724,Released,2,5,Loudoun County
 WRMD,WRMD2018-666,,eastern painted turtle,turtle,Reptile,05/20/2018,2018,Spring,May,20,Sunday,39.163068,-78.14054,Released,6,5,Frederick County
 WRMD,WRMD2018-691,,red fox,fox,Mammal,05/22/2018,2018,Spring,May,22,Tuesday,39.197909,-78.146035,Died,1,5,Frederick County
@@ -667,41 +667,41 @@ WRMD,WRMD2018-820,,eastern painted turtle,turtle,Reptile,06/01/2018,2018,Spring,
 WRMD,WRMD2018-821,,snapping turtle,turtle,Reptile,06/01/2018,2018,Spring,June,1,Friday,38.989068,-78.372713,Released,4,6,Shenandoah County
 WRMD,WRMD2018-824,,osprey,bird,Bird,06/01/2018,2018,Spring,June,1,Friday,38.520438,-77.367773,Euthanized,4,6,Prince William County
 WRMD,WRMD2018-825,,woodland box turtle,turtle,Reptile,06/01/2018,2018,Spring,June,1,Friday,39.106082,-77.563336,Died,4,6,Loudoun County
-WRMD,WRMD2018-826,,virginia opossum,marsupial,Mammal,06/01/2018,2018,Spring,June,1,Friday,38.881778,-78.505843,Euthanized,4,6,Shenandoah County
+WRMD,WRMD2018-826,,virginia opossum,opossum,Mammal,06/01/2018,2018,Spring,June,1,Friday,38.881778,-78.505843,Euthanized,4,6,Shenandoah County
 WRMD,WRMD2018-837,,groundhog,rodent,Mammal,06/02/2018,2018,Spring,June,2,Saturday,38.907194,-77.753128,Died,5,6,Fauquier County
 WRMD,WRMD2018-838,,eastern cottontail,rabbits & hares,Mammal,06/02/2018,2018,Spring,June,2,Saturday,39.141059,-77.730095,Died,5,6,Loudoun County
-WRMD,WRMD2018-842,,virginia opossum,marsupial,Mammal,06/02/2018,2018,Spring,June,2,Saturday,39.201886,-78.213147,Euthanized,5,6,Frederick County
+WRMD,WRMD2018-842,,virginia opossum,opossum,Mammal,06/02/2018,2018,Spring,June,2,Saturday,39.201886,-78.213147,Euthanized,5,6,Frederick County
 WRMD,WRMD2018-843,,snapping turtle,turtle,Reptile,06/03/2018,2018,Spring,June,3,Sunday,39.064515,-78.031893,Died,6,6,Clarke County
 WRMD,WRMD2018-847,,snapping turtle,turtle,Reptile,06/04/2018,2018,Spring,June,4,Monday,39.010739,-77.512864,Released,0,6,Loudoun County
 WRMD,WRMD2018-860,,eastern painted turtle,turtle,Reptile,06/04/2018,2018,Spring,June,4,Monday,39.136725,-77.714716,Died,0,6,Loudoun County
-WRMD,WRMD2018-862,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
-WRMD,WRMD2018-863,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
-WRMD,WRMD2018-864,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
-WRMD,WRMD2018-865,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
-WRMD,WRMD2018-866,,virginia opossum,marsupial,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
+WRMD,WRMD2018-862,,virginia opossum,opossum,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
+WRMD,WRMD2018-863,,virginia opossum,opossum,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
+WRMD,WRMD2018-864,,virginia opossum,opossum,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
+WRMD,WRMD2018-865,,virginia opossum,opossum,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
+WRMD,WRMD2018-866,,virginia opossum,opossum,Mammal,06/04/2018,2018,Spring,June,4,Monday,39.184518,-77.970237,Released,0,6,Clarke County
 WRMD,WRMD2018-868,,woodland box turtle,turtle,Reptile,06/05/2018,2018,Spring,June,5,Tuesday,39.003845,-77.819658,Died,1,6,Loudoun County
 WRMD,WRMD2018-882,,snapping turtle,turtle,Reptile,06/05/2018,2018,Spring,June,5,Tuesday,38.829249,-78.577734,Released,1,6,Shenandoah County
 WRMD,WRMD2018-892,,eastern painted turtle,turtle,Reptile,06/06/2018,2018,Spring,June,6,Wednesday,38.797327,-77.970017,Released,2,6,Fauquier County
 WRMD,WRMD2018-893,,northern cardinal,bird,Bird,06/06/2018,2018,Spring,June,6,Wednesday,38.972846,-78.342663,Euthanized,2,6,Shenandoah County
-WRMD,WRMD2018-900,,virginia opossum,marsupial,Mammal,06/07/2018,2018,Spring,June,7,Thursday,38.968511,-76.862033,Euthanized,3,6,Prince George's County
+WRMD,WRMD2018-900,,virginia opossum,opossum,Mammal,06/07/2018,2018,Spring,June,7,Thursday,38.968511,-76.862033,Euthanized,3,6,Prince George's County
 WRMD,WRMD2018-906,,woodland box turtle,turtle,Reptile,06/07/2018,2018,Spring,June,7,Thursday,39.151771,-77.982219,Released,3,6,Clarke County
-WRMD,WRMD2018-920,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,5,6,Winchester city
-WRMD,WRMD2018-921,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,5,6,Winchester city
-WRMD,WRMD2018-922,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
-WRMD,WRMD2018-923,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
-WRMD,WRMD2018-924,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
-WRMD,WRMD2018-925,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
-WRMD,WRMD2018-926,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
-WRMD,WRMD2018-927,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
-WRMD,WRMD2018-928,,virginia opossum,marsupial,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
+WRMD,WRMD2018-920,,virginia opossum,opossum,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,5,6,Winchester city
+WRMD,WRMD2018-921,,virginia opossum,opossum,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Died,5,6,Winchester city
+WRMD,WRMD2018-922,,virginia opossum,opossum,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
+WRMD,WRMD2018-923,,virginia opossum,opossum,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
+WRMD,WRMD2018-924,,virginia opossum,opossum,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
+WRMD,WRMD2018-925,,virginia opossum,opossum,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
+WRMD,WRMD2018-926,,virginia opossum,opossum,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
+WRMD,WRMD2018-927,,virginia opossum,opossum,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
+WRMD,WRMD2018-928,,virginia opossum,opossum,Mammal,06/09/2018,2018,Spring,June,9,Saturday,39.183188,-78.155637,Euthanized,5,6,Winchester city
 WRMD,WRMD2018-939,,woodland box turtle,turtle,Reptile,06/09/2018,2018,Spring,June,9,Saturday,37.431573,-78.656894,Euthanized,5,6,Buckingham County
 WRMD,WRMD2018-956,,red fox,fox,Mammal,06/11/2018,2018,Spring,June,11,Monday,39.136772,-77.714715,Died,0,6,Loudoun County
-WRMD,WRMD2018-966,,virginia opossum,marsupial,Mammal,06/11/2018,2018,Spring,June,11,Monday,39.32445,-78.305115,Euthanized,0,6,Frederick County
+WRMD,WRMD2018-966,,virginia opossum,opossum,Mammal,06/11/2018,2018,Spring,June,11,Monday,39.32445,-78.305115,Euthanized,0,6,Frederick County
 WRMD,WRMD2018-968,,turkey vulture,bird,Bird,06/11/2018,2018,Spring,June,11,Monday,38.906482,-78.289099,Euthanized,0,6,Warren County
 WRMD,WRMD2018-969,,northern cardinal,bird,Bird,06/12/2018,2018,Spring,June,12,Tuesday,39.159096,-77.980858,Released,1,6,Clarke County
 WRMD,WRMD2018-971,,eastern gray squirrel,rodent,Mammal,06/12/2018,2018,Spring,June,12,Tuesday,38.967473,-78.18701,Euthanized,1,6,Warren County
 WRMD,WRMD2018-973,,woodland box turtle,turtle,Reptile,06/12/2018,2018,Spring,June,12,Tuesday,39.194598,-78.257609,Released,1,6,Frederick County
-WRMD,WRMD2018-983,,virginia opossum,marsupial,Mammal,06/13/2018,2018,Spring,June,13,Wednesday,38.793844,-77.48279,Euthanized,2,6,Prince William County
+WRMD,WRMD2018-983,,virginia opossum,opossum,Mammal,06/13/2018,2018,Spring,June,13,Wednesday,38.793844,-77.48279,Euthanized,2,6,Prince William County
 WRMD,WRMD2018-986,,eastern musk turtle,turtle,Reptile,06/13/2018,2018,Spring,June,13,Wednesday,37.987105,-77.523557,Released,2,6,Caroline County
 WRMD,WRMD2018-992,,eastern cottontail,rabbits & hares,Mammal,06/13/2018,2018,Spring,June,13,Wednesday,39.262496,-78.093452,Died,2,6,Frederick County
 WRMD,WRMD2018-993,,black rat snake,snake,Reptile,06/13/2018,2018,Spring,June,13,Wednesday,39.062526,-78.003083,Died,2,6,Clarke County
@@ -742,19 +742,19 @@ WRMD,WRMD2018-1225,,american robin,bird,Bird,07/05/2018,2018,Summer,July,5,Thurs
 WRMD,WRMD2018-1242,,mallard,bird,Bird,07/06/2018,2018,Summer,July,6,Friday,38.829519,-78.573948,Released,4,7,Shenandoah County
 WRMD,WRMD2018-1243,,american robin,bird,Bird,07/06/2018,2018,Summer,July,6,Friday,39.314859,-78.335892,Euthanized,4,7,Frederick County
 WRMD,WRMD2018-1254,,barn swallow,bird,Bird,07/07/2018,2018,Summer,July,7,Saturday,39.052992,-78.173673,Died,5,7,Frederick County
-WRMD,WRMD2018-1265,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
-WRMD,WRMD2018-1266,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
-WRMD,WRMD2018-1267,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
-WRMD,WRMD2018-1268,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
-WRMD,WRMD2018-1269,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
-WRMD,WRMD2018-1270,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
-WRMD,WRMD2018-1271,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Euthanized,6,7,Buckingham County
-WRMD,WRMD2018-1272,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Euthanized,6,7,Buckingham County
-WRMD,WRMD2018-1273,,virginia opossum,marsupial,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Euthanized,6,7,Buckingham County
+WRMD,WRMD2018-1265,,virginia opossum,opossum,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
+WRMD,WRMD2018-1266,,virginia opossum,opossum,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
+WRMD,WRMD2018-1267,,virginia opossum,opossum,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
+WRMD,WRMD2018-1268,,virginia opossum,opossum,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
+WRMD,WRMD2018-1269,,virginia opossum,opossum,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
+WRMD,WRMD2018-1270,,virginia opossum,opossum,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Died,6,7,Buckingham County
+WRMD,WRMD2018-1271,,virginia opossum,opossum,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Euthanized,6,7,Buckingham County
+WRMD,WRMD2018-1272,,virginia opossum,opossum,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Euthanized,6,7,Buckingham County
+WRMD,WRMD2018-1273,,virginia opossum,opossum,Mammal,07/08/2018,2018,Summer,July,8,Sunday,37.431573,-78.656894,Euthanized,6,7,Buckingham County
 WRMD,WRMD2018-1289,,cooper's hawk,bird,Bird,07/10/2018,2018,Summer,July,10,Tuesday,38.746182,-77.784398,Euthanized,1,7,Fauquier County
 WRMD,WRMD2018-1342,,red-bellied woodpecker,bird,Bird,07/14/2018,2018,Summer,July,14,Saturday,39.250454,-77.627501,Died,5,7,Loudoun County
 WRMD,WRMD2018-1352,,broad-winged hawk,bird,Bird,07/15/2018,2018,Summer,July,15,Sunday,39.18568,-78.163424,Released,6,7,Winchester city
-WRMD,WRMD2018-1353,,virginia opossum,marsupial,Mammal,07/15/2018,2018,Summer,July,15,Sunday,39.247075,-78.02469,Euthanized,6,7,Clarke County
+WRMD,WRMD2018-1353,,virginia opossum,opossum,Mammal,07/15/2018,2018,Summer,July,15,Sunday,39.247075,-78.02469,Euthanized,6,7,Clarke County
 WRMD,WRMD2018-1361,,northern cardinal,bird,Bird,07/16/2018,2018,Summer,July,16,Monday,38.975678,-77.641871,Died,0,7,Loudoun County
 WRMD,WRMD2018-1365,,woodland box turtle,turtle,Reptile,07/16/2018,2018,Summer,July,16,Monday,39.085391,-78.510509,Released,0,7,Hardy County
 WRMD,WRMD2018-1372,,northern cardinal,bird,Bird,07/17/2018,2018,Summer,July,17,Tuesday,39.152526,-77.981716,Died,1,7,Clarke County
@@ -762,22 +762,22 @@ WRMD,WRMD2018-1375,,woodland box turtle,turtle,Reptile,07/17/2018,2018,Summer,Ju
 WRMD,WRMD2018-1385,,eastern cottontail,rabbits & hares,Mammal,07/18/2018,2018,Summer,July,18,Wednesday,39.39602,-78.273944,Euthanized,2,7,Frederick County
 WRMD,WRMD2018-1388,,eastern fox squirrel,rodent,Mammal,07/18/2018,2018,Summer,July,18,Wednesday,38.952274,-77.99649,Died,2,7,Fauquier County
 WRMD,WRMD2018-1408,,eastern gray squirrel,rodent,Mammal,07/20/2018,2018,Summer,July,20,Friday,38.865669,-77.770827,Released,4,7,Fauquier County
-WRMD,WRMD2018-1410,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Released,4,7,Frederick County
-WRMD,WRMD2018-1411,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Transferred,4,7,Frederick County
-WRMD,WRMD2018-1412,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Transferred,4,7,Frederick County
-WRMD,WRMD2018-1413,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Transferred,4,7,Frederick County
-WRMD,WRMD2018-1414,,virginia opossum,marsupial,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Died,4,7,Frederick County
-WRMD,WRMD2018-1418,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
-WRMD,WRMD2018-1419,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Died,5,7,Fauquier County
-WRMD,WRMD2018-1420,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Released,5,7,Fauquier County
-WRMD,WRMD2018-1421,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Released,5,7,Fauquier County
-WRMD,WRMD2018-1422,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
-WRMD,WRMD2018-1423,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
-WRMD,WRMD2018-1424,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
-WRMD,WRMD2018-1425,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Died,5,7,Fauquier County
-WRMD,WRMD2018-1426,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
-WRMD,WRMD2018-1427,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
-WRMD,WRMD2018-1428,,virginia opossum,marsupial,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Released,5,7,Fauquier County
+WRMD,WRMD2018-1410,,virginia opossum,opossum,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Released,4,7,Frederick County
+WRMD,WRMD2018-1411,,virginia opossum,opossum,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Transferred,4,7,Frederick County
+WRMD,WRMD2018-1412,,virginia opossum,opossum,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Transferred,4,7,Frederick County
+WRMD,WRMD2018-1413,,virginia opossum,opossum,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Transferred,4,7,Frederick County
+WRMD,WRMD2018-1414,,virginia opossum,opossum,Mammal,07/20/2018,2018,Summer,July,20,Friday,39.039132,-78.224615,Died,4,7,Frederick County
+WRMD,WRMD2018-1418,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
+WRMD,WRMD2018-1419,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Died,5,7,Fauquier County
+WRMD,WRMD2018-1420,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Released,5,7,Fauquier County
+WRMD,WRMD2018-1421,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Released,5,7,Fauquier County
+WRMD,WRMD2018-1422,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
+WRMD,WRMD2018-1423,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
+WRMD,WRMD2018-1424,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
+WRMD,WRMD2018-1425,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Died,5,7,Fauquier County
+WRMD,WRMD2018-1426,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
+WRMD,WRMD2018-1427,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Transferred,5,7,Fauquier County
+WRMD,WRMD2018-1428,,virginia opossum,opossum,Mammal,07/21/2018,2018,Summer,July,21,Saturday,38.584558,-77.699046,Released,5,7,Fauquier County
 WRMD,WRMD2018-1431,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,39.143165,-78.188772,Died,5,7,Winchester city
 WRMD,WRMD2018-1432,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,39.143165,-78.188772,Died,5,7,Winchester city
 WRMD,WRMD2018-1433,,carolina wren,bird,Bird,07/21/2018,2018,Summer,July,21,Saturday,39.143165,-78.188772,Died,5,7,Winchester city
@@ -786,21 +786,21 @@ WRMD,WRMD2018-1435,,canada goose,bird,Bird,07/21/2018,2018,Summer,July,21,Saturd
 WRMD,WRMD2018-1445,,groundhog,rodent,Mammal,07/22/2018,2018,Summer,July,22,Sunday,38.817903,-78.749129,Euthanized,6,7,Shenandoah County
 WRMD,WRMD2018-1446,,red-headed woodpecker,bird,Bird,07/22/2018,2018,Summer,July,22,Sunday,39.161417,-78.097015,Released,6,7,Frederick County
 WRMD,WRMD2018-1448,,northern raccoon,raccoon,Mammal,07/22/2018,2018,Summer,July,22,Sunday,38.581612,-77.789164,Released,6,7,Fauquier County
-WRMD,WRMD2018-1450,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Died,6,7,Winchester city
-WRMD,WRMD2018-1451,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,6,7,Winchester city
-WRMD,WRMD2018-1452,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Died,6,7,Winchester city
-WRMD,WRMD2018-1453,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,6,7,Winchester city
-WRMD,WRMD2018-1454,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,6,7,Winchester city
-WRMD,WRMD2018-1455,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,6,7,Winchester city
-WRMD,WRMD2018-1456,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Euthanized,6,7,Winchester city
-WRMD,WRMD2018-1477,,virginia opossum,marsupial,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.007786,-78.398568,Died,6,7,Shenandoah County
+WRMD,WRMD2018-1450,,virginia opossum,opossum,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Died,6,7,Winchester city
+WRMD,WRMD2018-1451,,virginia opossum,opossum,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,6,7,Winchester city
+WRMD,WRMD2018-1452,,virginia opossum,opossum,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Died,6,7,Winchester city
+WRMD,WRMD2018-1453,,virginia opossum,opossum,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,6,7,Winchester city
+WRMD,WRMD2018-1454,,virginia opossum,opossum,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,6,7,Winchester city
+WRMD,WRMD2018-1455,,virginia opossum,opossum,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Transferred,6,7,Winchester city
+WRMD,WRMD2018-1456,,virginia opossum,opossum,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.18566,-78.163334,Euthanized,6,7,Winchester city
+WRMD,WRMD2018-1477,,virginia opossum,opossum,Mammal,07/22/2018,2018,Summer,July,22,Sunday,39.007786,-78.398568,Died,6,7,Shenandoah County
 WRMD,WRMD2018-1499,,white-tailed deer,deer,Mammal,07/25/2018,2018,Summer,July,25,Wednesday,39.001521,-77.921372,Euthanized,2,7,Fauquier County
-WRMD,WRMD2018-1500,,virginia opossum,marsupial,Mammal,07/25/2018,2018,Summer,July,25,Wednesday,39.168681,-78.161376,Died,2,7,Winchester city
+WRMD,WRMD2018-1500,,virginia opossum,opossum,Mammal,07/25/2018,2018,Summer,July,25,Wednesday,39.168681,-78.161376,Died,2,7,Winchester city
 WRMD,WRMD2018-1501,,northern cardinal,bird,Bird,07/25/2018,2018,Summer,July,25,Wednesday,38.914999,-78.185526,Died,2,7,Warren County
-WRMD,WRMD2018-1509,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,3,7,Shenandoah County
-WRMD,WRMD2018-1510,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,3,7,Shenandoah County
-WRMD,WRMD2018-1511,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,3,7,Shenandoah County
-WRMD,WRMD2018-1512,,virginia opossum,marsupial,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,3,7,Shenandoah County
+WRMD,WRMD2018-1509,,virginia opossum,opossum,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,3,7,Shenandoah County
+WRMD,WRMD2018-1510,,virginia opossum,opossum,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,3,7,Shenandoah County
+WRMD,WRMD2018-1511,,virginia opossum,opossum,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,3,7,Shenandoah County
+WRMD,WRMD2018-1512,,virginia opossum,opossum,Mammal,07/26/2018,2018,Summer,July,26,Thursday,38.978595,-78.367501,Released,3,7,Shenandoah County
 WRMD,WRMD2018-1520,,woodland box turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,39.119129,-78.092777,Died,3,7,Clarke County
 WRMD,WRMD2018-1521,,eastern painted turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,39.008977,-77.466481,Released,3,7,Loudoun County
 WRMD,WRMD2018-1522,,eastern painted turtle,turtle,Reptile,07/26/2018,2018,Summer,July,26,Thursday,39.116214,-77.540322,Released,3,7,Loudoun County
@@ -832,10 +832,10 @@ WRMD,WRMD2018-1865,,snapping turtle,turtle,Reptile,09/06/2018,2018,Summer,Septem
 WRMD,WRMD2018-1878,,woodland box turtle,turtle,Reptile,09/09/2018,2018,Summer,September,9,Sunday,39.08344,-78.21806,Died,6,9,Frederick County
 WRMD,WRMD2018-1894,,northern raccoon,raccoon,Mammal,09/11/2018,2018,Summer,September,11,Tuesday,39.227085,-78.147285,Euthanized,1,9,Frederick County
 WRMD,WRMD2018-1903,,double-crested cormorant,bird,Bird,09/14/2018,2018,Summer,September,14,Friday,38.699383,-77.449871,Died,4,9,Prince William County
-WRMD,WRMD2018-1908,,virginia opossum,marsupial,Mammal,09/14/2018,2018,Summer,September,14,Friday,38.9969042,-77.4179629,Released,4,9,Loudoun County
-WRMD,WRMD2018-1909,,virginia opossum,marsupial,Mammal,09/15/2018,2018,Summer,September,15,Saturday,38.9969042,-77.4179629,Transferred,5,9,Loudoun County
-WRMD,WRMD2018-1910,,virginia opossum,marsupial,Mammal,09/15/2018,2018,Summer,September,15,Saturday,38.9969042,-77.4179629,Released,5,9,Loudoun County
-WRMD,WRMD2018-1911,,virginia opossum,marsupial,Mammal,09/15/2018,2018,Summer,September,15,Saturday,38.9969042,-77.4179629,Transferred,5,9,Loudoun County
+WRMD,WRMD2018-1908,,virginia opossum,opossum,Mammal,09/14/2018,2018,Summer,September,14,Friday,38.9969042,-77.4179629,Released,4,9,Loudoun County
+WRMD,WRMD2018-1909,,virginia opossum,opossum,Mammal,09/15/2018,2018,Summer,September,15,Saturday,38.9969042,-77.4179629,Transferred,5,9,Loudoun County
+WRMD,WRMD2018-1910,,virginia opossum,opossum,Mammal,09/15/2018,2018,Summer,September,15,Saturday,38.9969042,-77.4179629,Released,5,9,Loudoun County
+WRMD,WRMD2018-1911,,virginia opossum,opossum,Mammal,09/15/2018,2018,Summer,September,15,Saturday,38.9969042,-77.4179629,Transferred,5,9,Loudoun County
 WRMD,WRMD2018-1918,,eastern gray squirrel,rodent,Mammal,09/15/2018,2018,Summer,September,15,Saturday,38.908882,-78.297456,Died,5,9,Warren County
 WRMD,WRMD2018-1919,,woodland box turtle,turtle,Reptile,09/15/2018,2018,Summer,September,15,Saturday,39.072518,-78.050929,Released,5,9,Clarke County
 WRMD,WRMD2018-1922,,woodland box turtle,turtle,Reptile,09/15/2018,2018,Summer,September,15,Saturday,39.191448,-78.082439,Released,5,9,Frederick County
@@ -846,57 +846,57 @@ WRMD,WRMD2018-1937,,black rat snake,snake,Reptile,09/17/2018,2018,Summer,Septemb
 WRMD,WRMD2018-1940,,woodland box turtle,turtle,Reptile,09/17/2018,2018,Summer,September,17,Monday,39.041987,-77.605404,Euthanized,0,9,Loudoun County
 WRMD,WRMD2018-1960,,woodland box turtle,turtle,Reptile,09/21/2018,2018,Summer,September,21,Friday,39.278067,-77.763887,Died,4,9,Jefferson County
 WRMD,WRMD2018-1969,,woodland box turtle,turtle,Reptile,09/23/2018,2018,Autumn,September,23,Sunday,39.032921,-77.553276,Died,6,9,Loudoun County
-WRMD,WRMD2018-1984,,barred owl,owl,Bird,09/24/2018,2018,Autumn,September,24,Monday,39.121376,-77.569352,Released,0,9,Loudoun County
+WRMD,WRMD2018-1984,,barred owl,bird,Bird,09/24/2018,2018,Autumn,September,24,Monday,39.121376,-77.569352,Released,0,9,Loudoun County
 WRMD,WRMD2018-1989,,northern raccoon,raccoon,Mammal,09/25/2018,2018,Autumn,September,25,Tuesday,39.154226,-78.180837,Euthanized,1,9,Winchester city
 WRMD,WRMD2018-1990,,mourning dove,bird,Bird,09/25/2018,2018,Autumn,September,25,Tuesday,39.201761,-78.180204,Released,1,9,Winchester city
 WRMD,WRMD2018-1996,,woodland box turtle,turtle,Reptile,09/26/2018,2018,Autumn,September,26,Wednesday,38.295135,-77.483689,Released,2,9,Fredericksburg city
 WRMD,WRMD2018-2010,,woodland box turtle,turtle,Reptile,09/29/2018,2018,Autumn,September,29,Saturday,38.898628,-77.8225,Released,5,9,Fauquier County
 WRMD,WRMD2018-2014,,woodland box turtle,turtle,Reptile,09/30/2018,2018,Autumn,September,30,Sunday,39.062749,-77.497226,Released,6,9,Loudoun County
 WRMD,WRMD2018-2021,,woodland box turtle,turtle,Reptile,09/30/2018,2018,Autumn,September,30,Sunday,39.010071,-77.782963,Released,6,9,Loudoun County
-WRMD,WRMD2018-2022,,eastern screech owl,owl,Bird,10/01/2018,2018,Autumn,October,1,Monday,38.874012,-78.136945,Released,0,10,Warren County
+WRMD,WRMD2018-2022,,eastern screech owl,bird,Bird,10/01/2018,2018,Autumn,October,1,Monday,38.874012,-78.136945,Released,0,10,Warren County
 WRMD,WRMD2018-2025,,eastern cottontail,rabbits & hares,Mammal,10/02/2018,2018,Autumn,October,2,Tuesday,39.182158,-78.192302,Died,1,10,Winchester city
 WRMD,WRMD2018-2026,,woodland box turtle,turtle,Reptile,10/04/2018,2018,Autumn,October,4,Thursday,39.2543,-78.066373,Euthanized,3,10,Frederick County
 WRMD,WRMD2018-2027,,turkey vulture,bird,Bird,10/02/2018,2018,Autumn,October,2,Tuesday,39.137242,-77.74061,Released,1,10,Loudoun County
 WRMD,WRMD2018-2033,,eastern gray squirrel,rodent,Mammal,10/05/2018,2018,Autumn,October,5,Friday,38.861224,-78.399451,Euthanized,4,10,Shenandoah County
 WRMD,WRMD2018-2043,,woodland box turtle,turtle,Reptile,10/08/2018,2018,Autumn,October,8,Monday,38.645981,-78.481288,Euthanized,0,10,Page County
 WRMD,WRMD2018-2044,,woodland box turtle,turtle,Reptile,10/08/2018,2018,Autumn,October,8,Monday,38.689832,-77.836115,Released,0,10,Fauquier County
-WRMD,WRMD2018-2054,,barred owl,owl,Bird,10/10/2018,2018,Autumn,October,10,Wednesday,39.138314,-77.657328,Euthanized,2,10,Loudoun County
-WRMD,WRMD2018-2057,,barred owl,owl,Bird,10/12/2018,2018,Autumn,October,12,Friday,39.170521,-77.784646,Released,4,10,Loudoun County
+WRMD,WRMD2018-2054,,barred owl,bird,Bird,10/10/2018,2018,Autumn,October,10,Wednesday,39.138314,-77.657328,Euthanized,2,10,Loudoun County
+WRMD,WRMD2018-2057,,barred owl,bird,Bird,10/12/2018,2018,Autumn,October,12,Friday,39.170521,-77.784646,Released,4,10,Loudoun County
 WRMD,WRMD2018-2060,,northern raccoon,raccoon,Mammal,10/14/2018,2018,Autumn,October,14,Sunday,39.168271,-78.130667,Euthanized,6,10,Frederick County
 WRMD,WRMD2018-2061,,northern raccoon,raccoon,Mammal,10/14/2018,2018,Autumn,October,14,Sunday,38.863548,-77.779699,Euthanized,6,10,Fauquier County
 WRMD,WRMD2018-2071,,black rat snake,snake,Reptile,10/20/2018,2018,Autumn,October,20,Saturday,38.740726,-77.728103,Euthanized,5,10,Fauquier County
-WRMD,WRMD2018-2076,,barred owl,owl,Bird,10/22/2018,2018,Autumn,October,22,Monday,38.998822,-77.733937,Euthanized,0,10,Loudoun County
+WRMD,WRMD2018-2076,,barred owl,bird,Bird,10/22/2018,2018,Autumn,October,22,Monday,38.998822,-77.733937,Euthanized,0,10,Loudoun County
 WRMD,WRMD2018-2078,,red-tailed hawk,bird,Bird,10/24/2018,2018,Autumn,October,24,Wednesday,39.28899,-77.85972,Euthanized,2,10,Jefferson County
 WRMD,WRMD2018-2081,,turkey vulture,bird,Bird,10/25/2018,2018,Autumn,October,25,Thursday,39.199575,-77.589663,Euthanized,3,10,Loudoun County
 WRMD,WRMD2018-2082,,eastern cottontail,rabbits & hares,Mammal,10/26/2018,2018,Autumn,October,26,Friday,39.185591,-78.170114,Died,4,10,Winchester city
 WRMD,WRMD2018-2084,,eastern gray squirrel,rodent,Mammal,10/26/2018,2018,Autumn,October,26,Friday,39.262681,-77.694322,Euthanized,4,10,Loudoun County
 WRMD,WRMD2018-2085,,cooper's hawk,bird,Bird,10/26/2018,2018,Autumn,October,26,Friday,38.981925,-77.651567,Euthanized,4,10,Loudoun County
 WRMD,WRMD2018-2086,,red-shouldered hawk,bird,Bird,10/26/2018,2018,Autumn,October,26,Friday,39.124186,-77.800241,Euthanized,4,10,Loudoun County
-WRMD,WRMD2018-2090,,virginia opossum,marsupial,Mammal,10/29/2018,2018,Autumn,October,29,Monday,38.667891,-78.462105,Euthanized,0,10,Page County
+WRMD,WRMD2018-2090,,virginia opossum,opossum,Mammal,10/29/2018,2018,Autumn,October,29,Monday,38.667891,-78.462105,Euthanized,0,10,Page County
 WRMD,WRMD2018-2091,,eastern gray squirrel,rodent,Mammal,10/29/2018,2018,Autumn,October,29,Monday,38.70864,-77.803166,Euthanized,0,10,Fauquier County
 WRMD,WRMD2018-2094,,black rat snake,snake,Reptile,11/01/2018,2018,Autumn,November,1,Thursday,39.135711,-77.991926,Died,3,11,Clarke County
 WRMD,WRMD2018-2095,,woodland box turtle,turtle,Reptile,11/04/2018,2018,Autumn,November,4,Sunday,39.169668,-78.16856,Released,6,11,Winchester city
-WRMD,WRMD2018-2097,,eastern screech owl,owl,Bird,11/04/2018,2018,Autumn,November,4,Sunday,39.059385,-78.364791,Released,6,11,Shenandoah County
-WRMD,WRMD2018-2101,,barred owl,owl,Bird,11/05/2018,2018,Autumn,November,5,Monday,38.901523,-78.203366,Euthanized,0,11,Warren County
+WRMD,WRMD2018-2097,,eastern screech owl,bird,Bird,11/04/2018,2018,Autumn,November,4,Sunday,39.059385,-78.364791,Released,6,11,Shenandoah County
+WRMD,WRMD2018-2101,,barred owl,bird,Bird,11/05/2018,2018,Autumn,November,5,Monday,38.901523,-78.203366,Euthanized,0,11,Warren County
 WRMD,WRMD2018-2102,,snapping turtle,turtle,Reptile,11/05/2018,2018,Autumn,November,5,Monday,38.949446,-78.2932,Died,0,11,Warren County
 WRMD,WRMD2018-2103,,red-shouldered hawk,bird,Bird,11/06/2018,2018,Autumn,November,6,Tuesday,38.496007,-77.573988,Euthanized,1,11,Stafford County
 WRMD,WRMD2018-2104,,turkey vulture,bird,Bird,11/07/2018,2018,Autumn,November,7,Wednesday,39.059142,-78.185833,Released,2,11,Frederick County
 WRMD,WRMD2018-2115,,striped skunk,skunk,Mammal,11/13/2018,2018,Autumn,November,13,Tuesday,39.297726,-78.144612,Euthanized,1,11,Frederick County
 WRMD,WRMD2018-2120,,ruddy duck,bird,Bird,11/17/2018,2018,Autumn,November,17,Saturday,37.802846,-79.991715,Released,5,11,Covington city
-WRMD,WRMD2018-2124,,eastern screech owl,owl,Bird,11/17/2018,2018,Autumn,November,17,Saturday,37.914381,-78.781614,Released,5,11,Nelson County
-WRMD,WRMD2018-2126,,barred owl,owl,Bird,11/17/2018,2018,Autumn,November,17,Saturday,38.500928,-78.133043,Released,5,11,Culpeper County
+WRMD,WRMD2018-2124,,eastern screech owl,bird,Bird,11/17/2018,2018,Autumn,November,17,Saturday,37.914381,-78.781614,Released,5,11,Nelson County
+WRMD,WRMD2018-2126,,barred owl,bird,Bird,11/17/2018,2018,Autumn,November,17,Saturday,38.500928,-78.133043,Released,5,11,Culpeper County
 WRMD,WRMD2018-2128,,great horned owl,bird,Bird,11/18/2018,2018,Autumn,November,18,Sunday,37.173945,-79.627874,Released,6,11,Bedford County
-WRMD,WRMD2018-2133,,virginia opossum,marsupial,Mammal,11/20/2018,2018,Autumn,November,20,Tuesday,39.037113,-77.612287,Released,1,11,Loudoun County
+WRMD,WRMD2018-2133,,virginia opossum,opossum,Mammal,11/20/2018,2018,Autumn,November,20,Tuesday,39.037113,-77.612287,Released,1,11,Loudoun County
 WRMD,WRMD2018-2135,,white-tailed deer,deer,Mammal,11/22/2018,2018,Autumn,November,22,Thursday,39.13183,-78.084407,Euthanized,3,11,Clarke County
 WRMD,WRMD2018-2144,,great blue heron,bird,Bird,11/27/2018,2018,Autumn,November,27,Tuesday,39.223359,-77.538014,Euthanized,1,11,Loudoun County
-WRMD,WRMD2018-2145,,eastern screech owl,owl,Bird,11/28/2018,2018,Autumn,November,28,Wednesday,39.079477,-78.592668,Released,2,11,Hardy County
+WRMD,WRMD2018-2145,,eastern screech owl,bird,Bird,11/28/2018,2018,Autumn,November,28,Wednesday,39.079477,-78.592668,Released,2,11,Hardy County
 WRMD,WRMD2018-2146,,eastern gray squirrel,rodent,Mammal,11/30/2018,2018,Autumn,November,30,Friday,38.978267,-77.355784,Released,4,11,Fairfax County
 WRMD,WRMD2018-2147,,cooper's hawk,bird,Bird,11/30/2018,2018,Autumn,November,30,Friday,38.256234,-77.427085,Released,4,11,Spotsylvania County
-WRMD,WRMD2018-2148,,virginia opossum,marsupial,Mammal,12/01/2018,2018,Autumn,December,1,Saturday,38.929276,-78.185012,Euthanized,5,12,Warren County
+WRMD,WRMD2018-2148,,virginia opossum,opossum,Mammal,12/01/2018,2018,Autumn,December,1,Saturday,38.929276,-78.185012,Euthanized,5,12,Warren County
 WRMD,WRMD2018-2149,,northern raccoon,raccoon,Mammal,12/01/2018,2018,Autumn,December,1,Saturday,38.903539,-78.485163,Euthanized,5,12,Shenandoah County
-WRMD,WRMD2018-2151,,virginia opossum,marsupial,Mammal,12/02/2018,2018,Autumn,December,2,Sunday,39.017885,-78.040881,Euthanized,6,12,Clarke County
+WRMD,WRMD2018-2151,,virginia opossum,opossum,Mammal,12/02/2018,2018,Autumn,December,2,Sunday,39.017885,-78.040881,Euthanized,6,12,Clarke County
 WRMD,WRMD2018-2154,,red-tailed hawk,bird,Bird,12/04/2018,2018,Autumn,December,4,Tuesday,39.412854,-78.523889,Euthanized,1,12,Hampshire County
-WRMD,WRMD2018-2155,,eastern screech owl,owl,Bird,12/05/2018,2018,Autumn,December,5,Wednesday,38.966759,-78.044974,Euthanized,2,12,Warren County
+WRMD,WRMD2018-2155,,eastern screech owl,bird,Bird,12/05/2018,2018,Autumn,December,5,Wednesday,38.966759,-78.044974,Euthanized,2,12,Warren County
 WRMD,WRMD2018-2159,,northern raccoon,raccoon,Mammal,12/08/2018,2018,Autumn,December,8,Saturday,39.188205,-77.630013,Died,5,12,Loudoun County
 WRMD,WRMD2018-2163,,eastern cottontail,rabbits & hares,Mammal,12/10/2018,2018,Autumn,December,10,Monday,39.138314,-77.657328,Euthanized,0,12,Loudoun County
 WRMD,WRMD2018-2165,,red-tailed hawk,bird,Bird,12/11/2018,2018,Autumn,December,11,Tuesday,39.228706,-77.532346,Released,1,12,Loudoun County
@@ -904,7 +904,7 @@ WRMD,WRMD2019-38,,red-tailed hawk,bird,Bird,01/22/2019,2019,Winter,January,22,Tu
 WRMD,WRMD2019-93,,red-tailed hawk,bird,Bird,02/19/2019,2019,Winter,February,19,Tuesday,38.985025,-78.200031,Released,1,2,Warren County
 WRMD,WRMD2019-1281,,snapping turtle,turtle,Reptile,07/02/2019,2019,Summer,July,2,Tuesday,39.031339,-77.93458,Died,1,7,Clarke County
 WRMD,WRMD2019-1331,,woodland box turtle,turtle,Reptile,07/09/2019,2019,Summer,July,9,Tuesday,39.322275,-78.133216,Euthanized,1,7,Frederick County
-WRMD,WRMD2019-1424,,eastern screech owl,owl,Bird,07/20/2019,2019,Summer,July,20,Saturday,38.865124,-78.223799,Died,5,7,Warren County
+WRMD,WRMD2019-1424,,eastern screech owl,bird,Bird,07/20/2019,2019,Summer,July,20,Saturday,38.865124,-78.223799,Died,5,7,Warren County
 WRMD,WRMD2019-1652,,woodland box turtle,turtle,Reptile,08/12/2019,2019,Summer,August,12,Monday,38.486376,-77.4901748,Died,0,8,Stafford County
 WRMD,WRMD2019-1661,,canada goose,bird,Bird,08/13/2019,2019,Summer,August,13,Tuesday,38.63126,-77.389935,Released,1,8,Prince William County
 WRMD,WRMD2019-1809,,woodland box turtle,turtle,Reptile,08/29/2019,2019,Summer,August,29,Thursday,39.255978,-78.070863,Released,3,8,Frederick County
@@ -919,7 +919,7 @@ WRMD,WRMD2019-2010,,woodland box turtle,turtle,Reptile,09/24/2019,2019,Autumn,Se
 WRMD,WRMD2019-2043,,woodland box turtle,turtle,Reptile,10/01/2019,2019,Autumn,October,1,Tuesday,38.28078,-77.304625,Died,1,10,King George County
 WRMD,WRMD2019-2049,,woodland box turtle,turtle,Reptile,10/01/2019,2019,Autumn,October,1,Tuesday,39.112724,-77.600461,Died,1,10,Loudoun County
 WRMD,WRMD2019-2061,,woodland box turtle,turtle,Reptile,10/04/2019,2019,Autumn,October,4,Friday,38.810178,-77.272694,Released,4,10,Fairfax County
-WRMD,WRMD2019-2074,,barred owl,owl,Bird,10/07/2019,2019,Autumn,October,7,Monday,38.745424,-77.883872,Released,0,10,Fauquier County
+WRMD,WRMD2019-2074,,barred owl,bird,Bird,10/07/2019,2019,Autumn,October,7,Monday,38.745424,-77.883872,Released,0,10,Fauquier County
 WRMD,WRMD2019-2084,,eastern painted turtle,turtle,Reptile,10/09/2019,2019,Autumn,October,9,Wednesday,39.093865,-78.199626,Died,2,10,Frederick County
 WRMD,WRMD2019-2085,,woodland box turtle,turtle,Reptile,10/10/2019,2019,Autumn,October,10,Thursday,38.809582,-77.709604,Died,3,10,Fauquier County
 WRMD,WRMD2019-2255,,red-tailed hawk,bird,Bird,12/17/2019,2019,Autumn,December,17,Tuesday,39.014521,-78.35699,Released,1,12,Shenandoah County
@@ -936,19 +936,19 @@ WRMD,WRMD2020-2037,,eastern painted turtle,turtle,Reptile,08/03/2020,2020,Summer
 WRMD,WRMD2020-2052,,woodland box turtle,turtle,Reptile,08/05/2020,2020,Summer,August,5,Wednesday,38.990611,-78.066711,Euthanized,2,8,Warren County
 WRMD,WRMD2020-2059,,woodland box turtle,turtle,Reptile,08/06/2020,2020,Summer,August,6,Thursday,38.999486,-77.572042,Died,3,8,Loudoun County
 WRMD,WRMD2020-2273,,woodland box turtle,turtle,Reptile,08/28/2020,2020,Summer,August,28,Friday,39.436553,-78.303592,Died,4,8,Frederick County
-WRMD,WRMD2020-2611,,eastern screech owl,owl,Bird,10/11/2020,2020,Autumn,October,11,Sunday,38.90948,-78.54744,Released,6,10,Shenandoah County
+WRMD,WRMD2020-2611,,eastern screech owl,bird,Bird,10/11/2020,2020,Autumn,October,11,Sunday,38.90948,-78.54744,Released,6,10,Shenandoah County
 WRMD,WRMD2020-2678,,eastern painted turtle,turtle,Reptile,10/28/2020,2020,Autumn,October,28,Wednesday,38.497078,-77.982413,Euthanized,2,10,Culpeper County
-WRMD,WRMD2020-2759,,eastern screech owl,owl,Bird,11/28/2020,2020,Autumn,November,28,Saturday,38.918184,-78.343025,Released,5,11,Shenandoah County
-WRMD,WRMD2020-2776,,eastern screech owl,owl,Bird,12/04/2020,2020,Autumn,December,4,Friday,38.970392,-78.050432,Released,4,12,Warren County
+WRMD,WRMD2020-2759,,eastern screech owl,bird,Bird,11/28/2020,2020,Autumn,November,28,Saturday,38.918184,-78.343025,Released,5,11,Shenandoah County
+WRMD,WRMD2020-2776,,eastern screech owl,bird,Bird,12/04/2020,2020,Autumn,December,4,Friday,38.970392,-78.050432,Released,4,12,Warren County
 WRMD,WRMD2021-254,,european starling,bird,Bird,03/11/2021,2021,Winter,March,11,Thursday,39.276551,-77.842394,Euthanized,3,3,Jefferson County
 WRMD,WRMD2021-255,,bald eagle,bird,Bird,03/12/2021,2021,Winter,March,12,Friday,39.0934,-78.0207,Died,4,3,Clarke County
 WRMD,WRMD2021-492,,eastern mud turtle,turtle,Reptile,04/12/2021,2021,Spring,April,12,Monday,38.420993,-77.327651,Released,0,4,Stafford County
 WRMD,WRMD2021-508,,canada goose,bird,Bird,04/14/2021,2021,Spring,April,14,Wednesday,38.989712,-77.431224,Euthanized,2,4,Loudoun County
 WRMD,WRMD2021-1379,,woodland box turtle,turtle,Reptile,06/02/2021,2021,Spring,June,2,Wednesday,38.3955,-77.4958,Released,2,6,Stafford County
 WRMD,WRMD2021-1989,,eastern kingbird,bird,Bird,07/05/2021,2021,Summer,July,5,Monday,39.120864,-77.533104,Died,0,7,Loudoun County
-WRMD,WRMD2021-2436,,virginia opossum,marsupial,Mammal,08/07/2021,2021,Summer,August,7,Saturday,39.041987,-77.605404,Released,5,8,Loudoun County
-WRMD,WRMD2021-2437,,virginia opossum,marsupial,Mammal,08/07/2021,2021,Summer,August,7,Saturday,39.041987,-77.605404,Released,5,8,Loudoun County
-WRMD,WRMD2021-2438,,virginia opossum,marsupial,Mammal,08/07/2021,2021,Summer,August,7,Saturday,39.041987,-77.605404,Released,5,8,Loudoun County
+WRMD,WRMD2021-2436,,virginia opossum,opossum,Mammal,08/07/2021,2021,Summer,August,7,Saturday,39.041987,-77.605404,Released,5,8,Loudoun County
+WRMD,WRMD2021-2437,,virginia opossum,opossum,Mammal,08/07/2021,2021,Summer,August,7,Saturday,39.041987,-77.605404,Released,5,8,Loudoun County
+WRMD,WRMD2021-2438,,virginia opossum,opossum,Mammal,08/07/2021,2021,Summer,August,7,Saturday,39.041987,-77.605404,Released,5,8,Loudoun County
 WRMD,WRMD2021-2682,,woodland box turtle,turtle,Reptile,08/27/2021,2021,Summer,August,27,Friday,38.5688,-78.033331,Euthanized,4,8,Culpeper County
 WRMD,WRMD2021-2859,,woodland box turtle,turtle,Reptile,09/17/2021,2021,Summer,September,17,Friday,38.758002,-78.674091,Euthanized,4,9,Shenandoah County
 WRMD,WRMD2021-3004,,snapping turtle,turtle,Reptile,10/07/2021,2021,Autumn,October,7,Thursday,38.28544,-77.56357,Euthanized,3,10,Spotsylvania County
@@ -958,7 +958,7 @@ WRMD,WRMD2022-958,,red-eared slider,turtle,Reptile,05/12/2022,2022,Spring,May,12
 WRMD,WRMD2022-966,,woodland box turtle,turtle,Reptile,05/12/2022,2022,Spring,May,12,Thursday,38.81714,-77.531368,Released,3,5,Prince William County
 WRMD,WRMD2022-1167,,brown thrasher,bird,Bird,05/20/2022,2022,Spring,May,20,Friday,38.364736,-77.498183,Euthanized,4,5,Stafford County
 WRMD,WRMD2022-1186,,snapping turtle,turtle,Reptile,05/22/2022,2022,Spring,May,22,Sunday,39.212837,-77.53515,Euthanized,6,5,Loudoun County
-WRMD,WRMD2022-1208,,virginia opossum,marsupial,Mammal,05/23/2022,2022,Spring,May,23,Monday,38.89112,-78.06714,Euthanized,0,5,Warren County
+WRMD,WRMD2022-1208,,virginia opossum,opossum,Mammal,05/23/2022,2022,Spring,May,23,Monday,38.89112,-78.06714,Euthanized,0,5,Warren County
 WRMD,WRMD2022-1248,,snapping turtle,turtle,Reptile,05/24/2022,2022,Spring,May,24,Tuesday,38.51608,-77.335293,Released,1,5,Prince William County
 WRMD,WRMD2022-1274,,central ratsnake,snake,Reptile,05/25/2022,2022,Spring,May,25,Wednesday,39.101886,-77.712708,Euthanized,2,5,Loudoun County
 WRMD,WRMD2022-1346,,woodland box turtle,turtle,Reptile,05/28/2022,2022,Spring,May,28,Saturday,38.573988,-77.980839,Died,5,5,Culpeper County
@@ -976,14 +976,14 @@ WRMD,WRMD2022-2507,,downy woodpecker,bird,Bird,08/12/2022,2022,Summer,August,12,
 WRMD,WRMD2022-2837,,woodland box turtle,turtle,Reptile,09/08/2022,2022,Summer,September,8,Thursday,39.00227,-78.34339,Died,3,9,Shenandoah County
 WRMD,WRMD2022-2862,,red-tailed hawk,bird,Bird,09/09/2022,2022,Summer,September,9,Friday,38.8978266,-78.2105672,Euthanized,4,9,Warren County
 WRMD,WRMD2022-3076,,snapping turtle,turtle,Reptile,10/07/2022,2022,Autumn,October,7,Friday,39.007017,-77.485246,Euthanized,4,10,Loudoun County
-WRMD,WRMD2022-3137,,barred owl,owl,Bird,10/23/2022,2022,Autumn,October,23,Sunday,38.924758,-77.865673,Euthanized,6,10,Fauquier County
+WRMD,WRMD2022-3137,,barred owl,bird,Bird,10/23/2022,2022,Autumn,October,23,Sunday,38.924758,-77.865673,Euthanized,6,10,Fauquier County
 WRMD,WRMD2022-3272,,central ratsnake,snake,Reptile,11/26/2022,2022,Autumn,November,26,Saturday,38.69463,-77.53101,Euthanized,5,11,Prince William County
 WRMD,WRMD2022-3332,,red-tailed hawk,bird,Bird,12/12/2022,2022,Autumn,December,12,Monday,38.80725,-78.52612,Died,0,12,Shenandoah County
-WRMD,WRMD2022-3343,,barn owl,owl,Bird,12/16/2022,2022,Autumn,December,16,Friday,38.9404332,-77.8735439,Died,4,12,Fauquier County
+WRMD,WRMD2022-3343,,barn owl,bird,Bird,12/16/2022,2022,Autumn,December,16,Friday,38.9404332,-77.8735439,Died,4,12,Fauquier County
 WRMD,WRMD2022-3379,,great horned owl,bird,Bird,12/25/2022,2022,Winter,December,25,Sunday,39.189661,-78.150519,Euthanized,6,12,Winchester city
 WRMD,WRMD2023-139,,bald eagle,bird,Bird,02/17/2023,2023,Winter,February,17,Friday,38.0798087,-77.3091401,Died,4,2,Caroline County
 WRMD,WRMD2023-183,,red-tailed hawk,bird,Bird,03/05/2023,2023,Winter,March,5,Sunday,39.102105,-78.035531,Euthanized,6,3,Clarke County
-WRMD,WRMD2023-188,,barred owl,owl,Bird,03/06/2023,2023,Winter,March,6,Monday,38.957299,-78.09662,Euthanized,0,3,Warren County
+WRMD,WRMD2023-188,,barred owl,bird,Bird,03/06/2023,2023,Winter,March,6,Monday,38.957299,-78.09662,Euthanized,0,3,Warren County
 WRMD,WRMD2023-214,,black vulture,bird,Bird,03/15/2023,2023,Winter,March,15,Wednesday,39.20009,-77.5378,Died,2,3,Loudoun County
 WRMD,WRMD2023-583,,snapping turtle,turtle,Reptile,04/23/2023,2023,Spring,April,23,Sunday,38.865153,-77.881854,Euthanized,6,4,Fauquier County
 WRMD,WRMD2023-721,,turkey vulture,bird,Bird,05/01/2023,2023,Spring,May,1,Monday,38.147664,-77.703743,Euthanized,0,5,Spotsylvania County
@@ -998,7 +998,7 @@ WRMD,WRMD2023-2219,,woodland box turtle,turtle,Reptile,07/16/2023,2023,Summer,Ju
 WRMD,WRMD2023-2243,,woodland box turtle,turtle,Reptile,07/18/2023,2023,Summer,July,18,Tuesday,38.86967,-77.43022,Euthanized,1,7,Fairfax County
 WRMD,WRMD2023-2337,,eastern painted turtle,turtle,Reptile,07/23/2023,2023,Summer,July,23,Sunday,39.084892,-78.186125,Euthanized,6,7,Frederick County
 WRMD,WRMD2023-2755,,turkey vulture,bird,Bird,08/21/2023,2023,Summer,August,21,Monday,36.60524,-78.30096,Euthanized,0,8,Mecklenburg County
-WRMD,WRMD2023-2759,,virginia opossum,marsupial,Mammal,08/21/2023,2023,Summer,August,21,Monday,38.96842,-78.375713,Euthanized,0,8,Shenandoah County
+WRMD,WRMD2023-2759,,virginia opossum,opossum,Mammal,08/21/2023,2023,Summer,August,21,Monday,38.96842,-78.375713,Euthanized,0,8,Shenandoah County
 WRMD,WRMD2023-2795,,woodland box turtle,turtle,Reptile,08/25/2023,2023,Summer,August,25,Friday,38.182221,-78.292469,Released,4,8,Orange County
 WRMD,WRMD2023-3000,,eastern cottontail,rabbits & hares,Mammal,09/10/2023,2023,Summer,September,10,Sunday,38.975538,-78.393205,Euthanized,6,9,Shenandoah County
 WRMD,WRMD2023-3301,,eastern painted turtle,turtle,Reptile,10/07/2023,2023,Autumn,October,7,Saturday,39.219639,-78.214702,Released,5,10,Frederick County
@@ -1006,7 +1006,7 @@ WRMD,WRMD2023-3341,,woodland box turtle,turtle,Reptile,10/14/2023,2023,Autumn,Oc
 WRMD,WRMD2023-3375,,eastern gray squirrel,rodent,Mammal,10/18/2023,2023,Autumn,October,18,Wednesday,39.134558,-78.226391,Euthanized,2,10,Frederick County
 WRMD,WRMD2023-3402,,woodland box turtle,turtle,Reptile,10/21/2023,2023,Autumn,October,21,Saturday,39.1380611,-78.3892623,Euthanized,5,10,Frederick County
 WRMD,WRMD2023-3600,,northern raccoon,raccoon,Mammal,12/13/2023,2023,Autumn,December,13,Wednesday,39.054109999999994,-78.19443000000001,Euthanized,2,12,Frederick County
-WRMD,WRMD2023-3627,,barred owl,owl,Bird,12/22/2023,2023,Winter,December,22,Friday,38.741275,-77.809199,Euthanized,4,12,Fauquier County
+WRMD,WRMD2023-3627,,barred owl,bird,Bird,12/22/2023,2023,Winter,December,22,Friday,38.741275,-77.809199,Euthanized,4,12,Fauquier County
 WRMD,WRMD2024-327,,northern raccoon,raccoon,Mammal,03/26/2024,2024,Spring,March,26,Tuesday,38.956804,-77.990078,Euthanized,1,3,Fauquier County
 WRMD,WRMD2024-396,,eastern painted turtle,turtle,Reptile,04/02/2024,2024,Spring,April,2,Tuesday,39.007382,-78.147486,Euthanized,1,4,Warren County
 WRMD,WRMD2024-554,,eastern gray squirrel,rodent,Mammal,04/13/2024,2024,Spring,April,13,Saturday,39.168045,-77.596754,Released,5,4,Loudoun County
@@ -1044,7 +1044,7 @@ WRMD,WRMD2024-1492,,snapping turtle,turtle,Reptile,05/28/2024,2024,Spring,May,28
 WRMD,WRMD2024-1511,,central ratsnake,snake,Reptile,05/28/2024,2024,Spring,May,28,Tuesday,39.069173,-78.00384,Released,1,5,Clarke County
 WRMD,WRMD2024-1542,,northern cardinal,bird,Bird,05/29/2024,2024,Spring,May,29,Wednesday,39.0857,-78.1046,Died,2,5,Clarke County
 WRMD,WRMD2024-1642,,eastern painted turtle,turtle,Reptile,06/03/2024,2024,Spring,June,3,Monday,38.84765,-77.637,Euthanized,0,6,Prince William County
-WRMD,WRMD2024-1699,,barred owl,owl,Bird,06/05/2024,2024,Spring,June,5,Wednesday,38.224175,-77.477843,Euthanized,2,6,Spotsylvania County
+WRMD,WRMD2024-1699,,barred owl,bird,Bird,06/05/2024,2024,Spring,June,5,Wednesday,38.224175,-77.477843,Euthanized,2,6,Spotsylvania County
 WRMD,WRMD2024-1703,,eastern gray squirrel,rodent,Mammal,06/05/2024,2024,Spring,June,5,Wednesday,38.909389,-78.177486,Euthanized,2,6,Warren County
 WRMD,WRMD2024-1704,,snapping turtle,turtle,Reptile,06/05/2024,2024,Spring,June,5,Wednesday,39.231764,-77.752984,Released,2,6,Loudoun County
 WRMD,WRMD2024-1923,,northern flicker,bird,Bird,06/17/2024,2024,Spring,June,17,Monday,39.150063,-77.932299,Euthanized,0,6,Clarke County
@@ -1062,8 +1062,8 @@ WRMD,WRMD2024-2944,,eastern painted turtle,turtle,Reptile,08/20/2024,2024,Summer
 WRMD,WRMD2024-3010,,eastern painted turtle,turtle,Reptile,08/25/2024,2024,Summer,August,25,Sunday,38.769767,-78.386229,Released,6,8,Page County
 WRMD,WRMD2024-3023,,woodland box turtle,turtle,Reptile,08/26/2024,2024,Summer,August,26,Monday,39.093646,-77.938948,Released,0,8,Clarke County
 WRMD,WRMD2024-3181,,woodland box turtle,turtle,Reptile,09/06/2024,2024,Summer,September,6,Friday,39.13114,-78.13208,Euthanized,4,9,Frederick County
-WRMD,WRMD2024-3264,,barred owl,owl,Bird,09/13/2024,2024,Summer,September,13,Friday,39.030428,-77.508158,Died,4,9,Loudoun County
-WRMD,WRMD2024-3271,,barred owl,owl,Bird,09/13/2024,2024,Summer,September,13,Friday,39.040514,-77.422774,Euthanized,4,9,Loudoun County
+WRMD,WRMD2024-3264,,barred owl,bird,Bird,09/13/2024,2024,Summer,September,13,Friday,39.030428,-77.508158,Died,4,9,Loudoun County
+WRMD,WRMD2024-3271,,barred owl,bird,Bird,09/13/2024,2024,Summer,September,13,Friday,39.040514,-77.422774,Euthanized,4,9,Loudoun County
 WRMD,WRMD2024-3337,,woodland box turtle,turtle,Reptile,09/19/2024,2024,Summer,September,19,Thursday,39.10444,-77.507471,Euthanized,3,9,Loudoun County
 WRMD,WRMD2024-3354,,eastern painted turtle,turtle,Reptile,09/20/2024,2024,Summer,September,20,Friday,39.106925,-78.12383,Released,4,9,Frederick County
 WRMD,WRMD2024-3373,,woodland box turtle,turtle,Reptile,09/22/2024,2024,Summer,September,22,Sunday,38.910683,-78.355654,Euthanized,6,9,Shenandoah County
@@ -1075,13 +1075,13 @@ WRMD,WRMD2024-3527,,woodland box turtle,turtle,Reptile,10/07/2024,2024,Autumn,Oc
 WRMD,WRMD2024-3528,,common grackle,bird,Bird,10/07/2024,2024,Autumn,October,7,Monday,39.128561,-78.119743,Euthanized,0,10,Frederick County
 WRMD,WRMD2024-3560,,northern raccoon,raccoon,Mammal,10/13/2024,2024,Autumn,October,13,Sunday,38.962989,-78.019894,Euthanized,6,10,Fauquier County
 WRMD,WRMD2024-3598,,turkey vulture,bird,Bird,10/20/2024,2024,Autumn,October,20,Sunday,39.16152,-77.69092,Euthanized,6,10,Loudoun County
-WRMD,WRMD2024-3638,,barred owl,owl,Bird,10/29/2024,2024,Autumn,October,29,Tuesday,39.123286,-77.806495,Euthanized,1,10,Loudoun County
-WRMD,WRMD2024-3648,,barred owl,owl,Bird,10/31/2024,2024,Autumn,October,31,Thursday,38.259683,-77.157082,Released,3,10,King George County
+WRMD,WRMD2024-3638,,barred owl,bird,Bird,10/29/2024,2024,Autumn,October,29,Tuesday,39.123286,-77.806495,Euthanized,1,10,Loudoun County
+WRMD,WRMD2024-3648,,barred owl,bird,Bird,10/31/2024,2024,Autumn,October,31,Thursday,38.259683,-77.157082,Released,3,10,King George County
 WRMD,WRMD2024-3657,,red-shouldered hawk,bird,Bird,11/01/2024,2024,Autumn,November,1,Friday,38.976529,-77.662072,Euthanized,4,11,Loudoun County
-WRMD,WRMD2024-3674,,barred owl,owl,Bird,11/05/2024,2024,Autumn,November,5,Tuesday,38.899115,-77.440879,Euthanized,1,11,Fairfax County
-WRMD,WRMD2024-3707,,virginia opossum,marsupial,Mammal,11/12/2024,2024,Autumn,November,12,Tuesday,38.920802,-78.339442,Euthanized,1,11,Shenandoah County
+WRMD,WRMD2024-3674,,barred owl,bird,Bird,11/05/2024,2024,Autumn,November,5,Tuesday,38.899115,-77.440879,Euthanized,1,11,Fairfax County
+WRMD,WRMD2024-3707,,virginia opossum,opossum,Mammal,11/12/2024,2024,Autumn,November,12,Tuesday,38.920802,-78.339442,Euthanized,1,11,Shenandoah County
 WRMD,WRMD2024-3711,,woodland box turtle,turtle,Reptile,11/13/2024,2024,Autumn,November,13,Wednesday,38.911993,-78.209115,Euthanized,2,11,Warren County
-WRMD,WRMD2024-3732,,barred owl,owl,Bird,11/18/2024,2024,Autumn,November,18,Monday,39.143973,-78.082577,Euthanized,0,11,Clarke County
+WRMD,WRMD2024-3732,,barred owl,bird,Bird,11/18/2024,2024,Autumn,November,18,Monday,39.143973,-78.082577,Euthanized,0,11,Clarke County
 WRMD,WRMD2024-3740,,red-bellied woodpecker,bird,Bird,11/19/2024,2024,Autumn,November,19,Tuesday,38.901851,-78.183486,Euthanized,1,11,Warren County
 WRMD,WRMD2024-3745,,groundhog,rodent,Mammal,11/21/2024,2024,Autumn,November,21,Thursday,38.92171,-77.920663,Euthanized,3,11,Fauquier County
 WRMD,WRMD2024-3749,,cooper's hawk,bird,Bird,11/21/2024,2024,Autumn,November,21,Thursday,38.962668,-77.605523,Euthanized,3,11,Loudoun County
@@ -1089,4 +1089,4 @@ WRMD,WRMD2024-3752,,red-tailed hawk,bird,Bird,11/21/2024,2024,Autumn,November,21
 WRMD,WRMD2024-3793,,red-tailed hawk,bird,Bird,12/01/2024,2024,Autumn,December,1,Sunday,38.912531,-77.921283,Euthanized,6,12,Fauquier County
 WRMD,WRMD2024-3821,,red-tailed hawk,bird,Bird,12/08/2024,2024,Autumn,December,8,Sunday,39.080584,-78.216929,Euthanized,6,12,Frederick County
 WRMD,WRMD2024-3846,,red-shouldered hawk,bird,Bird,12/16/2024,2024,Autumn,December,16,Monday,38.377775,-77.459324,Euthanized,0,12,Stafford County
-WRMD,WRMD2024-3855,,eastern screech owl,owl,Bird,12/20/2024,2024,Autumn,December,20,Friday,38.8475996,-77.9966852,Euthanized,4,12,Fauquier County
+WRMD,WRMD2024-3855,,eastern screech owl,bird,Bird,12/20/2024,2024,Autumn,December,20,Friday,38.8475996,-77.9966852,Euthanized,4,12,Fauquier County
