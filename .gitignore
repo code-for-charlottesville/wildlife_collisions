@@ -168,3 +168,4 @@ node_modules
 
 # Large datasets
 ./tl_2025/us_county/.
+*.shp
